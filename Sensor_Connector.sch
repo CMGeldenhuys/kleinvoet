@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 6 10
 Title ""
 Date ""
 Rev ""
@@ -70,7 +70,7 @@ AR Path="/5F28658C/5F1EB8A3" Ref="R?"  Part="1"
 AR Path="/5F28BBEB/5F1EB8A3" Ref="R?"  Part="1" 
 AR Path="/5F29087F/5F1EB8A3" Ref="R?"  Part="1" 
 F 0 "R?" H 5550 3850 50  0000 L CNN
-F 1 "200" H 5550 3800 50  0000 L CNN
+F 1 "600" H 5550 3800 50  0000 L CNN
 F 2 "" H 5500 3850 50  0001 C CNN
 F 3 "~" H 5500 3850 50  0001 C CNN
 	1    5500 3850
