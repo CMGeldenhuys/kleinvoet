@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title ""
 Date ""
 Rev ""
@@ -37,5 +37,11 @@ F5 "~DRDY" O L 1000 2150 50
 F6 "SPI_~CS" I R 1950 2200 50 
 F7 "CLK" I L 1000 1950 50 
 F8 "SYNC" I L 1000 2050 50 
+$EndSheet
+$Sheet
+S 1850 3600 1550 750 
+U 5EEDE770
+F0 "Power" 50
+F1 "Power.sch" 50
 $EndSheet
 $EndSCHEMATC
