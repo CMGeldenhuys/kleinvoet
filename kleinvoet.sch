@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 13
+Sheet 1 14
 Title ""
 Date ""
 Rev ""
@@ -59,5 +59,11 @@ F8 "SDIO_CMD" I L 1450 4350 50
 F9 "SDIO_CLK" I L 1450 4450 50 
 F10 "SDIO_CD" O L 1450 4550 50 
 F11 "SDIO_WP" O L 1450 4650 50 
+$EndSheet
+$Sheet
+S 3700 2300 1200 650 
+U 5EE1D522
+F0 "Mic_0" 50
+F1 "Microphone_Sensor.sch" 50
 $EndSheet
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 13
+Sheet 12 14
 Title ""
 Date ""
 Rev ""
@@ -526,7 +526,7 @@ F 3 "" H 3800 4850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Notes 7950 1850 0    50   ~ 0
-Power Rails\n----------------------------\nVBUS - USB bus power (5V) [Max 500mA]\n+BATT - LIPO power (3.6-4.2V) [Max 1A]\nVCC - VBUS (pref.) or +BATT [Max 500mA]\n+3v3 - Main 3.3V supply [Max 500mA]\n+3.3VADC - 3.3V rail for ADC with filtering [Max 50mA]\n+3.3VA - Analog 3.3V supply [Max 100mA]\n-3v3 - Analog -3.3V supply [Max 100mA]
+Power Rails\n----------------------------\nVBUS - USB bus power (5V) [Max 500mA]\n+BATT - LIPO power (3.6-4.2V) [Max 1A]\nVCC - VBUS (pref.) or +BATT [Max 500mA]\nVDD - GPS backup battery\n+3v3 - Main 3.3V supply [Max 500mA]\n+3.3VADC - 3.3V rail for ADC with filtering [Max 50mA]\n+3.3VA - Analog 3.3V supply [Max 100mA]\n-3v3 - Analog -3.3V supply [Max 100mA]
 $Comp
 L power:+3.3VA #PWR?
 U 1 1 5EF6C60F
@@ -776,43 +776,6 @@ Text Notes 800  3550 0    50   ~ 10
 Analog Dual Rail Supply
 Text Notes 6150 4150 0    50   ~ 0
 The LM27762 uses a negative charge pump with switched \ncapacitor configuration to generate a negative voltage rail. \nThe LM27762 also have integrated LDO regulators with \nadjustable feedback and peak current capabilties of 250 mA. \nSince we might want to adjust these rails potentiometers \nhave been included in the design. (This can be removed in the\n final design. See datasheet for more information)
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5EEA4055
-P 2300 6750
-F 0 "J?" H 2380 6742 50  0000 L CNN
-F 1 "JST-PH" H 2380 6651 50  0000 L CNN
-F 2 "" H 2300 6750 50  0001 C CNN
-F 3 "~" H 2300 6750 50  0001 C CNN
-	1    2300 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+BATT #PWR?
-U 1 1 5EEABDA3
-P 2100 6550
-F 0 "#PWR?" H 2100 6400 50  0001 C CNN
-F 1 "+BATT" H 2115 6723 50  0000 C CNN
-F 2 "" H 2100 6550 50  0001 C CNN
-F 3 "" H 2100 6550 50  0001 C CNN
-	1    2100 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5EEAE63F
-P 2100 7050
-F 0 "#PWR?" H 2100 6800 50  0001 C CNN
-F 1 "GND" H 2105 6877 50  0000 C CNN
-F 2 "" H 2100 7050 50  0001 C CNN
-F 3 "" H 2100 7050 50  0001 C CNN
-	1    2100 7050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 7050 2100 6850
-Wire Wire Line
-	2100 6750 2100 6550
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5EEECC26

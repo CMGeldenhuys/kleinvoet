@@ -1,0 +1,443 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 14 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L grootvoet:MIC_ICS_40300 MK?
+U 1 1 5EEDE2AE
+P 4150 2900
+F 0 "MK?" H 3623 2921 50  0000 R CNN
+F 1 "MIC_ICS_40300" H 3623 2830 50  0000 R CNN
+F 2 "grootvoet:MEMS_Mic_ICS-40300" H 4100 2800 50  0001 C CNN
+F 3 "https://www.mouser.co.za/ProductDetail/TDK-InvenSense/ICS-40300?qs=%2Fha2pyFadujzJsvx64xsUNdAo4Ph4hwqMvEiGbKRLds%3D" H 4100 2800 50  0001 C CNN
+	1    4150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5EEDEA2B
+P 5150 2900
+F 0 "C?" V 4921 2900 50  0000 C CNN
+F 1 "1u" V 5000 2900 50  0000 C CNN
+F 2 "" H 5150 2900 50  0001 C CNN
+F 3 "~" H 5150 2900 50  0001 C CNN
+	1    5150 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 5EEE2D96
+P 9950 3100
+AR Path="/5F1E182A/5EEE2D96" Ref="J?"  Part="1" 
+AR Path="/5EE5ECAD/5EE62C2B/5EEE2D96" Ref="J?"  Part="1" 
+AR Path="/5EE5ECAD/5EE62C39/5EEE2D96" Ref="J?"  Part="1" 
+AR Path="/5EE5ECAD/5EE62C47/5EEE2D96" Ref="J?"  Part="1" 
+AR Path="/5EE5ECAD/5EE62C55/5EEE2D96" Ref="J?"  Part="1" 
+AR Path="/5EE5ECAD/5EE8F49C/5EEE2D96" Ref="J?"  Part="1" 
+AR Path="/5EE5ECAD/5EE91C9A/5EEE2D96" Ref="J?"  Part="1" 
+AR Path="/5EE5ECAD/5EE94935/5EEE2D96" Ref="J?"  Part="1" 
+AR Path="/5EE1D522/5EEE2D96" Ref="J?"  Part="1" 
+F 0 "J?" H 9950 2500 50  0000 C CNN
+F 1 "JST-GH" H 9950 2600 50  0000 C CNN
+F 2 "" H 9950 3100 50  0001 C CNN
+F 3 "~" H 9950 3100 50  0001 C CNN
+	1    9950 3100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4100 3450 4100 3400
+Wire Wire Line
+	4100 3400 4200 3400
+Wire Wire Line
+	4200 3400 4200 3350
+Wire Wire Line
+	4400 3400 4400 3350
+Wire Wire Line
+	4200 3400 4400 3400
+Connection ~ 4200 3400
+Wire Wire Line
+	4100 3400 4000 3400
+Wire Wire Line
+	4000 3400 4000 3350
+Connection ~ 4100 3400
+Wire Wire Line
+	4000 3400 3800 3400
+Wire Wire Line
+	3800 3400 3800 3350
+Connection ~ 4000 3400
+Wire Wire Line
+	5050 2900 4650 2900
+$Comp
+L Device:C_Small C?
+U 1 1 5EEFDD4C
+P 9050 1250
+F 0 "C?" H 9142 1296 50  0000 L CNN
+F 1 "100n" H 9142 1205 50  0000 L CNN
+F 2 "" H 9050 1250 50  0001 C CNN
+F 3 "~" H 9050 1250 50  0001 C CNN
+	1    9050 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 1050 9050 1150
+Wire Wire Line
+	9050 1350 9050 1450
+Text Notes 7300 700  0    50   ~ 10
+Power Supply Filtering and Resivoir
+Wire Notes Line
+	9950 700  9950 1800
+Text HLabel 9750 2700 0    50   Input ~ 0
+V+
+Text HLabel 9750 2800 0    50   Input ~ 0
+GND
+Text HLabel 9750 2900 0    50   Input ~ 0
+V-
+Text HLabel 9750 3100 0    50   Input ~ 0
+SIG_P
+Text HLabel 9750 3200 0    50   Input ~ 0
+SIG_N
+Text HLabel 9750 3300 0    50   Input ~ 0
+CAL
+Text HLabel 9750 3400 0    50   Input ~ 0
+EN
+Text HLabel 9750 3000 0    50   Input ~ 0
+RESERVED
+NoConn ~ 9750 3000
+NoConn ~ 9750 3400
+NoConn ~ 9750 3300
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5EF35019
+P 7850 1050
+F 0 "FB?" V 8087 1050 50  0000 C CNN
+F 1 "100 @ 100 MHz" V 7996 1050 50  0000 C CNN
+F 2 "" V 7780 1050 50  0001 C CNN
+F 3 "~" H 7850 1050 50  0001 C CNN
+	1    7850 1050
+	0    -1   -1   0   
+$EndComp
+Text HLabel 7600 1050 0    50   Input ~ 0
+V+
+Text HLabel 9050 1450 3    50   Input ~ 0
+GND
+Wire Notes Line
+	7300 1800 7300 700 
+Wire Notes Line
+	7300 700  9950 700 
+Wire Notes Line
+	7300 1800 9950 1800
+Text HLabel 4100 3450 3    50   Input ~ 0
+GND
+Text HLabel 4850 3000 0    50   Input ~ 0
+GND
+$Comp
+L grootvoet:TS472 U?
+U 1 1 5EE1252E
+P 6450 2950
+F 0 "U?" H 6432 4225 50  0000 C CNN
+F 1 "TS472" H 6432 4134 50  0000 C CNN
+F 2 "" H 6900 3550 50  0001 C CNN
+F 3 "" H 6900 3550 50  0001 C CNN
+	1    6450 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5EE150A7
+P 4950 3000
+F 0 "R?" V 5150 3000 50  0000 C CNN
+F 1 "220" V 5050 3000 50  0000 C CNN
+F 2 "" H 4950 3000 50  0001 C CNN
+F 3 "~" H 4950 3000 50  0001 C CNN
+	1    4950 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 2900 5900 2900
+Wire Wire Line
+	5250 3000 5900 3000
+$Comp
+L Device:C_Small C?
+U 1 1 5EE19951
+P 5150 3000
+F 0 "C?" V 5400 3000 50  0000 C CNN
+F 1 "1u" V 5300 3000 50  0000 C CNN
+F 2 "" H 5150 3000 50  0001 C CNN
+F 3 "~" H 5150 3000 50  0001 C CNN
+	1    5150 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5EE1EACE
+P 5850 3550
+F 0 "C?" V 6100 3550 50  0000 C CNN
+F 1 "1u" V 6000 3550 50  0000 C CNN
+F 2 "" H 5850 3550 50  0001 C CNN
+F 3 "~" H 5850 3550 50  0001 C CNN
+	1    5850 3550
+	-1   0    0    1   
+$EndComp
+Text HLabel 5850 3950 3    50   Input ~ 0
+GND
+Wire Wire Line
+	5850 3950 5850 3650
+Wire Wire Line
+	5850 3450 5850 3200
+Wire Wire Line
+	5850 3200 5900 3200
+Text HLabel 6450 3950 3    50   Input ~ 0
+GND
+$Comp
+L Device:R_Small R?
+U 1 1 5EE21893
+P 6200 3750
+F 0 "R?" H 6259 3796 50  0000 L CNN
+F 1 "68" H 6259 3705 50  0000 L CNN
+F 2 "" H 6200 3750 50  0001 C CNN
+F 3 "~" H 6200 3750 50  0001 C CNN
+	1    6200 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3850 6200 3900
+Wire Wire Line
+	6200 3900 6450 3900
+Wire Wire Line
+	6450 3900 6450 3950
+Wire Wire Line
+	6450 3900 6450 3650
+Connection ~ 6450 3900
+Text Label 6450 2300 1    50   ~ 0
+VP
+Wire Wire Line
+	8550 1050 8550 1150
+Wire Wire Line
+	8550 1350 8550 1450
+Text HLabel 8550 1450 3    50   Input ~ 0
+GND
+Text Label 8400 950  1    50   ~ 0
+VP
+$Comp
+L Device:C_Small C?
+U 1 1 5EE3D7C0
+P 8250 1250
+F 0 "C?" H 8342 1296 50  0000 L CNN
+F 1 "1u" H 8342 1205 50  0000 L CNN
+F 2 "" H 8250 1250 50  0001 C CNN
+F 3 "~" H 8250 1250 50  0001 C CNN
+	1    8250 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1050 8250 1150
+Wire Wire Line
+	8250 1350 8250 1450
+Text HLabel 8250 1450 3    50   Input ~ 0
+GND
+Text Label 5900 2700 2    50   ~ 0
+BIAS
+Text Label 4100 2500 1    50   ~ 0
+BIAS
+$Comp
+L Device:C_Small C?
+U 1 1 5EE4D182
+P 9450 1250
+F 0 "C?" H 9542 1296 50  0000 L CNN
+F 1 "1u" H 9542 1205 50  0000 L CNN
+F 2 "" H 9450 1250 50  0001 C CNN
+F 3 "~" H 9450 1250 50  0001 C CNN
+	1    9450 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 1050 9450 1150
+Wire Wire Line
+	9450 1350 9450 1450
+Text HLabel 9450 1450 3    50   Input ~ 0
+GND
+Text Label 9250 950  1    50   ~ 0
+BIAS
+Wire Wire Line
+	7600 1050 7750 1050
+Wire Wire Line
+	7950 1050 8250 1050
+Connection ~ 8250 1050
+Wire Wire Line
+	8250 1050 8400 1050
+Wire Wire Line
+	8400 950  8400 1050
+Connection ~ 8400 1050
+Wire Wire Line
+	8400 1050 8550 1050
+$Comp
+L Device:C_Small C?
+U 1 1 5EE3C381
+P 8550 1250
+F 0 "C?" H 8642 1296 50  0000 L CNN
+F 1 "100n" H 8642 1205 50  0000 L CNN
+F 2 "" H 8550 1250 50  0001 C CNN
+F 3 "~" H 8550 1250 50  0001 C CNN
+	1    8550 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 1050 9250 1050
+Wire Wire Line
+	9250 950  9250 1050
+Connection ~ 9250 1050
+Wire Wire Line
+	9250 1050 9050 1050
+$Comp
+L Device:C_Small C?
+U 1 1 5EE64CD6
+P 7200 3100
+F 0 "C?" H 7292 3146 50  0000 L CNN
+F 1 "220p" H 7292 3055 50  0000 L CNN
+F 2 "" H 7200 3100 50  0001 C CNN
+F 3 "~" H 7200 3100 50  0001 C CNN
+F 4 "C0G" H 7200 3100 50  0001 C CNN "Notes"
+	1    7200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5EE65504
+P 7200 2800
+F 0 "C?" H 7292 2846 50  0000 L CNN
+F 1 "220p" H 7292 2755 50  0000 L CNN
+F 2 "" H 7200 2800 50  0001 C CNN
+F 3 "~" H 7200 2800 50  0001 C CNN
+F 4 "C0G" H 7200 2800 50  0001 C CNN "Notes"
+	1    7200 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 2700 7050 2700
+Wire Wire Line
+	7200 2900 7050 2900
+Wire Wire Line
+	7050 3000 7200 3000
+Wire Wire Line
+	7200 3200 7050 3200
+$Comp
+L Device:R_Small R?
+U 1 1 5EE68FFE
+P 8050 3200
+F 0 "R?" H 8109 3246 50  0000 L CNN
+F 1 "100k" H 8109 3155 50  0000 L CNN
+F 2 "" H 8050 3200 50  0001 C CNN
+F 3 "~" H 8050 3200 50  0001 C CNN
+	1    8050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5EE699A6
+P 8400 3200
+F 0 "R?" H 8459 3246 50  0000 L CNN
+F 1 "100k" H 8459 3155 50  0000 L CNN
+F 2 "" H 8400 3200 50  0001 C CNN
+F 3 "~" H 8400 3200 50  0001 C CNN
+	1    8400 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 3100 8050 3000
+Wire Wire Line
+	8400 3100 8400 2900
+Text HLabel 8250 3500 3    50   Input ~ 0
+GND
+Wire Wire Line
+	8400 3300 8400 3400
+Wire Wire Line
+	8400 3400 8250 3400
+Wire Wire Line
+	8050 3400 8050 3300
+Wire Wire Line
+	8250 3500 8250 3400
+Connection ~ 8250 3400
+Wire Wire Line
+	8250 3400 8050 3400
+Wire Wire Line
+	8050 3000 7950 3000
+Wire Wire Line
+	8400 2900 7950 2900
+Text HLabel 8550 2900 2    50   Input ~ 0
+SIG_P
+Text HLabel 8550 3000 2    50   Input ~ 0
+SIG_N
+Wire Wire Line
+	8550 3000 8050 3000
+Connection ~ 8050 3000
+Wire Wire Line
+	8550 2900 8400 2900
+Connection ~ 8400 2900
+$Comp
+L Device:R_Small R?
+U 1 1 5EE840BE
+P 7650 2900
+F 0 "R?" V 7454 2900 50  0000 C CNN
+F 1 "10" V 7545 2900 50  0000 C CNN
+F 2 "" H 7650 2900 50  0001 C CNN
+F 3 "~" H 7650 2900 50  0001 C CNN
+	1    7650 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5EE845A7
+P 7650 3000
+F 0 "R?" V 7850 3000 50  0000 C CNN
+F 1 "10" V 7750 3000 50  0000 C CNN
+F 2 "" H 7650 3000 50  0001 C CNN
+F 3 "~" H 7650 3000 50  0001 C CNN
+	1    7650 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7550 2900 7200 2900
+Connection ~ 7200 2900
+Wire Wire Line
+	7550 3000 7200 3000
+Connection ~ 7200 3000
+Text Notes 2600 3900 0    50   ~ 0
+220Ohm resistor is used to match the impedance the preamp\n[See AN-1003]
+Text Notes 5850 4350 0    50   Italic 0
+See TS472 Datasheet
+Text Notes 7400 4050 0    50   ~ 0
+10 Ohm resistors lower the chance of \nocilations due to frequency domain \ninstability.
+$Comp
+L Device:C_Small C?
+U 1 1 5EE94347
+P 7850 2900
+F 0 "C?" V 7621 2900 50  0000 C CNN
+F 1 "47u" V 7700 2900 50  0000 C CNN
+F 2 "" H 7850 2900 50  0001 C CNN
+F 3 "~" H 7850 2900 50  0001 C CNN
+	1    7850 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5EE9434D
+P 7850 3000
+F 0 "C?" V 8100 3000 50  0000 C CNN
+F 1 "47u" V 8000 3000 50  0000 C CNN
+F 2 "" H 7850 3000 50  0001 C CNN
+F 3 "~" H 7850 3000 50  0001 C CNN
+	1    7850 3000
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

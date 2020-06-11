@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 13
+Sheet 13 14
 Title ""
 Date ""
 Rev ""
@@ -484,4 +484,51 @@ Wire Notes Line
 	4400 3100 4400 5450
 Text Notes 750  3100 0    50   ~ 10
 SD Card Holder
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5EE0C945
+P 6400 1450
+F 0 "J?" H 6480 1442 50  0000 L CNN
+F 1 "JST-PH" H 6480 1351 50  0000 L CNN
+F 2 "" H 6400 1450 50  0001 C CNN
+F 3 "~" H 6400 1450 50  0001 C CNN
+	1    6400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5EE0C94B
+P 6200 1250
+F 0 "#PWR?" H 6200 1100 50  0001 C CNN
+F 1 "+BATT" H 6215 1423 50  0000 C CNN
+F 2 "" H 6200 1250 50  0001 C CNN
+F 3 "" H 6200 1250 50  0001 C CNN
+	1    6200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EE0C951
+P 6200 1750
+F 0 "#PWR?" H 6200 1500 50  0001 C CNN
+F 1 "GND" H 6205 1577 50  0000 C CNN
+F 2 "" H 6200 1750 50  0001 C CNN
+F 3 "" H 6200 1750 50  0001 C CNN
+	1    6200 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1750 6200 1550
+Wire Wire Line
+	6200 1450 6200 1250
+Wire Notes Line
+	5950 2050 6900 2050
+Wire Notes Line
+	6900 2050 6900 950 
+Wire Notes Line
+	6900 950  5950 950 
+Wire Notes Line
+	5950 950  5950 2050
+Text Notes 5950 950  0    50   ~ 10
+LIPO Battery Connector
 $EndSCHEMATC

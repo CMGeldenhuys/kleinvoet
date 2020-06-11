@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 13
+Sheet 3 14
 Title ""
 Date ""
 Rev ""
@@ -25,19 +25,6 @@ F 2 "" V 7830 4650 50  0001 C CNN
 F 3 "~" H 7900 4650 50  0001 C CNN
 	1    7900 4650
 	0    1    1    0   
-$EndComp
-$Comp
-L grootvoet:ADS131M04 U?
-U 1 1 5EE62AEE
-P 7000 4250
-AR Path="/5EE62AEE" Ref="U?"  Part="1" 
-AR Path="/5EE5ECAD/5EE62AEE" Ref="U?"  Part="1" 
-F 0 "U?" H 6550 5100 50  0000 C CNN
-F 1 "ADS131M04" H 7450 5100 50  0000 C CNN
-F 2 "" H 7750 4850 50  0001 C CNN
-F 3 "" H 7750 4850 50  0001 C CNN
-	1    7000 4250
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7650 4550 7550 4550
@@ -374,77 +361,15 @@ Wire Wire Line
 Wire Wire Line
 	6900 3250 6900 3350
 $Sheet
-S 5350 3700 650  200 
+S 3700 3300 700  300 
 U 5EE62BAF
-F0 "sheet5EE62ADB" 50
+F0 "ADC_AA_0" 50
 F1 "ADC_Frontend.sch" 50
-F2 "ADC_P" I R 6000 3750 50 
-F3 "ADC_N" I R 6000 3850 50 
-F4 "AIN_P" I L 5350 3750 50 
-F5 "AIN_N" I L 5350 3850 50 
+F2 "ADC_P" I R 4400 3400 50 
+F3 "ADC_N" I R 4400 3500 50 
+F4 "AIN_P" I L 3700 3400 50 
+F5 "AIN_N" I L 3700 3500 50 
 $EndSheet
-$Sheet
-S 5350 4050 650  200 
-U 5EE62BB5
-F0 "sheet5EE62ADC" 50
-F1 "ADC_Frontend.sch" 50
-F2 "ADC_P" I R 6000 4100 50 
-F3 "ADC_N" I R 6000 4200 50 
-F4 "AIN_P" I L 5350 4100 50 
-F5 "AIN_N" I L 5350 4200 50 
-$EndSheet
-$Sheet
-S 5350 4400 650  200 
-U 5EE62BBB
-F0 "sheet5EE62ADD" 50
-F1 "ADC_Frontend.sch" 50
-F2 "ADC_P" I R 6000 4450 50 
-F3 "ADC_N" I R 6000 4550 50 
-F4 "AIN_P" I L 5350 4450 50 
-F5 "AIN_N" I L 5350 4550 50 
-$EndSheet
-$Sheet
-S 5350 4750 650  200 
-U 5EE62BC1
-F0 "sheet5EE62ADE" 50
-F1 "ADC_Frontend.sch" 50
-F2 "ADC_P" I R 6000 4800 50 
-F3 "ADC_N" I R 6000 4900 50 
-F4 "AIN_P" I L 5350 4800 50 
-F5 "AIN_N" I L 5350 4900 50 
-$EndSheet
-Wire Wire Line
-	5200 3750 5350 3750
-Wire Wire Line
-	5200 3850 5350 3850
-Wire Wire Line
-	5200 4800 5350 4800
-Wire Wire Line
-	5350 4900 5200 4900
-Wire Wire Line
-	5200 4550 5350 4550
-Wire Wire Line
-	5350 4450 5200 4450
-Wire Wire Line
-	5200 4100 5350 4100
-Wire Wire Line
-	5350 4200 5200 4200
-Wire Wire Line
-	6400 3750 6000 3750
-Wire Wire Line
-	6400 3850 6000 3850
-Wire Wire Line
-	6400 4100 6000 4100
-Wire Wire Line
-	6400 4200 6000 4200
-Wire Wire Line
-	6400 4450 6000 4450
-Wire Wire Line
-	6400 4550 6000 4550
-Wire Wire Line
-	6400 4800 6000 4800
-Wire Wire Line
-	6000 4900 6400 4900
 $Comp
 L Device:R_Small R?
 U 1 1 5EE62BDA
@@ -595,149 +520,57 @@ Wire Notes Line
 	6100 900  700  900 
 Text Notes 700  900  0    50   ~ 10
 ADC Power
-Text Label 1750 3750 2    50   ~ 0
+Text Label 1900 3400 2    50   ~ 0
 ADC_PORT_0_EN
-Text Label 1750 3850 2    50   ~ 0
+Text Label 1900 3500 2    50   ~ 0
 ADC_PORT_0_CAL
-Text Label 2650 3750 0    50   ~ 0
+Text Label 4500 3400 0    50   ~ 0
 ADC_0_P
-Text Label 2650 3850 0    50   ~ 0
+Text Label 4500 3500 0    50   ~ 0
 ADC_0_N
 $Sheet
-S 1900 3650 600  300 
+S 2050 3300 600  300 
 U 5EE62C2B
-F0 "sheet5EE62ADF" 50
+F0 "Sensor_Conn_0" 50
 F1 "Sensor_Connector.sch" 50
-F2 "EN" I L 1900 3750 50 
-F3 "CAL" I L 1900 3850 50 
-F4 "SIG_P" I R 2500 3750 50 
-F5 "SIG_N" I R 2500 3850 50 
+F2 "EN" I L 2050 3400 50 
+F3 "CAL" I L 2050 3500 50 
+F4 "SIG_P" I R 2650 3400 50 
+F5 "SIG_N" I R 2650 3500 50 
 $EndSheet
-Wire Wire Line
-	2650 3750 2500 3750
-Wire Wire Line
-	2650 3850 2500 3850
-Wire Wire Line
-	1900 3750 1750 3750
-Wire Wire Line
-	1900 3850 1750 3850
-Text Label 1750 4250 2    50   ~ 0
-ADC_PORT_0_EN
-Text Label 1750 4350 2    50   ~ 0
-ADC_PORT_0_CAL
-Text Label 2650 4250 0    50   ~ 0
-ADC_0_P
-Text Label 2650 4350 0    50   ~ 0
-ADC_0_N
-$Sheet
-S 1900 4150 600  300 
-U 5EE62C39
-F0 "sheet5EE62AE0" 50
-F1 "Sensor_Connector.sch" 50
-F2 "EN" I L 1900 4250 50 
-F3 "CAL" I L 1900 4350 50 
-F4 "SIG_P" I R 2500 4250 50 
-F5 "SIG_N" I R 2500 4350 50 
-$EndSheet
-Wire Wire Line
-	2650 4250 2500 4250
-Wire Wire Line
-	2650 4350 2500 4350
-Wire Wire Line
-	1900 4250 1750 4250
-Wire Wire Line
-	1900 4350 1750 4350
-Text Label 1750 4750 2    50   ~ 0
-ADC_PORT_0_EN
-Text Label 1750 4850 2    50   ~ 0
-ADC_PORT_0_CAL
-Text Label 2650 4750 0    50   ~ 0
-ADC_0_P
-Text Label 2650 4850 0    50   ~ 0
-ADC_0_N
-$Sheet
-S 1900 4650 600  300 
-U 5EE62C47
-F0 "sheet5EE62AE1" 50
-F1 "Sensor_Connector.sch" 50
-F2 "EN" I L 1900 4750 50 
-F3 "CAL" I L 1900 4850 50 
-F4 "SIG_P" I R 2500 4750 50 
-F5 "SIG_N" I R 2500 4850 50 
-$EndSheet
-Wire Wire Line
-	2650 4750 2500 4750
-Wire Wire Line
-	2650 4850 2500 4850
-Wire Wire Line
-	1900 4750 1750 4750
-Wire Wire Line
-	1900 4850 1750 4850
-Text Label 1750 5250 2    50   ~ 0
-ADC_PORT_0_EN
-Text Label 1750 5350 2    50   ~ 0
-ADC_PORT_0_CAL
-Text Label 2650 5250 0    50   ~ 0
-ADC_0_P
-Text Label 2650 5350 0    50   ~ 0
-ADC_0_N
-$Sheet
-S 1900 5150 600  300 
-U 5EE62C55
-F0 "sheet5EE62AE2" 50
-F1 "Sensor_Connector.sch" 50
-F2 "EN" I L 1900 5250 50 
-F3 "CAL" I L 1900 5350 50 
-F4 "SIG_P" I R 2500 5250 50 
-F5 "SIG_N" I R 2500 5350 50 
-$EndSheet
-Wire Wire Line
-	2650 5250 2500 5250
-Wire Wire Line
-	2650 5350 2500 5350
-Wire Wire Line
-	1900 5250 1750 5250
-Wire Wire Line
-	1900 5350 1750 5350
-Wire Notes Line
-	1000 3500 1000 5650
-Wire Notes Line
-	1000 5650 3050 5650
-Wire Notes Line
-	3050 5650 3050 3500
-Wire Notes Line
-	3050 3500 1000 3500
-Text Notes 1000 3500 0    50   ~ 10
+Text Label 4500 4000 0    50   ~ 0
+ADC_1_P
+Text Label 4500 4100 0    50   ~ 0
+ADC_1_N
+Text Label 4500 4600 0    50   ~ 0
+ADC_2_P
+Text Label 4500 4700 0    50   ~ 0
+ADC_2_N
+Text Label 4500 5200 0    50   ~ 0
+ADC_3_P
+Text Label 4500 5300 0    50   ~ 0
+ADC_3_N
+Text Notes 1100 3150 0    50   ~ 10
 Analogue Sensor Connectors
-Wire Notes Line
-	6350 5150 6350 3550
-Wire Notes Line
-	6350 3550 4800 3550
-Wire Notes Line
-	4800 3550 4800 5150
-Wire Notes Line
-	4800 5150 6350 5150
-Text Notes 4800 3550 0    50   ~ 10
+Text Notes 3500 3150 0    50   ~ 10
 Analogue Frontend
 Text Notes 6150 1000 0    50   Italic 0
 See datasheet ADS131M04
 Text Notes 6150 1750 0    50   ~ 0
 Signals have an AA filter and FB \napplied to them. All important \nhighspeed signals are terminated \nwith R > 20 Ohm. Power supplies\nhave suffcient filtering applied as \nthis directly influences perform-\nance. The ADC receives a clock \nsignal from the MCU and is synced\nbased on the GPS's timepulse.
-Text Label 5200 3750 2    50   ~ 0
-ADC_0_P
-Text Label 5200 3850 2    50   ~ 0
+Text Label 6300 3850 2    50   ~ 0
 ADC_0_N
-Text Label 5200 4800 2    50   ~ 0
+Text Label 6300 4800 2    50   ~ 0
 ADC_3_P
-Text Label 5200 4900 2    50   ~ 0
+Text Label 6300 4900 2    50   ~ 0
 ADC_3_N
-Text Label 5200 4450 2    50   ~ 0
+Text Label 6300 4450 2    50   ~ 0
 ADC_2_P
-Text Label 5200 4550 2    50   ~ 0
+Text Label 6300 4550 2    50   ~ 0
 ADC_2_N
-Text Label 5200 4100 2    50   ~ 0
+Text Label 6300 4100 2    50   ~ 0
 ADC_1_P
-Text Label 5200 4200 2    50   ~ 0
+Text Label 6300 4200 2    50   ~ 0
 ADC_1_N
 Text HLabel 7850 3750 2    50   Input ~ 0
 SPI_MOSI
@@ -775,4 +608,171 @@ F 3 "" H 6900 3250 50  0001 C CNN
 	1    6900 3250
 	1    0    0    -1  
 $EndComp
+$Comp
+L grootvoet:ADS131M04 U?
+U 1 1 5EE62AEE
+P 7000 4250
+AR Path="/5EE62AEE" Ref="U?"  Part="1" 
+AR Path="/5EE5ECAD/5EE62AEE" Ref="U?"  Part="1" 
+F 0 "U?" H 6550 5100 50  0000 C CNN
+F 1 "ADS131M04" H 7450 5100 50  0000 C CNN
+F 2 "" H 7750 4850 50  0001 C CNN
+F 3 "" H 7750 4850 50  0001 C CNN
+	1    7000 4250
+	1    0    0    -1  
+$EndComp
+Text Label 6300 3750 2    50   ~ 0
+ADC_0_P
+Wire Wire Line
+	6300 3750 6400 3750
+Wire Wire Line
+	6300 3850 6400 3850
+Wire Wire Line
+	6300 4100 6400 4100
+Wire Wire Line
+	6300 4200 6400 4200
+Wire Wire Line
+	6300 4450 6400 4450
+Wire Wire Line
+	6300 4550 6400 4550
+Wire Wire Line
+	6300 4800 6400 4800
+Wire Wire Line
+	6300 4900 6400 4900
+Wire Wire Line
+	4500 3400 4400 3400
+Wire Wire Line
+	4500 3500 4400 3500
+Wire Wire Line
+	2050 3400 1900 3400
+Wire Wire Line
+	2050 3500 1900 3500
+$Sheet
+S 3700 3900 700  300 
+U 5EE8F492
+F0 "ADC_AA_1" 50
+F1 "ADC_Frontend.sch" 50
+F2 "ADC_P" I R 4400 4000 50 
+F3 "ADC_N" I R 4400 4100 50 
+F4 "AIN_P" I L 3700 4000 50 
+F5 "AIN_N" I L 3700 4100 50 
+$EndSheet
+Text Label 1900 4000 2    50   ~ 0
+ADC_PORT_1_EN
+Text Label 1900 4100 2    50   ~ 0
+ADC_PORT_1_CAL
+$Sheet
+S 2050 3900 600  300 
+U 5EE8F49C
+F0 "Sensor_Conn_1" 50
+F1 "Sensor_Connector.sch" 50
+F2 "EN" I L 2050 4000 50 
+F3 "CAL" I L 2050 4100 50 
+F4 "SIG_P" I R 2650 4000 50 
+F5 "SIG_N" I R 2650 4100 50 
+$EndSheet
+Wire Wire Line
+	4500 4000 4400 4000
+Wire Wire Line
+	4500 4100 4400 4100
+Wire Wire Line
+	2050 4000 1900 4000
+Wire Wire Line
+	2050 4100 1900 4100
+$Sheet
+S 3700 4500 700  300 
+U 5EE91C90
+F0 "ADC_AA_2" 50
+F1 "ADC_Frontend.sch" 50
+F2 "ADC_P" I R 4400 4600 50 
+F3 "ADC_N" I R 4400 4700 50 
+F4 "AIN_P" I L 3700 4600 50 
+F5 "AIN_N" I L 3700 4700 50 
+$EndSheet
+Text Label 1900 4600 2    50   ~ 0
+ADC_PORT_2_EN
+Text Label 1900 4700 2    50   ~ 0
+ADC_PORT_2_CAL
+$Sheet
+S 2050 4500 600  300 
+U 5EE91C9A
+F0 "Sensor_Conn_2" 50
+F1 "Sensor_Connector.sch" 50
+F2 "EN" I L 2050 4600 50 
+F3 "CAL" I L 2050 4700 50 
+F4 "SIG_P" I R 2650 4600 50 
+F5 "SIG_N" I R 2650 4700 50 
+$EndSheet
+Wire Wire Line
+	4500 4600 4400 4600
+Wire Wire Line
+	4500 4700 4400 4700
+Wire Wire Line
+	2050 4600 1900 4600
+Wire Wire Line
+	2050 4700 1900 4700
+$Sheet
+S 3700 5100 700  300 
+U 5EE9492B
+F0 "ADC_AA_3" 50
+F1 "ADC_Frontend.sch" 50
+F2 "ADC_P" I R 4400 5200 50 
+F3 "ADC_N" I R 4400 5300 50 
+F4 "AIN_P" I L 3700 5200 50 
+F5 "AIN_N" I L 3700 5300 50 
+$EndSheet
+Text Label 1900 5200 2    50   ~ 0
+ADC_PORT_3_EN
+Text Label 1900 5300 2    50   ~ 0
+ADC_PORT_3_CAL
+$Sheet
+S 2050 5100 600  300 
+U 5EE94935
+F0 "Sensor_Conn_3" 50
+F1 "Sensor_Connector.sch" 50
+F2 "EN" I L 2050 5200 50 
+F3 "CAL" I L 2050 5300 50 
+F4 "SIG_P" I R 2650 5200 50 
+F5 "SIG_N" I R 2650 5300 50 
+$EndSheet
+Wire Wire Line
+	4500 5200 4400 5200
+Wire Wire Line
+	4500 5300 4400 5300
+Wire Wire Line
+	2050 5200 1900 5200
+Wire Wire Line
+	2050 5300 1900 5300
+Wire Wire Line
+	2650 3400 3700 3400
+Wire Wire Line
+	2650 3500 3700 3500
+Wire Wire Line
+	2650 4000 3700 4000
+Wire Wire Line
+	2650 4100 3700 4100
+Wire Wire Line
+	2650 4600 3700 4600
+Wire Wire Line
+	2650 4700 3700 4700
+Wire Wire Line
+	2650 5200 3700 5200
+Wire Wire Line
+	2650 5300 3700 5300
+Wire Notes Line
+	1100 3150 3200 3150
+Wire Notes Line
+	3200 3150 3200 5600
+Wire Notes Line
+	3200 5600 1100 5600
+Wire Notes Line
+	1100 5600 1100 3150
+Wire Notes Line
+	3500 3150 5100 3150
+Wire Notes Line
+	5100 3150 5100 5600
+Wire Notes Line
+	5100 5600 3500 5600
+Wire Notes Line
+	3500 3150 3500 5600
 $EndSCHEMATC
