@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 14
+Sheet 3 15
 Title ""
 Date ""
 Rev ""
@@ -26,8 +26,6 @@ F 3 "~" H 9400 2900 50  0001 C CNN
 	1    9400 2900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9150 2800 9050 2800
 $Comp
 L power:GNDD #PWR?
 U 1 1 5EE62AFE
@@ -74,19 +72,6 @@ $EndComp
 Wire Wire Line
 	8400 3650 8400 3550
 $Comp
-L Device:R_Small R?
-U 1 1 5EE62B13
-P 9250 2800
-AR Path="/5EE62B13" Ref="R?"  Part="1" 
-AR Path="/5EE5ECAD/5EE62B13" Ref="R?"  Part="1" 
-F 0 "R?" V 9150 2700 50  0000 C CNN
-F 1 "27" V 9150 2800 50  0000 C CNN
-F 2 "" H 9250 2800 50  0001 C CNN
-F 3 "~" H 9250 2800 50  0001 C CNN
-	1    9250 2800
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5EE62B19
 P 9550 2800
@@ -101,8 +86,6 @@ F 3 "~" H 9550 2800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9750 2800 9650 2800
-Wire Wire Line
-	9450 2800 9350 2800
 Wire Wire Line
 	9300 2900 9050 2900
 Wire Wire Line
@@ -142,15 +125,15 @@ Wire Wire Line
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5EE62B35
-P 1250 1350
+P 1200 1350
 AR Path="/5EE62B35" Ref="FB?"  Part="1" 
 AR Path="/5EE5ECAD/5EE62B35" Ref="FB?"  Part="1" 
-F 0 "FB?" V 1013 1350 50  0000 C CNN
-F 1 "Ferrite_Bead_Small" V 1104 1350 50  0001 C CNN
-F 2 "" V 1180 1350 50  0001 C CNN
-F 3 "~" H 1250 1350 50  0001 C CNN
-F 4 "100 @ 100 MHz" V 1104 1350 50  0000 C CNN "Notes"
-	1    1250 1350
+F 0 "FB?" V 963 1350 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 1054 1350 50  0001 C CNN
+F 2 "" V 1130 1350 50  0001 C CNN
+F 3 "~" H 1200 1350 50  0001 C CNN
+F 4 "100 @ 100 MHz" V 1054 1350 50  0000 C CNN "Notes"
+	1    1200 1350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -267,7 +250,7 @@ Wire Wire Line
 	1500 1500 1500 1350
 Connection ~ 1500 1350
 Wire Wire Line
-	1500 1350 1350 1350
+	1500 1350 1300 1350
 Wire Wire Line
 	2250 1500 2250 1350
 Connection ~ 2250 1350
@@ -293,9 +276,7 @@ F 3 "" H 800 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	800  1250 800  1350
-Wire Wire Line
-	800  1350 1150 1350
+	800  1350 1100 1350
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5EE62B8A
@@ -421,30 +402,6 @@ Connection ~ 10150 2550
 Wire Wire Line
 	10450 2450 9750 2450
 Connection ~ 9750 2450
-$Comp
-L Device:C_Small C?
-U 1 1 5EE62BF7
-P 3750 1600
-AR Path="/5EE62BF7" Ref="C?"  Part="1" 
-AR Path="/5EE5ECAD/5EE62BF7" Ref="C?"  Part="1" 
-F 0 "C?" H 3842 1691 50  0000 L CNN
-F 1 "0.1n" H 3842 1600 50  0000 L CNN
-F 2 "" H 3750 1600 50  0001 C CNN
-F 3 "~" H 3750 1600 50  0001 C CNN
-F 4 "Low ESR (X7R)" H 3842 1509 50  0000 L CNN "Notes"
-	1    3750 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 1500 3750 1350
-Wire Wire Line
-	3750 1350 3000 1350
-Connection ~ 3000 1350
-Wire Wire Line
-	3000 1800 3750 1800
-Wire Wire Line
-	3750 1700 3750 1800
-Connection ~ 3000 1800
 $Comp
 L Device:R_Small R?
 U 1 1 5EE62C03
@@ -867,4 +824,38 @@ Wire Notes Line
 	3250 4200 3250 5900
 Text Notes 1300 4200 0    50   ~ 10
 Mic. Sensor
+$Comp
+L Device:C_Small C?
+U 1 1 5EF6EE7D
+P 800 1600
+AR Path="/5EF6EE7D" Ref="C?"  Part="1" 
+AR Path="/5EE5ECAD/5EF6EE7D" Ref="C?"  Part="1" 
+F 0 "C?" H 892 1691 50  0000 L CNN
+F 1 "10u" H 892 1600 50  0000 L CNN
+F 2 "" H 800 1600 50  0001 C CNN
+F 3 "~" H 800 1600 50  0001 C CNN
+F 4 "Low ESR (X7R)" H 892 1509 50  0000 L CNN "Notes"
+	1    800  1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EF6F4F9
+P 800 1900
+F 0 "#PWR?" H 800 1650 50  0001 C CNN
+F 1 "GND" H 805 1727 50  0000 C CNN
+F 2 "" H 800 1900 50  0001 C CNN
+F 3 "" H 800 1900 50  0001 C CNN
+	1    800  1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  1900 800  1700
+Wire Wire Line
+	800  1250 800  1350
+Connection ~ 800  1350
+Wire Wire Line
+	800  1350 800  1500
+Wire Wire Line
+	9050 2800 9450 2800
 $EndSCHEMATC

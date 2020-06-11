@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 14
+Sheet 2 15
 Title ""
 Date ""
 Rev ""
@@ -283,7 +283,7 @@ P 2100 1500
 AR Path="/5EE0528E" Ref="CB?"  Part="1" 
 AR Path="/5EDF3693/5EE0528E" Ref="CB?"  Part="1" 
 F 0 "CB?" H 1950 1600 50  0000 L CNN
-F 1 "1u" H 1900 1500 50  0000 L CNN
+F 1 "10u" H 1900 1500 50  0000 L CNN
 F 2 "" H 2100 1500 50  0001 C CNN
 F 3 "~" H 2100 1500 50  0001 C CNN
 F 4 "Low ESR" H 1750 1400 50  0000 L CNN "Notes"
@@ -397,4 +397,6 @@ F 3 "~" H 5300 3000 50  0001 C CNN
 	1    5300 3100
 	1    0    0    -1  
 $EndComp
+Text Notes 5000 1150 0    50   ~ 0
+Doesn't require a small bypass \ncap (100nF). There is bypass \ncap on the GPS daughter board \nclose to the chip.
 $EndSCHEMATC
