@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 15
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "Kleinvoet"
+Date "2020-06-11"
+Rev "Rev. A"
+Comp "Department of Electronic Engineering - Stellenbosch University"
+Comment1 "Author: CM Geldenhuys <20198329@sun.ac.za>"
+Comment2 "Project: Kleinvoet"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -71,21 +71,6 @@ F 3 "" H 8400 3650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8400 3650 8400 3550
-$Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 5EE62B19
-P 9550 2800
-AR Path="/5EE62B19" Ref="FB?"  Part="1" 
-AR Path="/5EE5ECAD/5EE62B19" Ref="FB?"  Part="1" 
-F 0 "FB?" V 9500 2700 50  0000 C CNN
-F 1 "Ferrite_Bead_Small" V 9404 2800 50  0001 C CNN
-F 2 "" V 9480 2800 50  0001 C CNN
-F 3 "~" H 9550 2800 50  0001 C CNN
-	1    9550 2800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9750 2800 9650 2800
 Wire Wire Line
 	9300 2900 9050 2900
 Wire Wire Line
@@ -527,8 +512,6 @@ Text HLabel 10450 2450 2    50   Output ~ 0
 ~DRDY
 Text HLabel 10450 2550 2    50   Input ~ 0
 SPI_~CS
-Text HLabel 9750 2800 2    50   Input ~ 0
-CLK
 Text HLabel 9750 2900 2    50   Input ~ 0
 SYNC
 $Comp
@@ -652,8 +635,8 @@ U 5EE62C2B
 F0 "Sensor_Conn_0" 50
 F1 "Sensor_Connector.sch" 50
 F2 "EN" I R 4650 4300 50 
-F4 "SIG_P" I R 4650 4100 50 
-F5 "SIG_N" I R 4650 4200 50 
+F3 "SIG_P" I R 4650 4100 50 
+F4 "SIG_N" I R 4650 4200 50 
 $EndSheet
 Wire Wire Line
 	4900 4300 4650 4300
@@ -667,8 +650,8 @@ U 5EE9134C
 F0 "sheet5EE91347" 50
 F1 "Sensor_Connector.sch" 50
 F2 "EN" I R 4650 4900 50 
-F4 "SIG_P" I R 4650 4700 50 
-F5 "SIG_N" I R 4650 4800 50 
+F3 "SIG_P" I R 4650 4700 50 
+F4 "SIG_N" I R 4650 4800 50 
 $EndSheet
 $Sheet
 S 4000 5200 650  400 
@@ -676,8 +659,8 @@ U 5EE94699
 F0 "sheet5EE94694" 50
 F1 "Sensor_Connector.sch" 50
 F2 "EN" I R 4650 5500 50 
-F4 "SIG_P" I R 4650 5300 50 
-F5 "SIG_N" I R 4650 5400 50 
+F3 "SIG_P" I R 4650 5300 50 
+F4 "SIG_N" I R 4650 5400 50 
 $EndSheet
 $Sheet
 S 4000 5800 650  400 
@@ -685,8 +668,8 @@ U 5EE979DE
 F0 "sheet5EE979D9" 50
 F1 "Sensor_Connector.sch" 50
 F2 "EN" I R 4650 6100 50 
-F4 "SIG_P" I R 4650 5900 50 
-F5 "SIG_N" I R 4650 6000 50 
+F3 "SIG_P" I R 4650 5900 50 
+F4 "SIG_N" I R 4650 6000 50 
 $EndSheet
 Text Label 4900 4900 0    50   ~ 0
 ADC_PORT_1_EN
@@ -856,6 +839,138 @@ Wire Wire Line
 Connection ~ 800  1350
 Wire Wire Line
 	800  1350 800  1500
+$Comp
+L Device:Crystal_GND24 Y?
+U 1 1 5EFB7F01
+P 9100 5350
+F 0 "Y?" H 8906 5304 50  0000 R CNN
+F 1 "8.192 MHz" H 8906 5395 50  0000 R CNN
+F 2 "" H 9100 5350 50  0001 C CNN
+F 3 "~" H 9100 5350 50  0001 C CNN
+F 4 "DSC1001CI5-008.1920" H 9100 5350 50  0001 C CNN "MPN"
+F 5 "MicroChip" H 9100 5350 50  0001 C CNN "Mfr."
+	1    9100 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5EFC0262
+P 9100 5650
+AR Path="/5EFC0262" Ref="#PWR?"  Part="1" 
+AR Path="/5EE5ECAD/5EFC0262" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9100 5400 50  0001 C CNN
+F 1 "GNDD" H 9150 5500 50  0000 C CNN
+F 2 "" H 9100 5650 50  0001 C CNN
+F 3 "" H 9100 5650 50  0001 C CNN
+	1    9100 5650
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	9050 2800 9450 2800
+	9100 5650 9100 5550
+Text Label 8950 5350 2    50   Italic 0
+CLK
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EFCE017
+P 9200 5150
+AR Path="/5EFCE017" Ref="#PWR?"  Part="1" 
+AR Path="/5EE5ECAD/5EFCE017" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9200 5000 50  0001 C CNN
+F 1 "+3V3" H 9300 5300 50  0000 C CNN
+F 2 "" H 9200 5150 50  0001 C CNN
+F 3 "" H 9200 5150 50  0001 C CNN
+	1    9200 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 5150 9100 5150
+Wire Wire Line
+	9200 5150 9250 5150
+Wire Wire Line
+	9250 5150 9250 5350
+Connection ~ 9200 5150
+$Comp
+L Device:C_Small C?
+U 1 1 5EFD75E4
+P 9850 5350
+F 0 "C?" H 9942 5396 50  0000 L CNN
+F 1 "10n" H 9942 5305 50  0000 L CNN
+F 2 "" H 9850 5350 50  0001 C CNN
+F 3 "~" H 9850 5350 50  0001 C CNN
+	1    9850 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5EFD77FC
+P 10200 5350
+F 0 "C?" H 10292 5396 50  0000 L CNN
+F 1 "100n" H 10292 5305 50  0000 L CNN
+F 2 "" H 10200 5350 50  0001 C CNN
+F 3 "~" H 10200 5350 50  0001 C CNN
+	1    10200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EFD7DB7
+P 10050 5150
+AR Path="/5EFD7DB7" Ref="#PWR?"  Part="1" 
+AR Path="/5EE5ECAD/5EFD7DB7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10050 5000 50  0001 C CNN
+F 1 "+3V3" H 10150 5300 50  0000 C CNN
+F 2 "" H 10050 5150 50  0001 C CNN
+F 3 "" H 10050 5150 50  0001 C CNN
+	1    10050 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5EFD831E
+P 10050 5650
+AR Path="/5EFD831E" Ref="#PWR?"  Part="1" 
+AR Path="/5EE5ECAD/5EFD831E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10050 5400 50  0001 C CNN
+F 1 "GNDD" H 10100 5500 50  0000 C CNN
+F 2 "" H 10050 5650 50  0001 C CNN
+F 3 "" H 10050 5650 50  0001 C CNN
+	1    10050 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 5650 10050 5550
+Wire Wire Line
+	10050 5550 10200 5550
+Wire Wire Line
+	10200 5550 10200 5450
+Wire Wire Line
+	10050 5550 9850 5550
+Wire Wire Line
+	9850 5550 9850 5450
+Connection ~ 10050 5550
+Wire Wire Line
+	9850 5250 9850 5200
+Wire Wire Line
+	9850 5200 10050 5200
+Wire Wire Line
+	10050 5200 10050 5150
+Wire Wire Line
+	10200 5250 10200 5200
+Wire Wire Line
+	10200 5200 10050 5200
+Connection ~ 10050 5200
+Wire Notes Line
+	8700 5950 10550 5950
+Wire Notes Line
+	10550 5950 10550 4900
+Wire Notes Line
+	10550 4900 8700 4900
+Wire Notes Line
+	8700 4900 8700 5950
+Text Notes 8700 4900 0    50   ~ 10
+Clock Source
+Text Label 9300 2800 0    50   Italic 0
+CLK
+Wire Wire Line
+	9300 2800 9050 2800
 $EndSCHEMATC

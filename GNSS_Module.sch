@@ -4,26 +4,26 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 15
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "Kleinvoet"
+Date "2020-06-11"
+Rev "Rev. A"
+Comp "Department of Electronic Engineering - Stellenbosch University"
+Comment1 "Author: CM Geldenhuys <20198329@sun.ac.za>"
+Comment2 "Project: Kleinvoet"
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
 L RF_GPS:ublox_SAM-M8Q U?
 U 1 1 5EE051F9
-P 3250 4000
+P 3050 3750
 AR Path="/5EE051F9" Ref="U?"  Part="1" 
 AR Path="/5EDF3693/5EE051F9" Ref="U?"  Part="1" 
-F 0 "U?" H 3650 4550 50  0000 C CNN
-F 1 "ublox_SAM-M8Q" H 3700 4450 50  0000 C CNN
-F 2 "RF_GPS:ublox_SAM-M8Q" H 3750 3550 50  0001 C CNN
-F 3 "https://www.u-blox.com/sites/default/files/SAM-M8Q_DataSheet_%28UBX-16012619%29.pdf" H 3250 4000 50  0001 C CNN
-	1    3250 4000
+F 0 "U?" H 3450 4300 50  0000 C CNN
+F 1 "ublox_SAM-M8Q" H 3500 4200 50  0000 C CNN
+F 2 "RF_GPS:ublox_SAM-M8Q" H 3550 3300 50  0001 C CNN
+F 3 "https://www.u-blox.com/sites/default/files/SAM-M8Q_DataSheet_%28UBX-16012619%29.pdf" H 3050 3750 50  0001 C CNN
+	1    3050 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -73,27 +73,27 @@ $EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5EE05214
-P 3200 3400
+P 3000 3150
 AR Path="/5EE05214" Ref="#PWR?"  Part="1" 
 AR Path="/5EDF3693/5EE05214" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3200 3250 50  0001 C CNN
-F 1 "+3V3" H 3150 3550 50  0000 C CNN
-F 2 "" H 3200 3400 50  0001 C CNN
-F 3 "" H 3200 3400 50  0001 C CNN
-	1    3200 3400
+F 0 "#PWR?" H 3000 3000 50  0001 C CNN
+F 1 "+3V3" H 2950 3300 50  0000 C CNN
+F 2 "" H 3000 3150 50  0001 C CNN
+F 3 "" H 3000 3150 50  0001 C CNN
+	1    3000 3150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 3400 3200 3450
+	3000 3150 3000 3200
 Wire Wire Line
-	3200 3450 3250 3450
+	3000 3200 3050 3200
 Wire Wire Line
-	3250 3450 3250 3500
+	3050 3200 3050 3250
 Wire Wire Line
-	3200 3450 3150 3450
+	3000 3200 2950 3200
 Wire Wire Line
-	3150 3450 3150 3500
-Connection ~ 3200 3450
+	2950 3200 2950 3250
+Connection ~ 3000 3200
 Wire Wire Line
 	2100 1250 2250 1250
 Wire Wire Line
@@ -109,14 +109,14 @@ Wire Notes Line
 	4900 850  1600 850 
 Text Notes 1600 850  0    50   ~ 10
 GPS Power
-Text Label 3850 4100 0    50   ~ 0
+Text Label 3650 3850 0    50   ~ 0
 GPS_LCD_SDA
-Text Label 3850 4200 0    50   ~ 0
+Text Label 3650 3950 0    50   ~ 0
 GPS_LCD_SCL
 Wire Wire Line
-	2650 4200 2750 4200
+	2450 3950 2550 3950
 Wire Wire Line
-	2650 4100 2750 4100
+	2450 3850 2550 3850
 Wire Notes Line
 	4900 2100 1600 2100
 Wire Notes Line
@@ -124,91 +124,91 @@ Wire Notes Line
 $Comp
 L power:GND #PWR?
 U 1 1 5EE05234
-P 3250 4600
+P 3050 4350
 AR Path="/5EE05234" Ref="#PWR?"  Part="1" 
 AR Path="/5EDF3693/5EE05234" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3250 4350 50  0001 C CNN
-F 1 "GND" H 3255 4427 50  0000 C CNN
-F 2 "" H 3250 4600 50  0001 C CNN
-F 3 "" H 3250 4600 50  0001 C CNN
-	1    3250 4600
+F 0 "#PWR?" H 3050 4100 50  0001 C CNN
+F 1 "GND" H 3055 4177 50  0000 C CNN
+F 2 "" H 3050 4350 50  0001 C CNN
+F 3 "" H 3050 4350 50  0001 C CNN
+	1    3050 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 4500 3250 4600
+	3050 4250 3050 4350
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5EE05241
-P 3950 3900
+P 3750 3650
 AR Path="/5EE05241" Ref="FB?"  Part="1" 
 AR Path="/5EDF3693/5EE05241" Ref="FB?"  Part="1" 
-F 0 "FB?" V 4000 3750 50  0000 C CNN
-F 1 "BLM15HD102SN1" V 4000 4250 50  0001 C CNN
-F 2 "" V 3880 3900 50  0001 C CNN
-F 3 "~" H 3950 3900 50  0001 C CNN
-F 4 "BLM15HD102SN1" V 3950 3900 50  0001 C CNN "MPN"
-	1    3950 3900
+F 0 "FB?" V 3800 3500 50  0000 C CNN
+F 1 "BLM15HD102SN1" V 3800 4000 50  0001 C CNN
+F 2 "" V 3680 3650 50  0001 C CNN
+F 3 "~" H 3750 3650 50  0001 C CNN
+F 4 "BLM15HD102SN1" V 3750 3650 50  0001 C CNN "MPN"
+	1    3750 3650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3750 4100 3850 4100
+	3550 3850 3650 3850
 Wire Wire Line
-	3750 4200 3850 4200
+	3550 3950 3650 3950
 $Comp
 L Connector_Generic:Conn_01x05 J?
 U 1 1 5EE05249
-P 2250 3050
+P 8650 2450
 AR Path="/5EE05249" Ref="J?"  Part="1" 
 AR Path="/5EDF3693/5EE05249" Ref="J?"  Part="1" 
-F 0 "J?" H 2168 2625 50  0000 C CNN
-F 1 "GPS_Trasnmission_Conn" H 1900 2700 50  0000 C CNN
-F 2 "" H 2250 3050 50  0001 C CNN
-F 3 "~" H 2250 3050 50  0001 C CNN
-	1    2250 3050
+F 0 "J?" H 8568 2025 50  0000 C CNN
+F 1 "GPS_Trasnmission_Conn" H 8300 2100 50  0000 C CNN
+F 2 "" H 8650 2450 50  0001 C CNN
+F 3 "~" H 8650 2450 50  0001 C CNN
+	1    8650 2450
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5EE0524F
-P 2550 3350
+P 8950 2750
 AR Path="/5EE0524F" Ref="#PWR?"  Part="1" 
 AR Path="/5EDF3693/5EE0524F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2550 3100 50  0001 C CNN
-F 1 "GND" H 2555 3177 50  0000 C CNN
-F 2 "" H 2550 3350 50  0001 C CNN
-F 3 "" H 2550 3350 50  0001 C CNN
-	1    2550 3350
+F 0 "#PWR?" H 8950 2500 50  0001 C CNN
+F 1 "GND" H 8955 2577 50  0000 C CNN
+F 2 "" H 8950 2750 50  0001 C CNN
+F 3 "" H 8950 2750 50  0001 C CNN
+	1    8950 2750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2550 3350 2550 3250
+	8950 2750 8950 2650
 Wire Wire Line
-	2550 3250 2450 3250
-Text Label 2550 3150 0    50   ~ 0
+	8950 2650 8850 2650
+Text Label 8950 2550 0    50   ~ 0
 GPS_LCD_SCL
-Text Label 2550 3050 0    50   ~ 0
+Text Label 8950 2450 0    50   ~ 0
 GPS_LCD_SDA
 Wire Wire Line
-	2650 3900 2750 3900
-Text Label 2550 2950 0    50   ~ 0
+	2450 3650 2550 3650
+Text Label 8950 2350 0    50   ~ 0
 GPS_TX
-Text Label 2550 2850 0    50   ~ 0
+Text Label 8950 2250 0    50   ~ 0
 GPS_RX
-Text Notes 2850 2950 0    50   ~ 0
+Text Notes 9250 2350 0    50   ~ 0
 (GPS_LCD_TX_READY)
 Wire Wire Line
-	2550 2850 2450 2850
+	8950 2250 8850 2250
 Wire Wire Line
-	2550 2950 2450 2950
+	8950 2350 8850 2350
 Wire Wire Line
-	2550 3050 2450 3050
+	8950 2450 8850 2450
 Wire Wire Line
-	2550 3150 2450 3150
+	8950 2550 8850 2550
 Wire Wire Line
-	3750 3900 3850 3900
-Text Notes 2100 4950 0    50   Italic 0
+	3550 3650 3650 3650
+Text Notes 1900 4700 0    50   Italic 0
 See Application Note: SAM-M8Q Hardware Integration
-Text Notes 4850 4200 0    50   ~ 0
+Text Notes 7200 3700 0    50   ~ 0
 Place all components as close as possible to module. \nDo NOT drive RESET pin high (this will cause an reset \non bootup). Keep a 10mm spacing arround module. \nDo not break GND plane (50x50mm).
 $Comp
 L Device:Battery_Cell BT?
@@ -301,22 +301,22 @@ Wire Wire Line
 Wire Wire Line
 	3750 1150 3750 1200
 Wire Wire Line
-	2650 4000 2750 4000
+	2450 3750 2550 3750
 $Comp
 L power:GND #PWR?
 U 1 1 5EE052A0
-P 5300 3550
+P 7650 2900
 AR Path="/5EE052A0" Ref="#PWR?"  Part="1" 
 AR Path="/5EDF3693/5EE052A0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5300 3300 50  0001 C CNN
-F 1 "GND" H 5305 3377 50  0000 C CNN
-F 2 "" H 5300 3550 50  0001 C CNN
-F 3 "" H 5300 3550 50  0001 C CNN
-	1    5300 3550
+F 0 "#PWR?" H 7650 2650 50  0001 C CNN
+F 1 "GND" H 7655 2727 50  0000 C CNN
+F 2 "" H 7650 2900 50  0001 C CNN
+F 3 "" H 7650 2900 50  0001 C CNN
+	1    7650 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 3550 5300 3500
+	7650 2900 7650 2850
 $Comp
 L power:VDD #PWR?
 U 1 1 5EE052A8
@@ -340,61 +340,61 @@ Wire Wire Line
 $Comp
 L power:VDD #PWR?
 U 1 1 5EE052B2
-P 3350 3400
+P 3150 3150
 AR Path="/5EE052B2" Ref="#PWR?"  Part="1" 
 AR Path="/5EDF3693/5EE052B2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3350 3250 50  0001 C CNN
-F 1 "VDD" H 3400 3550 50  0000 C CNN
-F 2 "" H 3350 3400 50  0001 C CNN
-F 3 "" H 3350 3400 50  0001 C CNN
-	1    3350 3400
+F 0 "#PWR?" H 3150 3000 50  0001 C CNN
+F 1 "VDD" H 3200 3300 50  0000 C CNN
+F 2 "" H 3150 3150 50  0001 C CNN
+F 3 "" H 3150 3150 50  0001 C CNN
+	1    3150 3150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 3400 3350 3500
-Text HLabel 4300 3800 2    50   Input ~ 0
+	3150 3150 3150 3250
+Text HLabel 4100 3550 2    50   Input ~ 0
 GPS_RX
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5EE19301
-P 4100 3800
+P 3900 3550
 AR Path="/5EE19301" Ref="FB?"  Part="1" 
 AR Path="/5EDF3693/5EE19301" Ref="FB?"  Part="1" 
-F 0 "FB?" V 4000 3900 50  0000 C CNN
-F 1 "BLM15HD102SN1" V 4150 4150 50  0001 C CNN
-F 2 "" V 4030 3800 50  0001 C CNN
-F 3 "~" H 4100 3800 50  0001 C CNN
-F 4 "BLM15HD102SN1" V 4100 3800 50  0001 C CNN "MPN"
-	1    4100 3800
+F 0 "FB?" V 3800 3650 50  0000 C CNN
+F 1 "BLM15HD102SN1" V 3950 3900 50  0001 C CNN
+F 2 "" V 3830 3550 50  0001 C CNN
+F 3 "~" H 3900 3550 50  0001 C CNN
+F 4 "BLM15HD102SN1" V 3900 3550 50  0001 C CNN "MPN"
+	1    3900 3550
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3750 3800 4000 3800
+	3550 3550 3800 3550
 Wire Wire Line
-	4300 3800 4200 3800
-Text HLabel 4300 3900 2    50   Output ~ 0
+	4100 3550 4000 3550
+Text HLabel 4100 3650 2    50   Output ~ 0
 GPS_TX
 Wire Wire Line
-	4050 3900 4300 3900
-Text HLabel 2650 3900 0    50   Input ~ 0
+	3850 3650 4100 3650
+Text HLabel 2450 3650 0    50   Input ~ 0
 GPS_WAKE
-Text HLabel 2650 4000 0    50   Output ~ 0
+Text HLabel 2450 3750 0    50   Output ~ 0
 GPS_SYNC
-Text HLabel 2650 4100 0    50   Input ~ 0
+Text HLabel 2450 3850 0    50   Input ~ 0
 GPS_BOOT
-Text HLabel 2650 4200 0    50   Input ~ 0
+Text HLabel 2450 3950 0    50   Input ~ 0
 GPS_RESET
 $Comp
 L Device:RF_Shield_One_Piece J?
 U 1 1 5EE0529A
-P 5300 3100
+P 7650 2450
 AR Path="/5EE0529A" Ref="J?"  Part="1" 
 AR Path="/5EDF3693/5EE0529A" Ref="J?"  Part="1" 
-F 0 "J?" H 5250 3150 50  0000 L CNN
-F 1 "GPS Shield" H 4950 3350 50  0000 L CNN
-F 2 "" H 5300 3000 50  0001 C CNN
-F 3 "~" H 5300 3000 50  0001 C CNN
-	1    5300 3100
+F 0 "J?" H 7600 2500 50  0000 L CNN
+F 1 "GPS Shield" H 7300 2700 50  0000 L CNN
+F 2 "" H 7650 2350 50  0001 C CNN
+F 3 "~" H 7650 2350 50  0001 C CNN
+	1    7650 2450
 	1    0    0    -1  
 $EndComp
 Text Notes 5000 1150 0    50   ~ 0

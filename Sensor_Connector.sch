@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 15
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "Kleinvoet"
+Date "2020-06-11"
+Rev "Rev. A"
+Comp "Department of Electronic Engineering - Stellenbosch University"
+Comment1 "Author: CM Geldenhuys <20198329@sun.ac.za>"
+Comment2 "Project: Kleinvoet"
 Comment3 ""
 Comment4 ""
 $EndDescr
