@@ -14,50 +14,38 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 950  1050 1050 500 
-U 5EDF3693
-F0 "GNSS_Module" 50
-F1 "GNSS_Module.sch" 50
-F2 "GPS_RX" I R 2000 1200 50 
-F3 "GPS_TX" O R 2000 1400 50 
-F4 "GPS_WAKE" I L 950 1150 50 
-F5 "GPS_SYNC" O L 950 1250 50 
-F6 "GPS_BOOT" I L 950 1350 50 
-F7 "GPS_RESET" I L 950 1450 50 
-$EndSheet
-$Sheet
-S 1000 1800 950  550 
+S 1400 2100 1000 550 
 U 5EE5ECAD
 F0 "ADC_Interface" 50
 F1 "ADC_Interface.sch" 50
-F2 "SPI_MOSI" I R 1950 1900 50 
-F3 "SPI_MISO" O R 1950 2000 50 
-F4 "SPI_CLK" I R 1950 2100 50 
-F5 "~DRDY" O L 1000 2150 50 
-F6 "SPI_~CS" I R 1950 2200 50 
-F7 "SYNC" I L 1000 2050 50 
+F2 "SPI_MOSI" I R 2400 2200 50 
+F3 "SPI_MISO" O R 2400 2300 50 
+F4 "SPI_CLK" I R 2400 2400 50 
+F5 "~DRDY" O L 1400 2450 50 
+F6 "SPI_~CS" I R 2400 2500 50 
+F7 "SYNC" I L 1400 2350 50 
 $EndSheet
 $Sheet
-S 1000 2600 1550 750 
+S 1400 2900 1000 500 
 U 5EEDE770
 F0 "Power" 50
 F1 "Power.sch" 50
 $EndSheet
 $Sheet
-S 1450 3850 1100 900 
+S 1350 3650 1100 900 
 U 5EF53A66
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
-F2 "USB_D+" B R 2550 4200 50 
-F3 "USB_D-" B R 2550 4350 50 
-F4 "SDIO_D1" B L 1450 4050 50 
-F5 "SDIO_D0" B L 1450 3950 50 
-F6 "SDIO_D2" B L 1450 4150 50 
-F7 "SDIO_D3" B L 1450 4250 50 
-F8 "SDIO_CMD" I L 1450 4350 50 
-F9 "SDIO_CLK" I L 1450 4450 50 
-F10 "SDIO_CD" O L 1450 4550 50 
-F11 "SDIO_WP" O L 1450 4650 50 
+F2 "USB_D+" B R 2450 4000 50 
+F3 "USB_D-" B R 2450 4150 50 
+F4 "SDIO_D1" B L 1350 3850 50 
+F5 "SDIO_D0" B L 1350 3750 50 
+F6 "SDIO_D2" B L 1350 3950 50 
+F7 "SDIO_D3" B L 1350 4050 50 
+F8 "SDIO_CMD" I L 1350 4150 50 
+F9 "SDIO_CLK" I L 1350 4250 50 
+F10 "SDIO_CD" O L 1350 4350 50 
+F11 "SDIO_WP" O L 1350 4450 50 
 $EndSheet
 $Comp
 L Device:C_Small C?
@@ -504,7 +492,7 @@ SWDIO
 Text Label 2150 6350 0    50   ~ 0
 SWCLK
 Text Label 2150 7150 0    50   ~ 0
-UART2_TX
+VCP_TX
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5EE44F3B
@@ -535,7 +523,7 @@ Connection ~ 1600 7350
 Wire Wire Line
 	1600 7350 1550 7350
 Text Label 2150 7050 0    50   ~ 0
-UART2_RX
+VCP_RX
 NoConn ~ 2150 6650
 NoConn ~ 2150 6850
 Wire Notes Line
@@ -550,38 +538,38 @@ Text Notes 550  7700 0    50   Italic 0
 See Manual UM2502
 Text Notes 550  5700 0    50   ~ 10
 Debug Connector
-Text Label 2700 4350 0    50   ~ 0
+Text Label 2600 4150 0    50   ~ 0
 USB_DN
-Text Label 2700 4200 0    50   ~ 0
+Text Label 2600 4000 0    50   ~ 0
 USB_DP
-Text Label 1300 4150 2    50   ~ 0
+Text Label 1200 3950 2    50   ~ 0
 SDIO_D2
 Wire Wire Line
-	2700 4350 2550 4350
+	2600 4150 2450 4150
 Wire Wire Line
-	2700 4200 2550 4200
+	2600 4000 2450 4000
 Wire Wire Line
-	1450 4150 1300 4150
-Text Label 1300 3950 2    50   ~ 0
+	1350 3950 1200 3950
+Text Label 1200 3750 2    50   ~ 0
 SDIO_D0
-Text Label 1300 4050 2    50   ~ 0
+Text Label 1200 3850 2    50   ~ 0
 SDIO_D1
 Wire Wire Line
-	1300 4050 1450 4050
+	1200 3850 1350 3850
 Wire Wire Line
-	1450 3950 1300 3950
-Text Label 1300 4250 2    50   ~ 0
+	1350 3750 1200 3750
+Text Label 1200 4050 2    50   ~ 0
 SDIO_D3
 Wire Wire Line
-	1300 4250 1450 4250
-Text Label 1300 4350 2    50   ~ 0
+	1200 4050 1350 4050
+Text Label 1200 4150 2    50   ~ 0
 SDIO_CMD
 Wire Wire Line
-	1300 4350 1450 4350
-Text Label 1300 4450 2    50   ~ 0
+	1200 4150 1350 4150
+Text Label 1200 4250 2    50   ~ 0
 SDIO_CLK
 Wire Wire Line
-	1300 4450 1450 4450
+	1200 4250 1350 4250
 $Comp
 L Device:R_Small R?
 U 1 1 5EEA5621
@@ -857,14 +845,10 @@ Text Label 5450 1650 0    50   ~ 0
 D1
 Text Label 5450 1750 0    50   ~ 0
 D0
-Text Label 5600 1750 0    50   ~ 0
+Text Label 5650 1750 0    50   ~ 0
 UART2_RX
-Wire Wire Line
-	5600 1750 5450 1750
-Text Label 5600 1650 0    50   ~ 0
+Text Label 5650 1650 0    50   ~ 0
 UART2_TX
-Wire Wire Line
-	5600 1650 5450 1650
 Text Label 3850 4150 2    50   ~ 0
 SDIO_D3
 Text Label 5650 3250 0    50   ~ 0
@@ -881,8 +865,6 @@ Text Label 5650 2650 0    50   ~ 0
 USB_DP
 Text Label 5650 2550 0    50   ~ 0
 USB_DN
-Text Label 3850 4050 2    50   ~ 0
-UART3_TX
 Text Label 4050 2550 2    50   ~ 0
 OSC_HSE_IN
 Text Label 4050 2650 2    50   ~ 0
@@ -913,16 +895,10 @@ Wire Wire Line
 	5650 2850 5450 2850
 Wire Wire Line
 	4050 2850 3850 2850
-Text Label 3850 3550 2    50   ~ 0
-UART3_RX
-Wire Wire Line
-	4050 3550 3850 3550
 Wire Wire Line
 	3850 3850 4050 3850
 Wire Wire Line
 	3850 3950 4050 3950
-Wire Wire Line
-	3850 4050 4050 4050
 Wire Wire Line
 	3850 4150 4050 4150
 Connection ~ 4650 1200
@@ -1174,4 +1150,303 @@ Wire Notes Line
 	11150 3350 7550 3350
 Wire Notes Line
 	7550 3350 7550 4900
+$Comp
+L Memory_Flash:W25Q128JVS U?
+U 1 1 5EE9B46D
+P 9650 2650
+F 0 "U?" H 9300 3000 50  0000 C CNN
+F 1 "W25Q128JVS" H 10000 3000 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 9650 2650 50  0001 C CNN
+F 3 "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" H 9650 2650 50  0001 C CNN
+	1    9650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EE9BF07
+P 9650 2250
+AR Path="/5EE9BF07" Ref="#PWR?"  Part="1" 
+AR Path="/5EE5ECAD/5EE9BF07" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9650 2100 50  0001 C CNN
+F 1 "+3V3" H 9665 2423 50  0000 C CNN
+F 2 "" H 9650 2250 50  0001 C CNN
+F 3 "" H 9650 2250 50  0001 C CNN
+	1    9650 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EE9E1DD
+P 9650 3050
+F 0 "#PWR?" H 9650 2800 50  0001 C CNN
+F 1 "GND" H 9655 2877 50  0000 C CNN
+F 2 "" H 9650 3050 50  0001 C CNN
+F 3 "" H 9650 3050 50  0001 C CNN
+	1    9650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EE9EB04
+P 10250 2750
+F 0 "#PWR?" H 10250 2600 50  0001 C CNN
+F 1 "+3V3" H 10400 2800 50  0000 C CNN
+F 2 "" H 10250 2750 50  0001 C CNN
+F 3 "" H 10250 2750 50  0001 C CNN
+	1    10250 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 2750 10150 2750
+Wire Wire Line
+	10150 2850 10250 2850
+Wire Wire Line
+	10250 2850 10250 2750
+Connection ~ 10250 2750
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EEABA75
+P 9000 2250
+F 0 "#PWR?" H 9000 2100 50  0001 C CNN
+F 1 "+3V3" H 9015 2423 50  0000 C CNN
+F 2 "" H 9000 2250 50  0001 C CNN
+F 3 "" H 9000 2250 50  0001 C CNN
+	1    9000 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5EEAC78F
+P 9000 2400
+F 0 "R?" H 9059 2446 50  0000 L CNN
+F 1 "10k" H 9059 2355 50  0000 L CNN
+F 2 "" H 9000 2400 50  0001 C CNN
+F 3 "~" H 9000 2400 50  0001 C CNN
+	1    9000 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 2250 9000 2300
+Wire Wire Line
+	9150 2550 9000 2550
+Wire Wire Line
+	9000 2550 9000 2500
+Text Label 9150 2750 2    50   ~ 0
+FLASH_SCK
+Text Label 10150 2450 0    50   ~ 0
+FLASH_MOSI
+Text Label 10150 2550 0    50   ~ 0
+FLASH_MISO
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EEBDD21
+P 10800 2250
+AR Path="/5EEBDD21" Ref="#PWR?"  Part="1" 
+AR Path="/5EE5ECAD/5EEBDD21" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10800 2100 50  0001 C CNN
+F 1 "+3V3" H 10815 2423 50  0000 C CNN
+F 2 "" H 10800 2250 50  0001 C CNN
+F 3 "" H 10800 2250 50  0001 C CNN
+	1    10800 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5EEBE4BA
+P 10800 2600
+F 0 "C?" H 10892 2646 50  0000 L CNN
+F 1 "100n" H 10892 2555 50  0000 L CNN
+F 2 "" H 10800 2600 50  0001 C CNN
+F 3 "~" H 10800 2600 50  0001 C CNN
+	1    10800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EEBEA8D
+P 10800 3050
+F 0 "#PWR?" H 10800 2800 50  0001 C CNN
+F 1 "GND" H 10805 2877 50  0000 C CNN
+F 2 "" H 10800 3050 50  0001 C CNN
+F 3 "" H 10800 3050 50  0001 C CNN
+	1    10800 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 2500 10800 2250
+Wire Wire Line
+	10800 2700 10800 3050
+Wire Notes Line
+	11150 3300 11150 1950
+Wire Notes Line
+	11150 1950 8650 1950
+Wire Notes Line
+	8650 1950 8650 3300
+Wire Notes Line
+	8650 3300 11150 3300
+Text Notes 8650 1950 0    50   ~ 10
+External Flash
+Text Label 6100 1650 0    50   ~ 0
+VCP_TX
+Text Label 6100 1750 0    50   ~ 0
+VCP_RX
+Wire Wire Line
+	5450 1750 6100 1750
+Wire Wire Line
+	5450 1650 6100 1650
+Text Label 5650 1450 0    50   ~ 0
+UART4_TX
+Text Label 5650 1550 0    50   ~ 0
+UART4_RX
+Text Label 6100 1450 0    50   ~ 0
+GPS_TX
+Text Label 6100 1550 0    50   ~ 0
+GPS_RX
+Wire Wire Line
+	6100 1450 5450 1450
+Wire Wire Line
+	6100 1550 5450 1550
+Text Label 2600 1500 0    50   ~ 0
+GPS_TX
+Text Label 2600 1700 0    50   ~ 0
+GPS_RX
+Wire Wire Line
+	2600 1500 2400 1500
+Wire Wire Line
+	2600 1700 2400 1700
+$Sheet
+S 1400 1350 1000 500 
+U 5EDF3693
+F0 "GNSS_Module" 50
+F1 "GNSS_Module.sch" 50
+F2 "GPS_WAKE" I L 1400 1450 50 
+F3 "GPS_SYNC" O L 1400 1550 50 
+F4 "GPS_RX" O R 2400 1700 50 
+F5 "GPS_TX" I R 2400 1500 50 
+F6 "GPS_~SAFEBOOT" I L 1400 1650 50 
+F7 "GPS_~RESET" I L 1400 1750 50 
+$EndSheet
+Text Label 5700 4550 0    50   ~ 0
+SPI2_MOSI
+Text Label 5700 4450 0    50   ~ 0
+SPI2_MISO
+Text Label 5700 4350 0    50   ~ 0
+SPI2_SCK
+Text Label 6200 4350 0    50   ~ 0
+ADC_SCK
+Text Label 6200 4450 0    50   ~ 0
+ADC_MISO
+Text Label 6200 4550 0    50   ~ 0
+ADC_MOSI
+Wire Wire Line
+	5450 4550 6200 4550
+Wire Wire Line
+	5450 4450 6200 4450
+Wire Wire Line
+	5450 4350 6200 4350
+Text Label 2600 2400 0    50   ~ 0
+ADC_SCK
+Wire Wire Line
+	2600 2400 2400 2400
+Text Label 2600 2300 0    50   ~ 0
+ADC_MISO
+Wire Wire Line
+	2600 2300 2400 2300
+Text Label 2600 2200 0    50   ~ 0
+ADC_MOSI
+Wire Wire Line
+	2600 2200 2400 2200
+$Comp
+L power:GND #PWR?
+U 1 1 5EFC01A8
+P 2600 2550
+F 0 "#PWR?" H 2600 2300 50  0001 C CNN
+F 1 "GND" H 2605 2377 50  0000 C CNN
+F 2 "" H 2600 2550 50  0001 C CNN
+F 3 "" H 2600 2550 50  0001 C CNN
+	1    2600 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2550 2600 2500
+Wire Wire Line
+	2600 2500 2400 2500
+Text Label 1200 1550 2    50   ~ 0
+SYNC
+Wire Wire Line
+	1200 1550 1400 1550
+Text Label 1200 2350 2    50   ~ 0
+SYNC
+Wire Wire Line
+	1200 2350 1400 2350
+Text Label 6200 4250 0    50   ~ 0
+ADC_~DRDY
+Wire Wire Line
+	6200 4250 5450 4250
+Text Label 1200 2450 2    50   ~ 0
+ADC_~DRDY
+Wire Wire Line
+	1200 2450 1400 2450
+Text Label 5650 1950 0    50   ~ 0
+SPI1_SCK
+Text Label 5650 2050 0    50   ~ 0
+SPI1_MISO
+Text Label 5650 2150 0    50   ~ 0
+SPI1_MOSI
+Text Label 6100 1950 0    50   ~ 0
+FLASH_SCK
+Text Label 6100 2050 0    50   ~ 0
+FLASH_MISO
+Text Label 6100 2150 0    50   ~ 0
+FLASH_MOSI
+Wire Wire Line
+	5450 1950 6100 1950
+Wire Wire Line
+	5450 2050 6100 2050
+Wire Wire Line
+	5450 2150 6100 2150
+Text Label 1200 1750 2    50   ~ 0
+~RST
+Wire Wire Line
+	1200 1750 1400 1750
+Text Label 5650 2250 0    50   ~ 0
+SDIO_WP
+Text Label 5650 2350 0    50   ~ 0
+SDIO_CD
+Wire Wire Line
+	5650 2250 5450 2250
+Wire Wire Line
+	5650 2350 5450 2350
+Text Label 1200 4450 2    50   ~ 0
+SDIO_WP
+Wire Wire Line
+	1200 4450 1350 4450
+Text Label 1200 4350 2    50   ~ 0
+SDIO_CD
+Wire Wire Line
+	1200 4350 1350 4350
+Text Label 3850 3250 2    50   ~ 0
+GPS_WAKE
+Text Label 3850 3350 2    50   ~ 0
+GPS_~SAFEBOOT
+Text Label 1200 1650 2    50   ~ 0
+GPS_~SAFEBOOT
+Text Label 1200 1450 2    50   ~ 0
+GPS_WAKE
+Wire Wire Line
+	1200 1450 1400 1450
+Wire Wire Line
+	1400 1650 1200 1650
+Wire Wire Line
+	3850 3250 4050 3250
+Wire Wire Line
+	4050 3350 3850 3350
+NoConn ~ 5450 2950
+NoConn ~ 5450 3850
+NoConn ~ 4050 4350
+NoConn ~ 4050 4250
+NoConn ~ 4050 4050
+NoConn ~ 4050 3650
+NoConn ~ 4050 3550
+NoConn ~ 4050 3450
 $EndSCHEMATC

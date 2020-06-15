@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 15
+Sheet 2 15
 Title "Kleinvoet"
 Date "2020-06-11"
 Rev "Rev. A"
@@ -74,7 +74,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 2900 9050 2900
 Wire Wire Line
-	9750 2900 9500 2900
+	9750 2900 9700 2900
 $Comp
 L Device:C_Small C?
 U 1 1 5EE62B25
@@ -336,19 +336,6 @@ F3 "ADC_N" I R 6850 4200 50
 F4 "AIN_P" I L 6150 4100 50 
 F5 "AIN_N" I L 6150 4200 50 
 $EndSheet
-$Comp
-L Device:R_Small R?
-U 1 1 5EE62BDA
-P 10150 2300
-AR Path="/5EE62BDA" Ref="R?"  Part="1" 
-AR Path="/5EE5ECAD/5EE62BDA" Ref="R?"  Part="1" 
-F 0 "R?" H 10209 2346 50  0000 L CNN
-F 1 "100k" H 10209 2255 50  0000 L CNN
-F 2 "" H 10150 2300 50  0001 C CNN
-F 3 "~" H 10150 2300 50  0001 C CNN
-	1    10150 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9750 2450 9050 2450
 Wire Wire Line
@@ -367,16 +354,11 @@ F 3 "" H 9950 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10150 2200 10150 2150
-Wire Wire Line
-	10150 2150 9950 2150
-Wire Wire Line
 	9950 2150 9950 2100
 Wire Wire Line
 	9750 2200 9750 2150
 Wire Wire Line
 	9750 2150 9950 2150
-Connection ~ 9950 2150
 Wire Wire Line
 	9750 2450 9750 2400
 Wire Wire Line
@@ -973,4 +955,88 @@ Text Label 9300 2800 0    50   Italic 0
 CLK
 Wire Wire Line
 	9300 2800 9050 2800
+Connection ~ 9950 2150
+Wire Wire Line
+	10150 2150 9950 2150
+Wire Wire Line
+	10150 2200 10150 2150
+$Comp
+L Device:R_Small R?
+U 1 1 5EE62BDA
+P 10150 2300
+AR Path="/5EE62BDA" Ref="R?"  Part="1" 
+AR Path="/5EE5ECAD/5EE62BDA" Ref="R?"  Part="1" 
+F 0 "R?" H 10209 2346 50  0000 L CNN
+F 1 "100k" H 10209 2255 50  0000 L CNN
+F 2 "" H 10150 2300 50  0001 C CNN
+F 3 "~" H 10150 2300 50  0001 C CNN
+	1    10150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 5EFF03C2
+P 1350 3250
+F 0 "J?" H 1268 2825 50  0000 C CNN
+F 1 "ADC_SPI_CONN" H 1268 2916 50  0000 C CNN
+F 2 "" H 1350 3250 50  0001 C CNN
+F 3 "~" H 1350 3250 50  0001 C CNN
+	1    1350 3250
+	-1   0    0    1   
+$EndComp
+Text HLabel 1800 3050 2    50   Input ~ 0
+SPI_MOSI
+Wire Wire Line
+	1800 3050 1550 3050
+Text HLabel 1800 3150 2    50   Output ~ 0
+SPI_MISO
+Text HLabel 1800 3350 2    50   Output ~ 0
+~DRDY
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EFF8206
+P 9700 2900
+F 0 "TP?" H 9758 2972 50  0000 L CNN
+F 1 "TestPoint" H 9758 2927 50  0001 L CNN
+F 2 "" H 9900 2900 50  0001 C CNN
+F 3 "~" H 9900 2900 50  0001 C CNN
+	1    9700 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 9700 2900
+Wire Wire Line
+	9700 2900 9500 2900
+$Comp
+L power:GND #PWR?
+U 1 1 5EFFED1A
+P 1800 3500
+F 0 "#PWR?" H 1800 3250 50  0001 C CNN
+F 1 "GND" H 1805 3327 50  0000 C CNN
+F 2 "" H 1800 3500 50  0001 C CNN
+F 3 "" H 1800 3500 50  0001 C CNN
+	1    1800 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 3500 1800 3450
+Wire Wire Line
+	1800 3450 1550 3450
+Wire Wire Line
+	1800 3350 1550 3350
+Wire Wire Line
+	1800 3250 1550 3250
+Wire Wire Line
+	1800 3150 1550 3150
+Wire Notes Line
+	1050 2700 2300 2700
+Wire Notes Line
+	2300 2700 2300 3750
+Wire Notes Line
+	2300 3750 1050 3750
+Wire Notes Line
+	1050 2700 1050 3750
+Text Notes 1050 2700 0    50   ~ 10
+SPI Conn
+Text HLabel 1800 3250 2    50   Input ~ 0
+SPI_CLK
 $EndSCHEMATC

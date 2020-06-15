@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 15
+Sheet 15 15
 Title "Kleinvoet"
 Date "2020-06-11"
 Rev "Rev. A"
@@ -352,7 +352,7 @@ F 3 "" H 3150 3150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3150 3150 3150 3250
-Text HLabel 4100 3550 2    50   Input ~ 0
+Text HLabel 4300 3650 2    50   Output ~ 0
 GPS_RX
 $Comp
 L Device:Ferrite_Bead_Small FB?
@@ -370,20 +370,18 @@ F 4 "BLM15HD102SN1" V 3900 3550 50  0001 C CNN "MPN"
 $EndComp
 Wire Wire Line
 	3550 3550 3800 3550
-Wire Wire Line
-	4100 3550 4000 3550
-Text HLabel 4100 3650 2    50   Output ~ 0
+Text HLabel 4300 3550 2    50   Input ~ 0
 GPS_TX
 Wire Wire Line
-	3850 3650 4100 3650
+	3850 3650 4200 3650
 Text HLabel 2450 3650 0    50   Input ~ 0
 GPS_WAKE
 Text HLabel 2450 3750 0    50   Output ~ 0
 GPS_SYNC
 Text HLabel 2450 3850 0    50   Input ~ 0
-GPS_BOOT
+GPS_~SAFEBOOT
 Text HLabel 2450 3950 0    50   Input ~ 0
-GPS_RESET
+GPS_~RESET
 $Comp
 L Device:RF_Shield_One_Piece J?
 U 1 1 5EE0529A
@@ -399,4 +397,34 @@ F 3 "~" H 7650 2350 50  0001 C CNN
 $EndComp
 Text Notes 5000 1150 0    50   ~ 0
 Doesn't require a small bypass \ncap (100nF). There is bypass \ncap on the GPS daughter board \nclose to the chip.
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F029AD8
+P 4200 3650
+F 0 "TP?" H 4142 3722 50  0000 R CNN
+F 1 "TestPoint" H 4258 3677 50  0001 L CNN
+F 2 "" H 4400 3650 50  0001 C CNN
+F 3 "~" H 4400 3650 50  0001 C CNN
+	1    4200 3650
+	-1   0    0    1   
+$EndComp
+Connection ~ 4200 3650
+Wire Wire Line
+	4200 3650 4300 3650
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F029627
+P 4200 3550
+F 0 "TP?" H 4258 3622 50  0000 L CNN
+F 1 "TestPoint" H 4258 3577 50  0001 L CNN
+F 2 "" H 4400 3550 50  0001 C CNN
+F 3 "~" H 4400 3550 50  0001 C CNN
+	1    4200 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3550 4200 3550
+Connection ~ 4200 3550
+Wire Wire Line
+	4200 3550 4300 3550
 $EndSCHEMATC
