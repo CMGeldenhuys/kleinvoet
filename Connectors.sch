@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR?
+L power:GND #PWR095
 U 1 1 5EF579E9
 P 7200 4000
-F 0 "#PWR?" H 7200 3750 50  0001 C CNN
+F 0 "#PWR095" H 7200 3750 50  0001 C CNN
 F 1 "GND" H 7205 3827 50  0000 C CNN
 F 2 "" H 7200 4000 50  0001 C CNN
 F 3 "" H 7200 4000 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "" H 7200 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR094
 U 1 1 5EF579EF
 P 6900 4000
-F 0 "#PWR?" H 6900 3750 50  0001 C CNN
+F 0 "#PWR094" H 6900 3750 50  0001 C CNN
 F 1 "Earth" H 6900 3850 50  0001 C CNN
 F 2 "" H 6900 4000 50  0001 C CNN
 F 3 "~" H 6900 4000 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "~" H 6900 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VBUS #PWR?
+L power:VBUS #PWR096
 U 1 1 5EF579F5
 P 7900 2500
-F 0 "#PWR?" H 7900 2350 50  0001 C CNN
+F 0 "#PWR096" H 7900 2350 50  0001 C CNN
 F 1 "VBUS" H 7915 2673 50  0000 C CNN
 F 2 "" H 7900 2500 50  0001 C CNN
 F 3 "" H 7900 2500 50  0001 C CNN
@@ -53,10 +53,10 @@ Wire Wire Line
 Wire Wire Line
 	7900 3000 7800 3000
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J?
+L Connector:USB_C_Receptacle_USB2.0 J11
 U 1 1 5EF57A02
 P 7200 3100
-F 0 "J?" H 7307 3967 50  0000 C CNN
+F 0 "J11" H 7307 3967 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 7150 3900 50  0000 C CNN
 F 2 "" H 7350 3100 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 7350 3100 50  0001 C CNN
@@ -68,10 +68,10 @@ $EndComp
 NoConn ~ 7800 3700
 NoConn ~ 7800 3600
 $Comp
-L Device:R_Small R?
+L Device:R_Small R54
 U 1 1 5EF57A0A
 P 8500 3050
-F 0 "R?" H 8441 3004 50  0000 R CNN
+F 0 "R54" H 8441 3004 50  0000 R CNN
 F 1 "5.1k" H 8441 3095 50  0000 R CNN
 F 2 "" H 8500 3050 50  0001 C CNN
 F 3 "~" H 8500 3050 50  0001 C CNN
@@ -79,10 +79,10 @@ F 3 "~" H 8500 3050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R55
 U 1 1 5EF57A10
 P 8800 3050
-F 0 "R?" H 8741 3004 50  0000 R CNN
+F 0 "R55" H 8741 3004 50  0000 R CNN
 F 1 "5.1k" H 8741 3095 50  0000 R CNN
 F 2 "" H 8800 3050 50  0001 C CNN
 F 3 "~" H 8800 3050 50  0001 C CNN
@@ -98,10 +98,10 @@ Wire Wire Line
 Wire Wire Line
 	8800 2700 7800 2700
 $Comp
-L power:GND #PWR?
+L power:GND #PWR097
 U 1 1 5EF57A1A
 P 8650 3300
-F 0 "#PWR?" H 8650 3050 50  0001 C CNN
+F 0 "#PWR097" H 8650 3050 50  0001 C CNN
 F 1 "GND" H 8655 3127 50  0000 C CNN
 F 2 "" H 8650 3300 50  0001 C CNN
 F 3 "" H 8650 3300 50  0001 C CNN
@@ -151,10 +151,10 @@ Wire Wire Line
 Wire Wire Line
 	9550 3500 9550 3450
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR098
 U 1 1 5EF57A38
 P 9550 3500
-F 0 "#PWR?" H 9550 3250 50  0001 C CNN
+F 0 "#PWR098" H 9550 3250 50  0001 C CNN
 F 1 "Earth" H 9550 3350 50  0001 C CNN
 F 2 "" H 9550 3500 50  0001 C CNN
 F 3 "~" H 9550 3500 50  0001 C CNN
@@ -162,10 +162,10 @@ F 3 "~" H 9550 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H4
 U 1 1 5EF57A3E
 P 10000 3300
-F 0 "H?" H 10100 3303 50  0000 L CNN
+F 0 "H4" H 10100 3303 50  0000 L CNN
 F 1 "MountingHole_Pad" H 10100 3258 50  0001 L CNN
 F 2 "" H 10000 3300 50  0001 C CNN
 F 3 "~" H 10000 3300 50  0001 C CNN
@@ -173,10 +173,10 @@ F 3 "~" H 10000 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H3
 U 1 1 5EF57A44
 P 9700 3300
-F 0 "H?" H 9800 3303 50  0000 L CNN
+F 0 "H3" H 9800 3303 50  0000 L CNN
 F 1 "MountingHole_Pad" H 9800 3258 50  0001 L CNN
 F 2 "" H 9700 3300 50  0001 C CNN
 F 3 "~" H 9700 3300 50  0001 C CNN
@@ -184,10 +184,10 @@ F 3 "~" H 9700 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H2
 U 1 1 5EF57A4A
 P 9400 3300
-F 0 "H?" H 9500 3303 50  0000 L CNN
+F 0 "H2" H 9500 3303 50  0000 L CNN
 F 1 "MountingHole_Pad" H 9500 3258 50  0001 L CNN
 F 2 "" H 9400 3300 50  0001 C CNN
 F 3 "~" H 9400 3300 50  0001 C CNN
@@ -195,10 +195,10 @@ F 3 "~" H 9400 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H1
 U 1 1 5EF57A50
 P 9100 3300
-F 0 "H?" H 9200 3303 50  0000 L CNN
+F 0 "H1" H 9200 3303 50  0000 L CNN
 F 1 "MountingHole_Pad" H 9200 3258 50  0001 L CNN
 F 2 "" H 9100 3300 50  0001 C CNN
 F 3 "~" H 9100 3300 50  0001 C CNN
@@ -216,10 +216,10 @@ Wire Notes Line
 Text Notes 6650 2150 0    50   ~ 10
 USB-C Connection
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR093
 U 1 1 5EF59730
 P 6200 3750
-F 0 "#PWR?" H 6200 3500 50  0001 C CNN
+F 0 "#PWR093" H 6200 3500 50  0001 C CNN
 F 1 "Earth" H 6200 3600 50  0001 C CNN
 F 2 "" H 6200 3750 50  0001 C CNN
 F 3 "~" H 6200 3750 50  0001 C CNN
@@ -251,10 +251,10 @@ Wire Wire Line
 Text HLabel 3300 3750 0    50   Output ~ 0
 SDIO_WP
 $Comp
-L power:GND #PWR?
+L power:GND #PWR088
 U 1 1 5EFBCDAD
 P 4350 3850
-F 0 "#PWR?" H 4350 3600 50  0001 C CNN
+F 0 "#PWR088" H 4350 3600 50  0001 C CNN
 F 1 "GND" H 4355 3677 50  0000 C CNN
 F 2 "" H 4350 3850 50  0001 C CNN
 F 3 "" H 4350 3850 50  0001 C CNN
@@ -276,10 +276,10 @@ Wire Notes Line
 Text Notes 2750 2050 0    50   ~ 10
 SD Card Holder
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J10
 U 1 1 5EE0C945
 P 6200 5400
-F 0 "J?" H 6280 5392 50  0000 L CNN
+F 0 "J10" H 6280 5392 50  0000 L CNN
 F 1 "JST-PH" H 6280 5301 50  0000 L CNN
 F 2 "" H 6200 5400 50  0001 C CNN
 F 3 "~" H 6200 5400 50  0001 C CNN
@@ -287,10 +287,10 @@ F 3 "~" H 6200 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR?
+L power:+BATT #PWR091
 U 1 1 5EE0C94B
 P 6000 5200
-F 0 "#PWR?" H 6000 5050 50  0001 C CNN
+F 0 "#PWR091" H 6000 5050 50  0001 C CNN
 F 1 "+BATT" H 6015 5373 50  0000 C CNN
 F 2 "" H 6000 5200 50  0001 C CNN
 F 3 "" H 6000 5200 50  0001 C CNN
@@ -298,10 +298,10 @@ F 3 "" H 6000 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR092
 U 1 1 5EE0C951
 P 6000 5700
-F 0 "#PWR?" H 6000 5450 50  0001 C CNN
+F 0 "#PWR092" H 6000 5450 50  0001 C CNN
 F 1 "GND" H 6005 5527 50  0000 C CNN
 F 2 "" H 6000 5700 50  0001 C CNN
 F 3 "" H 6000 5700 50  0001 C CNN
@@ -323,10 +323,10 @@ Wire Notes Line
 Text Notes 5750 4900 0    50   ~ 10
 LIPO Battery Connector
 $Comp
-L Power_Protection:USBLC6-2SC6 U?
+L Power_Protection:USBLC6-2SC6 U8
 U 1 1 5EF91333
 P 3800 5400
-F 0 "U?" H 3550 5750 50  0000 C CNN
+F 0 "U8" H 3550 5750 50  0000 C CNN
 F 1 "USBLC6-2SC6" H 4150 5750 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3800 4900 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 4000 5750 50  0001 C CNN
@@ -334,10 +334,10 @@ F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 4000 5750 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR086
 U 1 1 5EF9E21E
 P 3800 5800
-F 0 "#PWR?" H 3800 5550 50  0001 C CNN
+F 0 "#PWR086" H 3800 5550 50  0001 C CNN
 F 1 "GND" H 3805 5627 50  0000 C CNN
 F 2 "" H 3800 5800 50  0001 C CNN
 F 3 "" H 3800 5800 50  0001 C CNN
@@ -345,10 +345,10 @@ F 3 "" H 3800 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VBUS #PWR?
+L power:VBUS #PWR085
 U 1 1 5EF9EE8C
 P 3800 5000
-F 0 "#PWR?" H 3800 4850 50  0001 C CNN
+F 0 "#PWR085" H 3800 4850 50  0001 C CNN
 F 1 "VBUS" H 3815 5173 50  0000 C CNN
 F 2 "" H 3800 5000 50  0001 C CNN
 F 3 "" H 3800 5000 50  0001 C CNN
@@ -368,10 +368,10 @@ Wire Notes Line
 Text Notes 2750 4750 0    50   ~ 10
 USB ESD Protection
 $Comp
-L Device:C_Small C?
+L Device:C_Small C72
 U 1 1 5EFBCA6D
 P 4950 5400
-F 0 "C?" H 5042 5446 50  0000 L CNN
+F 0 "C72" H 5042 5446 50  0000 L CNN
 F 1 "100n" H 5042 5355 50  0000 L CNN
 F 2 "" H 4950 5400 50  0001 C CNN
 F 3 "~" H 4950 5400 50  0001 C CNN
@@ -379,10 +379,10 @@ F 3 "~" H 4950 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VBUS #PWR?
+L power:VBUS #PWR089
 U 1 1 5EFBD2C9
 P 4950 5200
-F 0 "#PWR?" H 4950 5050 50  0001 C CNN
+F 0 "#PWR089" H 4950 5050 50  0001 C CNN
 F 1 "VBUS" H 4965 5373 50  0000 C CNN
 F 2 "" H 4950 5200 50  0001 C CNN
 F 3 "" H 4950 5200 50  0001 C CNN
@@ -390,10 +390,10 @@ F 3 "" H 4950 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR090
 U 1 1 5EFBD729
 P 4950 5600
-F 0 "#PWR?" H 4950 5350 50  0001 C CNN
+F 0 "#PWR090" H 4950 5350 50  0001 C CNN
 F 1 "GND" H 4955 5427 50  0000 C CNN
 F 2 "" H 4950 5600 50  0001 C CNN
 F 3 "" H 4950 5600 50  0001 C CNN
@@ -411,10 +411,10 @@ Wire Notes Line
 Wire Notes Line
 	2750 4750 5400 4750
 $Comp
-L Device:R_Small R?
+L Device:R_Small R53
 U 1 1 5EF7DC5F
 P 4350 2650
-F 0 "R?" H 4291 2604 50  0000 R CNN
+F 0 "R53" H 4291 2604 50  0000 R CNN
 F 1 "10k" H 4291 2695 50  0000 R CNN
 F 2 "" H 4350 2650 50  0001 C CNN
 F 3 "~" H 4350 2650 50  0001 C CNN
@@ -422,10 +422,10 @@ F 3 "~" H 4350 2650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Micro_SD_Card_Det J?
+L Connector:Micro_SD_Card_Det J9
 U 1 1 5EF580BF
 P 5400 3250
-F 0 "J?" H 5350 4067 50  0000 C CNN
+F 0 "J9" H 5350 4067 50  0000 C CNN
 F 1 "Micro_SD_Card_Det" H 5350 3976 50  0000 C CNN
 F 2 "" H 7450 3950 50  0001 C CNN
 F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 5400 3350 50  0001 C CNN
@@ -433,10 +433,10 @@ F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catal
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR087
 U 1 1 5EF922F3
 P 4250 2450
-F 0 "#PWR?" H 4250 2300 50  0001 C CNN
+F 0 "#PWR087" H 4250 2300 50  0001 C CNN
 F 1 "+3V3" H 4265 2623 50  0000 C CNN
 F 2 "" H 4250 2450 50  0001 C CNN
 F 3 "" H 4250 2450 50  0001 C CNN
