@@ -1,0 +1,23 @@
+Circuit: * C:\users\devsploit\My Documents\grootvoet\Hardware\Kleinvoet\spice\BatterySwitch.asc
+
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 0.045 to 0.045
+Heightened Def Con from 0.085 to 0.085
+
+Date: Wed Jun 17 11:38:20 2020
+Total elapsed time: 12.124 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2042806
+traniter = 2042800
+tranpoints = 1000379
+accept = 1000328
+rejected = 53
+matrix size = 10
+fillins = 0
+solver = Normal
+Matrix Compiler1: 480 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 768 bytes object code size  0.1/0.1/[0.1]
+
