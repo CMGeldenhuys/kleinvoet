@@ -45,19 +45,6 @@ Connection ~ 2250 1750
 Wire Wire Line
 	2250 1750 2100 1750
 $Comp
-L power:+3V3 #PWR?
-U 1 1 5EE05208
-P 2250 1200
-AR Path="/5EE05208" Ref="#PWR?"  Part="1" 
-AR Path="/5EDF3693/5EE05208" Ref="#PWR0120"  Part="1" 
-F 0 "#PWR0120" H 2250 1050 50  0001 C CNN
-F 1 "+3V3" H 2265 1373 50  0000 C CNN
-F 2 "" H 2250 1200 50  0001 C CNN
-F 3 "" H 2250 1200 50  0001 C CNN
-	1    2250 1200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5EE0520E
 P 3350 1800
@@ -68,19 +55,6 @@ F 1 "GND" H 3355 1627 50  0000 C CNN
 F 2 "" H 3350 1800 50  0001 C CNN
 F 3 "" H 3350 1800 50  0001 C CNN
 	1    3350 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5EE05214
-P 3000 3150
-AR Path="/5EE05214" Ref="#PWR?"  Part="1" 
-AR Path="/5EDF3693/5EE05214" Ref="#PWR0122"  Part="1" 
-F 0 "#PWR0122" H 3000 3000 50  0001 C CNN
-F 1 "+3V3" H 2950 3300 50  0000 C CNN
-F 2 "" H 3000 3150 50  0001 C CNN
-F 3 "" H 3000 3150 50  0001 C CNN
-	1    3000 3150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -154,19 +128,6 @@ Wire Wire Line
 	3550 3850 3650 3850
 Wire Wire Line
 	3550 3950 3650 3950
-$Comp
-L Connector_Generic:Conn_01x05 J?
-U 1 1 5EE05249
-P 8650 2450
-AR Path="/5EE05249" Ref="J?"  Part="1" 
-AR Path="/5EDF3693/5EE05249" Ref="J13"  Part="1" 
-F 0 "J13" H 8568 2025 50  0000 C CNN
-F 1 "GPS_Trasnmission_Conn" H 8300 2100 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 8650 2450 50  0001 C CNN
-F 3 "~" H 8650 2450 50  0001 C CNN
-	1    8650 2450
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5EE0524F
@@ -385,4 +346,55 @@ Wire Wire Line
 	3350 1500 3350 1800
 Wire Wire Line
 	3350 1100 3350 1300
+$Comp
+L Connector_Generic:Conn_01x06 J13
+U 1 1 5EEF6B4C
+P 8650 2450
+F 0 "J13" H 8568 1925 50  0000 C CNN
+F 1 "GPS_Transmission_Conn" H 8568 2016 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 8650 2450 50  0001 C CNN
+F 3 "~" H 8650 2450 50  0001 C CNN
+	1    8650 2450
+	-1   0    0    1   
+$EndComp
+Text Label 8950 2150 0    50   ~ 0
+3V3
+Wire Wire Line
+	8950 2150 8850 2150
+Text Label 2250 1200 1    50   ~ 0
+3V3
+Text Label 3000 3150 1    50   ~ 0
+3V3
+Wire Wire Line
+	3950 1450 3750 1450
+Wire Wire Line
+	4300 1450 4150 1450
+Text Label 4300 1450 1    50   ~ 0
+3V3
+$Comp
+L power:+3V3 #PWR0120
+U 1 1 5EF0BA19
+P 3750 1450
+F 0 "#PWR0120" H 3750 1300 50  0001 C CNN
+F 1 "+3V3" H 3765 1623 50  0000 C CNN
+F 2 "" H 3750 1450 50  0001 C CNN
+F 3 "" H 3750 1450 50  0001 C CNN
+	1    3750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky_Small D?
+U 1 1 5EF05AAC
+P 4050 1450
+AR Path="/5EEDE770/5EF05AAC" Ref="D?"  Part="1" 
+AR Path="/5EDF3693/5EF05AAC" Ref="D8"  Part="1" 
+F 0 "D8" H 4050 1243 50  0000 C CNN
+F 1 "Vf low" H 4050 1334 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 4050 1450 50  0001 C CNN
+F 3 "~" V 4050 1450 50  0001 C CNN
+F 4 "RSX101MM-30TR" H 4050 1450 50  0001 C CNN "MPN"
+F 5 "ROHM Semiconductor" H 4050 1450 50  0001 C CNN "Mfr."
+	1    4050 1450
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

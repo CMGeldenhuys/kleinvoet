@@ -25,19 +25,6 @@ F 3 "" H 3700 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky_Small D5
-U 1 1 5EEDF9F3
-P 4050 3950
-F 0 "D5" H 4050 3743 50  0000 C CNN
-F 1 "MBR054" H 4050 3834 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" V 4050 3950 50  0001 C CNN
-F 3 "~" V 4050 3950 50  0001 C CNN
-F 4 "MBR0540T3G" H 4050 3950 50  0001 C CNN "MPN"
-F 5 "ON Semiconductor" H 4050 3950 50  0001 C CNN "Mfr."
-	1    4050 3950
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:R_Small R52
 U 1 1 5EEE0506
 P 3700 4150
@@ -847,22 +834,6 @@ F 5 "Keystone Electronics" H 3850 7150 50  0001 C CNN "Mfr."
 	1    3850 7150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D_Schottky_Small D?
-U 1 1 5EEC591B
-P 3850 6850
-AR Path="/5EEC591B" Ref="D?"  Part="1" 
-AR Path="/5EDF3693/5EEC591B" Ref="D?"  Part="1" 
-AR Path="/5EEDE770/5EEC591B" Ref="D4"  Part="1" 
-F 0 "D4" V 3750 6900 50  0000 L CNN
-F 1 "~" V 3850 6150 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" V 3850 6850 50  0001 C CNN
-F 3 "~" V 3850 6850 50  0001 C CNN
-F 4 "MBR0540T3G" V 3850 6850 50  0001 C CNN "MPN"
-F 5 "ON Semiconductor" V 3850 6850 50  0001 C CNN "Mfr."
-	1    3850 6850
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3850 7300 3850 7250
 Wire Wire Line
@@ -920,5 +891,35 @@ F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6800 5650 50  
 F 3 "~" H 6800 5650 50  0001 C CNN
 	1    6800 5650
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky_Small D5
+U 1 1 5EF173D0
+P 4050 3950
+AR Path="/5EEDE770/5EF173D0" Ref="D5"  Part="1" 
+AR Path="/5EDF3693/5EF173D0" Ref="D?"  Part="1" 
+F 0 "D5" H 4050 3743 50  0000 C CNN
+F 1 "Vf low" H 4050 3834 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 4050 3950 50  0001 C CNN
+F 3 "~" V 4050 3950 50  0001 C CNN
+F 4 "RSX101MM-30TR" H 4050 3950 50  0001 C CNN "MPN"
+F 5 "ROHM Semiconductor" H 4050 3950 50  0001 C CNN "Mfr."
+	1    4050 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Schottky_Small D?
+U 1 1 5EF1F889
+P 3850 6850
+AR Path="/5EEDE770/5EF1F889" Ref="D?"  Part="1" 
+AR Path="/5EDF3693/5EF1F889" Ref="D?"  Part="1" 
+F 0 "D?" H 3850 6643 50  0000 C CNN
+F 1 "Vf low" H 3850 6734 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 3850 6850 50  0001 C CNN
+F 3 "~" V 3850 6850 50  0001 C CNN
+F 4 "RSX101MM-30TR" H 3850 6850 50  0001 C CNN "MPN"
+F 5 "ROHM Semiconductor" H 3850 6850 50  0001 C CNN "Mfr."
+	1    3850 6850
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

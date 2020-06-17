@@ -872,8 +872,6 @@ Text Label 3850 4150 2    50   ~ 0
 SDIO_D3
 Text Label 3850 4050 2    50   ~ 0
 SDIO_D2
-Text Label 3850 3950 2    50   ~ 0
-SDIO_D1
 Text Label 3850 3850 2    50   ~ 0
 SDIO_D0
 Text Label 3850 4250 2    50   ~ 0
@@ -912,8 +910,6 @@ Wire Wire Line
 	4050 2850 3850 2850
 Wire Wire Line
 	3850 3850 4050 3850
-Wire Wire Line
-	3850 3950 4050 3950
 Wire Wire Line
 	3850 4150 4050 4150
 $Comp
@@ -1762,4 +1758,8 @@ F 5 "C&K" V 2800 5850 50  0001 C CNN "Mfr."
 	1    2800 5850
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	3850 3950 4050 3950
+Text Label 3850 3950 2    50   ~ 0
+SDIO_D1
 $EndSCHEMATC
