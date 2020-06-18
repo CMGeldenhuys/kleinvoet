@@ -313,7 +313,7 @@ AR Path="/5EE0529A" Ref="J?"  Part="1"
 AR Path="/5EDF3693/5EE0529A" Ref="J12"  Part="1" 
 F 0 "J12" H 7600 2500 50  0000 L CNN
 F 1 "GPS Shield" H 7300 2700 50  0000 L CNN
-F 2 "RF_Shielding:Wuerth_36503505_50x50mm" H 7650 2350 50  0001 C CNN
+F 2 "RF_Shielding:Wuerth_36103505_50x50mm" H 7650 2350 50  0001 C CNN
 F 3 "~" H 7650 2350 50  0001 C CNN
 	1    7650 2450
 	1    0    0    -1  
