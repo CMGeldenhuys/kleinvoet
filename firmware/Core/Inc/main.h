@@ -60,6 +60,14 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define RTC_CAL_Pin GPIO_PIN_13
 #define RTC_CAL_GPIO_Port GPIOC
+#define LSE_IN_Pin GPIO_PIN_14
+#define LSE_IN_GPIO_Port GPIOC
+#define LSE_OUT_Pin GPIO_PIN_15
+#define LSE_OUT_GPIO_Port GPIOC
+#define HSE_IN_Pin GPIO_PIN_0
+#define HSE_IN_GPIO_Port GPIOH
+#define HSE_OUT_Pin GPIO_PIN_1
+#define HSE_OUT_GPIO_Port GPIOH
 #define GPS_WAKE_Pin GPIO_PIN_2
 #define GPS_WAKE_GPIO_Port GPIOC
 #define GPS_nSAFEBOOT_Pin GPIO_PIN_3
@@ -72,26 +80,28 @@ void Error_Handler(void);
 #define VCP_TX_GPIO_Port GPIOA
 #define VCP_RX_Pin GPIO_PIN_3
 #define VCP_RX_GPIO_Port GPIOA
+#define CAL_SIG_Pin GPIO_PIN_4
+#define CAL_SIG_GPIO_Port GPIOA
 #define FLASH_SCK_Pin GPIO_PIN_5
 #define FLASH_SCK_GPIO_Port GPIOA
 #define FLASH_MISO_Pin GPIO_PIN_6
 #define FLASH_MISO_GPIO_Port GPIOA
 #define FLASH_MOSI_Pin GPIO_PIN_7
 #define FLASH_MOSI_GPIO_Port GPIOA
+#define CAL_EN_Pin GPIO_PIN_4
+#define CAL_EN_GPIO_Port GPIOC
+#define SENSOR_EN_Pin GPIO_PIN_5
+#define SENSOR_EN_GPIO_Port GPIOC
 #define V_MONITOR_Pin GPIO_PIN_1
 #define V_MONITOR_GPIO_Port GPIOB
-#define ADC_nDRDY_Pin GPIO_PIN_12
-#define ADC_nDRDY_GPIO_Port GPIOB
+#define ADC_nREADY_Pin GPIO_PIN_12
+#define ADC_nREADY_GPIO_Port GPIOB
 #define ADC_SCK_Pin GPIO_PIN_13
 #define ADC_SCK_GPIO_Port GPIOB
 #define ADC_MISO_Pin GPIO_PIN_14
 #define ADC_MISO_GPIO_Port GPIOB
 #define ADC_MOSI_Pin GPIO_PIN_15
 #define ADC_MOSI_GPIO_Port GPIOB
-#define SDIO_WP_Pin GPIO_PIN_8
-#define SDIO_WP_GPIO_Port GPIOA
-#define SDIO_CD_Pin GPIO_PIN_9
-#define SDIO_CD_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
