@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 15
+Sheet 1 17
 Title "Kleinvoet"
 Date "2020-06-11"
 Rev "Rev. A"
@@ -14,16 +14,19 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1400 2100 1000 550 
+S 1400 2100 1000 600 
 U 5EE5ECAD
 F0 "ADC_Interface" 50
 F1 "ADC_Interface.sch" 50
 F2 "SPI_MOSI" I R 2400 2200 50 
 F3 "SPI_MISO" O R 2400 2300 50 
 F4 "SPI_CLK" I R 2400 2400 50 
-F5 "~DRDY" O L 1400 2450 50 
+F5 "~DRDY" O L 1400 2500 50 
 F6 "SPI_~CS" I R 2400 2500 50 
-F7 "SYNC" I L 1400 2350 50 
+F7 "SYNC" I L 1400 2400 50 
+F8 "CAL_SIG" I L 1400 2200 50 
+F9 "CAL_EN" I L 1400 2300 50 
+F10 "EN" I L 1400 2600 50 
 $EndSheet
 $Sheet
 S 1400 2900 1000 500 
@@ -330,7 +333,7 @@ L Connector_Generic:Conn_01x06 CN1
 U 1 1 5F1B92FC
 P 2850 7000
 F 0 "CN1" H 2768 7325 50  0000 C CNN
-F 1 "Conn_01x06" H 2768 7326 50  0001 C CNN
+F 1 "Arduino_Conn" H 2768 7326 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2850 7000 50  0001 C CNN
 F 3 "~" H 2850 7000 50  0001 C CNN
 	1    2850 7000
@@ -353,7 +356,7 @@ L Connector_Generic:Conn_01x10 CN2
 U 1 1 5F1BCFD0
 P 3950 7050
 F 0 "CN2" H 4030 6996 50  0000 L CNN
-F 1 "Conn_01x10" H 4030 6951 50  0001 L CNN
+F 1 "Arduino_Conn" H 4030 6951 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 3950 7050 50  0001 C CNN
 F 3 "~" H 3950 7050 50  0001 C CNN
 	1    3950 7050
@@ -380,7 +383,7 @@ L Connector_Generic:Conn_01x08 CN3
 U 1 1 5F1C24E4
 P 4600 7050
 F 0 "CN3" H 4680 6996 50  0000 L CNN
-F 1 "Conn_01x08" H 4680 6951 50  0001 L CNN
+F 1 "Arduino_Conn" H 4680 6951 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 4600 7050 50  0001 C CNN
 F 3 "~" H 4600 7050 50  0001 C CNN
 	1    4600 7050
@@ -732,6 +735,8 @@ F 0 "U1" H 4250 1200 50  0000 C CNN
 F 1 "STM32F446RETx" H 5350 1200 50  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 4150 1250 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf" H 4750 2950 50  0001 C CNN
+F 4 "STM32F446RCT6" H 4750 2950 50  0001 C CNN "MPN"
+F 5 "STMicroelectronics" H 4750 2950 50  0001 C CNN "Mfr."
 	1    4750 2950
 	1    0    0    -1  
 $EndComp
@@ -985,7 +990,7 @@ F 0 "Y1" H 8444 4046 50  0000 L CNN
 F 1 "12 MHz" H 8444 3955 50  0000 L CNN
 F 2 "grootvoet:ECS-33B" H 8250 4000 50  0001 C CNN
 F 3 "https://www.mouser.co.za/datasheet/2/122/ECS-33B-1649459.pdf" H 8250 4000 50  0001 C CNN
-F 4 "ECS-120-12-33B-CWY-TR" H 8250 4000 50  0001 C CNN "MPN"
+F 4 "ECS-120-12-33-AEN-TR" H 8250 4000 50  0001 C CNN "MPN"
 F 5 "ECS" H 8250 4000 50  0001 C CNN "Mfr."
 	1    8250 4000
 	1    0    0    -1  
@@ -1180,9 +1185,11 @@ L Memory_Flash:W25Q128JVS U2
 U 1 1 5EE9B46D
 P 9650 2650
 F 0 "U2" H 9300 3000 50  0000 C CNN
-F 1 "W25Q128JVS" H 10000 3000 50  0000 C CNN
+F 1 "NOR Flash" H 10000 3000 50  0000 C CNN
 F 2 "grootvoet:SOIC-8_5.23x5.23mm_P1.27mm" H 9650 2650 50  0001 C CNN
 F 3 "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" H 9650 2650 50  0001 C CNN
+F 4 "W25Q16JVSNIQ" H 9650 2650 50  0001 C CNN "MPN"
+F 5 "Winbond" H 9650 2650 50  0001 C CNN "Mfr."
 	1    9650 2650
 	1    0    0    -1  
 $EndComp
@@ -1384,18 +1391,18 @@ Wire Wire Line
 	2600 2500 2400 2500
 Text Label 1200 1550 2    50   ~ 0
 SYNC
-Text Label 1200 2350 2    50   ~ 0
+Text Label 1200 2400 2    50   ~ 0
 SYNC
 Wire Wire Line
-	1200 2350 1400 2350
+	1200 2400 1400 2400
 Text Label 6200 4250 0    50   ~ 0
 ADC_~DRDY
 Wire Wire Line
 	6200 4250 5450 4250
-Text Label 1200 2450 2    50   ~ 0
+Text Label 1200 2500 2    50   ~ 0
 ADC_~DRDY
 Wire Wire Line
-	1200 2450 1400 2450
+	1200 2500 1400 2500
 Text Label 5650 1950 0    50   ~ 0
 SPI1_SCK
 Text Label 5650 2050 0    50   ~ 0
@@ -1453,8 +1460,6 @@ Wire Wire Line
 NoConn ~ 5450 2950
 NoConn ~ 5450 3850
 NoConn ~ 4050 3650
-NoConn ~ 4050 3550
-NoConn ~ 4050 3450
 Text Label 10650 5400 0    50   ~ 0
 OSC_LSE_IN
 Text Label 10100 5400 2    50   ~ 0
@@ -1773,4 +1778,30 @@ Wire Wire Line
 	3850 3950 4050 3950
 Text Label 3850 3950 2    50   ~ 0
 SDIO_D1
+Text Label 6100 1850 0    50   ~ 0
+CAL_SIG
+Wire Wire Line
+	6100 1850 5450 1850
+Text Label 5650 1850 0    50   ~ 0
+DAC1_OUT
+Text Label 3850 3450 2    50   ~ 0
+CAL_EN
+Wire Wire Line
+	4050 3450 3850 3450
+Text Label 3850 3550 2    50   ~ 0
+SENSOR_EN
+Wire Wire Line
+	3850 3550 4050 3550
+Text Label 1200 2300 2    50   ~ 0
+CAL_EN
+Wire Wire Line
+	1200 2300 1400 2300
+Text Label 1200 2200 2    50   ~ 0
+CAL_SIG
+Wire Wire Line
+	1200 2200 1400 2200
+Text Label 1200 2600 2    50   ~ 0
+SENSOR_EN
+Wire Wire Line
+	1200 2600 1400 2600
 $EndSCHEMATC

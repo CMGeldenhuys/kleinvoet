@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 15
+Sheet 17 17
 Title "Kleinvoet"
 Date "2020-06-11"
 Rev "Rev. A"
@@ -23,6 +23,8 @@ F 0 "U9" H 3450 4300 50  0000 C CNN
 F 1 "ublox_SAM-M8Q" H 3500 4200 50  0000 C CNN
 F 2 "RF_GPS:ublox_SAM-M8Q" H 3550 3300 50  0001 C CNN
 F 3 "https://www.u-blox.com/sites/default/files/SAM-M8Q_DataSheet_%28UBX-16012619%29.pdf" H 3050 3750 50  0001 C CNN
+F 4 "SAM-M8Q" H 3050 3750 50  0001 C CNN "MPN"
+F 5 "U-BLOX" H 3050 3750 50  0001 C CNN "Mfr."
 	1    3050 3750
 	1    0    0    -1  
 $EndComp
@@ -360,6 +362,8 @@ F 0 "J13" H 8568 1925 50  0000 C CNN
 F 1 "GPS_Transmission_Conn" H 8568 2016 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 8650 2450 50  0001 C CNN
 F 3 "~" H 8650 2450 50  0001 C CNN
+F 4 "M50-055023W0445" H 8650 2450 50  0001 C CNN "MPN"
+F 5 "Harwin" H 8650 2450 50  0001 C CNN "Mfr."
 	1    8650 2450
 	-1   0    0    1   
 $EndComp

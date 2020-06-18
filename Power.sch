@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 15
+Sheet 15 17
 Title "Kleinvoet"
 Date "2020-06-11"
 Rev "Rev. A"
@@ -117,6 +117,8 @@ F 0 "R68" V 5100 1650 50  0000 C CNN
 F 1 "10k" V 5300 1700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5200 1650 50  0001 C CNN
 F 3 "~" H 5200 1650 50  0001 C CNN
+F 4 "RC0603JR-0710KL" H 5200 1650 50  0001 C CNN "MPN"
+F 5 "Yageo" H 5200 1650 50  0001 C CNN "Mfr."
 	1    5200 1650
 	0    1    1    0   
 $EndComp
@@ -370,7 +372,7 @@ F 1 "MCP73831-2-OT" H 5350 5400 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5000 5450 50  0001 L CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 4800 5650 50  0001 C CNN
 F 4 "Microchip" H 4950 5700 50  0001 C CNN "Mfr."
-F 5 "MCP73831-2-OT" H 4950 5700 50  0001 C CNN "MPN"
+F 5 "MCP73831T-2ACI/OT" H 4950 5700 50  0001 C CNN "MPN"
 	1    4950 5700
 	1    0    0    -1  
 $EndComp

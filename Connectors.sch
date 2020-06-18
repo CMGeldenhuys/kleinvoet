@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 15
+Sheet 14 17
 Title "Kleinvoet"
 Date "2020-06-11"
 Rev "Rev. A"
@@ -334,6 +334,8 @@ F 0 "U8" H 3550 5750 50  0000 C CNN
 F 1 "USBLC6-2SC6" H 4150 5750 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3800 4900 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 4000 5750 50  0001 C CNN
+F 4 "USBLC6-2SC6Y" H 3800 5400 50  0001 C CNN "MPN"
+F 5 "STMicroelectronics" H 3800 5400 50  0001 C CNN "Mfr."
 	1    3800 5400
 	1    0    0    -1  
 $EndComp
@@ -424,6 +426,8 @@ F 0 "R71" H 4291 2604 50  0000 R CNN
 F 1 "10k" H 4291 2695 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4350 2650 50  0001 C CNN
 F 3 "~" H 4350 2650 50  0001 C CNN
+F 4 "RC0603JR-0710KL" H 4350 2650 50  0001 C CNN "MPN"
+F 5 "Yageo" H 4350 2650 50  0001 C CNN "Mfr."
 	1    4350 2650
 	-1   0    0    1   
 $EndComp
