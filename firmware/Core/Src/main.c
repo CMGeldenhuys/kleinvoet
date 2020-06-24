@@ -546,17 +546,39 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
   __HAL_RCC_GPIOD_CLK_ENABLE();
 
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(ADC_nCS_GPIO_Port, ADC_nCS_Pin, GPIO_PIN_RESET);
+
   /*Configure GPIO pins : GPS_WAKE_Pin GPS_nSAFEBOOT_Pin CAL_EN_Pin SENSOR_EN_Pin */
   GPIO_InitStruct.Pin = GPS_WAKE_Pin|GPS_nSAFEBOOT_Pin|CAL_EN_Pin|SENSOR_EN_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
+  /*Configure GPIO pin : nUSER_BTN_Pin */
+  GPIO_InitStruct.Pin = nUSER_BTN_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(nUSER_BTN_GPIO_Port, &GPIO_InitStruct);
+
   /*Configure GPIO pin : ADC_nREADY_Pin */
   GPIO_InitStruct.Pin = ADC_nREADY_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(ADC_nREADY_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : ADC_nCS_Pin */
+  GPIO_InitStruct.Pin = ADC_nCS_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(ADC_nCS_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : SDIO_CD_Pin SDIO_WP_Pin */
+  GPIO_InitStruct.Pin = SDIO_CD_Pin|SDIO_WP_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
 }
 

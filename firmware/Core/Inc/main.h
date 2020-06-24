@@ -94,6 +94,8 @@ void Error_Handler(void);
 #define SENSOR_EN_GPIO_Port GPIOC
 #define V_MONITOR_Pin GPIO_PIN_1
 #define V_MONITOR_GPIO_Port GPIOB
+#define nUSER_BTN_Pin GPIO_PIN_2
+#define nUSER_BTN_GPIO_Port GPIOB
 #define ADC_nREADY_Pin GPIO_PIN_12
 #define ADC_nREADY_GPIO_Port GPIOB
 #define ADC_SCK_Pin GPIO_PIN_13
@@ -102,6 +104,12 @@ void Error_Handler(void);
 #define ADC_MISO_GPIO_Port GPIOB
 #define ADC_MOSI_Pin GPIO_PIN_15
 #define ADC_MOSI_GPIO_Port GPIOB
+#define ADC_nCS_Pin GPIO_PIN_6
+#define ADC_nCS_GPIO_Port GPIOC
+#define SDIO_CD_Pin GPIO_PIN_8
+#define SDIO_CD_GPIO_Port GPIOA
+#define SDIO_WP_Pin GPIO_PIN_9
+#define SDIO_WP_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

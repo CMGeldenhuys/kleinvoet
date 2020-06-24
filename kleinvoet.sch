@@ -288,34 +288,15 @@ F 5 "KEMET" H 5050 6000 50  0001 C CNN "Mfr."
 	1    5050 6000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small CB6
-U 1 1 5F161171
-P 5250 6000
-F 0 "CB6" H 5200 6300 50  0000 L CNN
-F 1 "100n" H 5150 6200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5250 6000 50  0001 C CNN
-F 3 "~" H 5250 6000 50  0001 C CNN
-F 4 "C0603C104M5RACTU" H 5250 6000 50  0001 C CNN "MPN"
-F 5 "KEMET" H 5250 6000 50  0001 C CNN "Mfr."
-	1    5250 6000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4350 5900 4550 5900
 Wire Wire Line
 	4850 5900 5050 5900
-Connection ~ 5050 5900
-Wire Wire Line
-	5050 5900 5250 5900
 Wire Wire Line
 	4550 6100 4350 6100
 Connection ~ 4850 6100
-Connection ~ 5050 6100
 Wire Wire Line
 	5050 6100 4850 6100
-Wire Wire Line
-	5250 6100 5050 6100
 Wire Wire Line
 	4350 5900 4150 5900
 Connection ~ 4350 5900
@@ -339,18 +320,6 @@ F 3 "~" H 2850 7000 50  0001 C CNN
 	1    2850 7000
 	-1   0    0    -1  
 $EndComp
-Text Label 3050 6800 0    50   ~ 0
-A0
-Text Label 3050 6900 0    50   ~ 0
-A1
-Text Label 3050 7000 0    50   ~ 0
-A2
-Text Label 3050 7100 0    50   ~ 0
-A3
-Text Label 3050 7200 0    50   ~ 0
-A4
-Text Label 3050 7300 0    50   ~ 0
-A5
 $Comp
 L Connector_Generic:Conn_01x10 CN2
 U 1 1 5F1BCFD0
@@ -362,22 +331,6 @@ F 3 "~" H 3950 7050 50  0001 C CNN
 	1    3950 7050
 	1    0    0    -1  
 $EndComp
-Text Label 3750 6650 2    50   ~ 0
-D15
-Text Label 3750 6750 2    50   ~ 0
-D14
-Text Label 3750 7050 2    50   ~ 0
-D13
-Text Label 3750 7150 2    50   ~ 0
-D12
-Text Label 3750 7250 2    50   ~ 0
-D11
-Text Label 3750 7350 2    50   ~ 0
-D10
-Text Label 3750 7450 2    50   ~ 0
-D9
-Text Label 3750 7550 2    50   ~ 0
-D8
 $Comp
 L Connector_Generic:Conn_01x08 CN3
 U 1 1 5F1C24E4
@@ -389,22 +342,6 @@ F 3 "~" H 4600 7050 50  0001 C CNN
 	1    4600 7050
 	1    0    0    -1  
 $EndComp
-Text Label 4400 6750 2    50   ~ 0
-D7
-Text Label 4400 6850 2    50   ~ 0
-D6
-Text Label 4400 6950 2    50   ~ 0
-D5
-Text Label 4400 7050 2    50   ~ 0
-D4
-Text Label 4400 7150 2    50   ~ 0
-D3
-Text Label 4400 7250 2    50   ~ 0
-D2
-Text Label 4400 7350 2    50   ~ 0
-D1
-Text Label 4400 7450 2    50   ~ 0
-D0
 Wire Notes Line
 	2700 6500 4900 6500
 Wire Notes Line
@@ -727,19 +664,6 @@ Wire Notes Line
 	5250 6500 5250 7700
 Text Notes 5250 6500 0    50   ~ 10
 Status LEDs
-$Comp
-L MCU_ST_STM32F4:STM32F446RETx U1
-U 1 1 5EF8E42C
-P 4750 2950
-F 0 "U1" H 4250 1200 50  0000 C CNN
-F 1 "STM32F446RETx" H 5350 1200 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 4150 1250 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf" H 4750 2950 50  0001 C CNN
-F 4 "STM32F446RCT6" H 4750 2950 50  0001 C CNN "MPN"
-F 5 "STMicroelectronics" H 4750 2950 50  0001 C CNN "Mfr."
-	1    4750 2950
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3.3VA #PWR016
 U 1 1 5F08E647
@@ -1330,8 +1254,6 @@ Text Label 2600 1700 0    50   ~ 0
 GPS_RX
 Wire Wire Line
 	2600 1500 2400 1500
-Wire Wire Line
-	2600 1700 2400 1700
 $Sheet
 S 1400 1350 1000 500 
 U 5EDF3693
@@ -1374,19 +1296,6 @@ Text Label 2600 2200 0    50   ~ 0
 ADC_MOSI
 Wire Wire Line
 	2600 2200 2400 2200
-$Comp
-L power:GND #PWR03
-U 1 1 5EFC01A8
-P 2600 2550
-F 0 "#PWR03" H 2600 2300 50  0001 C CNN
-F 1 "GND" H 2605 2377 50  0000 C CNN
-F 2 "" H 2600 2550 50  0001 C CNN
-F 3 "" H 2600 2550 50  0001 C CNN
-	1    2600 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 2550 2600 2500
 Wire Wire Line
 	2600 2500 2400 2500
 Text Label 1200 1550 2    50   ~ 0
@@ -1425,9 +1334,9 @@ Text Label 1200 1750 2    50   ~ 0
 ~RST
 Wire Wire Line
 	1200 1750 1400 1750
-Text Label 5650 2250 0    50   ~ 0
-SDIO_WP
 Text Label 5650 2350 0    50   ~ 0
+SDIO_WP
+Text Label 5650 2250 0    50   ~ 0
 SDIO_CD
 Wire Wire Line
 	5650 2250 5450 2250
@@ -1459,7 +1368,6 @@ Wire Wire Line
 	4050 3350 3850 3350
 NoConn ~ 5450 2950
 NoConn ~ 5450 3850
-NoConn ~ 4050 3650
 Text Label 10650 5400 0    50   ~ 0
 OSC_LSE_IN
 Text Label 10100 5400 2    50   ~ 0
@@ -1522,12 +1430,12 @@ Wire Wire Line
 $Comp
 L power:VDD #PWR018
 U 1 1 5EEDB6FA
-P 5650 5900
-F 0 "#PWR018" H 5650 5750 50  0001 C CNN
-F 1 "VDD" H 5665 6073 50  0000 C CNN
-F 2 "" H 5650 5900 50  0001 C CNN
-F 3 "" H 5650 5900 50  0001 C CNN
-	1    5650 5900
+P 5550 5900
+F 0 "#PWR018" H 5550 5750 50  0001 C CNN
+F 1 "VDD" H 5565 6073 50  0000 C CNN
+F 2 "" H 5550 5900 50  0001 C CNN
+F 3 "" H 5550 5900 50  0001 C CNN
+	1    5550 5900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1546,12 +1454,12 @@ $EndComp
 $Comp
 L power:GND #PWR019
 U 1 1 5EEDC419
-P 5650 6100
-F 0 "#PWR019" H 5650 5850 50  0001 C CNN
-F 1 "GND" H 5655 5927 50  0000 C CNN
-F 2 "" H 5650 6100 50  0001 C CNN
-F 3 "" H 5650 6100 50  0001 C CNN
-	1    5650 6100
+P 5550 6100
+F 0 "#PWR019" H 5550 5850 50  0001 C CNN
+F 1 "GND" H 5555 5927 50  0000 C CNN
+F 2 "" H 5550 6100 50  0001 C CNN
+F 3 "" H 5550 6100 50  0001 C CNN
+	1    5550 6100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1691,13 +1599,12 @@ Text Label 10650 1400 0    50   ~ 0
 V_MONITOR
 Wire Wire Line
 	4050 4250 3850 4250
-NoConn ~ 5450 3350
 $Comp
 L Switch:SW_Push SW2
 U 1 1 5EFFA021
 P 8800 1250
 F 0 "SW2" V 8800 1398 50  0000 L CNN
-F 1 "RESET" V 8845 1398 50  0001 L CNN
+F 1 "USER" V 8845 1398 50  0001 L CNN
 F 2 "grootvoet:SW_SPST_PTS647" H 8800 1450 50  0001 C CNN
 F 3 "~" H 8800 1450 50  0001 C CNN
 F 4 "PTS647SN50SMTR2LFS" H 8800 1250 50  0001 C CNN "MPN"
@@ -1804,4 +1711,87 @@ Text Label 1200 2600 2    50   ~ 0
 SENSOR_EN
 Wire Wire Line
 	1200 2600 1400 2600
+$Comp
+L Device:Ferrite_Bead_Small FB9
+U 1 1 5F0F97AE
+P 2500 1700
+AR Path="/5F0F97AE" Ref="FB9"  Part="1" 
+AR Path="/5EDF3693/5F0F97AE" Ref="FB?"  Part="1" 
+F 0 "FB9" V 2650 1700 50  0000 C CNN
+F 1 "BLM15HD102SN1" V 2550 2050 50  0001 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" V 2430 1700 50  0001 C CNN
+F 3 "~" H 2500 1700 50  0001 C CNN
+F 4 "BLM15HD102SN1D" V 2500 1700 50  0001 C CNN "MPN"
+F 5 "Murata Electronics" H 2500 1700 50  0001 C CNN "Mfr."
+	1    2500 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small CB6
+U 1 1 5F161171
+P 5450 6000
+F 0 "CB6" H 5250 6100 50  0000 L CNN
+F 1 "100n" H 5200 6000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5450 6000 50  0001 C CNN
+F 3 "~" H 5450 6000 50  0001 C CNN
+F 4 "C0603C104M5RACTU" H 5450 6000 50  0001 C CNN "MPN"
+F 5 "KEMET" H 5450 6000 50  0001 C CNN "Mfr."
+	1    5450 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 5900 5550 5900
+Connection ~ 5550 5900
+Wire Wire Line
+	5550 5900 5650 5900
+Wire Wire Line
+	5650 6100 5550 6100
+Connection ~ 5550 6100
+Wire Wire Line
+	5550 6100 5450 6100
+Text Label 3850 3650 2    50   ~ 0
+ADC_~CS
+Wire Wire Line
+	4050 3650 3850 3650
+Text Label 2600 2500 0    50   ~ 0
+ADC_~CS
+Text Label 5650 3350 0    50   ~ 0
+USR_BTN
+$Comp
+L MCU_ST_STM32F4:STM32F446RETx U1
+U 1 1 5EF8E42C
+P 4750 2950
+F 0 "U1" H 4250 1200 50  0000 C CNN
+F 1 "STM32F446RETx" H 5350 1200 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 4150 1250 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf" H 4750 2950 50  0001 C CNN
+F 4 "STM32F446RCT6" H 4750 2950 50  0001 C CNN "MPN"
+F 5 "STMicroelectronics" H 4750 2950 50  0001 C CNN "Mfr."
+	1    4750 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3350 5450 3350
+NoConn ~ 4400 6750
+NoConn ~ 4400 6850
+NoConn ~ 4400 6950
+NoConn ~ 4400 7050
+NoConn ~ 4400 7150
+NoConn ~ 4400 7250
+NoConn ~ 4400 7350
+NoConn ~ 4400 7450
+NoConn ~ 3750 7550
+NoConn ~ 3750 7450
+NoConn ~ 3750 7350
+NoConn ~ 3750 7250
+NoConn ~ 3750 7150
+NoConn ~ 3750 7050
+NoConn ~ 3750 6750
+NoConn ~ 3750 6650
+NoConn ~ 3050 6800
+NoConn ~ 3050 6900
+NoConn ~ 3050 7000
+NoConn ~ 3050 7100
+NoConn ~ 3050 7200
+NoConn ~ 3050 7300
 $EndSCHEMATC
