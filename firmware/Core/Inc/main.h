@@ -68,10 +68,6 @@ void Error_Handler(void);
 #define HSE_IN_GPIO_Port GPIOH
 #define HSE_OUT_Pin GPIO_PIN_1
 #define HSE_OUT_GPIO_Port GPIOH
-#define GPS_WAKE_Pin GPIO_PIN_2
-#define GPS_WAKE_GPIO_Port GPIOC
-#define GPS_nSAFEBOOT_Pin GPIO_PIN_3
-#define GPS_nSAFEBOOT_GPIO_Port GPIOC
 #define GPS_TX_Pin GPIO_PIN_0
 #define GPS_TX_GPIO_Port GPIOA
 #define GPS_RX_Pin GPIO_PIN_1
@@ -92,10 +88,14 @@ void Error_Handler(void);
 #define CAL_EN_GPIO_Port GPIOC
 #define SENSOR_EN_Pin GPIO_PIN_5
 #define SENSOR_EN_GPIO_Port GPIOC
+#define GPS_nSAFEBOOT_Pin GPIO_PIN_0
+#define GPS_nSAFEBOOT_GPIO_Port GPIOB
 #define V_MONITOR_Pin GPIO_PIN_1
 #define V_MONITOR_GPIO_Port GPIOB
 #define nUSER_BTN_Pin GPIO_PIN_2
 #define nUSER_BTN_GPIO_Port GPIOB
+#define GPS_WAKE_Pin GPIO_PIN_10
+#define GPS_WAKE_GPIO_Port GPIOB
 #define ADC_nREADY_Pin GPIO_PIN_12
 #define ADC_nREADY_GPIO_Port GPIOB
 #define ADC_SCK_Pin GPIO_PIN_13
@@ -106,10 +106,16 @@ void Error_Handler(void);
 #define ADC_MOSI_GPIO_Port GPIOB
 #define ADC_nCS_Pin GPIO_PIN_6
 #define ADC_nCS_GPIO_Port GPIOC
+#define ADC_CLK_Pin GPIO_PIN_7
+#define ADC_CLK_GPIO_Port GPIOC
 #define SDIO_CD_Pin GPIO_PIN_8
 #define SDIO_CD_GPIO_Port GPIOA
 #define SDIO_WP_Pin GPIO_PIN_9
 #define SDIO_WP_GPIO_Port GPIOA
+#define LED_STATUS_Pin GPIO_PIN_15
+#define LED_STATUS_GPIO_Port GPIOA
+#define USR_BTN_Pin GPIO_PIN_8
+#define USR_BTN_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

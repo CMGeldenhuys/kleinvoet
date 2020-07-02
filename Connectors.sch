@@ -136,33 +136,21 @@ Wire Wire Line
 Text Notes 8700 4000 0    50   ~ 0
 Connect shield to all external mounting and \nthen to GND at a single point close to the \nconnector. Place all IO connectors (with shields) \nclose to each other.
 Wire Wire Line
-	9400 3450 9100 3450
-Connection ~ 9400 3450
-Wire Wire Line
-	9100 3450 9100 3400
-Connection ~ 9550 3450
-Wire Wire Line
 	9400 3450 9400 3400
-Wire Wire Line
-	9550 3450 9400 3450
 Connection ~ 9700 3450
 Wire Wire Line
 	9700 3450 10000 3450
 Wire Wire Line
 	9700 3450 9700 3400
-Wire Wire Line
-	9550 3450 9700 3450
-Wire Wire Line
-	9550 3500 9550 3450
 $Comp
 L power:Earth #PWR0133
 U 1 1 5EF57A38
-P 9550 3500
-F 0 "#PWR0133" H 9550 3250 50  0001 C CNN
-F 1 "Earth" H 9550 3350 50  0001 C CNN
-F 2 "" H 9550 3500 50  0001 C CNN
-F 3 "~" H 9550 3500 50  0001 C CNN
-	1    9550 3500
+P 9700 3450
+F 0 "#PWR0133" H 9700 3200 50  0001 C CNN
+F 1 "Earth" H 9700 3300 50  0001 C CNN
+F 2 "" H 9700 3450 50  0001 C CNN
+F 3 "~" H 9700 3450 50  0001 C CNN
+	1    9700 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -196,17 +184,6 @@ F 1 "MountingHole_Pad" H 9500 3258 50  0001 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 9400 3300 50  0001 C CNN
 F 3 "~" H 9400 3300 50  0001 C CNN
 	1    9400 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 5EF57A50
-P 9100 3300
-F 0 "H1" H 9200 3303 50  0000 L CNN
-F 1 "MountingHole_Pad" H 9200 3258 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 9100 3300 50  0001 C CNN
-F 3 "~" H 9100 3300 50  0001 C CNN
-	1    9100 3300
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -279,7 +256,7 @@ U 1 1 5EE0C945
 P 6200 5400
 F 0 "J12" H 6280 5392 50  0000 L CNN
 F 1 "JST-PH" H 6280 5301 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" H 6200 5400 50  0001 C CNN
+F 2 "grootvoet:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" H 6200 5400 50  0001 C CNN
 F 3 "~" H 6200 5400 50  0001 C CNN
 F 4 "1769" H 6200 5400 50  0001 C CNN "MPN"
 F 5 "Adafruit" H 6200 5400 50  0001 C CNN "Mfr."
@@ -328,9 +305,9 @@ U 1 1 5EF91333
 P 3800 5400
 F 0 "U10" H 3550 5750 50  0000 C CNN
 F 1 "USBLC6-2SC6" H 4150 5750 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3800 4900 50  0001 C CNN
+F 2 "grootvoet:SOT-666_Handsoldering" H 3800 4900 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 4000 5750 50  0001 C CNN
-F 4 "USBLC6-2SC6Y" H 3800 5400 50  0001 C CNN "MPN"
+F 4 "USBLC6-2P6" H 3800 5400 50  0001 C CNN "MPN"
 F 5 "STMicroelectronics" H 3800 5400 50  0001 C CNN "Mfr."
 	1    3800 5400
 	1    0    0    -1  
@@ -429,10 +406,10 @@ U 1 1 5EF580BF
 P 5400 3250
 F 0 "J11" H 5350 4067 50  0000 C CNN
 F 1 "Micro_SD_Card_Det" H 5350 3976 50  0000 C CNN
-F 2 "Connector_Card:microSD_HC_Hirose_DM3D-SF" H 7450 3950 50  0001 C CNN
+F 2 "grootvoet:microSD_HC_Molex_5031821852" H 7450 3950 50  0001 C CNN
 F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 5400 3350 50  0001 C CNN
-F 4 "DM3D-SF" H 5400 3250 50  0001 C CNN "MPN"
-F 5 "Hirose Connector" H 5400 3250 50  0001 C CNN "Mfr."
+F 4 "503182-1852" H 5400 3250 50  0001 C CNN "MPN"
+F 5 "Molex" H 5400 3250 50  0001 C CNN "Mfr."
 	1    5400 3250
 	1    0    0    -1  
 $EndComp
@@ -489,4 +466,6 @@ Text HLabel 4200 5500 2    50   BiDi ~ 0
 USB_D+
 Text Label 4200 5300 0    50   ~ 0
 USB_CONN_D+
+Wire Wire Line
+	9400 3450 9700 3450
 $EndSCHEMATC

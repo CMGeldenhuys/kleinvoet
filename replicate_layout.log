@@ -1,114 +1,124 @@
-06-24 20:41:11 replicate_layout.action_replicate_layout 305:Plugin executed on: 'linux'
-06-24 20:41:11 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '3.6.9 (default, Apr 18 2020, 01:56:04) \n[GCC 8.4.0]'
-06-24 20:41:11 replicate_layout.action_replicate_layout 307:KiCad build version: 5.1.6-c6e7f7d~86~ubuntu18.04.1
-06-24 20:41:11 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 64 started
-06-24 20:41:12 replicate_layout.action_replicate_layout 340:Preparing replicator with R17 as a reference
-06-24 20:41:12 replicate_layout.replicatelayout 211:getting project hierarchy from schematics
-06-24 20:41:12 replicate_layout.replicatelayout 213:Project hierarchy looks like:
+06-30 16:37:49 replicate_layout.action_replicate_layout 305:Plugin executed on: 'linux'
+06-30 16:37:49 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '3.6.9 (default, Apr 18 2020, 01:56:04) \n[GCC 8.4.0]'
+06-30 16:37:49 replicate_layout.action_replicate_layout 307:KiCad build version: 5.1.6-c6e7f7d~86~ubuntu18.04.1
+06-30 16:37:49 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 64 started
+06-30 16:37:49 replicate_layout.action_replicate_layout 340:Preparing replicator with C51 as a reference
+06-30 16:37:49 replicate_layout.replicatelayout 211:getting project hierarchy from schematics
+06-30 16:37:49 replicate_layout.replicatelayout 213:Project hierarchy looks like:
 {'5EE5ECAD': ['ADC_Interface', '/home/devsploit/Documents/grootvoet/Hardware/Kleinvoet/ADC_Interface.sch'], '5EE62BAF': ['ADC_AA_0', '/home/devsploit/Documents/grootvoet/Hardware/Kleinvoet/ADC_Frontend.sch'], '5EE8F492': ['ADC_AA_1', '/home/devsploit/Documents/grootvoet/Hardware/Kleinvoet/ADC_Frontend.sch'], '5EE91C90': ['ADC_AA_2', '/home/devsploit/Documents/grootvoet/Hardware/Kleinvoet/ADC_Frontend.sch'], '5EE9492B': ['ADC_AA_3', '/home/devsploit/Documents/grootvoet/Hardware/Kleinvoet/ADC_Frontend.sch'], '5EE62C2B': ['Sensor_Conn_0', '/home/devsploit/Documents/grootvoet/Hardware/Kleinvoet/Sensor_Connector.sch'], '5EECE6B8': ['Mic_0', '/home/devsploit/Documents/grootvoet/Hardware/Kleinvoet/Microphone_Sensor.sch'], '5EFF163B': ['Sensor_Conn_1', '/home/devsploit/Documents/grootvoet/Hardware/Kleinvoet/Sensor_Connector.sch'], '5EFF6D57': ['Sensor_Conn_2', '/home/devsploit/Documents/grootvoet/Hardware/Kleinvoet/Sensor_Connector.sch'], '5EFFC4F7': ['Sensor_Conn_3', '/home/devsploit/Documents/grootvoet/Hardware/Kleinvoet/Sensor_Connector.sch'], '5EF4C631': ['Mic_1', '/home/devsploit/Documents/grootvoet/Hardware/Kleinvoet/Microphone_Sensor.sch'], '5F0090C7': ['Mic_3', '/home/devsploit/Documents/grootvoet/Hardware/Kleinvoet/Microphone_Sensor.sch'], '5F0013E5': ['Mic_2', '/home/devsploit/Documents/grootvoet/Hardware/Kleinvoet/Microphone_Sensor.sch'], '5EEDE770': ['Power', '/home/devsploit/Documents/grootvoet/Hardware/Kleinvoet/Power.sch'], '5EF53A66': ['Connectors', '/home/devsploit/Documents/grootvoet/Hardware/Kleinvoet/Connectors.sch'], '5EDF3693': ['GNSS_Module', '/home/devsploit/Documents/grootvoet/Hardware/Kleinvoet/GNSS_Module.sch']}
-06-24 20:41:12 replicate_layout.replicatelayout 221:getting a list of all footprints on board
-06-24 20:41:12 replicate_layout.action_replicate_layout 367:source anchor footprint is 'R17'
-Located on:['ADC_Interface', 'ADC_AA_0']
-With filenames:['ADC_Interface.sch', 'ADC_Frontend.sch']
-With sheet_id:['ADC_Interface', 'ADC_AA_0']
-06-24 20:41:12 replicate_layout.action_replicate_layout 371:Corresponding footprints are 
-[('R23', ['ADC_Interface', 'ADC_AA_3']), ('R21', ['ADC_Interface', 'ADC_AA_2']), ('R19', ['ADC_Interface', 'ADC_AA_1']), ('R17', ['ADC_Interface', 'ADC_AA_0'])]
-06-24 20:41:12 replicate_layout.action_replicate_layout 384:Showing dialog
-06-24 20:41:12 replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(0, 0)
-06-24 20:41:12 replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 1920, 1200)
-06-24 20:41:12 replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(1685, 97)
-06-24 20:41:12 replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(1372, 97)
-06-24 20:41:12 replicate_layout.replicatelayout 245:construcing a list of sheets suitable for replication on level:'ADC_Interface', file:'ADC_Interface.sch'
-06-24 20:41:12 replicate_layout.replicatelayout 252:Source sheet path up to the level:['ADC_Interface']
-06-24 20:41:12 replicate_layout.replicatelayout 256:Footprints on the sheets:
-['R23', 'R21', 'R19', 'R17']
-06-24 20:41:12 replicate_layout.replicatelayout 259:Footprints raw sheet ids:
-['/5EE5ECAD/5EE9492B/5EF8D41D', '/5EE5ECAD/5EE91C90/5EF8D41D', '/5EE5ECAD/5EE8F492/5EF8D41D', '/5EE5ECAD/5EE62BAF/5EF8D41D']
-06-24 20:41:12 replicate_layout.replicatelayout 275:All sheets to replicate:
+06-30 16:37:49 replicate_layout.replicatelayout 221:getting a list of all footprints on board
+06-30 16:37:49 replicate_layout.action_replicate_layout 367:source anchor footprint is 'C51'
+Located on:['ADC_Interface', 'Mic_2']
+With filenames:['ADC_Interface.sch', 'Microphone_Sensor.sch']
+With sheet_id:['ADC_Interface', 'Mic_2']
+06-30 16:37:49 replicate_layout.action_replicate_layout 371:Corresponding footprints are 
+[('C43', ['ADC_Interface', 'Mic_3']), ('C35', ['ADC_Interface', 'Mic_1']), ('C21', ['ADC_Interface', 'Mic_0']), ('C51', ['ADC_Interface', 'Mic_2'])]
+06-30 16:37:49 replicate_layout.action_replicate_layout 384:Showing dialog
+06-30 16:37:49 replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(0, 0)
+06-30 16:37:49 replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 1920, 1200)
+06-30 16:37:49 replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(1685, 97)
+06-30 16:37:49 replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(1372, 97)
+06-30 16:37:49 replicate_layout.replicatelayout 245:construcing a list of sheets suitable for replication on level:'ADC_Interface', file:'ADC_Interface.sch'
+06-30 16:37:49 replicate_layout.replicatelayout 252:Source sheet path up to the level:['ADC_Interface']
+06-30 16:37:49 replicate_layout.replicatelayout 256:Footprints on the sheets:
+['C43', 'C35', 'C21', 'C51']
+06-30 16:37:49 replicate_layout.replicatelayout 259:Footprints raw sheet ids:
+['/5EE5ECAD/5F0090C7/5EE94347', '/5EE5ECAD/5EF4C631/5EE94347', '/5EE5ECAD/5EECE6B8/5EE94347', '/5EE5ECAD/5F0013E5/5EE94347']
+06-30 16:37:49 replicate_layout.replicatelayout 275:All sheets to replicate:
 [['ADC_Interface'], ['ADC_Interface'], ['ADC_Interface'], ['ADC_Interface']]
-06-24 20:41:12 replicate_layout.replicatelayout 280:All sheets to replicate sorted:
+06-30 16:37:49 replicate_layout.replicatelayout 280:All sheets to replicate sorted:
 [['ADC_Interface']]
-06-24 20:41:12 replicate_layout.replicatelayout 286:All sheets to replicate sorted and without source sheet:
+06-30 16:37:49 replicate_layout.replicatelayout 286:All sheets to replicate sorted and without source sheet:
 []
-06-24 20:41:18 replicate_layout.replicatelayout 245:construcing a list of sheets suitable for replication on level:'ADC_AA_0', file:'ADC_Frontend.sch'
-06-24 20:41:18 replicate_layout.replicatelayout 252:Source sheet path up to the level:['ADC_Interface', 'ADC_AA_0']
-06-24 20:41:18 replicate_layout.replicatelayout 256:Footprints on the sheets:
-['R23', 'R21', 'R19', 'R17']
-06-24 20:41:18 replicate_layout.replicatelayout 259:Footprints raw sheet ids:
-['/5EE5ECAD/5EE9492B/5EF8D41D', '/5EE5ECAD/5EE91C90/5EF8D41D', '/5EE5ECAD/5EE8F492/5EF8D41D', '/5EE5ECAD/5EE62BAF/5EF8D41D']
-06-24 20:41:18 replicate_layout.replicatelayout 275:All sheets to replicate:
-[['ADC_Interface', 'ADC_AA_3'], ['ADC_Interface', 'ADC_AA_2'], ['ADC_Interface', 'ADC_AA_1'], ['ADC_Interface', 'ADC_AA_0']]
-06-24 20:41:18 replicate_layout.replicatelayout 280:All sheets to replicate sorted:
-[['ADC_Interface', 'ADC_AA_0'], ['ADC_Interface', 'ADC_AA_1'], ['ADC_Interface', 'ADC_AA_2'], ['ADC_Interface', 'ADC_AA_3']]
-06-24 20:41:18 replicate_layout.replicatelayout 286:All sheets to replicate sorted and without source sheet:
-[['ADC_Interface', 'ADC_AA_1'], ['ADC_Interface', 'ADC_AA_2'], ['ADC_Interface', 'ADC_AA_3']]
-06-24 20:41:29 replicate_layout.replicatelayout 245:construcing a list of sheets suitable for replication on level:'ADC_AA_0', file:'ADC_Frontend.sch'
-06-24 20:41:29 replicate_layout.replicatelayout 252:Source sheet path up to the level:['ADC_Interface', 'ADC_AA_0']
-06-24 20:41:29 replicate_layout.replicatelayout 256:Footprints on the sheets:
-['R23', 'R21', 'R19', 'R17']
-06-24 20:41:29 replicate_layout.replicatelayout 259:Footprints raw sheet ids:
-['/5EE5ECAD/5EE9492B/5EF8D41D', '/5EE5ECAD/5EE91C90/5EF8D41D', '/5EE5ECAD/5EE8F492/5EF8D41D', '/5EE5ECAD/5EE62BAF/5EF8D41D']
-06-24 20:41:29 replicate_layout.replicatelayout 275:All sheets to replicate:
-[['ADC_Interface', 'ADC_AA_3'], ['ADC_Interface', 'ADC_AA_2'], ['ADC_Interface', 'ADC_AA_1'], ['ADC_Interface', 'ADC_AA_0']]
-06-24 20:41:29 replicate_layout.replicatelayout 280:All sheets to replicate sorted:
-[['ADC_Interface', 'ADC_AA_0'], ['ADC_Interface', 'ADC_AA_1'], ['ADC_Interface', 'ADC_AA_2'], ['ADC_Interface', 'ADC_AA_3']]
-06-24 20:41:29 replicate_layout.replicatelayout 286:All sheets to replicate sorted and without source sheet:
-[['ADC_Interface', 'ADC_AA_1'], ['ADC_Interface', 'ADC_AA_2'], ['ADC_Interface', 'ADC_AA_3']]
-06-24 20:41:29 replicate_layout.action_replicate_layout 179:Replicating layout
-06-24 20:41:29 replicate_layout.replicatelayout 986:Starting replication of sheets: [['ADC_Interface', 'ADC_AA_1'], ['ADC_Interface', 'ADC_AA_2'], ['ADC_Interface', 'ADC_AA_3']]
-on level: ['ADC_Interface', 'ADC_AA_0']
+06-30 16:37:52 replicate_layout.replicatelayout 245:construcing a list of sheets suitable for replication on level:'Mic_2', file:'Microphone_Sensor.sch'
+06-30 16:37:52 replicate_layout.replicatelayout 252:Source sheet path up to the level:['ADC_Interface', 'Mic_2']
+06-30 16:37:52 replicate_layout.replicatelayout 256:Footprints on the sheets:
+['C43', 'C35', 'C21', 'C51']
+06-30 16:37:52 replicate_layout.replicatelayout 259:Footprints raw sheet ids:
+['/5EE5ECAD/5F0090C7/5EE94347', '/5EE5ECAD/5EF4C631/5EE94347', '/5EE5ECAD/5EECE6B8/5EE94347', '/5EE5ECAD/5F0013E5/5EE94347']
+06-30 16:37:52 replicate_layout.replicatelayout 275:All sheets to replicate:
+[['ADC_Interface', 'Mic_3'], ['ADC_Interface', 'Mic_1'], ['ADC_Interface', 'Mic_0'], ['ADC_Interface', 'Mic_2']]
+06-30 16:37:52 replicate_layout.replicatelayout 280:All sheets to replicate sorted:
+[['ADC_Interface', 'Mic_0'], ['ADC_Interface', 'Mic_1'], ['ADC_Interface', 'Mic_2'], ['ADC_Interface', 'Mic_3']]
+06-30 16:37:52 replicate_layout.replicatelayout 286:All sheets to replicate sorted and without source sheet:
+[['ADC_Interface', 'Mic_0'], ['ADC_Interface', 'Mic_1'], ['ADC_Interface', 'Mic_3']]
+06-30 16:38:07 replicate_layout.replicatelayout 245:construcing a list of sheets suitable for replication on level:'Mic_2', file:'Microphone_Sensor.sch'
+06-30 16:38:07 replicate_layout.replicatelayout 252:Source sheet path up to the level:['ADC_Interface', 'Mic_2']
+06-30 16:38:07 replicate_layout.replicatelayout 256:Footprints on the sheets:
+['C43', 'C35', 'C21', 'C51']
+06-30 16:38:07 replicate_layout.replicatelayout 259:Footprints raw sheet ids:
+['/5EE5ECAD/5F0090C7/5EE94347', '/5EE5ECAD/5EF4C631/5EE94347', '/5EE5ECAD/5EECE6B8/5EE94347', '/5EE5ECAD/5F0013E5/5EE94347']
+06-30 16:38:07 replicate_layout.replicatelayout 275:All sheets to replicate:
+[['ADC_Interface', 'Mic_3'], ['ADC_Interface', 'Mic_1'], ['ADC_Interface', 'Mic_0'], ['ADC_Interface', 'Mic_2']]
+06-30 16:38:07 replicate_layout.replicatelayout 280:All sheets to replicate sorted:
+[['ADC_Interface', 'Mic_0'], ['ADC_Interface', 'Mic_1'], ['ADC_Interface', 'Mic_2'], ['ADC_Interface', 'Mic_3']]
+06-30 16:38:07 replicate_layout.replicatelayout 286:All sheets to replicate sorted and without source sheet:
+[['ADC_Interface', 'Mic_0'], ['ADC_Interface', 'Mic_1'], ['ADC_Interface', 'Mic_3']]
+06-30 16:38:07 replicate_layout.action_replicate_layout 179:Replicating layout
+06-30 16:38:07 replicate_layout.replicatelayout 986:Starting replication of sheets: [['ADC_Interface', 'Mic_0'], ['ADC_Interface', 'Mic_1'], ['ADC_Interface', 'Mic_3']]
+on level: ['ADC_Interface', 'Mic_2']
 with tracks=True, zone=True, text=True, containing=False, remove=True, locked=False
-06-24 20:41:29 root 261:updating GUI message: 'Preparing for replication'
-06-24 20:41:30 replicate_layout.replicatelayout 552:Getting the list of source footprints
-06-24 20:41:30 root 266:updating GUI with: 0
-06-24 20:41:30 replicate_layout.replicatelayout 556:Getting the list of all the remaining footprints
-06-24 20:41:30 replicate_layout.replicatelayout 560:Getting nets local to source footprints
-06-24 20:41:30 replicate_layout.replicatelayout 564:Getting source bounding box
-06-24 20:41:30 root 266:updating GUI with: 37
-06-24 20:41:30 replicate_layout.replicatelayout 568:Getting source tracks
-06-24 20:41:30 replicate_layout.replicatelayout 572:Getting source zones
-06-24 20:41:30 root 266:updating GUI with: 62
-06-24 20:41:30 replicate_layout.replicatelayout 576:Getting source text items
-06-24 20:41:30 replicate_layout.replicatelayout 580:Getting source text items
-06-24 20:41:30 replicate_layout.replicatelayout 1014:Removing tracks and zones, before module placement
-06-24 20:41:30 root 261:updating GUI message: 'Removing zones and tracks'
-06-24 20:41:30 root 266:updating GUI with: 33
-06-24 20:41:30 root 266:updating GUI with: 66
-06-24 20:41:30 root 261:updating GUI message: 'Replicating footprints'
-06-24 20:41:30 root 266:updating GUI with: 0
-06-24 20:41:30 replicate_layout.replicatelayout 586:Replicating footprints
-06-24 20:41:30 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['ADC_Interface', 'ADC_AA_1']
-06-24 20:41:30 root 266:updating GUI with: 33
-06-24 20:41:30 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['ADC_Interface', 'ADC_AA_2']
-06-24 20:41:30 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['ADC_Interface', 'ADC_AA_3']
-06-24 20:41:30 replicate_layout.replicatelayout 1022:Removing tracks and zones, after module placement
-06-24 20:41:30 root 261:updating GUI message: 'Removing zones and tracks'
-06-24 20:41:30 root 266:updating GUI with: 0
-06-24 20:41:30 root 266:updating GUI with: 33
-06-24 20:41:30 root 266:updating GUI with: 66
-06-24 20:41:30 root 261:updating GUI message: 'Replicating tracks'
-06-24 20:41:30 root 266:updating GUI with: 0
-06-24 20:41:30 replicate_layout.replicatelayout 712:Replicating tracks
-06-24 20:41:30 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['ADC_Interface', 'ADC_AA_1']
-06-24 20:41:30 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['ADC_Interface', 'ADC_AA_2']
-06-24 20:41:30 root 266:updating GUI with: 50
-06-24 20:41:30 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['ADC_Interface', 'ADC_AA_3']
-06-24 20:41:30 root 261:updating GUI message: 'Replicating zones'
-06-24 20:41:30 replicate_layout.replicatelayout 763:Replicating zones
-06-24 20:41:30 replicate_layout.replicatelayout 770:Replicating zones on sheet ['ADC_Interface', 'ADC_AA_1']
-06-24 20:41:30 replicate_layout.replicatelayout 770:Replicating zones on sheet ['ADC_Interface', 'ADC_AA_2']
-06-24 20:41:30 root 266:updating GUI with: 66
-06-24 20:41:30 replicate_layout.replicatelayout 770:Replicating zones on sheet ['ADC_Interface', 'ADC_AA_3']
-06-24 20:41:30 root 261:updating GUI message: 'Replicating text'
-06-24 20:41:30 replicate_layout.replicatelayout 829:Replicating text
-06-24 20:41:30 replicate_layout.replicatelayout 836:Replicating text on sheet ['ADC_Interface', 'ADC_AA_1']
-06-24 20:41:30 replicate_layout.replicatelayout 836:Replicating text on sheet ['ADC_Interface', 'ADC_AA_2']
-06-24 20:41:30 replicate_layout.replicatelayout 836:Replicating text on sheet ['ADC_Interface', 'ADC_AA_3']
-06-24 20:41:30 root 261:updating GUI message: 'Replicating drawings'
-06-24 20:41:30 replicate_layout.replicatelayout 860:Replicating drawings
-06-24 20:41:30 root 266:updating GUI with: 0
-06-24 20:41:30 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['ADC_Interface', 'ADC_AA_1']
-06-24 20:41:30 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['ADC_Interface', 'ADC_AA_2']
-06-24 20:41:30 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['ADC_Interface', 'ADC_AA_3']
-06-24 20:41:30 root 261:updating GUI message: 'Removing duplicates'
-06-24 20:41:31 replicate_layout.action_replicate_layout 201:Replication complete
+06-30 16:38:07 root 261:updating GUI message: 'Preparing for replication'
+06-30 16:38:07 replicate_layout.replicatelayout 552:Getting the list of source footprints
+06-30 16:38:07 root 266:updating GUI with: 0
+06-30 16:38:07 replicate_layout.replicatelayout 556:Getting the list of all the remaining footprints
+06-30 16:38:07 replicate_layout.replicatelayout 560:Getting nets local to source footprints
+06-30 16:38:07 replicate_layout.replicatelayout 564:Getting source bounding box
+06-30 16:38:07 root 266:updating GUI with: 37
+06-30 16:38:07 replicate_layout.replicatelayout 568:Getting source tracks
+06-30 16:38:07 replicate_layout.replicatelayout 572:Getting source zones
+06-30 16:38:07 root 266:updating GUI with: 62
+06-30 16:38:07 replicate_layout.replicatelayout 576:Getting source text items
+06-30 16:38:07 replicate_layout.replicatelayout 580:Getting source text items
+06-30 16:38:07 replicate_layout.replicatelayout 1014:Removing tracks and zones, before module placement
+06-30 16:38:07 root 261:updating GUI message: 'Removing zones and tracks'
+06-30 16:38:07 root 266:updating GUI with: 33
+06-30 16:38:07 root 266:updating GUI with: 66
+06-30 16:38:07 root 261:updating GUI message: 'Replicating footprints'
+06-30 16:38:07 root 266:updating GUI with: 0
+06-30 16:38:07 replicate_layout.replicatelayout 586:Replicating footprints
+06-30 16:38:07 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['ADC_Interface', 'Mic_0']
+06-30 16:38:07 root 266:updating GUI with: 8
+06-30 16:38:07 root 266:updating GUI with: 20
+06-30 16:38:07 root 266:updating GUI with: 32
+06-30 16:38:07 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['ADC_Interface', 'Mic_1']
+06-30 16:38:07 root 266:updating GUI with: 45
+06-30 16:38:07 root 266:updating GUI with: 56
+06-30 16:38:07 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['ADC_Interface', 'Mic_3']
+06-30 16:38:07 root 266:updating GUI with: 68
+06-30 16:38:07 root 266:updating GUI with: 82
+06-30 16:38:07 root 266:updating GUI with: 95
+06-30 16:38:07 replicate_layout.replicatelayout 1022:Removing tracks and zones, after module placement
+06-30 16:38:07 root 261:updating GUI message: 'Removing zones and tracks'
+06-30 16:38:07 root 266:updating GUI with: 33
+06-30 16:38:07 root 266:updating GUI with: 66
+06-30 16:38:08 root 261:updating GUI message: 'Replicating tracks'
+06-30 16:38:08 root 266:updating GUI with: 0
+06-30 16:38:08 replicate_layout.replicatelayout 712:Replicating tracks
+06-30 16:38:08 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['ADC_Interface', 'Mic_0']
+06-30 16:38:08 root 266:updating GUI with: 0
+06-30 16:38:08 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['ADC_Interface', 'Mic_1']
+06-30 16:38:08 root 266:updating GUI with: 33
+06-30 16:38:08 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['ADC_Interface', 'Mic_3']
+06-30 16:38:08 root 266:updating GUI with: 66
+06-30 16:38:08 root 261:updating GUI message: 'Replicating zones'
+06-30 16:38:08 replicate_layout.replicatelayout 763:Replicating zones
+06-30 16:38:08 replicate_layout.replicatelayout 770:Replicating zones on sheet ['ADC_Interface', 'Mic_0']
+06-30 16:38:08 root 266:updating GUI with: 4
+06-30 16:38:08 replicate_layout.replicatelayout 770:Replicating zones on sheet ['ADC_Interface', 'Mic_1']
+06-30 16:38:08 root 266:updating GUI with: 37
+06-30 16:38:08 replicate_layout.replicatelayout 770:Replicating zones on sheet ['ADC_Interface', 'Mic_3']
+06-30 16:38:08 root 266:updating GUI with: 70
+06-30 16:38:08 root 261:updating GUI message: 'Replicating text'
+06-30 16:38:08 replicate_layout.replicatelayout 829:Replicating text
+06-30 16:38:08 root 266:updating GUI with: 0
+06-30 16:38:08 replicate_layout.replicatelayout 836:Replicating text on sheet ['ADC_Interface', 'Mic_0']
+06-30 16:38:08 replicate_layout.replicatelayout 836:Replicating text on sheet ['ADC_Interface', 'Mic_1']
+06-30 16:38:08 replicate_layout.replicatelayout 836:Replicating text on sheet ['ADC_Interface', 'Mic_3']
+06-30 16:38:08 root 261:updating GUI message: 'Replicating drawings'
+06-30 16:38:08 replicate_layout.replicatelayout 860:Replicating drawings
+06-30 16:38:08 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['ADC_Interface', 'Mic_0']
+06-30 16:38:08 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['ADC_Interface', 'Mic_1']
+06-30 16:38:08 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['ADC_Interface', 'Mic_3']
+06-30 16:38:08 root 261:updating GUI message: 'Removing duplicates'
+06-30 16:38:11 replicate_layout.action_replicate_layout 201:Replication complete

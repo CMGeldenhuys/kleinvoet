@@ -1,4 +1,4 @@
-update=Tue 23 Jun 2020 19:40:00 SAST
+update=Wed 01 Jul 2020 20:40:18 SAST
 version=1
 last_client=kicad
 [general]
@@ -28,7 +28,7 @@ MinViaDrill=0.2
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.127
+TrackWidth1=0.254
 TrackWidth2=0.127
 TrackWidth3=0.254
 TrackWidth4=0.381
@@ -252,7 +252,7 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.1778
-TrackWidth=0.127
+TrackWidth=0.254
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
@@ -263,7 +263,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=ADC
 Clearance=0.1778
-TrackWidth=0.127
+TrackWidth=0.254
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
@@ -283,9 +283,20 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
+Name=RTC_CAL
+Clearance=0.254
+TrackWidth=0.508
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/4]
 Name=USB
 Clearance=0.1778
-TrackWidth=0.127
+TrackWidth=0.254
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
