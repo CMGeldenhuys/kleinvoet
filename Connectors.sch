@@ -159,7 +159,7 @@ U 1 1 5EF57A3E
 P 10000 3300
 F 0 "H4" H 10100 3303 50  0000 L CNN
 F 1 "MountingHole_Pad" H 10100 3258 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 10000 3300 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10000 3300 50  0001 C CNN
 F 3 "~" H 10000 3300 50  0001 C CNN
 	1    10000 3300
 	1    0    0    -1  
@@ -170,7 +170,7 @@ U 1 1 5EF57A44
 P 9700 3300
 F 0 "H3" H 9800 3303 50  0000 L CNN
 F 1 "MountingHole_Pad" H 9800 3258 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 9700 3300 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9700 3300 50  0001 C CNN
 F 3 "~" H 9700 3300 50  0001 C CNN
 	1    9700 3300
 	1    0    0    -1  
@@ -181,7 +181,7 @@ U 1 1 5EF57A4A
 P 9400 3300
 F 0 "H2" H 9500 3303 50  0000 L CNN
 F 1 "MountingHole_Pad" H 9500 3258 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 9400 3300 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9400 3300 50  0001 C CNN
 F 3 "~" H 9400 3300 50  0001 C CNN
 	1    9400 3300
 	1    0    0    -1  
