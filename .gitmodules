@@ -1,3 +1,6 @@
 [submodule "libs"]
 	path = libs
 	url = git@github.com:CMGeldenhuys/grootvoet-kicad-lib.git
+[submodule "firmware"]
+	path = firmware
+	url = git@github.com:CMGeldenhuys/kleinvoet-firmware.git
