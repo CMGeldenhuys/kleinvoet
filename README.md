@@ -31,3 +31,4 @@ project.
     [ST-Link](https://www.samtec.com/products/ftsh-107-01-l-dv-k-tr)
     connector
 - [ ] Flip labels (serial) on GPS daughter board
+- [ ] Change fuses to resettable ones
