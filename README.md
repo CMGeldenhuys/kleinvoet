@@ -32,3 +32,4 @@ project.
     connector
 - [ ] Flip labels (serial) on GPS daughter board
 - [ ] Change fuses to resettable ones
+- [ ] (Optional) Add current sense for power draw
