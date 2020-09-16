@@ -33,3 +33,4 @@ project.
 - [ ] Flip labels (serial) on GPS daughter board
 - [ ] Change fuses to resettable ones
 - [ ] (Optional) Add current sense for power draw
+- [ ] Change VBat-ADC resistors to 1 Meg (2x500k)
