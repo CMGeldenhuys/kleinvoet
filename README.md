@@ -23,7 +23,7 @@ project.
 - [ ] Add more test points for analogue signals
 - [ ] Used dedicated connectors instead of headers
 - [ ] Fix silkscreen on GPS module
-- [ ] Add alternative landing pad for different microphone
+- [ ] Add alternative landing pad for different microphone (ICS-40730)
 - [ ] Expose external voltage connector (drive from PSU)
 - [ ] Add via stitching along different ground regions
 - [ ] Preamplifier 44 kHz oscillations when signal close to zero???
