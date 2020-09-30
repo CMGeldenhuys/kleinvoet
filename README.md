@@ -34,3 +34,7 @@ project.
 - [ ] Change fuses to resettable ones
 - [ ] (Optional) Add current sense for power draw
 - [ ] Change VBat-ADC resistors to 1 Meg (2x500k)
+- [ ] Add guard shield for SD Card
+- [ ] Add 1u cap for SD Card
+- [ ] Fix SD card clearance with GPS board
+- [ ] Add more MICs to improve SNR
