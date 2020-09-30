@@ -14,10 +14,10 @@ project.
 
 ## Mistakes
 ### Rev. A
-- [ ] Microphone silkscreen flipped
+- [X] Microphone silkscreen flipped
 - [ ] Some pads do not have thermal reliefs
-- [ ] Preamplifier pad should be split with more thermal vias
-- [ ] MEMS Microphone footprint pin out wrong
+- [X] Preamplifier pad should be split with more thermal vias
+- [X] MEMS Microphone footprint pin out wrong
 - [ ] Missing button labels
 - [ ] Missing label for LEDS function
 - [ ] Add more test points for analogue signals
@@ -26,7 +26,7 @@ project.
 - [ ] Add alternative landing pad for different microphone (ICS-40730)
 - [ ] Expose external voltage connector (drive from PSU)
 - [ ] Add via stitching along different ground regions
-- [ ] Preamplifier 44 kHz oscillations when signal close to zero???
+- [X] Preamplifier 44 kHz oscillations when signal close to zero???
 - [ ] Change
     [ST-Link](https://www.samtec.com/products/ftsh-107-01-l-dv-k-tr)
     connector

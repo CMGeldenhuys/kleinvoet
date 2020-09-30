@@ -133,9 +133,9 @@ Text HLabel 7950 3500 0    50   Input ~ 0
 V+
 Text HLabel 7950 3600 0    50   Input ~ 0
 GND
-Text HLabel 7950 3800 0    50   Input ~ 0
-SIG_P
 Text HLabel 7950 3700 0    50   Input ~ 0
+SIG_P
+Text HLabel 7950 3800 0    50   Input ~ 0
 SIG_N
 Text HLabel 7950 3400 0    50   Input ~ 0
 EN
@@ -565,9 +565,9 @@ $EndComp
 Connection ~ 7850 1450
 Text HLabel 7950 3300 0    50   Input ~ 0
 CAL_EN
-Text HLabel 7950 3200 0    50   Input ~ 0
-CAL_SIG
 Text HLabel 7950 3100 0    50   Input ~ 0
+CAL_SIG
+Text HLabel 7950 3200 0    50   Input ~ 0
 GND
 Text Notes 3150 5950 0    50   ~ 0
 27 Ohm resistors lower the chance of \nocilations due to frequency domain \ninstability.
@@ -680,8 +680,6 @@ Wire Wire Line
 	3150 2650 2950 2650
 Wire Wire Line
 	2950 2450 3150 2450
-Wire Wire Line
-	3150 2450 3150 2500
 Text Label 3050 2900 2    50   ~ 0
 IN
 Text Label 3050 3050 2    50   ~ 0
