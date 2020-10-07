@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name grootvoet)(type Legacy)(uri ${KIPRJMOD}/libs/grootvoet.lib)(options "")(descr ""))
+  (lib (name kleinvoet-rescue)(type Legacy)(uri ${KIPRJMOD}/kleinvoet-rescue.lib)(options "")(descr ""))
 )

@@ -53,7 +53,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 3000 7800 3000
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J13
+L kleinvoet-rescue:USB_C_Receptacle_USB2.0-Connector J13
 U 1 1 5EF57A02
 P 7200 3100
 F 0 "J13" H 7307 3967 50  0000 C CNN
