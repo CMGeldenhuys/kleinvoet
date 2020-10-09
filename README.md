@@ -38,3 +38,4 @@ project.
 - [ ] Add 1u cap for SD Card
 - [ ] Fix SD card clearance with GPS board
 - [ ] Add more MICs to improve SNR
+- [ ] Increase decoupling cap. on adc analog rail
