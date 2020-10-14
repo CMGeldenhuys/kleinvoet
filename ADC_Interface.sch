@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 17
+Sheet 2 13
 Title "Kleinvoet"
 Date "2020-06-11"
 Rev "Rev. A"
@@ -495,19 +495,6 @@ Wire Wire Line
 	4650 4800 6150 4800
 Wire Wire Line
 	4650 4700 6150 4700
-$Sheet
-S 1200 3450 850  600 
-U 5EECE6B8
-F0 "Mic_0" 50
-F1 "Microphone_Sensor.sch" 50
-F2 "V+" I L 1200 3650 50 
-F3 "GND" I L 1200 3850 50 
-F4 "SIG_P" I R 2050 3550 50 
-F5 "SIG_N" I R 2050 3650 50 
-F6 "EN" I R 2050 3950 50 
-F7 "CAL_EN" I R 2050 3850 50 
-F8 "CAL_SIG" I R 2050 3750 50 
-$EndSheet
 Text Label 4900 4200 0    50   ~ 0
 ADC_PORT_0_SIG_N
 Text Label 4900 4100 0    50   ~ 0
@@ -524,20 +511,6 @@ Text Label 4900 5900 0    50   ~ 0
 ADC_PORT_3_SIG_P
 Text Label 4900 6000 0    50   ~ 0
 ADC_PORT_3_SIG_N
-Wire Wire Line
-	2250 4350 2050 4350
-Wire Wire Line
-	2250 4450 2050 4450
-Wire Wire Line
-	2250 4550 2050 4550
-Wire Wire Line
-	2250 3750 2050 3750
-Wire Wire Line
-	2250 3650 2050 3650
-Wire Wire Line
-	2250 3550 2050 3550
-Text Notes 850  3300 0    50   ~ 10
-Mic. Sensor
 Wire Wire Line
 	800  1250 800  1350
 $Comp
@@ -835,31 +808,6 @@ CAL_EN
 Text HLabel 3900 6100 0    50   Input ~ 0
 CAL_EN
 Wire Wire Line
-	2250 3850 2050 3850
-Wire Wire Line
-	2250 3950 2050 3950
-$Sheet
-S 1200 4250 850  600 
-U 5EF4C631
-F0 "Mic_1" 50
-F1 "Microphone_Sensor.sch" 50
-F2 "V+" I L 1200 4450 50 
-F3 "GND" I L 1200 4650 50 
-F4 "SIG_P" I R 2050 4350 50 
-F5 "SIG_N" I R 2050 4450 50 
-F6 "EN" I R 2050 4750 50 
-F7 "CAL_EN" I R 2050 4650 50 
-F8 "CAL_SIG" I R 2050 4550 50 
-$EndSheet
-Wire Wire Line
-	2250 4650 2050 4650
-Wire Wire Line
-	2250 4750 2050 4750
-Wire Wire Line
-	1200 4450 1050 4450
-Wire Wire Line
-	1200 4650 1050 4650
-Wire Wire Line
 	3900 6100 4000 6100
 Wire Wire Line
 	4000 5900 3900 5900
@@ -881,14 +829,6 @@ Wire Notes Line
 	3450 3850 5650 3850
 Wire Notes Line
 	3450 6300 5650 6300
-Wire Notes Line
-	3150 6750 850  6750
-Wire Notes Line
-	850  6750 850  3300
-Wire Notes Line
-	850  3300 3150 3300
-Wire Notes Line
-	3150 3300 3150 6750
 Text HLabel 4900 4300 2    50   Input ~ 0
 EN
 Text HLabel 4900 4900 2    50   Input ~ 0
@@ -897,50 +837,6 @@ Text HLabel 4900 5500 2    50   Input ~ 0
 EN
 Text HLabel 4900 6100 2    50   Input ~ 0
 EN
-Wire Wire Line
-	1200 6350 1050 6350
-Wire Wire Line
-	1200 6150 1050 6150
-$Sheet
-S 1200 5950 850  600 
-U 5F0090C7
-F0 "Mic_3" 50
-F1 "Microphone_Sensor.sch" 50
-F2 "V+" I L 1200 6150 50 
-F3 "GND" I L 1200 6350 50 
-F4 "SIG_P" I R 2050 6050 50 
-F5 "SIG_N" I R 2050 6150 50 
-F6 "EN" I R 2050 6450 50 
-F7 "CAL_EN" I R 2050 6350 50 
-F8 "CAL_SIG" I R 2050 6250 50 
-$EndSheet
-Wire Wire Line
-	1200 5500 1050 5500
-Wire Wire Line
-	1200 5300 1050 5300
-Wire Wire Line
-	2250 5600 2050 5600
-Wire Wire Line
-	2250 5500 2050 5500
-$Sheet
-S 1200 5100 850  600 
-U 5F0013E5
-F0 "Mic_2" 50
-F1 "Microphone_Sensor.sch" 50
-F2 "V+" I L 1200 5300 50 
-F3 "GND" I L 1200 5500 50 
-F4 "SIG_P" I R 2050 5200 50 
-F5 "SIG_N" I R 2050 5300 50 
-F6 "EN" I R 2050 5600 50 
-F7 "CAL_EN" I R 2050 5500 50 
-F8 "CAL_SIG" I R 2050 5400 50 
-$EndSheet
-Wire Wire Line
-	2250 5400 2050 5400
-Wire Wire Line
-	2250 5300 2050 5300
-Wire Wire Line
-	2250 5200 2050 5200
 Wire Wire Line
 	9350 3300 9500 3300
 $Comp
@@ -1176,46 +1072,4 @@ Wire Wire Line
 	9350 3100 10050 3100
 Wire Wire Line
 	9800 3200 10050 3200
-NoConn ~ 2250 4350
-NoConn ~ 2250 4450
-NoConn ~ 2250 4550
-NoConn ~ 2250 4650
-NoConn ~ 2250 4750
-Wire Wire Line
-	2250 6450 2050 6450
-Wire Wire Line
-	2250 6350 2050 6350
-Wire Wire Line
-	2250 6250 2050 6250
-Wire Wire Line
-	2250 6150 2050 6150
-Wire Wire Line
-	2250 6050 2050 6050
-NoConn ~ 2250 6050
-NoConn ~ 2250 6150
-NoConn ~ 2250 6250
-NoConn ~ 2250 6350
-NoConn ~ 2250 6450
-NoConn ~ 2250 3550
-NoConn ~ 2250 3650
-NoConn ~ 2250 3750
-NoConn ~ 2250 3850
-NoConn ~ 2250 3950
-NoConn ~ 2250 5200
-NoConn ~ 2250 5300
-NoConn ~ 2250 5400
-NoConn ~ 2250 5500
-NoConn ~ 2250 5600
-Wire Wire Line
-	1200 3850 1050 3850
-Wire Wire Line
-	1200 3650 1050 3650
-NoConn ~ 1050 6350
-NoConn ~ 1050 6150
-NoConn ~ 1050 5500
-NoConn ~ 1050 5300
-NoConn ~ 1050 4650
-NoConn ~ 1050 4450
-NoConn ~ 1050 3850
-NoConn ~ 1050 3650
 $EndSCHEMATC
