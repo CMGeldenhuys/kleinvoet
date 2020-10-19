@@ -13,36 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 "CM Geldenhuys"
 $EndDescr
-$Comp
-L Connector_Generic:Conn_01x08 J?
-U 1 1 5F9760C7
-P 4650 4050
-AR Path="/5F1E182A/5F9760C7" Ref="J?"  Part="1" 
-AR Path="/5EE5ECAD/5EE62C2B/5F9760C7" Ref="J?"  Part="1" 
-AR Path="/5EE5ECAD/5EE62C39/5F9760C7" Ref="J?"  Part="1" 
-AR Path="/5EE5ECAD/5EE62C47/5F9760C7" Ref="J?"  Part="1" 
-AR Path="/5EE5ECAD/5EE62C55/5F9760C7" Ref="J?"  Part="1" 
-AR Path="/5EE5ECAD/5EE8F49C/5F9760C7" Ref="J?"  Part="1" 
-AR Path="/5EE5ECAD/5EE91C9A/5F9760C7" Ref="J?"  Part="1" 
-AR Path="/5EE5ECAD/5EE94935/5F9760C7" Ref="J?"  Part="1" 
-AR Path="/5EE1D522/5F9760C7" Ref="J?"  Part="1" 
-AR Path="/5EE5ECAD/5EECE6B8/5F9760C7" Ref="J?"  Part="1" 
-AR Path="/5EE5ECAD/5EF21991/5F9760C7" Ref="J?"  Part="1" 
-AR Path="/5EE5ECAD/5EF33EA2/5F9760C7" Ref="J?"  Part="1" 
-AR Path="/5EE5ECAD/5EF4C631/5F9760C7" Ref="J?"  Part="1" 
-AR Path="/5EE5ECAD/5F0013E5/5F9760C7" Ref="J?"  Part="1" 
-AR Path="/5EE5ECAD/5F0090C7/5F9760C7" Ref="J?"  Part="1" 
-AR Path="/5F803BE9/5F9760C7" Ref="J?"  Part="1" 
-AR Path="/5F9760C7" Ref="J1"  Part="1" 
-F 0 "J1" H 4650 3450 50  0000 C CNN
-F 1 "Mic_Conn" H 4650 3550 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x08_P2.00mm_Vertical" H 4650 4050 50  0001 C CNN
-F 3 "~" H 4650 4050 50  0001 C CNN
-F 4 "" H 4650 4050 50  0001 C CNN "MPN"
-F 5 "" H 4650 4050 50  0001 C CNN "Mfr."
-	1    4650 4050
-	1    0    0    1   
-$EndComp
 Text Notes 3050 4800 0    50   ~ 10
 Power Supply Filtering and Resivoir
 $Comp
@@ -376,27 +346,17 @@ F 3 "" H 4250 5800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4250 5800 4250 5750
-Text GLabel 4450 3650 0    50   Input ~ 0
-CAL_SIG
-Text GLabel 4450 3750 0    50   Input ~ 0
-CAL_GND
-Text GLabel 4450 3850 0    50   Input ~ 0
-CAL_EN
-Text GLabel 4450 3950 0    50   Input ~ 0
+Text GLabel 4450 4050 0    50   Input ~ 0
 EN
-Text GLabel 4450 4250 0    50   Input ~ 0
-SIG_P
-Text GLabel 4450 4350 0    50   Input ~ 0
-SIG_N
 $Comp
 L power:VCC #PWR09
 U 1 1 5FA24F87
-P 4450 4050
-F 0 "#PWR09" H 4450 3900 50  0001 C CNN
-F 1 "VCC" V 4465 4177 50  0000 L CNN
-F 2 "" H 4450 4050 50  0001 C CNN
-F 3 "" H 4450 4050 50  0001 C CNN
-	1    4450 4050
+P 4450 3850
+F 0 "#PWR09" H 4450 3700 50  0001 C CNN
+F 1 "VCC" V 4465 3977 50  0000 L CNN
+F 2 "" H 4450 3850 50  0001 C CNN
+F 3 "" H 4450 3850 50  0001 C CNN
+	1    4450 3850
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -655,7 +615,6 @@ Wire Notes Line
 	7500 1650 7500 3250
 Text Notes 3050 1650 0    50   ~ 10
 Signal Chain
-NoConn ~ 4450 3850
 NoConn ~ 4450 3750
 NoConn ~ 4450 3650
 $Comp
@@ -786,4 +745,49 @@ F 3 "" H 5250 3800 50  0001 C CNN
 	1    5250 3800
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 5F9760C7
+P 4650 4050
+AR Path="/5F1E182A/5F9760C7" Ref="J?"  Part="1" 
+AR Path="/5EE5ECAD/5EE62C2B/5F9760C7" Ref="J?"  Part="1" 
+AR Path="/5EE5ECAD/5EE62C39/5F9760C7" Ref="J?"  Part="1" 
+AR Path="/5EE5ECAD/5EE62C47/5F9760C7" Ref="J?"  Part="1" 
+AR Path="/5EE5ECAD/5EE62C55/5F9760C7" Ref="J?"  Part="1" 
+AR Path="/5EE5ECAD/5EE8F49C/5F9760C7" Ref="J?"  Part="1" 
+AR Path="/5EE5ECAD/5EE91C9A/5F9760C7" Ref="J?"  Part="1" 
+AR Path="/5EE5ECAD/5EE94935/5F9760C7" Ref="J?"  Part="1" 
+AR Path="/5EE1D522/5F9760C7" Ref="J?"  Part="1" 
+AR Path="/5EE5ECAD/5EECE6B8/5F9760C7" Ref="J?"  Part="1" 
+AR Path="/5EE5ECAD/5EF21991/5F9760C7" Ref="J?"  Part="1" 
+AR Path="/5EE5ECAD/5EF33EA2/5F9760C7" Ref="J?"  Part="1" 
+AR Path="/5EE5ECAD/5EF4C631/5F9760C7" Ref="J?"  Part="1" 
+AR Path="/5EE5ECAD/5F0013E5/5F9760C7" Ref="J?"  Part="1" 
+AR Path="/5EE5ECAD/5F0090C7/5F9760C7" Ref="J?"  Part="1" 
+AR Path="/5F803BE9/5F9760C7" Ref="J?"  Part="1" 
+AR Path="/5F9760C7" Ref="J1"  Part="1" 
+F 0 "J1" H 4650 3450 50  0000 C CNN
+F 1 "Mic_Conn" H 4650 3550 50  0000 C CNN
+F 2 "grootvoet:TE_7-215079-8" H 4650 4050 50  0001 C CNN
+F 3 "~" H 4650 4050 50  0001 C CNN
+F 4 "7-215079-8, 7-215083-8" H 4650 4050 50  0001 C CNN "MPN"
+F 5 "TE Connectivity" H 4650 4050 50  0001 C CNN "Mfr."
+	1    4650 4050
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5F8DD1D1
+P 4450 3950
+F 0 "#PWR0101" H 4450 3700 50  0001 C CNN
+F 1 "GND" V 4455 3822 50  0000 R CNN
+F 2 "" H 4450 3950 50  0001 C CNN
+F 3 "" H 4450 3950 50  0001 C CNN
+	1    4450 3950
+	0    1    1    0   
+$EndComp
+Text GLabel 4450 4350 0    50   Input ~ 0
+SIG_P
+Text GLabel 4450 4250 0    50   Input ~ 0
+SIG_N
 $EndSCHEMATC
