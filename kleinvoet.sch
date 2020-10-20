@@ -385,7 +385,7 @@ U 1 1 5EE36736
 P 1650 6650
 F 0 "J1" H 1207 6696 50  0000 R CNN
 F 1 "Conn_ST_STDC14" H 1207 6605 50  0000 R CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical" H 1650 6650 50  0001 C CNN
+F 2 "grootvoet:SAMTEC-FTSH-107-01-X-D" H 1650 6650 50  0001 C CNN
 F 3 "https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf" V 1300 5400 50  0001 C CNN
 F 4 "M50-055023W0445" H 1650 6650 50  0001 C CNN "MPN"
 F 5 "Harwin" H 1650 6650 50  0001 C CNN "Mfr."

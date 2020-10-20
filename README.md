@@ -15,19 +15,17 @@ project.
 ## Mistakes
 ### Rev. A
 - [X] Microphone silkscreen flipped
-- [ ] Some pads do not have thermal reliefs
+- [X] Some pads do not have thermal reliefs
 - [X] Preamplifier pad should be split with more thermal vias
 - [X] MEMS Microphone footprint pin out wrong
-- [ ] Missing button labels
-- [ ] Missing label for LEDS function
-- [ ] Add more test points for analogue signals
+- [X] Missing button labels
+- [X] Missing label for LEDS function
+- [X] Add more test points for analogue signals
 - [ ] Used dedicated connectors instead of headers
-- [ ] Fix silkscreen on GPS module
-- [ ] Add alternative landing pad for different microphone (ICS-40730)
-- [ ] Expose external voltage connector (drive from PSU)
+- [X] Fix silkscreen on GPS module
 - [ ] Add via stitching along different ground regions
 - [X] Preamplifier 44 kHz oscillations when signal close to zero???
-- [ ] Change
+- [X] Change
     [ST-Link](https://www.samtec.com/products/ftsh-107-01-l-dv-k-tr)
     connector
 - [ ] Flip labels (serial) on GPS daughter board
