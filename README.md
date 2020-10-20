@@ -29,9 +29,9 @@ project.
     [ST-Link](https://www.samtec.com/products/ftsh-107-01-l-dv-k-tr)
     connector
 - [X] Flip labels (serial) on GPS daughter board
-- [ ] Change fuses to resettable ones
+- [X] Change fuses to resettable ones
 - [ ] (Optional) Add current sense for power draw
-- [ ] Change VBat-ADC resistors to 1 Meg (2x500k)
+- [X] Change VBat-ADC resistors to 1 Meg (2x500k)
 - [ ] Add guard shield for SD Card
 - [ ] Add 1u cap for SD Card
 - [ ] Fix SD card clearance with GPS board
