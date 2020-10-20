@@ -28,7 +28,7 @@ project.
 - [X] Change
     [ST-Link](https://www.samtec.com/products/ftsh-107-01-l-dv-k-tr)
     connector
-- [ ] Flip labels (serial) on GPS daughter board
+- [X] Flip labels (serial) on GPS daughter board
 - [ ] Change fuses to resettable ones
 - [ ] (Optional) Add current sense for power draw
 - [ ] Change VBat-ADC resistors to 1 Meg (2x500k)
