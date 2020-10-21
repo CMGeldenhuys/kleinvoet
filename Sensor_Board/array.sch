@@ -80,6 +80,8 @@ F 0 "MK4" H 2250 1650 50  0000 R CNN
 F 1 "MIC_ICS_40300" H 2550 1050 50  0000 R CNN
 F 2 "grootvoet:MEMS_Mic_ICS-40300" H 1800 1250 50  0001 C CNN
 F 3 "https://www.mouser.co.za/ProductDetail/TDK-InvenSense/ICS-40300?qs=%2Fha2pyFadujzJsvx64xsUNdAo4Ph4hwqMvEiGbKRLds%3D" H 1800 1250 50  0001 C CNN
+F 4 "ICS-40300" H 1850 1350 50  0001 C CNN "MPN"
+F 5 "TDK InvenSense" H 1850 1350 50  0001 C CNN "Mfr."
 	1    1850 1350
 	1    0    0    -1  
 $EndComp
@@ -161,6 +163,8 @@ F 0 "MK3" H 2200 2800 50  0000 R CNN
 F 1 "MIC_ICS_40300" H 2500 2200 50  0000 R CNN
 F 2 "grootvoet:MEMS_Mic_ICS-40300" H 1750 2400 50  0001 C CNN
 F 3 "https://www.mouser.co.za/ProductDetail/TDK-InvenSense/ICS-40300?qs=%2Fha2pyFadujzJsvx64xsUNdAo4Ph4hwqMvEiGbKRLds%3D" H 1750 2400 50  0001 C CNN
+F 4 "ICS-40300" H 1800 2500 50  0001 C CNN "MPN"
+F 5 "TDK InvenSense" H 1800 2500 50  0001 C CNN "Mfr."
 	1    1800 2500
 	1    0    0    -1  
 $EndComp
@@ -242,6 +246,8 @@ F 0 "MK2" H 2150 3950 50  0000 R CNN
 F 1 "MIC_ICS_40300" H 2450 3350 50  0000 R CNN
 F 2 "grootvoet:MEMS_Mic_ICS-40300" H 1700 3550 50  0001 C CNN
 F 3 "https://www.mouser.co.za/ProductDetail/TDK-InvenSense/ICS-40300?qs=%2Fha2pyFadujzJsvx64xsUNdAo4Ph4hwqMvEiGbKRLds%3D" H 1700 3550 50  0001 C CNN
+F 4 "ICS-40300" H 1750 3650 50  0001 C CNN "MPN"
+F 5 "TDK InvenSense" H 1750 3650 50  0001 C CNN "Mfr."
 	1    1750 3650
 	1    0    0    -1  
 $EndComp
@@ -323,6 +329,8 @@ F 0 "MK1" H 2100 5100 50  0000 R CNN
 F 1 "MIC_ICS_40300" H 2400 4500 50  0000 R CNN
 F 2 "grootvoet:MEMS_Mic_ICS-40300" H 1650 4700 50  0001 C CNN
 F 3 "https://www.mouser.co.za/ProductDetail/TDK-InvenSense/ICS-40300?qs=%2Fha2pyFadujzJsvx64xsUNdAo4Ph4hwqMvEiGbKRLds%3D" H 1650 4700 50  0001 C CNN
+F 4 "ICS-40300" H 1700 4800 50  0001 C CNN "MPN"
+F 5 "TDK InvenSense" H 1700 4800 50  0001 C CNN "Mfr."
 	1    1700 4800
 	1    0    0    -1  
 $EndComp
@@ -404,6 +412,8 @@ F 0 "MK8" H 4350 1650 50  0000 R CNN
 F 1 "MIC_ICS_40300" H 4650 1050 50  0000 R CNN
 F 2 "grootvoet:MEMS_Mic_ICS-40300" H 3900 1250 50  0001 C CNN
 F 3 "https://www.mouser.co.za/ProductDetail/TDK-InvenSense/ICS-40300?qs=%2Fha2pyFadujzJsvx64xsUNdAo4Ph4hwqMvEiGbKRLds%3D" H 3900 1250 50  0001 C CNN
+F 4 "ICS-40300" H 3950 1350 50  0001 C CNN "MPN"
+F 5 "TDK InvenSense" H 3950 1350 50  0001 C CNN "Mfr."
 	1    3950 1350
 	1    0    0    -1  
 $EndComp
@@ -485,6 +495,8 @@ F 0 "MK7" H 4300 2800 50  0000 R CNN
 F 1 "MIC_ICS_40300" H 4600 2200 50  0000 R CNN
 F 2 "grootvoet:MEMS_Mic_ICS-40300" H 3850 2400 50  0001 C CNN
 F 3 "https://www.mouser.co.za/ProductDetail/TDK-InvenSense/ICS-40300?qs=%2Fha2pyFadujzJsvx64xsUNdAo4Ph4hwqMvEiGbKRLds%3D" H 3850 2400 50  0001 C CNN
+F 4 "ICS-40300" H 3900 2500 50  0001 C CNN "MPN"
+F 5 "TDK InvenSense" H 3900 2500 50  0001 C CNN "Mfr."
 	1    3900 2500
 	1    0    0    -1  
 $EndComp
@@ -566,6 +578,8 @@ F 0 "MK6" H 4250 3950 50  0000 R CNN
 F 1 "MIC_ICS_40300" H 4550 3350 50  0000 R CNN
 F 2 "grootvoet:MEMS_Mic_ICS-40300" H 3800 3550 50  0001 C CNN
 F 3 "https://www.mouser.co.za/ProductDetail/TDK-InvenSense/ICS-40300?qs=%2Fha2pyFadujzJsvx64xsUNdAo4Ph4hwqMvEiGbKRLds%3D" H 3800 3550 50  0001 C CNN
+F 4 "ICS-40300" H 3850 3650 50  0001 C CNN "MPN"
+F 5 "TDK InvenSense" H 3850 3650 50  0001 C CNN "Mfr."
 	1    3850 3650
 	1    0    0    -1  
 $EndComp
@@ -647,6 +661,8 @@ F 0 "MK5" H 4200 5100 50  0000 R CNN
 F 1 "MIC_ICS_40300" H 4500 4500 50  0000 R CNN
 F 2 "grootvoet:MEMS_Mic_ICS-40300" H 3750 4700 50  0001 C CNN
 F 3 "https://www.mouser.co.za/ProductDetail/TDK-InvenSense/ICS-40300?qs=%2Fha2pyFadujzJsvx64xsUNdAo4Ph4hwqMvEiGbKRLds%3D" H 3750 4700 50  0001 C CNN
+F 4 "ICS-40300" H 3800 4800 50  0001 C CNN "MPN"
+F 5 "TDK InvenSense" H 3800 4800 50  0001 C CNN "Mfr."
 	1    3800 4800
 	1    0    0    -1  
 $EndComp
