@@ -64,11 +64,11 @@ AR Path="/5F803BE9/5F9C8C68" Ref="R?"  Part="1"
 AR Path="/5F9C8C68" Ref="R?"  Part="1" 
 AR Path="/5F9C4001/5F9C8C68" Ref="R11"  Part="1" 
 F 0 "R11" H 4709 2396 50  0000 L CNN
-F 1 "2.2k" H 4709 2305 50  0000 L CNN
+F 1 "2k2" H 4709 2305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4650 2350 50  0001 C CNN
 F 3 "~" H 4650 2350 50  0001 C CNN
 F 4 "" H 4650 2350 50  0001 C CNN "MPN"
-F 5 "Yageo" H 4650 2350 50  0001 C CNN "Mfr."
+F 5 "Panasonic" H 4650 2350 50  0001 C CNN "Mfr."
 	1    4650 2350
 	0    -1   -1   0   
 $EndComp
@@ -86,11 +86,11 @@ AR Path="/5F803BE9/5F9C8C70" Ref="R?"  Part="1"
 AR Path="/5F9C8C70" Ref="R?"  Part="1" 
 AR Path="/5F9C4001/5F9C8C70" Ref="R12"  Part="1" 
 F 0 "R12" V 5650 2500 50  0000 L CNN
-F 1 "2.2k" V 5650 2050 50  0000 L CNN
+F 1 "2k2" V 5650 2050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5600 2350 50  0001 C CNN
 F 3 "~" H 5600 2350 50  0001 C CNN
 F 4 "" H 5600 2350 50  0001 C CNN "MPN"
-F 5 "Yageo" H 5600 2350 50  0001 C CNN "Mfr."
+F 5 "Panasonic" H 5600 2350 50  0001 C CNN "Mfr."
 	1    5600 2350
 	0    -1   -1   0   
 $EndComp
@@ -251,11 +251,11 @@ AR Path="/5F803BE9/5F9C9C1D" Ref="R?"  Part="1"
 AR Path="/5F9C9C1D" Ref="R?"  Part="1" 
 AR Path="/5F9C4001/5F9C9C1D" Ref="R2"  Part="1" 
 F 0 "R2" H 3909 3096 50  0000 L CNN
-F 1 "2.2k" H 3909 3005 50  0000 L CNN
+F 1 "2k2" H 3909 3005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3850 3050 50  0001 C CNN
 F 3 "~" H 3850 3050 50  0001 C CNN
 F 4 "" H 3850 3050 50  0001 C CNN "MPN"
-F 5 "Yageo" H 3850 3050 50  0001 C CNN "Mfr."
+F 5 "Panasonic" H 3850 3050 50  0001 C CNN "Mfr."
 	1    3850 3050
 	0    -1   -1   0   
 $EndComp
@@ -273,11 +273,11 @@ AR Path="/5F803BE9/5F9CA170" Ref="R?"  Part="1"
 AR Path="/5F9CA170" Ref="R?"  Part="1" 
 AR Path="/5F9C4001/5F9CA170" Ref="R3"  Part="1" 
 F 0 "R3" H 3909 3396 50  0000 L CNN
-F 1 "2.2k" H 3909 3305 50  0000 L CNN
+F 1 "2k2" H 3909 3305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3850 3350 50  0001 C CNN
 F 3 "~" H 3850 3350 50  0001 C CNN
 F 4 "" H 3850 3350 50  0001 C CNN "MPN"
-F 5 "Yageo" H 3850 3350 50  0001 C CNN "Mfr."
+F 5 "Panasonic" H 3850 3350 50  0001 C CNN "Mfr."
 	1    3850 3350
 	0    -1   -1   0   
 $EndComp
@@ -295,11 +295,11 @@ AR Path="/5F803BE9/5F9CB9C2" Ref="R?"  Part="1"
 AR Path="/5F9CB9C2" Ref="R?"  Part="1" 
 AR Path="/5F9C4001/5F9CB9C2" Ref="R4"  Part="1" 
 F 0 "R4" H 3909 3696 50  0000 L CNN
-F 1 "2.2k" H 3909 3605 50  0000 L CNN
+F 1 "2k2" H 3909 3605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3850 3650 50  0001 C CNN
 F 3 "~" H 3850 3650 50  0001 C CNN
 F 4 "" H 3850 3650 50  0001 C CNN "MPN"
-F 5 "Yageo" H 3850 3650 50  0001 C CNN "Mfr."
+F 5 "Panasonic" H 3850 3650 50  0001 C CNN "Mfr."
 	1    3850 3650
 	0    -1   -1   0   
 $EndComp
@@ -317,11 +317,11 @@ AR Path="/5F803BE9/5F9CB9CA" Ref="R?"  Part="1"
 AR Path="/5F9CB9CA" Ref="R?"  Part="1" 
 AR Path="/5F9C4001/5F9CB9CA" Ref="R5"  Part="1" 
 F 0 "R5" H 3909 3996 50  0000 L CNN
-F 1 "2.2k" H 3909 3905 50  0000 L CNN
+F 1 "2k2" H 3909 3905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3850 3950 50  0001 C CNN
 F 3 "~" H 3850 3950 50  0001 C CNN
 F 4 "" H 3850 3950 50  0001 C CNN "MPN"
-F 5 "Yageo" H 3850 3950 50  0001 C CNN "Mfr."
+F 5 "Panasonic" H 3850 3950 50  0001 C CNN "Mfr."
 	1    3850 3950
 	0    -1   -1   0   
 $EndComp
@@ -339,11 +339,11 @@ AR Path="/5F803BE9/5F9CD10D" Ref="R?"  Part="1"
 AR Path="/5F9CD10D" Ref="R?"  Part="1" 
 AR Path="/5F9C4001/5F9CD10D" Ref="R6"  Part="1" 
 F 0 "R6" H 3909 4296 50  0000 L CNN
-F 1 "2.2k" H 3909 4205 50  0000 L CNN
+F 1 "2k2" H 3909 4205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3850 4250 50  0001 C CNN
 F 3 "~" H 3850 4250 50  0001 C CNN
 F 4 "" H 3850 4250 50  0001 C CNN "MPN"
-F 5 "Yageo" H 3850 4250 50  0001 C CNN "Mfr."
+F 5 "Panasonic" H 3850 4250 50  0001 C CNN "Mfr."
 	1    3850 4250
 	0    -1   -1   0   
 $EndComp
@@ -361,11 +361,11 @@ AR Path="/5F803BE9/5F9CD115" Ref="R?"  Part="1"
 AR Path="/5F9CD115" Ref="R?"  Part="1" 
 AR Path="/5F9C4001/5F9CD115" Ref="R7"  Part="1" 
 F 0 "R7" H 3909 4596 50  0000 L CNN
-F 1 "2.2k" H 3909 4505 50  0000 L CNN
+F 1 "2k2" H 3909 4505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3850 4550 50  0001 C CNN
 F 3 "~" H 3850 4550 50  0001 C CNN
 F 4 "" H 3850 4550 50  0001 C CNN "MPN"
-F 5 "Yageo" H 3850 4550 50  0001 C CNN "Mfr."
+F 5 "Panasonic" H 3850 4550 50  0001 C CNN "Mfr."
 	1    3850 4550
 	0    -1   -1   0   
 $EndComp
@@ -383,11 +383,11 @@ AR Path="/5F803BE9/5F9CD11D" Ref="R?"  Part="1"
 AR Path="/5F9CD11D" Ref="R?"  Part="1" 
 AR Path="/5F9C4001/5F9CD11D" Ref="R8"  Part="1" 
 F 0 "R8" H 3909 4896 50  0000 L CNN
-F 1 "2.2k" H 3909 4805 50  0000 L CNN
+F 1 "2k2" H 3909 4805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3850 4850 50  0001 C CNN
 F 3 "~" H 3850 4850 50  0001 C CNN
 F 4 "" H 3850 4850 50  0001 C CNN "MPN"
-F 5 "Yageo" H 3850 4850 50  0001 C CNN "Mfr."
+F 5 "Panasonic" H 3850 4850 50  0001 C CNN "Mfr."
 	1    3850 4850
 	0    -1   -1   0   
 $EndComp
@@ -405,11 +405,11 @@ AR Path="/5F803BE9/5F9CD125" Ref="R?"  Part="1"
 AR Path="/5F9CD125" Ref="R?"  Part="1" 
 AR Path="/5F9C4001/5F9CD125" Ref="R9"  Part="1" 
 F 0 "R9" H 3909 5196 50  0000 L CNN
-F 1 "2.2k" H 3909 5105 50  0000 L CNN
+F 1 "2k2" H 3909 5105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3850 5150 50  0001 C CNN
 F 3 "~" H 3850 5150 50  0001 C CNN
 F 4 "" H 3850 5150 50  0001 C CNN "MPN"
-F 5 "Yageo" H 3850 5150 50  0001 C CNN "Mfr."
+F 5 "Panasonic" H 3850 5150 50  0001 C CNN "Mfr."
 	1    3850 5150
 	0    -1   -1   0   
 $EndComp
