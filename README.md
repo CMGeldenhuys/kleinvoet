@@ -30,7 +30,6 @@ project.
     connector
 - [X] Flip labels (serial) on GPS daughter board
 - [X] Change fuses to resettable ones
-- [ ] (Optional) Add current sense for power draw
 - [X] Change VBat-ADC resistors to 1 Meg (2x500k)
 - [X] Add guard shield for SD Card
 - [X] Add 1u cap for SD Card
