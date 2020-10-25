@@ -36,3 +36,4 @@ project.
 - [X] Fix SD card clearance with GPS board
 - [X] Add more MICs to improve SNR
 - [ ] Increase decoupling cap. on adc analog rail
+- [ ] Add BME280 Sensor
