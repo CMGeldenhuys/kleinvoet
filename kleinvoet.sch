@@ -1148,34 +1148,12 @@ Wire Wire Line
 	5450 4450 6200 4450
 Wire Wire Line
 	5450 4350 6200 4350
-Text Label 2600 2400 0    50   ~ 0
-ADC_SCK
-Wire Wire Line
-	2600 2400 2400 2400
-Text Label 2600 2300 0    50   ~ 0
-ADC_MISO
-Wire Wire Line
-	2600 2300 2400 2300
-Text Label 2600 2200 0    50   ~ 0
-ADC_MOSI
-Wire Wire Line
-	2600 2200 2400 2200
-Wire Wire Line
-	2600 2500 2400 2500
 Text Label 1200 1550 2    50   ~ 0
 SYNC
-Text Label 1200 2400 2    50   ~ 0
-SYNC
-Wire Wire Line
-	1200 2400 1400 2400
 Text Label 6200 4250 0    50   ~ 0
 ADC_~DRDY
 Wire Wire Line
 	6200 4250 5450 4250
-Text Label 1200 2500 2    50   ~ 0
-ADC_~DRDY
-Wire Wire Line
-	1200 2500 1400 2500
 Text Label 5650 1950 0    50   ~ 0
 SPI1_SCK
 Text Label 5650 2050 0    50   ~ 0
@@ -1484,18 +1462,6 @@ Text Label 3850 3550 2    50   ~ 0
 SENSOR_EN
 Wire Wire Line
 	3850 3550 4050 3550
-Text Label 1200 2300 2    50   ~ 0
-CAL_EN
-Wire Wire Line
-	1200 2300 1400 2300
-Text Label 1200 2200 2    50   ~ 0
-CAL_SIG
-Wire Wire Line
-	1200 2200 1400 2200
-Text Label 1200 2600 2    50   ~ 0
-SENSOR_EN
-Wire Wire Line
-	1200 2600 1400 2600
 $Comp
 L Device:Ferrite_Bead_Small FB9
 U 1 1 5F0F97AE
@@ -1528,8 +1494,6 @@ Text Label 3850 3650 2    50   ~ 0
 ADC_~CS
 Wire Wire Line
 	4050 3650 3850 3650
-Text Label 2600 2500 0    50   ~ 0
-ADC_~CS
 $Comp
 L MCU_ST_STM32F4:STM32F446RETx U1
 U 1 1 5EF8E42C
@@ -1560,10 +1524,6 @@ Connection ~ 5050 5900
 Wire Wire Line
 	5250 6100 5050 6100
 Connection ~ 5050 6100
-Text Label 2600 2600 0    50   ~ 0
-ADC_CLK
-Wire Wire Line
-	2600 2600 2400 2600
 Text Label 3850 3750 2    50   ~ 0
 ADC_CLK
 Wire Wire Line
@@ -1580,4 +1540,44 @@ USR_BTN
 Wire Wire Line
 	6200 3950 5450 3950
 NoConn ~ 5450 3350
+Wire Wire Line
+	2600 2600 2400 2600
+Text Label 2600 2600 0    50   ~ 0
+ADC_CLK
+Text Label 2600 2500 0    50   ~ 0
+ADC_~CS
+Wire Wire Line
+	2600 2500 2400 2500
+Wire Wire Line
+	2600 2200 2400 2200
+Text Label 2600 2200 0    50   ~ 0
+ADC_MOSI
+Wire Wire Line
+	2600 2300 2400 2300
+Text Label 2600 2300 0    50   ~ 0
+ADC_MISO
+Wire Wire Line
+	2600 2400 2400 2400
+Text Label 2600 2400 0    50   ~ 0
+ADC_SCK
+Wire Wire Line
+	1200 2600 1400 2600
+Text Label 1200 2600 2    50   ~ 0
+SENSOR_EN
+Wire Wire Line
+	1200 2200 1400 2200
+Text Label 1200 2200 2    50   ~ 0
+CAL_SIG
+Wire Wire Line
+	1200 2300 1400 2300
+Text Label 1200 2300 2    50   ~ 0
+CAL_EN
+Wire Wire Line
+	1200 2500 1400 2500
+Text Label 1200 2500 2    50   ~ 0
+ADC_~DRDY
+Wire Wire Line
+	1200 2400 1400 2400
+Text Label 1200 2400 2    50   ~ 0
+SYNC
 $EndSCHEMATC

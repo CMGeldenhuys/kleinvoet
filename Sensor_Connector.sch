@@ -104,7 +104,7 @@ F 3 "" H 1850 3650 50  0001 C CNN
 	1    1850 3650
 	0    1    -1   0   
 $EndComp
-Text HLabel 1850 3550 0    50   Input ~ 0
+Text HLabel 1850 3550 0    50   Output ~ 0
 SIG_N
 $Comp
 L power:+3V3 #PWR065
@@ -124,7 +124,7 @@ F 3 "" H 2350 3650 50  0001 C CNN
 	1    2350 3650
 	0    1    -1   0   
 $EndComp
-Text HLabel 1850 3450 0    50   Input ~ 0
+Text HLabel 1850 3450 0    50   Output ~ 0
 SIG_P
 $Comp
 L power:GND #PWR?
@@ -161,6 +161,10 @@ $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5F997D5D
 P 2150 5300
+AR Path="/5EE5ECAD/5EE62C2B/5F997D5D" Ref="FB?"  Part="1" 
+AR Path="/5EE5ECAD/5EFF163B/5F997D5D" Ref="FB?"  Part="1" 
+AR Path="/5EE5ECAD/5EFF6D57/5F997D5D" Ref="FB?"  Part="1" 
+AR Path="/5EE5ECAD/5EFFC4F7/5F997D5D" Ref="FB?"  Part="1" 
 F 0 "FB?" V 1913 5300 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 2004 5300 50  0000 C CNN
 F 2 "" V 2080 5300 50  0001 C CNN
@@ -172,6 +176,10 @@ $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5F999474
 P 2150 5750
+AR Path="/5EE5ECAD/5EE62C2B/5F999474" Ref="FB?"  Part="1" 
+AR Path="/5EE5ECAD/5EFF163B/5F999474" Ref="FB?"  Part="1" 
+AR Path="/5EE5ECAD/5EFF6D57/5F999474" Ref="FB?"  Part="1" 
+AR Path="/5EE5ECAD/5EFFC4F7/5F999474" Ref="FB?"  Part="1" 
 F 0 "FB?" V 1913 5750 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 2004 5750 50  0000 C CNN
 F 2 "" V 2080 5750 50  0001 C CNN
@@ -319,37 +327,6 @@ F 5 "" H 2050 3550 50  0001 C CNN "Mfr."
 	1    2050 3550
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F9A5B4F
-P 1850 3750
-AR Path="/5F9A5B4F" Ref="#PWR?"  Part="1" 
-AR Path="/5F1E182A/5F9A5B4F" Ref="#PWR?"  Part="1" 
-AR Path="/5F27C929/5F9A5B4F" Ref="#PWR?"  Part="1" 
-AR Path="/5F2811D8/5F9A5B4F" Ref="#PWR?"  Part="1" 
-AR Path="/5F28658C/5F9A5B4F" Ref="#PWR?"  Part="1" 
-AR Path="/5F28BBEB/5F9A5B4F" Ref="#PWR?"  Part="1" 
-AR Path="/5F29087F/5F9A5B4F" Ref="#PWR?"  Part="1" 
-AR Path="/5EE5ECAD/5EE62C2B/5F9A5B4F" Ref="#PWR?"  Part="1" 
-AR Path="/5EE5ECAD/5EE62C39/5F9A5B4F" Ref="#PWR?"  Part="1" 
-AR Path="/5EE5ECAD/5EE62C47/5F9A5B4F" Ref="#PWR?"  Part="1" 
-AR Path="/5EE5ECAD/5EE62C55/5F9A5B4F" Ref="#PWR?"  Part="1" 
-AR Path="/5EE5ECAD/5EE8F49C/5F9A5B4F" Ref="#PWR?"  Part="1" 
-AR Path="/5EE5ECAD/5EE91C9A/5F9A5B4F" Ref="#PWR?"  Part="1" 
-AR Path="/5EE5ECAD/5EE94935/5F9A5B4F" Ref="#PWR?"  Part="1" 
-AR Path="/5EE5ECAD/5EE9134C/5F9A5B4F" Ref="#PWR?"  Part="1" 
-AR Path="/5EE5ECAD/5EE94699/5F9A5B4F" Ref="#PWR?"  Part="1" 
-AR Path="/5EE5ECAD/5EE979DE/5F9A5B4F" Ref="#PWR?"  Part="1" 
-AR Path="/5EE5ECAD/5EFF163B/5F9A5B4F" Ref="#PWR?"  Part="1" 
-AR Path="/5EE5ECAD/5EFF6D57/5F9A5B4F" Ref="#PWR?"  Part="1" 
-AR Path="/5EE5ECAD/5EFFC4F7/5F9A5B4F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1850 3500 50  0001 C CNN
-F 1 "GND" V 1850 3550 50  0000 C CNN
-F 2 "" H 1850 3750 50  0001 C CNN
-F 3 "" H 1850 3750 50  0001 C CNN
-	1    1850 3750
-	0    1    -1   0   
-$EndComp
-Text HLabel 2350 3750 2    50   Input ~ 0
-MIC_BIAS
+NoConn ~ 2350 3750
+NoConn ~ 1850 3750
 $EndSCHEMATC

@@ -348,7 +348,7 @@ F 3 "" H 4250 5800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4250 5800 4250 5750
-Text GLabel 4450 4050 0    50   Input ~ 0
+Text GLabel 4450 4350 0    50   Input ~ 0
 EN
 $Comp
 L power:VCC #PWR09
@@ -792,7 +792,7 @@ F 3 "" H 4450 3950 50  0001 C CNN
 	1    4450 3950
 	0    1    1    0   
 $EndComp
-Text GLabel 4450 4350 0    50   Input ~ 0
+Text GLabel 4450 4050 0    50   Input ~ 0
 SIG_P
 Text GLabel 4450 4250 0    50   Input ~ 0
 SIG_N
