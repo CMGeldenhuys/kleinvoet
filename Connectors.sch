@@ -223,8 +223,6 @@ Text HLabel 3300 3650 0    50   Output ~ 0
 SDIO_CD
 Text Notes 4650 4000 0    50   Italic 0
 See Application note AN10911
-Text HLabel 3300 3750 0    50   Output ~ 0
-SDIO_WP
 $Comp
 L power:GND #PWR0123
 U 1 1 5EFBCDAD
@@ -427,8 +425,6 @@ $EndComp
 Wire Wire Line
 	3300 3550 4500 3550
 Wire Wire Line
-	3300 3750 4500 3750
-Wire Wire Line
 	3300 3650 4500 3650
 Wire Wire Line
 	3300 3450 4500 3450
@@ -504,5 +500,54 @@ F 2 "" H 3150 2550 50  0001 C CNN
 F 3 "" H 3150 2550 50  0001 C CNN
 	1    3150 2550
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FA0F094
+P 4100 3750
+F 0 "R?" V 4300 3750 50  0000 C CNN
+F 1 "100k" V 4200 3750 50  0000 C CNN
+F 2 "" H 4100 3750 50  0001 C CNN
+F 3 "~" H 4100 3750 50  0001 C CNN
+	1    4100 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FA10E64
+P 3500 3900
+F 0 "#PWR?" H 3500 3750 50  0001 C CNN
+F 1 "+3V3" V 3515 4028 50  0000 L CNN
+F 2 "" H 3500 3900 50  0001 C CNN
+F 3 "" H 3500 3900 50  0001 C CNN
+	1    3500 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3300 3750 4000 3750
+Wire Wire Line
+	4200 3750 4500 3750
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP?
+U 1 1 5FA1370F
+P 3300 3900
+F 0 "JP?" H 3300 4013 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 3300 4104 50  0000 C CNN
+F 2 "" H 3300 3900 50  0001 C CNN
+F 3 "~" H 3300 3900 50  0001 C CNN
+	1    3300 3900
+	-1   0    0    1   
+$EndComp
+Connection ~ 3300 3750
+$Comp
+L power:GND #PWR?
+U 1 1 5FA17ACE
+P 3100 3900
+F 0 "#PWR?" H 3100 3650 50  0001 C CNN
+F 1 "GND" H 3105 3727 50  0000 C CNN
+F 2 "" H 3100 3900 50  0001 C CNN
+F 3 "" H 3100 3900 50  0001 C CNN
+	1    3100 3900
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

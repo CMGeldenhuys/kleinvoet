@@ -14,42 +14,38 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1400 2100 1000 600 
+S 1400 2100 1000 500 
 U 5EE5ECAD
 F0 "ADC_Interface" 50
 F1 "ADC_Interface.sch" 50
-F2 "SPI_MOSI" I R 2400 2200 50 
-F3 "SPI_MISO" O R 2400 2300 50 
-F4 "SPI_CLK" I R 2400 2400 50 
-F5 "~DRDY" O L 1400 2500 50 
-F6 "SPI_~CS" I R 2400 2500 50 
-F7 "SYNC" I L 1400 2400 50 
-F8 "CAL_SIG" I L 1400 2200 50 
-F9 "CAL_EN" I L 1400 2300 50 
-F10 "EN" I L 1400 2600 50 
-F11 "ADC_CLK" I R 2400 2600 50 
+F2 "~RST" I L 1400 2400 50 
+F3 "SAI_SD1" O R 2400 2500 50 
+F4 "SAI_SD2" O R 2400 2400 50 
+F5 "SAI_BCLK" B R 2400 2300 50 
+F6 "SAI_FCLK" B R 2400 2200 50 
+F7 "SDA" B L 1400 2200 50 
+F8 "SCL" I L 1400 2300 50 
 $EndSheet
 $Sheet
-S 1400 2900 1000 500 
+S 1400 3750 1000 500 
 U 5EEDE770
 F0 "Power" 50
 F1 "Power.sch" 50
 $EndSheet
 $Sheet
-S 1350 3650 1100 900 
+S 1350 4500 1100 900 
 U 5EF53A66
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
-F2 "USB_D+" B R 2450 4000 50 
-F3 "USB_D-" B R 2450 4150 50 
-F4 "SDIO_D1" B L 1350 3850 50 
-F5 "SDIO_D0" B L 1350 3750 50 
-F6 "SDIO_D2" B L 1350 3950 50 
-F7 "SDIO_D3" B L 1350 4050 50 
-F8 "SDIO_CMD" I L 1350 4150 50 
-F9 "SDIO_CLK" I L 1350 4250 50 
-F10 "SDIO_CD" O L 1350 4350 50 
-F11 "SDIO_WP" O L 1350 4450 50 
+F2 "USB_D+" B R 2450 4850 50 
+F3 "USB_D-" B R 2450 5000 50 
+F4 "SDIO_D1" B L 1350 4700 50 
+F5 "SDIO_D0" B L 1350 4600 50 
+F6 "SDIO_D2" B L 1350 4800 50 
+F7 "SDIO_D3" B L 1350 4900 50 
+F8 "SDIO_CMD" I L 1350 5000 50 
+F9 "SDIO_CLK" I L 1350 5100 50 
+F10 "SDIO_CD" O L 1350 5200 50 
 $EndSheet
 $Comp
 L Device:C_Small C2
@@ -447,38 +443,38 @@ Text Notes 550  7700 0    50   Italic 0
 See Manual UM2502
 Text Notes 550  5700 0    50   ~ 10
 Debug Connector
-Text Label 2600 4150 0    50   ~ 0
+Text Label 2600 5000 0    50   ~ 0
 USB_DN
-Text Label 2600 4000 0    50   ~ 0
+Text Label 2600 4850 0    50   ~ 0
 USB_DP
-Text Label 1200 3950 2    50   ~ 0
+Text Label 1200 4800 2    50   ~ 0
 SDIO_D2
 Wire Wire Line
-	2600 4150 2450 4150
+	2600 5000 2450 5000
 Wire Wire Line
-	2600 4000 2450 4000
+	2600 4850 2450 4850
 Wire Wire Line
-	1350 3950 1200 3950
-Text Label 1200 3750 2    50   ~ 0
+	1350 4800 1200 4800
+Text Label 1200 4600 2    50   ~ 0
 SDIO_D0
-Text Label 1200 3850 2    50   ~ 0
+Text Label 1200 4700 2    50   ~ 0
 SDIO_D1
 Wire Wire Line
-	1200 3850 1350 3850
+	1200 4700 1350 4700
 Wire Wire Line
-	1350 3750 1200 3750
-Text Label 1200 4050 2    50   ~ 0
+	1350 4600 1200 4600
+Text Label 1200 4900 2    50   ~ 0
 SDIO_D3
 Wire Wire Line
-	1200 4050 1350 4050
-Text Label 1200 4150 2    50   ~ 0
+	1200 4900 1350 4900
+Text Label 1200 5000 2    50   ~ 0
 SDIO_CMD
 Wire Wire Line
-	1200 4150 1350 4150
-Text Label 1200 4250 2    50   ~ 0
+	1200 5000 1350 5000
+Text Label 1200 5100 2    50   ~ 0
 SDIO_CLK
 Wire Wire Line
-	1200 4250 1350 4250
+	1200 5100 1350 5100
 $Comp
 L Device:R_Small R2
 U 1 1 5EEA5621
@@ -1136,24 +1132,6 @@ Text Label 5700 4450 0    50   ~ 0
 SPI2_MISO
 Text Label 5700 4350 0    50   ~ 0
 SPI2_SCK
-Text Label 6200 4350 0    50   ~ 0
-ADC_SCK
-Text Label 6200 4450 0    50   ~ 0
-ADC_MISO
-Text Label 6200 4550 0    50   ~ 0
-ADC_MOSI
-Wire Wire Line
-	5450 4550 6200 4550
-Wire Wire Line
-	5450 4450 6200 4450
-Wire Wire Line
-	5450 4350 6200 4350
-Text Label 1200 1550 2    50   ~ 0
-SYNC
-Text Label 6200 4250 0    50   ~ 0
-ADC_~DRDY
-Wire Wire Line
-	6200 4250 5450 4250
 Text Label 5650 1950 0    50   ~ 0
 SPI1_SCK
 Text Label 5650 2050 0    50   ~ 0
@@ -1176,22 +1154,14 @@ Text Label 1200 1750 2    50   ~ 0
 ~RST
 Wire Wire Line
 	1200 1750 1400 1750
-Text Label 5650 2350 0    50   ~ 0
-SDIO_WP
 Text Label 5650 2250 0    50   ~ 0
 SDIO_CD
 Wire Wire Line
 	5650 2250 5450 2250
-Wire Wire Line
-	5650 2350 5450 2350
-Text Label 1200 4450 2    50   ~ 0
-SDIO_WP
-Wire Wire Line
-	1200 4450 1350 4450
-Text Label 1200 4350 2    50   ~ 0
+Text Label 1200 5200 2    50   ~ 0
 SDIO_CD
 Wire Wire Line
-	1200 4350 1350 4350
+	1200 5200 1350 5200
 Text Label 6200 4150 0    50   ~ 0
 GPS_WAKE
 Text Label 6100 3150 0    50   ~ 0
@@ -1256,10 +1226,10 @@ Wire Wire Line
 Wire Wire Line
 	10400 2850 10400 2800
 Connection ~ 10400 2800
-Text Label 900  1550 2    50   ~ 0
+Text Label 1200 1550 2    50   ~ 0
 RTC_CAL
 Wire Wire Line
-	900  1550 1400 1550
+	1200 1550 1400 1550
 Wire Wire Line
 	4800 1150 4800 1200
 Connection ~ 4800 1200
@@ -1448,20 +1418,8 @@ Wire Wire Line
 	3850 3950 4050 3950
 Text Label 3850 3950 2    50   ~ 0
 SDIO_D1
-Text Label 6100 1850 0    50   ~ 0
-CAL_SIG
-Wire Wire Line
-	6100 1850 5450 1850
 Text Label 5650 1850 0    50   ~ 0
 DAC1_OUT
-Text Label 3850 3450 2    50   ~ 0
-CAL_EN
-Wire Wire Line
-	4050 3450 3850 3450
-Text Label 3850 3550 2    50   ~ 0
-SENSOR_EN
-Wire Wire Line
-	3850 3550 4050 3550
 $Comp
 L Device:Ferrite_Bead_Small FB9
 U 1 1 5F0F97AE
@@ -1490,10 +1448,6 @@ F 5 "KEMET" H 5250 6000 50  0001 C CNN "Mfr."
 	1    5250 6000
 	1    0    0    -1  
 $EndComp
-Text Label 3850 3650 2    50   ~ 0
-ADC_~CS
-Wire Wire Line
-	4050 3650 3850 3650
 $Comp
 L MCU_ST_STM32F4:STM32F446RETx U1
 U 1 1 5EF8E42C
@@ -1524,10 +1478,6 @@ Connection ~ 5050 5900
 Wire Wire Line
 	5250 6100 5050 6100
 Connection ~ 5050 6100
-Text Label 3850 3750 2    50   ~ 0
-ADC_CLK
-Wire Wire Line
-	3850 3750 4050 3750
 NoConn ~ 4050 4350
 Text Label 5950 6800 0    50   ~ 0
 LED_STATUS
@@ -1541,43 +1491,11 @@ Wire Wire Line
 	6200 3950 5450 3950
 NoConn ~ 5450 3350
 Wire Wire Line
-	2600 2600 2400 2600
-Text Label 2600 2600 0    50   ~ 0
-ADC_CLK
-Text Label 2600 2500 0    50   ~ 0
-ADC_~CS
+	5700 4350 5450 4350
 Wire Wire Line
-	2600 2500 2400 2500
+	5700 4450 5450 4450
 Wire Wire Line
-	2600 2200 2400 2200
-Text Label 2600 2200 0    50   ~ 0
-ADC_MOSI
+	5700 4550 5450 4550
 Wire Wire Line
-	2600 2300 2400 2300
-Text Label 2600 2300 0    50   ~ 0
-ADC_MISO
-Wire Wire Line
-	2600 2400 2400 2400
-Text Label 2600 2400 0    50   ~ 0
-ADC_SCK
-Wire Wire Line
-	1200 2600 1400 2600
-Text Label 1200 2600 2    50   ~ 0
-SENSOR_EN
-Wire Wire Line
-	1200 2200 1400 2200
-Text Label 1200 2200 2    50   ~ 0
-CAL_SIG
-Wire Wire Line
-	1200 2300 1400 2300
-Text Label 1200 2300 2    50   ~ 0
-CAL_EN
-Wire Wire Line
-	1200 2500 1400 2500
-Text Label 1200 2500 2    50   ~ 0
-ADC_~DRDY
-Wire Wire Line
-	1200 2400 1400 2400
-Text Label 1200 2400 2    50   ~ 0
-SYNC
+	5450 1850 5650 1850
 $EndSCHEMATC
