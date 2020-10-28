@@ -1224,14 +1224,10 @@ Wire Notes Line
 	3200 3550 4800 3550
 Wire Notes Line
 	4800 3550 4800 2300
-Text Label 6500 3400 2    50   ~ 0
-ADC_1_P
 Text Label 6500 3550 2    50   ~ 0
 ADC_1_N
 Text Label 6500 3800 2    50   ~ 0
 ADC_1_P
-Text Label 6500 3950 2    50   ~ 0
-ADC_1_N
 Text Label 6500 4250 2    50   ~ 0
 ADC_2_P
 Text Label 6500 4400 2    50   ~ 0
@@ -1240,4 +1236,8 @@ Text Label 6500 4650 2    50   ~ 0
 ADC_2_P
 Text Label 6500 4800 2    50   ~ 0
 ADC_2_N
+Text Label 6500 3400 2    50   ~ 0
+ADC_1_P
+Text Label 6500 3950 2    50   ~ 0
+ADC_1_N
 $EndSCHEMATC
