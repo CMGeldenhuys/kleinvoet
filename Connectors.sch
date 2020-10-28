@@ -538,7 +538,6 @@ F 3 "~" H 3300 3900 50  0001 C CNN
 	1    3300 3900
 	-1   0    0    1   
 $EndComp
-Connection ~ 3300 3750
 $Comp
 L power:GND #PWR?
 U 1 1 5FA17ACE

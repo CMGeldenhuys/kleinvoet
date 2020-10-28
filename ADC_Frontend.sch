@@ -664,9 +664,9 @@ Wire Wire Line
 Connection ~ 4600 2400
 Wire Wire Line
 	4600 2400 4600 2450
-Text Label 5000 2100 0    50   ~ 10
+Text Label 5000 2100 0    50   ~ 0
 VCM
-Text Label 4900 4700 2    50   ~ 10
+Text Label 4900 4700 2    50   ~ 0
 VCM
 $Comp
 L Device:C_Small C?
@@ -756,6 +756,17 @@ F 1 "GND" H 6055 2077 50  0000 C CNN
 F 2 "" H 6050 2250 50  0001 C CNN
 F 3 "" H 6050 2250 50  0001 C CNN
 	1    6050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FC6D861
+P 4600 2100
+F 0 "TP?" H 4658 2218 50  0000 L CNN
+F 1 "VCM" H 4658 2127 50  0000 L CNN
+F 2 "" H 4800 2100 50  0001 C CNN
+F 3 "~" H 4800 2100 50  0001 C CNN
+	1    4600 2100
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

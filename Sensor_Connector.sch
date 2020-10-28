@@ -104,7 +104,7 @@ F 3 "" H 1850 3650 50  0001 C CNN
 	1    1850 3650
 	0    1    -1   0   
 $EndComp
-Text HLabel 1850 3550 0    50   Output ~ 0
+Text HLabel 4200 3600 0    50   Output ~ 0
 SIG_N
 $Comp
 L power:+3V3 #PWR065
@@ -124,7 +124,7 @@ F 3 "" H 2350 3650 50  0001 C CNN
 	1    2350 3650
 	0    1    -1   0   
 $EndComp
-Text HLabel 1850 3450 0    50   Output ~ 0
+Text HLabel 4200 3350 0    50   Output ~ 0
 SIG_P
 $Comp
 L power:GND #PWR?
@@ -329,4 +329,28 @@ F 5 "" H 2050 3550 50  0001 C CNN "Mfr."
 $EndComp
 NoConn ~ 2350 3750
 NoConn ~ 1850 3750
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FC79004
+P 4200 3350
+F 0 "TP?" V 4154 3538 50  0000 L CNN
+F 1 "SIG_p" V 4245 3538 50  0000 L CNN
+F 2 "" H 4400 3350 50  0001 C CNN
+F 3 "~" H 4400 3350 50  0001 C CNN
+	1    4200 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FC7A09A
+P 4200 3600
+F 0 "TP?" V 4154 3788 50  0000 L CNN
+F 1 "SIG_N" V 4245 3788 50  0000 L CNN
+F 2 "" H 4400 3600 50  0001 C CNN
+F 3 "~" H 4400 3600 50  0001 C CNN
+	1    4200 3600
+	0    1    1    0   
+$EndComp
+Text Notes 7600 1450 0    100  ~ 20
+(OUT OF DATE!)
 $EndSCHEMATC
