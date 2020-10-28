@@ -1356,8 +1356,6 @@ Text Label 3250 3150 2    50   ~ 0
 ADC_SAI_SD_A
 Wire Wire Line
 	3250 3150 4050 3150
-Text Label 2550 2500 0    50   ~ 0
-ADC_SAI_SD_A
 Wire Wire Line
 	2550 2500 2400 2500
 Text Label 2550 2200 0    50   ~ 0
@@ -1376,8 +1374,6 @@ Text Label 2550 2300 0    50   ~ 0
 ADC_SAI_BCLK
 Wire Wire Line
 	2550 2300 2400 2300
-Text Label 2550 2400 0    50   ~ 0
-ADC_SAI_SD_B
 Wire Wire Line
 	2550 2400 2400 2400
 Text Label 2550 2600 0    50   ~ 0
@@ -1555,4 +1551,8 @@ Text Label 6150 1950 0    50   ~ 0
 LED_STATUS_1
 Wire Wire Line
 	5450 1950 6150 1950
+Text Label 2550 2500 0    50   ~ 0
+ADC_SAI_SD_A
+Text Label 2550 2400 0    50   ~ 0
+ADC_SAI_SD_B
 $EndSCHEMATC

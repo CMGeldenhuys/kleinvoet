@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 9
+Sheet 9 9
 Title "Kleinvoet"
 Date "2020-06-11"
 Rev "Rev. A"
@@ -351,16 +351,8 @@ F 6 "KEMET" H 2400 1500 50  0001 C CNN "Mfr."
 	1    2400 1500
 	-1   0    0    -1  
 $EndComp
-Text HLabel 6600 1800 3    50   Input ~ 0
-GPS_TX
-Text HLabel 6700 1800 3    50   Output ~ 0
-GPS_RX
 NoConn ~ 3550 3850
 NoConn ~ 3550 3950
-Text HLabel 6800 1800 3    50   Input ~ 0
-GPS_~SAFEBOOT
-Text HLabel 6900 1800 3    50   Output ~ 0
-GPS_SYNC
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J16
 U 1 1 5F0E10E4
@@ -433,45 +425,6 @@ Text HLabel 9200 1750 2    50   Input ~ 0
 GPS_~RESET
 Text HLabel 8700 2050 0    50   Input ~ 0
 GPS_WAKE
-$Comp
-L power:GND #PWR?
-U 1 1 5F06EF60
-P 7000 1800
-AR Path="/5F06EF60" Ref="#PWR?"  Part="1" 
-AR Path="/5EDF3693/5F06EF60" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0115" H 7000 1550 50  0001 C CNN
-F 1 "GND" V 7005 1627 50  0000 C CNN
-F 2 "" H 7000 1800 50  0001 C CNN
-F 3 "" H 7000 1800 50  0001 C CNN
-	1    7000 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0150
-U 1 1 5F06EF66
-P 7100 1800
-F 0 "#PWR0150" H 7100 1650 50  0001 C CNN
-F 1 "+3V3" V 7100 2000 50  0000 C CNN
-F 2 "" H 7100 1800 50  0001 C CNN
-F 3 "" H 7100 1800 50  0001 C CNN
-	1    7100 1800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J14
-U 1 1 5EFC0896
-P 6700 1600
-F 0 "J14" V 6664 1112 50  0000 R CNN
-F 1 "GPS_Transmission_Conn" V 6573 1112 50  0000 R CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 6700 1600 50  0001 C CNN
-F 3 "~" H 6700 1600 50  0001 C CNN
-	1    6700 1600
-	0    -1   -1   0   
-$EndComp
-Text HLabel 6500 1800 3    50   Input ~ 0
-GPS_WAKE
-Text HLabel 6400 1800 3    50   Input ~ 0
-GPS_~RESET
 Wire Wire Line
 	7500 3150 7650 3150
 $Comp
@@ -608,5 +561,52 @@ $EndComp
 Text HLabel 7450 4800 3    50   Output ~ 0
 GPS_RX
 Text HLabel 7900 4850 3    50   Input ~ 0
+GPS_TX
+$Comp
+L power:+3V3 #PWR073
+U 1 1 5FA9CFEE
+P 6450 1950
+F 0 "#PWR073" H 6450 1800 50  0001 C CNN
+F 1 "+3V3" V 6450 2150 50  0000 C CNN
+F 2 "" H 6450 1950 50  0001 C CNN
+F 3 "" H 6450 1950 50  0001 C CNN
+	1    6450 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J4
+U 1 1 5FA9CFF4
+P 6750 1850
+F 0 "J4" H 6800 2167 50  0000 C CNN
+F 1 "GPS_Transmission_Conn" H 6800 2076 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x04_P1.27mm_Vertical" H 6750 1850 50  0001 C CNN
+F 3 "~" H 6750 1850 50  0001 C CNN
+	1    6750 1850
+	-1   0    0    -1  
+$EndComp
+Text HLabel 6950 2050 2    50   Output ~ 0
+GPS_SYNC
+Text HLabel 6950 1750 2    50   Input ~ 0
+GPS_~RESET
+Text HLabel 6450 2050 0    50   Input ~ 0
+GPS_WAKE
+$Comp
+L power:GND #PWR?
+U 1 1 5FA9CFFD
+P 6450 1850
+AR Path="/5FA9CFFD" Ref="#PWR?"  Part="1" 
+AR Path="/5EDF3693/5FA9CFFD" Ref="#PWR071"  Part="1" 
+F 0 "#PWR071" H 6450 1600 50  0001 C CNN
+F 1 "GND" V 6455 1677 50  0000 C CNN
+F 2 "" H 6450 1850 50  0001 C CNN
+F 3 "" H 6450 1850 50  0001 C CNN
+	1    6450 1850
+	0    1    1    0   
+$EndComp
+Text HLabel 6450 1750 0    50   Input ~ 0
+GPS_~SAFEBOOT
+Text HLabel 6950 1950 2    50   Output ~ 0
+GPS_RX
+Text HLabel 6950 1850 2    50   Input ~ 0
 GPS_TX
 $EndSCHEMATC

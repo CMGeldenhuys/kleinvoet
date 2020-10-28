@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 9
+Sheet 7 9
 Title "Kleinvoet"
 Date "2020-06-11"
 Rev "Rev. A"
