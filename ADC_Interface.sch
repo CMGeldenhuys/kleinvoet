@@ -367,8 +367,9 @@ U 1 1 5F994006
 P 8250 1550
 F 0 "X1" H 8650 1300 50  0000 L CNN
 F 1 "12.288MHz" H 8600 1400 50  0000 L CNN
-F 2 "Oscillator:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm" H 8350 1200 50  0001 C CNN
-F 3 "https://abracon.com/Oscillators/ASCO.pdf" H 8025 1675 50  0001 C CNN
+F 2 "grootvoet:ECS-TXO-3225MV" H 8350 1200 50  0001 C CNN
+F 3 "" H 8025 1675 50  0001 C CNN
+F 4 "ECS-TXO-3225MV-122.8-TR" H 8250 1550 50  0001 C CNN "MPN"
 	1    8250 1550
 	1    0    0    -1  
 $EndComp
@@ -1016,17 +1017,6 @@ Connection ~ 7700 1550
 Wire Wire Line
 	7700 1550 7600 1550
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP5
-U 1 1 5FAD7E07
-P 9150 1550
-F 0 "JP5" H 9150 1755 50  0000 C CNN
-F 1 "ADC_CLK_SEL" H 9150 1664 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm" H 9150 1550 50  0001 C CNN
-F 3 "~" H 9150 1550 50  0001 C CNN
-	1    9150 1550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R?
 U 1 1 5FAE06F9
 P 9550 1550
@@ -1070,36 +1060,6 @@ F 3 "~" H 1900 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 1700 1350
-$Comp
-L Connector:TestPoint_2Pole TP3
-U 1 1 5FC0D7F2
-P 2050 5900
-F 0 "TP3" H 2050 6095 50  0000 C CNN
-F 1 "CH1" H 2050 6004 50  0000 C CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 2050 5900 50  0001 C CNN
-F 3 "~" H 2050 5900 50  0001 C CNN
-	1    2050 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_2Pole TP4
-U 1 1 5FC1170F
-P 2050 6200
-F 0 "TP4" H 2050 6395 50  0000 C CNN
-F 1 "CH2" H 2050 6304 50  0000 C CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 2050 6200 50  0001 C CNN
-F 3 "~" H 2050 6200 50  0001 C CNN
-	1    2050 6200
-	1    0    0    -1  
-$EndComp
-Text Label 2250 5900 0    50   ~ 0
-ADC_1_P
-Text Label 1850 5900 2    50   ~ 0
-ADC_1_N
-Text Label 2250 6200 0    50   ~ 0
-ADC_2_P
-Text Label 1850 6200 2    50   ~ 0
-ADC_2_N
 $Comp
 L Connector:TestPoint TP12
 U 1 1 5FC333BB
@@ -1240,4 +1200,15 @@ Text Label 6500 3400 2    50   ~ 0
 ADC_1_P
 Text Label 6500 3950 2    50   ~ 0
 ADC_1_N
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP5
+U 1 1 5FAD7E07
+P 9150 1550
+F 0 "JP5" H 9150 1755 50  0000 C CNN
+F 1 "ADC_CLK_SEL" H 9150 1664 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm" H 9150 1550 50  0001 C CNN
+F 3 "~" H 9150 1550 50  0001 C CNN
+	1    9150 1550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
