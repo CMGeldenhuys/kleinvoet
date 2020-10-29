@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1400 2100 1000 600 
+S 1400 2100 1000 500 
 U 5EE5ECAD
 F0 "ADC_Interface" 50
 F1 "ADC_Interface.sch" 50
@@ -26,7 +26,6 @@ F6 "SAI_FCLK" B R 2400 2200 50
 F7 "SDA" B L 1400 2200 50 
 F8 "SCL" I L 1400 2300 50 
 F9 "EN_XO" I L 1400 2500 50 
-F10 "MCLK" I R 2400 2600 50 
 $EndSheet
 $Sheet
 S 1400 3750 1000 500 
@@ -1348,10 +1347,6 @@ Text Label 6200 4050 0    50   ~ 0
 ADC_SAI_FS
 Wire Wire Line
 	5450 4050 6200 4050
-Text Label 3250 3050 2    50   ~ 0
-ADC_SAI_MCLK
-Wire Wire Line
-	3250 3050 4050 3050
 Text Label 3250 3150 2    50   ~ 0
 ADC_SAI_SD_A
 Wire Wire Line
@@ -1376,10 +1371,6 @@ Wire Wire Line
 	2550 2300 2400 2300
 Wire Wire Line
 	2550 2400 2400 2400
-Text Label 2550 2600 0    50   ~ 0
-ADC_SAI_MCLK
-Wire Wire Line
-	2550 2600 2400 2600
 Text Label 6150 2450 0    50   ~ 0
 ADC_XO_EN
 Wire Wire Line
@@ -1551,6 +1542,8 @@ Text Label 6150 1950 0    50   ~ 0
 LED_STATUS_1
 Wire Wire Line
 	5450 1950 6150 1950
+Wire Wire Line
+	4050 3050 3850 3050
 Text Label 2550 2500 0    50   ~ 0
 ADC_SAI_SD_A
 Text Label 2550 2400 0    50   ~ 0
