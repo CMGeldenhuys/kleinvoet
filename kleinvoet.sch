@@ -1371,14 +1371,6 @@ Wire Wire Line
 	2550 2300 2400 2300
 Wire Wire Line
 	2550 2400 2400 2400
-Text Label 6150 2450 0    50   ~ 0
-ADC_XO_EN
-Wire Wire Line
-	6150 2450 5450 2450
-Text Label 1200 2500 2    50   ~ 0
-ADC_XO_EN
-Wire Wire Line
-	1200 2500 1400 2500
 $Comp
 L Device:R_Small R6
 U 1 1 5FB6B11E

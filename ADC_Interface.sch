@@ -973,8 +973,6 @@ Wire Wire Line
 Wire Wire Line
 	9850 4800 9150 4800
 Connection ~ 9850 4800
-Text HLabel 8250 1550 0    50   Input ~ 0
-EN_XO
 $Comp
 L Device:R_Small R11
 U 1 1 5FAB8CC8
@@ -1003,9 +1001,6 @@ Wire Wire Line
 	8500 1550 8350 1550
 Wire Wire Line
 	8350 1450 8350 1550
-Connection ~ 8350 1550
-Wire Wire Line
-	8350 1550 8250 1550
 Wire Wire Line
 	9600 1550 9500 1550
 Wire Notes Line
@@ -1331,8 +1326,8 @@ L Device:C_Small C?
 U 1 1 5FC51556
 P 3150 1550
 AR Path="/5FC51556" Ref="C?"  Part="1" 
-AR Path="/5EE5ECAD/5FC51556" Ref="C?"  Part="1" 
-F 0 "C?" H 3242 1641 50  0000 L CNN
+AR Path="/5EE5ECAD/5FC51556" Ref="C33"  Part="1" 
+F 0 "C33" H 3242 1641 50  0000 L CNN
 F 1 "10u" H 3242 1550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3150 1550 50  0001 C CNN
 F 3 "~" H 3150 1550 50  0001 C CNN
