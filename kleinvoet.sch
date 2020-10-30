@@ -1013,10 +1013,8 @@ Text Label 1200 1750 2    50   ~ 0
 ~RST
 Wire Wire Line
 	1200 1750 1400 1750
-Text Label 5650 2250 0    50   ~ 0
+Text Label 3850 3050 2    50   ~ 0
 SDIO_CD
-Wire Wire Line
-	5650 2250 5450 2250
 Text Label 1200 5200 2    50   ~ 0
 SDIO_CD
 Wire Wire Line
@@ -1308,8 +1306,6 @@ Wire Wire Line
 	4050 4350 3850 4350
 Text Label 3850 3150 2    50   ~ 0
 SAI1_SD_A
-Text Label 3850 3050 2    50   ~ 0
-SAI_MCLK_B
 NoConn ~ 4050 3450
 NoConn ~ 4050 3550
 NoConn ~ 4050 3650
