@@ -382,10 +382,10 @@ U 1 1 5EE36736
 P 1650 6650
 F 0 "J1" H 1207 6696 50  0000 R CNN
 F 1 "Conn_ST_STDC14" H 1207 6605 50  0000 R CNN
-F 2 "grootvoet:SAMTEC-FTSH-107-01-X-D" H 1650 6650 50  0001 C CNN
+F 2 "grootvoet:SAMTEC-FTSH-107-01-X-DV" H 1650 6650 50  0001 C CNN
 F 3 "https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf" V 1300 5400 50  0001 C CNN
-F 4 "M50-055023W0445" H 1650 6650 50  0001 C CNN "MPN"
-F 5 "Harwin" H 1650 6650 50  0001 C CNN "Mfr."
+F 4 "FTSH-107-01-F-DV-K" H 1650 6650 50  0001 C CNN "MPN"
+F 5 "Samtec" H 1650 6650 50  0001 C CNN "Mfr."
 	1    1650 6650
 	1    0    0    -1  
 $EndComp
@@ -1037,7 +1037,7 @@ Text Label 10650 5400 0    50   ~ 0
 OSC_LSE_IN
 Text Label 10100 5400 2    50   ~ 0
 OSC_LSE_OUT
-Text Label 1200 1550 2    50   ~ 0
+Text Label 1000 1550 2    50   ~ 0
 RTC_CAL
 Wire Wire Line
 	1200 1550 1400 1550
@@ -1540,4 +1540,19 @@ Text Label 2550 2500 0    50   ~ 0
 ADC_SAI_SD_A
 Text Label 2550 2400 0    50   ~ 0
 ADC_SAI_SD_B
+$Comp
+L Device:Ferrite_Bead_Small FB5
+U 1 1 5F9E7EDF
+P 1100 1550
+AR Path="/5F9E7EDF" Ref="FB5"  Part="1" 
+AR Path="/5EDF3693/5F9E7EDF" Ref="FB?"  Part="1" 
+F 0 "FB5" V 1000 1650 50  0000 C CNN
+F 1 "BLM15HD102SN1" V 1150 1900 50  0001 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" V 1030 1550 50  0001 C CNN
+F 3 "~" H 1100 1550 50  0001 C CNN
+F 4 "BLM15HD102SN1D" V 1100 1550 50  0001 C CNN "MPN"
+F 5 "Murata Electronics" H 1100 1550 50  0001 C CNN "Mfr."
+	1    1100 1550
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

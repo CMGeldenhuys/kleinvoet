@@ -1,4 +1,4 @@
-update=Wed 28 Oct 2020 14:28:21 SAST
+update=Fri 30 Oct 2020 08:20:39 SAST
 version=1
 last_client=kicad
 [general]
@@ -293,7 +293,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=RTC_CAL
-Clearance=0.254
+Clearance=0.2
 TrackWidth=0.508
 ViaDiameter=0.8
 ViaDrill=0.4

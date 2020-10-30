@@ -204,7 +204,7 @@ Text HLabel 4300 3550 2    50   Input ~ 0
 GPS_TX
 Text HLabel 2450 3650 0    50   Input ~ 0
 GPS_WAKE
-Text HLabel 2450 3750 0    50   Output ~ 0
+Text HLabel 2250 3750 0    50   Output ~ 0
 GPS_SYNC
 Text HLabel 2450 3850 0    50   Input ~ 0
 GPS_~SAFEBOOT
@@ -609,4 +609,15 @@ Text HLabel 6950 1950 2    50   Output ~ 0
 GPS_RX
 Text HLabel 6950 1850 2    50   Input ~ 0
 GPS_TX
+$Comp
+L Device:R_Small R20
+U 1 1 5F9CEBA9
+P 2350 3750
+F 0 "R20" V 2300 3900 50  0000 C CNN
+F 1 "47" V 2350 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2350 3750 50  0001 C CNN
+F 3 "~" H 2350 3750 50  0001 C CNN
+	1    2350 3750
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
