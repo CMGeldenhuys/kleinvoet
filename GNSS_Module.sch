@@ -419,9 +419,9 @@ Wire Wire Line
 	7500 3150 7200 3150
 Wire Wire Line
 	8100 3150 8100 3100
-Text HLabel 9200 2050 2    50   Output ~ 0
+Text HLabel 9200 1750 2    50   Output ~ 0
 GPS_SYNC
-Text HLabel 9200 1750 2    50   Input ~ 0
+Text HLabel 9200 1850 2    50   Input ~ 0
 GPS_~RESET
 Text HLabel 8700 2050 0    50   Input ~ 0
 GPS_WAKE
@@ -458,7 +458,7 @@ Text HLabel 8700 1750 0    50   Input ~ 0
 GPS_~SAFEBOOT
 Text HLabel 9200 1950 2    50   Output ~ 0
 GPS_RX
-Text HLabel 9200 1850 2    50   Input ~ 0
+Text HLabel 9200 2050 2    50   Input ~ 0
 GPS_TX
 $Comp
 L Device:R_Small R?
@@ -584,9 +584,9 @@ F 3 "~" H 6750 1850 50  0001 C CNN
 	1    6750 1850
 	-1   0    0    -1  
 $EndComp
-Text HLabel 6950 2050 2    50   Output ~ 0
+Text HLabel 6950 1750 2    50   Output ~ 0
 GPS_SYNC
-Text HLabel 6950 1750 2    50   Input ~ 0
+Text HLabel 6950 1850 2    50   Input ~ 0
 GPS_~RESET
 Text HLabel 6450 2050 0    50   Input ~ 0
 GPS_WAKE
@@ -607,7 +607,7 @@ Text HLabel 6450 1750 0    50   Input ~ 0
 GPS_~SAFEBOOT
 Text HLabel 6950 1950 2    50   Output ~ 0
 GPS_RX
-Text HLabel 6950 1850 2    50   Input ~ 0
+Text HLabel 6950 2050 2    50   Input ~ 0
 GPS_TX
 $Comp
 L Device:R_Small R20
