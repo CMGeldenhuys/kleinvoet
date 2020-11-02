@@ -1334,7 +1334,7 @@ ADC_CTRL_SDA
 Wire Wire Line
 	1200 2200 1400 2200
 Text Label 1200 2400 2    50   ~ 0
-~RST
+ADC_~RST
 Wire Wire Line
 	1200 2400 1400 2400
 Text Label 6200 4050 0    50   ~ 0
@@ -1549,4 +1549,8 @@ F 5 "Murata Electronics" H 1100 1550 50  0001 C CNN "Mfr."
 $EndComp
 Wire Wire Line
 	5450 2050 6150 2050
+Text Label 3850 3750 2    50   ~ 0
+ADC_~RST
+Wire Wire Line
+	3850 3750 4050 3750
 $EndSCHEMATC
