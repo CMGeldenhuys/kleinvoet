@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 13
+Sheet 8 9
 Title "Kleinvoet"
 Date "2020-06-11"
 Rev "Rev. A"
@@ -73,7 +73,7 @@ U 1 1 5EF57A0A
 P 8500 3050
 F 0 "R90" H 8441 3004 50  0000 R CNN
 F 1 "5.1k" H 8441 3095 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8500 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8500 3050 50  0001 C CNN
 F 3 "~" H 8500 3050 50  0001 C CNN
 F 4 "AC0603FR-135K1L" H 8500 3050 50  0001 C CNN "MPN"
 F 5 "Yageo" H 8500 3050 50  0001 C CNN "Mfr."
@@ -86,7 +86,7 @@ U 1 1 5EF57A10
 P 8800 3050
 F 0 "R91" H 8741 3004 50  0000 R CNN
 F 1 "5.1k" H 8741 3095 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8800 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8800 3050 50  0001 C CNN
 F 3 "~" H 8800 3050 50  0001 C CNN
 F 4 "AC0603FR-135K1L" H 8800 3050 50  0001 C CNN "MPN"
 F 5 "Yageo" H 8800 3050 50  0001 C CNN "Mfr."
@@ -131,15 +131,11 @@ Connection ~ 7800 3000
 Wire Wire Line
 	7800 3300 7800 3200
 Connection ~ 7800 3200
-Wire Wire Line
-	10000 3450 10000 3400
 Text Notes 8700 4000 0    50   ~ 0
 Connect shield to all external mounting and \nthen to GND at a single point close to the \nconnector. Place all IO connectors (with shields) \nclose to each other.
 Wire Wire Line
 	9400 3450 9400 3400
 Connection ~ 9700 3450
-Wire Wire Line
-	9700 3450 10000 3450
 Wire Wire Line
 	9700 3450 9700 3400
 $Comp
@@ -151,17 +147,6 @@ F 1 "Earth" H 9700 3300 50  0001 C CNN
 F 2 "" H 9700 3450 50  0001 C CNN
 F 3 "~" H 9700 3450 50  0001 C CNN
 	1    9700 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 5EF57A3E
-P 10000 3300
-F 0 "H4" H 10100 3303 50  0000 L CNN
-F 1 "MountingHole_Pad" H 10100 3258 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10000 3300 50  0001 C CNN
-F 3 "~" H 10000 3300 50  0001 C CNN
-	1    10000 3300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -223,8 +208,6 @@ Text HLabel 3300 3650 0    50   Output ~ 0
 SDIO_CD
 Text Notes 4650 4000 0    50   Italic 0
 See Application note AN10911
-Text HLabel 3300 3750 0    50   Output ~ 0
-SDIO_WP
 $Comp
 L power:GND #PWR0123
 U 1 1 5EFBCDAD
@@ -393,7 +376,7 @@ U 1 1 5EF7DC5F
 P 4350 2650
 F 0 "R89" H 4291 2604 50  0000 R CNN
 F 1 "10k" H 4291 2695 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4350 2650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4350 2650 50  0001 C CNN
 F 3 "~" H 4350 2650 50  0001 C CNN
 F 4 "RC0603JR-0710KL" H 4350 2650 50  0001 C CNN "MPN"
 F 5 "Yageo" H 4350 2650 50  0001 C CNN "Mfr."
@@ -426,8 +409,6 @@ F 3 "" H 4250 2450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3300 3550 4500 3550
-Wire Wire Line
-	3300 3750 4500 3750
 Wire Wire Line
 	3300 3650 4500 3650
 Wire Wire Line
@@ -504,5 +485,53 @@ F 2 "" H 3150 2550 50  0001 C CNN
 F 3 "" H 3150 2550 50  0001 C CNN
 	1    3150 2550
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R65
+U 1 1 5FA0F094
+P 4100 3750
+F 0 "R65" V 4300 3750 50  0000 C CNN
+F 1 "100k" V 4200 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4100 3750 50  0001 C CNN
+F 3 "~" H 4100 3750 50  0001 C CNN
+	1    4100 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0193
+U 1 1 5FA10E64
+P 3500 3900
+F 0 "#PWR0193" H 3500 3750 50  0001 C CNN
+F 1 "+3V3" V 3515 4028 50  0000 L CNN
+F 2 "" H 3500 3900 50  0001 C CNN
+F 3 "" H 3500 3900 50  0001 C CNN
+	1    3500 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3300 3750 4000 3750
+Wire Wire Line
+	4200 3750 4500 3750
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP8
+U 1 1 5FA1370F
+P 3300 3900
+F 0 "JP8" H 3300 4013 50  0000 C CNN
+F 1 "SD_DET_SEL" H 3300 4104 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 3300 3900 50  0001 C CNN
+F 3 "~" H 3300 3900 50  0001 C CNN
+	1    3300 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0192
+U 1 1 5FA17ACE
+P 3100 3900
+F 0 "#PWR0192" H 3100 3650 50  0001 C CNN
+F 1 "GND" H 3105 3727 50  0000 C CNN
+F 2 "" H 3100 3900 50  0001 C CNN
+F 3 "" H 3100 3900 50  0001 C CNN
+	1    3100 3900
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

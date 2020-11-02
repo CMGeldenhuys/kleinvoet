@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 13
+Sheet 9 9
 Title "Kleinvoet"
 Date "2020-06-11"
 Rev "Rev. A"
@@ -139,7 +139,7 @@ AR Path="/5EE0528E" Ref="C?"  Part="1"
 AR Path="/5EDF3693/5EE0528E" Ref="C64"  Part="1" 
 F 0 "C64" H 1950 1600 50  0000 L CNN
 F 1 "10u" H 1900 1500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2100 1500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2100 1500 50  0001 C CNN
 F 3 "~" H 2100 1500 50  0001 C CNN
 F 4 "Low ESR" H 1750 1400 50  0000 L CNN "Notes"
 F 5 "C0805C106K9PACTU" H 2100 1500 50  0001 C CNN "MPN"
@@ -204,7 +204,7 @@ Text HLabel 4300 3550 2    50   Input ~ 0
 GPS_TX
 Text HLabel 2450 3650 0    50   Input ~ 0
 GPS_WAKE
-Text HLabel 2450 3750 0    50   Output ~ 0
+Text HLabel 2250 3750 0    50   Output ~ 0
 GPS_SYNC
 Text HLabel 2450 3850 0    50   Input ~ 0
 GPS_~SAFEBOOT
@@ -343,7 +343,7 @@ AR Path="/5EF80A3B" Ref="C?"  Part="1"
 AR Path="/5EDF3693/5EF80A3B" Ref="C65"  Part="1" 
 F 0 "C65" H 2250 1600 50  0000 L CNN
 F 1 "10u" H 2200 1500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2400 1500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2400 1500 50  0001 C CNN
 F 3 "~" H 2400 1500 50  0001 C CNN
 F 4 "Low ESR" H 2050 1400 50  0000 L CNN "Notes"
 F 5 "C0805C106K9PACTU" H 2400 1500 50  0001 C CNN "MPN"
@@ -351,16 +351,8 @@ F 6 "KEMET" H 2400 1500 50  0001 C CNN "Mfr."
 	1    2400 1500
 	-1   0    0    -1  
 $EndComp
-Text HLabel 6600 1800 3    50   Input ~ 0
-GPS_TX
-Text HLabel 6700 1800 3    50   Output ~ 0
-GPS_RX
 NoConn ~ 3550 3850
 NoConn ~ 3550 3950
-Text HLabel 6800 1800 3    50   Input ~ 0
-GPS_~SAFEBOOT
-Text HLabel 6900 1800 3    50   Output ~ 0
-GPS_SYNC
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J16
 U 1 1 5F0E10E4
@@ -427,51 +419,12 @@ Wire Wire Line
 	7500 3150 7200 3150
 Wire Wire Line
 	8100 3150 8100 3100
-Text HLabel 9200 2050 2    50   Output ~ 0
+Text HLabel 9200 1750 2    50   Output ~ 0
 GPS_SYNC
-Text HLabel 9200 1750 2    50   Input ~ 0
+Text HLabel 9200 1850 2    50   Input ~ 0
 GPS_~RESET
 Text HLabel 8700 2050 0    50   Input ~ 0
 GPS_WAKE
-$Comp
-L power:GND #PWR?
-U 1 1 5F06EF60
-P 7000 1800
-AR Path="/5F06EF60" Ref="#PWR?"  Part="1" 
-AR Path="/5EDF3693/5F06EF60" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0115" H 7000 1550 50  0001 C CNN
-F 1 "GND" V 7005 1627 50  0000 C CNN
-F 2 "" H 7000 1800 50  0001 C CNN
-F 3 "" H 7000 1800 50  0001 C CNN
-	1    7000 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0150
-U 1 1 5F06EF66
-P 7100 1800
-F 0 "#PWR0150" H 7100 1650 50  0001 C CNN
-F 1 "+3V3" V 7100 2000 50  0000 C CNN
-F 2 "" H 7100 1800 50  0001 C CNN
-F 3 "" H 7100 1800 50  0001 C CNN
-	1    7100 1800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J14
-U 1 1 5EFC0896
-P 6700 1600
-F 0 "J14" V 6664 1112 50  0000 R CNN
-F 1 "GPS_Transmission_Conn" V 6573 1112 50  0000 R CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 6700 1600 50  0001 C CNN
-F 3 "~" H 6700 1600 50  0001 C CNN
-	1    6700 1600
-	0    -1   -1   0   
-$EndComp
-Text HLabel 6500 1800 3    50   Input ~ 0
-GPS_WAKE
-Text HLabel 6400 1800 3    50   Input ~ 0
-GPS_~RESET
 Wire Wire Line
 	7500 3150 7650 3150
 $Comp
@@ -505,7 +458,7 @@ Text HLabel 8700 1750 0    50   Input ~ 0
 GPS_~SAFEBOOT
 Text HLabel 9200 1950 2    50   Output ~ 0
 GPS_RX
-Text HLabel 9200 1850 2    50   Input ~ 0
+Text HLabel 9200 2050 2    50   Input ~ 0
 GPS_TX
 $Comp
 L Device:R_Small R?
@@ -515,7 +468,7 @@ AR Path="/5F0DD27E" Ref="R?"  Part="1"
 AR Path="/5EDF3693/5F0DD27E" Ref="R3"  Part="1" 
 F 0 "R3" H 7509 4496 50  0000 L CNN
 F 1 "2.2k" H 7509 4405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7450 4450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7450 4450 50  0001 C CNN
 F 3 "~" H 7450 4450 50  0001 C CNN
 F 4 "" H 7450 4450 50  0001 C CNN "MFN"
 F 5 "Yageo" H 7450 4450 50  0001 C CNN "Mfr."
@@ -549,7 +502,7 @@ AR Path="/5F0DD290" Ref="R?"  Part="1"
 AR Path="/5EDF3693/5F0DD290" Ref="R4"  Part="1" 
 F 0 "R4" H 7959 4496 50  0000 L CNN
 F 1 "2.2k" H 7959 4405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7900 4450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7900 4450 50  0001 C CNN
 F 3 "~" H 7900 4450 50  0001 C CNN
 F 4 "RC0603FR-072K2L" H 7900 4450 50  0001 C CNN "MPN"
 F 5 "Yageo" H 7900 4450 50  0001 C CNN "Mfr."
@@ -609,4 +562,62 @@ Text HLabel 7450 4800 3    50   Output ~ 0
 GPS_RX
 Text HLabel 7900 4850 3    50   Input ~ 0
 GPS_TX
+$Comp
+L power:+3V3 #PWR073
+U 1 1 5FA9CFEE
+P 6450 1950
+F 0 "#PWR073" H 6450 1800 50  0001 C CNN
+F 1 "+3V3" V 6450 2150 50  0000 C CNN
+F 2 "" H 6450 1950 50  0001 C CNN
+F 3 "" H 6450 1950 50  0001 C CNN
+	1    6450 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J4
+U 1 1 5FA9CFF4
+P 6750 1850
+F 0 "J4" H 6800 2167 50  0000 C CNN
+F 1 "GPS_Transmission_Conn" H 6800 2076 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x04_P1.27mm_Vertical" H 6750 1850 50  0001 C CNN
+F 3 "~" H 6750 1850 50  0001 C CNN
+	1    6750 1850
+	-1   0    0    -1  
+$EndComp
+Text HLabel 6950 1750 2    50   Output ~ 0
+GPS_SYNC
+Text HLabel 6950 1850 2    50   Input ~ 0
+GPS_~RESET
+Text HLabel 6450 2050 0    50   Input ~ 0
+GPS_WAKE
+$Comp
+L power:GND #PWR?
+U 1 1 5FA9CFFD
+P 6450 1850
+AR Path="/5FA9CFFD" Ref="#PWR?"  Part="1" 
+AR Path="/5EDF3693/5FA9CFFD" Ref="#PWR071"  Part="1" 
+F 0 "#PWR071" H 6450 1600 50  0001 C CNN
+F 1 "GND" V 6455 1677 50  0000 C CNN
+F 2 "" H 6450 1850 50  0001 C CNN
+F 3 "" H 6450 1850 50  0001 C CNN
+	1    6450 1850
+	0    1    1    0   
+$EndComp
+Text HLabel 6450 1750 0    50   Input ~ 0
+GPS_~SAFEBOOT
+Text HLabel 6950 1950 2    50   Output ~ 0
+GPS_RX
+Text HLabel 6950 2050 2    50   Input ~ 0
+GPS_TX
+$Comp
+L Device:R_Small R20
+U 1 1 5F9CEBA9
+P 2350 3750
+F 0 "R20" V 2300 3900 50  0000 C CNN
+F 1 "47" V 2350 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2350 3750 50  0001 C CNN
+F 3 "~" H 2350 3750 50  0001 C CNN
+	1    2350 3750
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
