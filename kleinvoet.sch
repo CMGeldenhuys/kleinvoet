@@ -1289,10 +1289,8 @@ Wire Wire Line
 Connection ~ 5050 6100
 Text Label 5400 6800 0    50   ~ 0
 LED_STATUS
-Text Label 6200 3950 0    50   ~ 0
+Text Label 6150 2050 0    50   ~ 0
 USR_BTN
-Wire Wire Line
-	6200 3950 5450 3950
 NoConn ~ 5450 3350
 Wire Wire Line
 	5700 4350 5450 4350
@@ -1523,8 +1521,6 @@ LED_STATUS
 Wire Wire Line
 	5450 1850 6150 1850
 Wire Wire Line
-	5650 2050 5450 2050
-Wire Wire Line
 	5650 2150 5450 2150
 Text Label 6150 1950 0    50   ~ 0
 LED_STATUS_1
@@ -1551,4 +1547,6 @@ F 5 "Murata Electronics" H 1100 1550 50  0001 C CNN "Mfr."
 	1    1100 1550
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	5450 2050 6150 2050
 $EndSCHEMATC

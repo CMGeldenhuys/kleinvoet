@@ -131,15 +131,11 @@ Connection ~ 7800 3000
 Wire Wire Line
 	7800 3300 7800 3200
 Connection ~ 7800 3200
-Wire Wire Line
-	10000 3450 10000 3400
 Text Notes 8700 4000 0    50   ~ 0
 Connect shield to all external mounting and \nthen to GND at a single point close to the \nconnector. Place all IO connectors (with shields) \nclose to each other.
 Wire Wire Line
 	9400 3450 9400 3400
 Connection ~ 9700 3450
-Wire Wire Line
-	9700 3450 10000 3450
 Wire Wire Line
 	9700 3450 9700 3400
 $Comp
@@ -151,17 +147,6 @@ F 1 "Earth" H 9700 3300 50  0001 C CNN
 F 2 "" H 9700 3450 50  0001 C CNN
 F 3 "~" H 9700 3450 50  0001 C CNN
 	1    9700 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 5EF57A3E
-P 10000 3300
-F 0 "H4" H 10100 3303 50  0000 L CNN
-F 1 "MountingHole_Pad" H 10100 3258 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10000 3300 50  0001 C CNN
-F 3 "~" H 10000 3300 50  0001 C CNN
-	1    10000 3300
 	1    0    0    -1  
 $EndComp
 $Comp
