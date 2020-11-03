@@ -29,8 +29,6 @@ F 5 "Texas Instruments" H 5400 3850 50  0001 C CNN "Mfr."
 	1    5400 3850
 	1    0    0    -1  
 $EndComp
-Text HLabel 5700 3500 1    50   Input ~ 0
-~PD
 Wire Wire Line
 	5700 3500 5700 3550
 Wire Wire Line
@@ -455,4 +453,7 @@ F 3 "" H 4150 2550 50  0001 C CNN
 	1    4150 2550
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	5700 3500 5600 3500
+Connection ~ 5600 3500
 $EndSCHEMATC
