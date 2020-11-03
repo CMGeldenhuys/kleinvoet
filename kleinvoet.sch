@@ -25,7 +25,6 @@ F5 "SAI_BCLK" B R 2400 2300 50
 F6 "SAI_FCLK" B R 2400 2200 50 
 F7 "SDA" B L 1400 2200 50 
 F8 "SCL" I L 1400 2300 50 
-F9 "EN_XO" I L 1400 2500 50 
 $EndSheet
 $Sheet
 S 1400 3750 1000 500 
@@ -1007,8 +1006,6 @@ Text Label 5650 1950 0    50   ~ 0
 SPI1_SCK
 Text Label 5650 2050 0    50   ~ 0
 SPI1_MISO
-Text Label 5650 2150 0    50   ~ 0
-SPI1_MOSI
 Text Label 1200 1750 2    50   ~ 0
 ~RST
 Wire Wire Line
@@ -1289,7 +1286,7 @@ Wire Wire Line
 Connection ~ 5050 6100
 Text Label 5400 6800 0    50   ~ 0
 LED_STATUS
-Text Label 6150 2050 0    50   ~ 0
+Text Label 6150 2150 0    50   ~ 0
 USR_BTN
 NoConn ~ 5450 3350
 Wire Wire Line
@@ -1516,13 +1513,9 @@ Wire Notes Line
 	4300 6500 6650 6500
 Wire Notes Line
 	4300 7700 6650 7700
-Text Label 6150 1850 0    50   ~ 0
-LED_STATUS
-Wire Wire Line
-	5450 1850 6150 1850
-Wire Wire Line
-	5650 2150 5450 2150
 Text Label 6150 1950 0    50   ~ 0
+LED_STATUS
+Text Label 6150 2050 0    50   ~ 0
 LED_STATUS_1
 Wire Wire Line
 	5450 1950 6150 1950
@@ -1553,4 +1546,20 @@ Text Label 3850 3750 2    50   ~ 0
 ADC_~RST
 Wire Wire Line
 	3850 3750 4050 3750
+NoConn ~ 5450 2950
+NoConn ~ 5450 2250
+NoConn ~ 5450 2450
+NoConn ~ 5450 3550
+NoConn ~ 5450 3650
+NoConn ~ 5450 3950
+NoConn ~ 5450 4350
+NoConn ~ 5450 4450
+NoConn ~ 5450 4550
+Text Label 5650 2150 0    50   ~ 0
+SPI1_MOSI
+Wire Wire Line
+	5450 2150 6150 2150
+Wire Wire Line
+	5650 1850 5450 1850
+NoConn ~ 5450 1850
 $EndSCHEMATC
