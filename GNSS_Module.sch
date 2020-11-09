@@ -361,6 +361,8 @@ F 0 "J16" H 9050 2167 50  0000 C CNN
 F 1 "GPS_Transmission_Conn" H 9050 2076 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x04_P1.27mm_Vertical" H 9000 1850 50  0001 C CNN
 F 3 "~" H 9000 1850 50  0001 C CNN
+F 4 "Samtec" H 9000 1850 50  0001 C CNN "Mfr."
+F 5 "FTSH-104-01-F-D" H 9000 1850 50  0001 C CNN "MPN"
 	1    9000 1850
 	-1   0    0    -1  
 $EndComp
@@ -372,8 +374,8 @@ F 0 "J2" H 8818 2325 50  0000 C CNN
 F 1 "FTDI_Conn" H 8818 2416 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 8900 2850 50  0001 C CNN
 F 3 "~" H 8900 2850 50  0001 C CNN
-F 4 "284" H 8900 2850 50  0001 C CNN "MPN"
-F 5 "Adafruit" H 8900 2850 50  0001 C CNN "Mfr."
+F 4 "" H 8900 2850 50  0001 C CNN "MPN"
+F 5 "" H 8900 2850 50  0001 C CNN "Mfr."
 	1    8900 2850
 	-1   0    0    1   
 $EndComp
@@ -581,6 +583,8 @@ F 0 "J4" H 6800 2167 50  0000 C CNN
 F 1 "GPS_Transmission_Conn" H 6800 2076 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x04_P1.27mm_Vertical" H 6750 1850 50  0001 C CNN
 F 3 "~" H 6750 1850 50  0001 C CNN
+F 4 "FTSH-104-01-F-D" H 6750 1850 50  0001 C CNN "MPN"
+F 5 "Samtec" H 6750 1850 50  0001 C CNN "Mfr."
 	1    6750 1850
 	-1   0    0    -1  
 $EndComp
@@ -617,6 +621,8 @@ F 0 "R20" V 2300 3900 50  0000 C CNN
 F 1 "47" V 2350 3750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2350 3750 50  0001 C CNN
 F 3 "~" H 2350 3750 50  0001 C CNN
+F 4 "ERJ-3EKF47R0V" H 2350 3750 50  0001 C CNN "MPN"
+F 5 "Panasonic" H 2350 3750 50  0001 C CNN "Mfr."
 	1    2350 3750
 	0    1    1    0   
 $EndComp
