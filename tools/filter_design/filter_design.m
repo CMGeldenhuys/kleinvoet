@@ -5,52 +5,129 @@ fo = 40e3; % kHz
 order = 5;
 % Gain to add to system
 gain = 8; % V/V
+% Number of points to plot
+n = 1000;
 
 %% Frequency Response
-
-% Bode Plot options
-opts = bodeoptions();
-opts.PhaseVisible = 'off';
 
 % Create filter with ZPK with bessel polynomials
 [z, p, k] = besself(order, fo*2*pi);
 % -k due to MFB topology
 sys = zpk(z, p, -k);
-ax1 = axes();
-bodeplot(ax1,sys, opts)
 
-hold on
+% Compute frequency respopnse
+[b, a] = zp2tf(z, p, -k);
+[h, w] = freqs(b, a, n);
+
+% Create new axes and plot frequency response
+fig1 = figure();
+ax1 = axes();
+semilogx(ax1, w, 20*log10(abs(h)))
+
+% Apply gain to system
 sys_gain = zpk(z, p, -k*gain)
-bodeplot(ax1, sys_gain, opts)
-xline(ax1, fo*2*pi, '-.','$f_o$')
-legend(ax1, 'AA Filter', 'AA Filter (with gain)')
-set(ax1, 'FontSize', 10)
-xlabel(ax1, 'Frequency (rad/s)', 'FontSize', 10)
-ylabel(ax1, 'Magnitude (dB)', 'FontSize', 10)
-title(ax1, '')
+
+% Compute Frequency Response
+[b, a] = zp2tf(z, p, -k*gain);
+[h, w] = freqs(b, a, n);
+
+% Plot frequency response of system with gain
+hold on
+semilogx(ax1, w, 20*log10(abs(h)))
+
+% Add vertical line to indicate cutoff frequency
+xline(ax1, fo*2*pi, '-.','$f_o$', ...
+    'interpreter','latex', ...
+    'FontName', 'Fourier', ...
+    'LabelHorizontalAlignment', 'center', ...
+    'LabelVerticalAlignment', 'middle', ...
+    'LabelOrientation', 'horizontal', ...
+    'FontSize', 12)
+% Draw legend
+legend(ax1, 'AA Filter', 'AA Filter (with gain)', ...
+    'interpreter','latex', ...
+    'FontName', 'Fourier')
+% Change font
+set(ax1, 'FontName', 'Fourier')
+% Set x/y labels
+xlabel(ax1, 'Frequency (rad/s)', ...
+    'interpreter','latex', ...
+    'FontName', 'Fourier')
+ylabel(ax1, 'Magnitude (dB)', ...
+    'interpreter','latex', ...
+    'FontName', 'Fourier')
+% Set Y-axis limits
+ylim(ax1, [-70, 40])
+% Enable grid
 grid(ax1)
+% House keeping
 hold off
 
-% Get num & den from zpk
-[b,a] = zp2tf(z, p, k*gain);
-% Calc. over same freq range as above
-w = log10(xlim);
-w = logspace(w(1), w(2), 1000);
-% Compute frequency response
-h = freqs(b, a, w);
 % Calculate groupdelay
 grpdel = -diff(unwrap(angle(h)))./diff(w);
 
-figure
-ax2 = axes;
+% Create new figure for groupdelay
+% Create subplot in latex rather than here
+fig2 = figure();
+ax2 = axes();
+
+% Plot group delay
+% By using `diff` one sample is removed from start thus only plot w for
+% 2:end
 semilogx(ax2, w(2:end),grpdel * 1e6)
-xline(ax2, fo*2*pi, '-.','$f_o$')
-xlabel(ax2, 'Frequency (rad/s)')
-ylabel(ax2, 'Group delay (us)')
+% Draw fundemental cutoff frequency
+xline(ax2, fo*2*pi, '-.','$f_o$', ...
+    'interpreter','latex', ...
+    'FontName', 'Fourier', ...
+    'LabelHorizontalAlignment', 'center', ...
+    'LabelVerticalAlignment', 'middle', ...
+    'LabelOrientation', 'horizontal', ...
+    'FontSize', 12)
+% Set x/y labels
+xlabel(ax2, 'Frequency (rad/s)', ...
+    'interpreter','latex', ...
+    'FontName', 'Fourier')
+ylabel(ax2, 'Group delay (us)', ...
+    'interpreter','latex', ...
+    'FontName', 'Fourier')
+% Set Y-axis limits
+ylim(ax2, [0, 20])
+% Enable grid
 grid(ax2)
 
 % Ensure x axis align
 linkaxes([ax1 ax2], 'x')
+
+%% Save Figures
+% Figure 1 - Frequency Response
+
+% Make plot look more "latex"
+set(ax1,'box','off');
+set(ax1,'layer','top');
+set(ax1,'TickDir','out');
+pbaspect(ax1, [5 3 1])
+
+% Save Figure as PDF (vector)
+exportgraphics(fig1,'mag-freq-response-bessel-5.pdf',...
+    'ContentType','vector', ...
+    'BackgroundColor','none')
+% Move file to latex figures directory
+!mv mag-freq-response-bessel-5.pdf ../../../../Thesis/graphics/system-overview/
+
+% Figure 2 - Group Delay
+% Make plot look more "latex"
+set(ax2,'box','off');
+set(ax2,'layer','top');
+set(ax2,'TickDir','out');
+pbaspect(ax2, [5 3 1])
+
+% Save Figure as PDF (vector)
+exportgraphics(fig2,'groupdelay-bessel-5.pdf',...
+    'ContentType','vector', ...
+    'BackgroundColor','none')
+% Move file to latex figures directory
+!mv groupdelay-bessel-5.pdf ../../../../Thesis/graphics/system-overview/
+
 %% Stability Margins
 
 % Plot stability margins
