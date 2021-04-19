@@ -11,12 +11,12 @@ n = 1000;
 %% Frequency Response
 
 % Create filter with ZPK with bessel polynomials
-[z, p, k] = besself(order, fo*2*pi);
+[z, p, kB] = besself(order, fo*2*pi);
 % -k due to MFB topology
-sys = zpk(z, p, -k);
+sys = zpk(z, p, -kB);
 
 % Compute frequency respopnse
-[b, a] = zp2tf(z, p, -k);
+[b, a] = zp2tf(z, p, -kB);
 [h, w] = freqs(b, a, n);
 
 % Create new axes and plot frequency response
@@ -25,10 +25,10 @@ ax1 = axes();
 semilogx(ax1, w, 20*log10(abs(h)))
 
 % Apply gain to system
-sys_gain = zpk(z, p, -k*gain)
+sys_gain = zpk(z, p, -kB*gain)
 
 % Compute Frequency Response
-[b, a] = zp2tf(z, p, -k*gain);
+[b, a] = zp2tf(z, p, -kB*gain);
 [h, w] = freqs(b, a, n);
 
 % Plot frequency response of system with gain
@@ -140,3 +140,45 @@ exportgraphics(fig2,'groupdelay-bessel-5.pdf',...
 % This is due to phase inversion and the amplifier starting to act as
 % possitive feedback instead of negative.
 
+%% 
+Av = 2
+w_0 = 2*pi*1e6
+Q = 0.707
+
+GBW = 280e6;
+en = 2.5e-9;
+Aol = 2000;
+in = 1.7e-12;
+
+T = 290;
+kB = physconst('Boltzmann'); 
+
+R2_suggested = ((1+Av)/(1+3*Av))*((2*kB*T)/(in^2))*(sqrt(1+((1+3*Av)/(1+Av))*((en*in)/(2*kB*T))^2)-1)
+R2 = input("R2 := ");
+if isempty(R2)
+    R2 = R2_suggested
+end
+
+upper = Q*(2*Av+1)
+lower = Q*(Av+1)
+
+disp("Higher Value = Higher noise");
+alpha = input("Integrator ratio (alpha) := ");
+if isempty(alpha)
+    alpha = upper
+elseif alpha <= lower || alpha > upper
+    warning("Alpha out of bound")
+end
+
+C2_suggested = 1/(w_0*R2*alpha)
+C2 = input("C2 := ");
+if isempty(C2)
+    C2 = C2_suggested
+end
+
+Av_adj = ((1+(1+Aol))/(1-(Av/Aol)))*Av
+
+
+C1 = Q/(w_0*R2*(1-Q*w_0*R2*C2*(1+Av)))
+R3 = 1/(Av_adj*w_0^2*R2*C2*C1)
+R1 = R3 * Av_adj
