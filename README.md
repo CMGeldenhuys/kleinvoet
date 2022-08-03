@@ -8,6 +8,7 @@
 - [ ] Add sample recordings
 - [ ] Compress doc imgs
 - [ ] Link to firmware repo
+- [ ] Generate PSD estimates without Band of interest and add title
 
 # Kleinvoet
 
@@ -191,6 +192,9 @@ estimate of the recordinging deivces frequency response and should not be used
 as ground thruth measurements where spectral mangnitude accuracy is required.
 For those types of experiments we recommened the use of calibrated reference
 sound amplitude measurement equipment.
+
+![Barebones Power Spectral Density Estimate](docs/img/bare-psd.svg)
+![Fully Assembled Power Spectral Density Estimate](docs/img/assembled-psd.svg)
 
 ## Troubleshooting
 
