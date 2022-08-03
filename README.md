@@ -9,6 +9,7 @@
 - [ ] Compress doc imgs
 - [ ] Link to firmware repo
 - [ ] Generate PSD estimates without Band of interest and add title
+- [ ] Fix serial TTY location
 
 # Kleinvoet
 
@@ -30,6 +31,7 @@ WAV files.
 ## Example Recordings
 
 - [Nearfield recording in a busy lab]()
+- [5m away in studio enviroment]()
 - [Farfield recording in outdoors]()
 
 ## SD Card Recommendations
@@ -45,9 +47,9 @@ sampling rates.
 
 In order to assemble a Kleinvoet node one will require the all the electronic
 components listed in the bill of materials (BOM), as well as have the necessary
-PCBs manufactured.  The provided gerber files can be sent directly to most PCB
-fabrication houses.  To assemble the boards one can use either hot-air or plate
-reflow soldering methods.  The [interactive BOM](bom/ibom.html) might be useful
+PCBs manufactured. The provided gerber files can be sent directly to most PCB
+fabrication houses. To assemble the boards one can use either hot-air or plate
+reflow soldering methods. The [interactive BOM](bom/ibom.html) might be useful
 when placing the components by hand.
 
 | PCB | Back | Front |
@@ -160,14 +162,14 @@ After recording the following file structure will be present on the microSD card
 └── CONF.INI (experimental)
 ```
 
-Each recording will be stored as a WAVE file in the corrosponding `REC_X`
+Each recording will be stored as a WAVE file in the corresponding `REC_X`
 folder. Where the recorder increments `X` for every subsequent recording made on
 the device (e.g. `REC_1`, `REC_2` etc.). Inside each recording folder are the
 files associated with that recording. Due to the limitation of the FAT32
 filesystem each individual recording has to be split up across multiple WAVE
 files (e.g.`REC.WAV`, `REC.W01`, etc.). By default this is in 256MiB chunks, but
-is user configureable. Contained in the header of each WAVE file is timestamping
-and location information required to syncronise the nodes during offline
+is user configurable Contained in the header of each WAVE file is timestamping
+and location information required to synchronise the nodes during offline
 processing of the files. A granular log of the timestamping metadata is stored
 in `TS.CSV`. A complete operational log is stored in `KV.LOG`, which might deem
 useful in troubleshooting a faulty recording node. (Experimental) Currently the
@@ -186,17 +188,34 @@ the microSD.
 ## Power Spectral Density Estimates
 
 Provided below are a set of power spectral density estimates (PSD) created using
-Welch's method. The Audio Technica AT8010 was used as a reference microphone and
-tested in an acousticly dampened recording studio. These results provided an
-estimate of the recordinging deivces frequency response and should not be used
-as ground thruth measurements where spectral mangnitude accuracy is required.
-For those types of experiments we recommened the use of calibrated reference
+Welch's method. The [Audio Technica AT8010](https://www.audio-technica.com/en-gb/at8010) was used as a reference microphone and
+tested in an acoustically dampened recording studio. These results provided an
+estimate of the recording devices frequency response and should not be used
+as ground truth measurements where spectral magnitude accuracy is required.
+For those types of experiments we recommenced the use of calibrated reference
 sound amplitude measurement equipment.
 
 ![Barebones Power Spectral Density Estimate](docs/img/bare-psd.svg)
 ![Fully Assembled Power Spectral Density Estimate](docs/img/assembled-psd.svg)
 
 ## Troubleshooting
+
+First ensure the following:
+- Power from USB-C not battery, all boards have a solid *RED* LED illuminated
+- MicroSD Card is formatted as **FAT32** and inserted
+- The respective daughter boards are correctly connected
+
+Enable `LOG_DEST_TTY` in `config.h`. The operational log will be printed in
+real-time to the serial console available on the debug/programming port. When
+using an *ST Link* debugger this serial port can be opened using
+[Putty](https://www.putty.org/) on Windows, or with the following command on
+Linux:
+``` sh
+screen -b 115200 /dev/** 
+```
+The serial port is configured to **115200** baud rate and the standard **8N1**
+configuration. Please see the [firmware guide](firmware/README.md) for more
+information on setting up the programming environment on a Linux based system.
 
 ## Future Hardware Revisions
 
