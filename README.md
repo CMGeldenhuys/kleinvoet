@@ -157,7 +157,7 @@ After recording the following file structure will be present on the microSD card
 │   ├── KV.LOG
 │   ├── REC.WXX
 │   └── TS.CSV
-└── CONFIG (experimental)
+└── CONF.INI (experimental)
 ```
 
 Each recording will be stored as a WAVE file in the corrosponding `REC_X`
@@ -181,7 +181,7 @@ the microSD.
 | KV.LOG | Operational log of recordings |
 | TS.CSV | Timestamping metadata |
 | REC.WXX | Audio recording stored as a WAVE file |
-| CONFIG | (Experimental) Runtime configuration file |
+| CONF.INI | (Experimental) Runtime configuration file |
 
 ## Power Spectral Density Estimates
 
