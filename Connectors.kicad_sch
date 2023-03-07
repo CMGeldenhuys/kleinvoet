@@ -2733,7 +2733,7 @@
     (property "Reference" "R33" (at 110.49 78.74 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "22" (at 110.49 80.01 90)
+    (property "Value" "68" (at 110.49 80.01 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 110.49 82.55 0)
