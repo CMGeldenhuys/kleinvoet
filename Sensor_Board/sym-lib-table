@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name grootvoet)(type Legacy)(uri ${KIPRJMOD}/libs/grootvoet.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "grootvoet")(type "Legacy")(uri "${KIPRJMOD}/libs/grootvoet.lib")(options "")(descr ""))
+  (lib (name "Sensor_Board-rescue")(type "KiCad")(uri "${KIPRJMOD}/Sensor_Board-rescue.kicad_sym")(options "")(descr ""))
 )
