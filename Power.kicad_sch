@@ -1626,7 +1626,7 @@
     (uuid 6d7032ef-d71e-4a02-b17f-4e5ff7d4e309)
   )
   (text_box "DESIGN CALCULATIONS\n------------\nDesign was done based on already available resistors (1k, 100k).\nTMR should be designed so that a battery can be completely charged up in the givien time.\n\nFAST CHARGE CURRENT (ISET):\nR_{ISET} = K_{ISET} / I_{CHG}\nK_{ISET} = 890 A Ohm # from datasheet\nI_{CHR} = 0.89 A\n\nINPUT CURRENT LIMIT (ILIM):\nR_{ILIM} = K_{ILIM} / I_{MAX}\nK_{ILIM} = 1550 A Ohm # from datasheet\nI_{MAX} = 1.18 A\n\nFAST-CHARGE SAFETY TIMER (TMR):\nR_{TMR} = t_{MAXCHG} / (10 x K_{TMR})\nK_{TMR} = 48 s/kOhm # from datasheet\nt_{MAXCHG} = 6.7 hr x 3600 s/hr\n\nCHARGE CURRENT TRANSLATION:\nV_{ISET} = I_{CHR} / 400 x R_{ISET}"
-    (at 15.24 108.585 0) (size 39.37 52.705)
+    (at 15.24 108.585 0) (size 39.37 60.325)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))
