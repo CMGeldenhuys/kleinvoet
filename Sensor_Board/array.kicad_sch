@@ -197,35 +197,35 @@
   )
 
 
-  (hierarchical_label "MK6" (shape input) (at 111.76 63.5 0)
+  (hierarchical_label "MK6" (shape input) (at 111.76 63.5 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0bca5861-6a51-4c2d-a465-20d90e6805ed)
   )
-  (hierarchical_label "MK4" (shape input) (at 109.22 121.92 0)
+  (hierarchical_label "MK4" (shape input) (at 109.22 121.92 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 118e5a6b-486a-43e0-9763-553093d427b3)
   )
-  (hierarchical_label "MK2" (shape input) (at 57.15 92.71 0)
+  (hierarchical_label "MK2" (shape input) (at 57.15 92.71 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1a1c9c1e-8130-4913-980b-56725a92110e)
   )
-  (hierarchical_label "MK0" (shape input) (at 59.69 34.29 0)
+  (hierarchical_label "MK0" (shape input) (at 59.69 34.29 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 50d99615-fec2-4fd3-bc1d-6235bd723f01)
   )
-  (hierarchical_label "MK5" (shape input) (at 110.49 92.71 0)
+  (hierarchical_label "MK5" (shape input) (at 110.49 92.71 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 5600da85-ed7c-4dd4-a99e-35021788ad5c)
   )
-  (hierarchical_label "MK1" (shape input) (at 58.42 63.5 0)
+  (hierarchical_label "MK1" (shape input) (at 58.42 63.5 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 69fb2120-fa16-4d29-adb8-4328c018fce5)
   )
-  (hierarchical_label "MK3" (shape input) (at 55.88 121.92 0)
+  (hierarchical_label "MK3" (shape input) (at 55.88 121.92 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 796da9a8-6db9-412b-a049-25142f0e00b0)
   )
-  (hierarchical_label "MK7" (shape input) (at 113.03 34.29 0)
+  (hierarchical_label "MK7" (shape input) (at 113.03 34.29 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 99bffa41-a4a8-4fac-a113-739c7dfb76ee)
   )
@@ -233,7 +233,7 @@
   (symbol (lib_id "Device:C_Small") (at 25.4 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f8a4374)
-    (property "Reference" "C?" (at 27.7368 147.4216 0)
+    (property "Reference" "C14" (at 27.7368 147.4216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 27.7368 149.733 0)
@@ -254,6 +254,11 @@
     (pin "1" (uuid adebf25c-ec25-4b60-b80f-fc019ab17b71))
     (pin "2" (uuid ab017944-520c-4b39-be1d-b0afe24c2529))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "C?") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
           (reference "C?") (unit 1)
@@ -282,6 +287,11 @@
     )
     (pin "1" (uuid 4f97808a-95bf-4e91-a208-743771ff21de))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR066") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005fa63e4d"
           (reference "#PWR066") (unit 1)
@@ -296,7 +306,7 @@
   (symbol (lib_id "Device:C_Small") (at 34.29 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f8a47e8)
-    (property "Reference" "C?" (at 36.6268 147.4216 0)
+    (property "Reference" "C15" (at 36.6268 147.4216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 36.6268 149.733 0)
@@ -317,6 +327,11 @@
     (pin "1" (uuid af16efde-fc24-4038-9da1-2a835b469e80))
     (pin "2" (uuid 26cbb421-0843-493b-b08e-b3c334b70f23))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "C?") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
           (reference "C?") (unit 1)
@@ -345,6 +360,11 @@
     )
     (pin "1" (uuid c0a1b08d-25d5-471c-95f3-1499a05acfa3))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR068") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005fa63e4d"
           (reference "#PWR068") (unit 1)
@@ -372,6 +392,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8702027f-cc42-42cf-83dd-e758c2886978))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR065") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:+1V8") (at 34.29 146.05 0) (unit 1)
@@ -390,6 +417,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 646c5428-ac9d-4dc5-9fd2-c5d4b93cdb3d))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR067") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "grootvoet:MIC_ICS_40300") (at 46.99 34.29 0) (unit 1)
@@ -420,6 +454,11 @@
     (pin "5" (uuid 30f245c9-47a3-4138-a40a-9c395302301f))
     (pin "6" (uuid fe68e59f-171a-4d40-a8e3-0a95db6b7937))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "MK4") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005fa63e4d"
           (reference "MK4") (unit 1)
@@ -444,12 +483,19 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 05e421a2-ca3e-45f6-9146-8e3fd63907ff))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR045") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:C_Small") (at 27.94 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa66bce)
-    (property "Reference" "CB?" (at 30.2768 31.8516 0)
+    (property "Reference" "CB9" (at 30.2768 31.8516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 30.2768 34.163 0)
@@ -470,6 +516,11 @@
     (pin "1" (uuid 7fdb3c78-119f-4716-8fc6-b95034a53919))
     (pin "2" (uuid 659e7de0-f704-49f9-b4b5-3f0115271188))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "CB?") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
           (reference "CB?") (unit 1)
@@ -498,6 +549,11 @@
     )
     (pin "1" (uuid 55783719-e301-49af-a1f1-44f89ca942b4))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR038") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005fa63e4d"
           (reference "#PWR038") (unit 1)
@@ -525,6 +581,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 19f46625-a7a4-43c3-995b-d73ab095f6ac))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR037") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 46.99 43.18 0) (unit 1)
@@ -543,6 +606,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 582e45cd-f231-481b-8e89-fe86a95bfe07))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR046") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:+1V8") (at 45.72 54.61 0) (unit 1)
@@ -561,12 +631,19 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 535f8ee1-7f0c-4785-80f8-f120b5844f47))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR043") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:C_Small") (at 26.67 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fab08e5)
-    (property "Reference" "CB?" (at 29.0068 61.0616 0)
+    (property "Reference" "CB8" (at 29.0068 61.0616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 29.0068 63.373 0)
@@ -587,6 +664,11 @@
     (pin "1" (uuid ee9db9b7-5a9d-4028-9a8d-01c4a26a2a59))
     (pin "2" (uuid 72dfef0f-0d96-4a97-aeb1-56bfc51e3ba4))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "CB?") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
           (reference "CB?") (unit 1)
@@ -615,6 +697,11 @@
     )
     (pin "1" (uuid 24abe11e-145e-4dcd-a087-4ea166871753))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR036") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005fa63e4d"
           (reference "#PWR036") (unit 1)
@@ -642,6 +729,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f81c128d-2ead-4722-9594-330fb15f3c5e))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR035") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "grootvoet:MIC_ICS_40300") (at 45.72 63.5 0) (unit 1)
@@ -672,6 +766,11 @@
     (pin "5" (uuid c065c8c9-1ac8-449a-8701-800757b43196))
     (pin "6" (uuid eb44803d-6e23-4237-92cf-9afd2c7f5a32))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "MK3") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005fa63e4d"
           (reference "MK3") (unit 1)
@@ -696,6 +795,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 482bbd9a-4861-406a-953a-d63c64dad33b))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR044") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:+1V8") (at 44.45 83.82 0) (unit 1)
@@ -714,12 +820,19 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 330adcde-df72-4b1c-8da6-f92b9e42a58e))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR041") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:C_Small") (at 25.4 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fab1f2b)
-    (property "Reference" "CB?" (at 27.7368 90.2716 0)
+    (property "Reference" "CB7" (at 27.7368 90.2716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 27.7368 92.583 0)
@@ -740,6 +853,11 @@
     (pin "1" (uuid 148af801-9296-412a-822b-b1c55c46fc8d))
     (pin "2" (uuid c8bb011d-1906-488b-a0a3-b11b786decfe))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "CB?") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
           (reference "CB?") (unit 1)
@@ -768,6 +886,11 @@
     )
     (pin "1" (uuid 6e6f8594-173e-4ff5-be47-da016a72f0a8))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR034") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005fa63e4d"
           (reference "#PWR034") (unit 1)
@@ -795,6 +918,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4d1989c5-2297-4ac5-bd5d-33ad2b0250ec))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR033") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "grootvoet:MIC_ICS_40300") (at 44.45 92.71 0) (unit 1)
@@ -825,6 +955,11 @@
     (pin "5" (uuid 9c55a999-9289-4e7a-9c9f-c375704b1089))
     (pin "6" (uuid 6e39d7e4-c126-4139-b286-6f0f268103fa))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "MK2") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005fa63e4d"
           (reference "MK2") (unit 1)
@@ -849,6 +984,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5ced6afb-d95c-4230-a981-1e2df1692c11))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR042") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:+1V8") (at 43.18 113.03 0) (unit 1)
@@ -867,12 +1009,19 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cf0fdc23-85e3-4f19-87f2-8ee692b40cc0))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR039") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:C_Small") (at 24.13 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fab3444)
-    (property "Reference" "CB?" (at 26.4668 119.4816 0)
+    (property "Reference" "CB6" (at 26.4668 119.4816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 26.4668 121.793 0)
@@ -893,6 +1042,11 @@
     (pin "1" (uuid a6afc620-712f-4003-8ef8-8bc87fa200c1))
     (pin "2" (uuid bee31e10-7cf0-47b1-803d-3aec7d84c738))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "CB?") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
           (reference "CB?") (unit 1)
@@ -921,6 +1075,11 @@
     )
     (pin "1" (uuid 414bcb40-1c87-4ca1-ad4d-e25513e592e6))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR032") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005fa63e4d"
           (reference "#PWR032") (unit 1)
@@ -948,6 +1107,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8805c3b5-8bd6-4e16-a666-fc8655edc071))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR031") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "grootvoet:MIC_ICS_40300") (at 43.18 121.92 0) (unit 1)
@@ -978,6 +1144,11 @@
     (pin "5" (uuid e5b4dc04-2d12-464a-b525-32d1180f2405))
     (pin "6" (uuid 7e55c8c2-cd6a-463c-97cd-647327edb54d))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "MK1") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005fa63e4d"
           (reference "MK1") (unit 1)
@@ -1002,6 +1173,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9bac015c-d263-4ec2-a24f-3f63f3afb94d))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR040") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:+1V8") (at 100.33 25.4 0) (unit 1)
@@ -1020,12 +1198,19 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1add5f56-4635-40ab-9104-23279f8ae1ac))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR061") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:C_Small") (at 81.28 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabfc4f)
-    (property "Reference" "CB?" (at 83.6168 31.8516 0)
+    (property "Reference" "CB13" (at 83.6168 31.8516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 83.6168 34.163 0)
@@ -1046,6 +1231,11 @@
     (pin "1" (uuid 8e195713-08cc-489e-b813-53045da8eec6))
     (pin "2" (uuid cf16d6d9-2645-4c1e-83e2-d1cdd94c6eca))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "CB?") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
           (reference "CB?") (unit 1)
@@ -1074,6 +1264,11 @@
     )
     (pin "1" (uuid f03e08da-9819-4d29-8c3d-4b3e4fbe0372))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR054") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005fa63e4d"
           (reference "#PWR054") (unit 1)
@@ -1101,6 +1296,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0e8ac4ff-ab06-4d11-90a1-3f386bd17f9f))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR053") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "grootvoet:MIC_ICS_40300") (at 100.33 34.29 0) (unit 1)
@@ -1131,6 +1333,11 @@
     (pin "5" (uuid ee73dff1-a98a-4203-8a04-8c39e2429916))
     (pin "6" (uuid 79d87af8-e88f-4696-ba19-8994b479787d))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "MK8") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005fa63e4d"
           (reference "MK8") (unit 1)
@@ -1155,6 +1362,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6e6aa10d-2d7c-4df7-a330-f4b2e194ff05))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR062") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:+1V8") (at 99.06 54.61 0) (unit 1)
@@ -1173,12 +1387,19 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d9bc4b65-3d0d-4f3f-a3ba-0b85ccb7f2d0))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR059") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:C_Small") (at 80.01 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabfc76)
-    (property "Reference" "CB?" (at 82.3468 61.0616 0)
+    (property "Reference" "CB12" (at 82.3468 61.0616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 82.3468 63.373 0)
@@ -1199,6 +1420,11 @@
     (pin "1" (uuid 7e3306ee-7674-4d30-af0e-35ca1f54e195))
     (pin "2" (uuid 8d1f5e2a-5ed3-464b-b3f8-4931a0bb4c75))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "CB?") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
           (reference "CB?") (unit 1)
@@ -1227,6 +1453,11 @@
     )
     (pin "1" (uuid 4a5dd964-14d3-4cfb-a3ba-bc6ff3058c7d))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR052") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005fa63e4d"
           (reference "#PWR052") (unit 1)
@@ -1254,6 +1485,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a9024285-8e9f-40b1-941d-18fe41ea24e5))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR051") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "grootvoet:MIC_ICS_40300") (at 99.06 63.5 0) (unit 1)
@@ -1284,6 +1522,11 @@
     (pin "5" (uuid be07d200-7830-400a-8b11-e1f45eb05bbd))
     (pin "6" (uuid bfc3d0db-d148-4439-a694-bee8f4a922a5))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "MK7") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005fa63e4d"
           (reference "MK7") (unit 1)
@@ -1308,6 +1551,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4f831a78-5c8a-4b54-b113-c11ca329908c))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR060") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:+1V8") (at 97.79 83.82 0) (unit 1)
@@ -1326,12 +1576,19 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2431beb4-3a33-4e2d-a0e6-8cc714bbbbe8))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR057") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:C_Small") (at 78.74 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabfc9d)
-    (property "Reference" "CB?" (at 81.0768 90.2716 0)
+    (property "Reference" "CB11" (at 81.0768 90.2716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 81.0768 92.583 0)
@@ -1352,6 +1609,11 @@
     (pin "1" (uuid 6bccc188-f52c-4bbb-a3b5-f3c106045373))
     (pin "2" (uuid adc11cfc-29bf-4b51-9dae-08760a9bbac4))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "CB?") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
           (reference "CB?") (unit 1)
@@ -1380,6 +1642,11 @@
     )
     (pin "1" (uuid 033569b0-6816-4d08-b16e-08fd5e3d9ed3))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR050") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005fa63e4d"
           (reference "#PWR050") (unit 1)
@@ -1407,6 +1674,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cc00ac5d-7326-435b-bb61-0307f231cb77))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR049") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "grootvoet:MIC_ICS_40300") (at 97.79 92.71 0) (unit 1)
@@ -1437,6 +1711,11 @@
     (pin "5" (uuid cc92135c-7e8d-46db-9bfb-86a601c31bcd))
     (pin "6" (uuid 30648096-abdb-40a4-958f-c3db5c404063))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "MK6") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005fa63e4d"
           (reference "MK6") (unit 1)
@@ -1461,6 +1740,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e0e6ec58-35d3-465e-8835-2377a3efdb85))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR058") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:+1V8") (at 96.52 113.03 0) (unit 1)
@@ -1479,12 +1765,19 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1523aadd-3940-4a7f-979d-da82a2f48f5e))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR055") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:C_Small") (at 77.47 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabfcc4)
-    (property "Reference" "CB?" (at 79.8068 119.4816 0)
+    (property "Reference" "CB10" (at 79.8068 119.4816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 79.8068 121.793 0)
@@ -1505,6 +1798,11 @@
     (pin "1" (uuid 4571444c-a9dd-4850-87f1-2b18c8eeafe2))
     (pin "2" (uuid 4fa474e0-b437-4a6a-a28d-9bb4eb7483a8))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "CB?") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
           (reference "CB?") (unit 1)
@@ -1533,6 +1831,11 @@
     )
     (pin "1" (uuid c0ec8c4c-c041-4cec-88fb-4330d106eed1))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR048") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005fa63e4d"
           (reference "#PWR048") (unit 1)
@@ -1560,6 +1863,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5b9ccf90-c4b0-44b8-a52b-95e874743973))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR047") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "grootvoet:MIC_ICS_40300") (at 96.52 121.92 0) (unit 1)
@@ -1590,6 +1900,11 @@
     (pin "5" (uuid 92b5e4e9-94e1-4081-8df9-8e4917215f5b))
     (pin "6" (uuid 9e45b7a3-ec4c-4f76-9935-9dfb87716c63))
     (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "MK5") (unit 1)
+        )
+      )
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005fa63e4d"
           (reference "MK5") (unit 1)
@@ -1614,5 +1929,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid df6fe270-06ad-44fa-be99-3c773741e6d2))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR056") (unit 1)
+        )
+      )
+    )
   )
 )
