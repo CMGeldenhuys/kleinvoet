@@ -701,6 +701,14 @@
       "Sensor_board"
     ],
     [
+      "3579cd31-f7d1-4b38-82cc-1314e00d3f8a",
+      "CompassMagnetometer"
+    ],
+    [
+      "ec9450dd-98d1-46b3-b2f6-66ba91725bce",
+      "SRAM"
+    ],
+    [
       "00000000-0000-0000-0000-00005fa63e4d",
       "Mic_array"
     ],
