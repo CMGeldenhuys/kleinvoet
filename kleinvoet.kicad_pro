@@ -645,8 +645,8 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
-      "workbook_filename": ""
+      "model_mode": 4,
+      "workbook_filename": "kleinvoet.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "docs/sch/",
