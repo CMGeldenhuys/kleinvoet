@@ -1,0 +1,2 @@
+Texas Instruments
+SUBCKT OPA1637 IN+ IN- VCC VEE OUT+ OUT- VOCM  Texas:OPA1637 [OpAmp]
