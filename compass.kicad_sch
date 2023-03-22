@@ -105,7 +105,7 @@
       (property "Footprint" "Package_LGA:LGA-12_2x2mm_P0.5mm" (at 30.48 -7.62 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "https://www.st.com/resource/en/datasheet/lis3mdl.pdf" (at 38.1 -10.16 0)
+      (property "Datasheet" "https://www.st.com/resource/en/datasheet/lis2mdl.pdf" (at 38.1 -10.16 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_keywords" "digital magnetometer" (at 0 0 0)
