@@ -444,7 +444,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 145.415 77.47 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 43c251ed-dd9b-49f0-9c78-b1a8f89f9f6a)
     (property "Reference" "CB1" (at 147.7518 76.3016 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -504,7 +504,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 156.845 77.47 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 6bcb31fc-1aed-4a2d-9346-6e5d5bb5024c)
     (property "Reference" "CB1" (at 159.1818 76.3016 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -639,7 +639,7 @@
   )
 
   (symbol (lib_id "grootvoet:LIS2MDL") (at 99.06 78.105 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid c7b47881-7f44-43d8-b86f-71d67e828331)
     (property "Reference" "U6" (at 101.0159 90.551 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -706,7 +706,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 82.55 69.85 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid e4a772e7-5754-4202-959e-1fdac5d39de9)
     (property "Reference" "R1" (at 81.0514 68.6816 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -766,7 +766,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 168.275 77.47 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid f18cfa83-8067-4fe3-8241-af9135b46a98)
     (property "Reference" "C2" (at 171.45 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -804,7 +804,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 83.185 85.09 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid f5eab2e5-c0b0-4598-819b-d5d14d97dda5)
     (property "Reference" "C47" (at 80.01 84.4486 0)
       (effects (font (size 1.27 1.27)) (justify right))

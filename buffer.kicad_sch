@@ -2335,7 +2335,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 33.02 92.71 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 901838ee-4801-4c93-9adc-15575a7c851e)
     (property "Reference" "R99" (at 31.8516 91.2114 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2403,7 +2403,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 33.02 85.09 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid a1b2edd2-5b53-4afb-ab25-18338f8dd15a)
     (property "Reference" "R98" (at 31.8516 83.5914 0)
       (effects (font (size 1.27 1.27)) (justify left))
