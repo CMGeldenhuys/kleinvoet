@@ -1405,7 +1405,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b6346b0a-bb01-4e48-89f7-5054374e0d0d)
   )
-  (hierarchical_label "GPS_WAKE" (shape input) (at 125.73 29.21 0) (fields_autoplaced)
+  (hierarchical_label "GPS_INT" (shape input) (at 125.73 29.21 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c71e1710-20a1-4e33-88ae-549fb47faa61)
   )
