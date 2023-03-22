@@ -197,6 +197,7 @@
   )
 
 
+
   (hierarchical_label "MK6" (shape input) (at 111.76 63.5 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0bca5861-6a51-4c2d-a465-20d90e6805ed)
@@ -233,7 +234,7 @@
   (symbol (lib_id "Device:C_Small") (at 25.4 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f8a4374)
-    (property "Reference" "C52" (at 27.7368 147.4216 0)
+    (property "Reference" "C1301" (at 27.7368 147.4216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 27.7368 149.733 0)
@@ -256,7 +257,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "C52") (unit 1)
+          (reference "C1301") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -273,7 +274,7 @@
   (symbol (lib_id "Device:C_Small") (at 38.735 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f8a47e8)
-    (property "Reference" "C53" (at 41.0718 147.4216 0)
+    (property "Reference" "C1302" (at 41.0718 147.4216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 41.0718 149.733 0)
@@ -296,7 +297,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "C53") (unit 1)
+          (reference "C1302") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -313,7 +314,7 @@
   (symbol (lib_id "power:+1V8") (at 25.4 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f8a4af2)
-    (property "Reference" "#PWR0244" (at 25.4 149.86 0)
+    (property "Reference" "#PWR01305" (at 25.4 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 25.781 141.6558 0)
@@ -329,7 +330,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0244") (unit 1)
+          (reference "#PWR01305") (unit 1)
         )
       )
     )
@@ -338,7 +339,7 @@
   (symbol (lib_id "power:+1V8") (at 38.735 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f8a4cb5)
-    (property "Reference" "#PWR0247" (at 38.735 149.86 0)
+    (property "Reference" "#PWR01311" (at 38.735 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 39.116 141.6558 0)
@@ -354,7 +355,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0247") (unit 1)
+          (reference "#PWR01311") (unit 1)
         )
       )
     )
@@ -363,7 +364,7 @@
   (symbol (lib_id "grootvoet:MIC_ICS_40300") (at 46.99 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa64374)
-    (property "Reference" "MK4" (at 57.15 26.67 0)
+    (property "Reference" "MK1304" (at 57.15 26.67 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MIC_ICS_40300" (at 64.77 41.91 0)
@@ -390,7 +391,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "MK4") (unit 1)
+          (reference "MK1304") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -404,7 +405,7 @@
   (symbol (lib_id "power:+1V8") (at 46.99 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa6518a)
-    (property "Reference" "#PWR0258" (at 46.99 29.21 0)
+    (property "Reference" "#PWR01319" (at 46.99 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 47.371 21.0058 0)
@@ -420,7 +421,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0258") (unit 1)
+          (reference "#PWR01319") (unit 1)
         )
       )
     )
@@ -429,7 +430,7 @@
   (symbol (lib_id "Device:C_Small") (at 27.94 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa66bce)
-    (property "Reference" "CB22" (at 30.2768 31.8516 0)
+    (property "Reference" "CB1304" (at 30.2768 31.8516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 30.2768 34.163 0)
@@ -452,7 +453,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "CB22") (unit 1)
+          (reference "CB1304") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -469,7 +470,7 @@
   (symbol (lib_id "power:+1V8") (at 27.94 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa66c7f)
-    (property "Reference" "#PWR0259" (at 27.94 34.29 0)
+    (property "Reference" "#PWR01309" (at 27.94 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 28.321 26.0858 0)
@@ -485,7 +486,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0259") (unit 1)
+          (reference "#PWR01309") (unit 1)
         )
       )
     )
@@ -494,7 +495,7 @@
   (symbol (lib_id "power:+1V8") (at 45.72 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fab08dd)
-    (property "Reference" "#PWR0250" (at 45.72 58.42 0)
+    (property "Reference" "#PWR01317" (at 45.72 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 46.101 50.2158 0)
@@ -510,7 +511,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0250") (unit 1)
+          (reference "#PWR01317") (unit 1)
         )
       )
     )
@@ -519,7 +520,7 @@
   (symbol (lib_id "Device:C_Small") (at 26.67 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fab08e5)
-    (property "Reference" "CB21" (at 29.0068 61.0616 0)
+    (property "Reference" "CB1303" (at 29.0068 61.0616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 29.0068 63.373 0)
@@ -542,7 +543,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "CB21") (unit 1)
+          (reference "CB1303") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -559,7 +560,7 @@
   (symbol (lib_id "power:+1V8") (at 26.67 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fab08f1)
-    (property "Reference" "#PWR035" (at 26.67 63.5 0)
+    (property "Reference" "#PWR01307" (at 26.67 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 27.051 55.2958 0)
@@ -575,7 +576,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR01307") (unit 1)
         )
       )
     )
@@ -584,7 +585,7 @@
   (symbol (lib_id "grootvoet:MIC_ICS_40300") (at 45.72 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fab08f8)
-    (property "Reference" "MK3" (at 55.88 55.88 0)
+    (property "Reference" "MK1303" (at 55.88 55.88 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MIC_ICS_40300" (at 63.5 71.12 0)
@@ -611,7 +612,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "MK3") (unit 1)
+          (reference "MK1303") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -625,7 +626,7 @@
   (symbol (lib_id "power:+1V8") (at 44.45 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fab1f23)
-    (property "Reference" "#PWR0248" (at 44.45 87.63 0)
+    (property "Reference" "#PWR01315" (at 44.45 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 44.831 79.4258 0)
@@ -641,7 +642,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0248") (unit 1)
+          (reference "#PWR01315") (unit 1)
         )
       )
     )
@@ -650,7 +651,7 @@
   (symbol (lib_id "Device:C_Small") (at 25.4 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fab1f2b)
-    (property "Reference" "CB20" (at 27.7368 90.2716 0)
+    (property "Reference" "CB1302" (at 27.7368 90.2716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 27.7368 92.583 0)
@@ -673,7 +674,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "CB20") (unit 1)
+          (reference "CB1302") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -690,7 +691,7 @@
   (symbol (lib_id "power:+1V8") (at 25.4 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fab1f37)
-    (property "Reference" "#PWR0243" (at 25.4 92.71 0)
+    (property "Reference" "#PWR01303" (at 25.4 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 25.781 84.5058 0)
@@ -706,7 +707,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0243") (unit 1)
+          (reference "#PWR01303") (unit 1)
         )
       )
     )
@@ -715,7 +716,7 @@
   (symbol (lib_id "grootvoet:MIC_ICS_40300") (at 44.45 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fab1f3e)
-    (property "Reference" "MK2" (at 54.61 85.09 0)
+    (property "Reference" "MK1302" (at 54.61 85.09 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MIC_ICS_40300" (at 62.23 100.33 0)
@@ -742,7 +743,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "MK2") (unit 1)
+          (reference "MK1302") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -756,7 +757,7 @@
   (symbol (lib_id "power:+1V8") (at 43.18 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fab343c)
-    (property "Reference" "#PWR0236" (at 43.18 116.84 0)
+    (property "Reference" "#PWR01313" (at 43.18 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 43.561 108.6358 0)
@@ -772,7 +773,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0236") (unit 1)
+          (reference "#PWR01313") (unit 1)
         )
       )
     )
@@ -781,7 +782,7 @@
   (symbol (lib_id "Device:C_Small") (at 24.13 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fab3444)
-    (property "Reference" "CB19" (at 26.4668 119.4816 0)
+    (property "Reference" "CB1301" (at 26.4668 119.4816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 26.4668 121.793 0)
@@ -804,7 +805,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "CB19") (unit 1)
+          (reference "CB1301") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -821,7 +822,7 @@
   (symbol (lib_id "power:+1V8") (at 24.13 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fab3450)
-    (property "Reference" "#PWR031" (at 24.13 121.92 0)
+    (property "Reference" "#PWR01301" (at 24.13 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 24.511 113.7158 0)
@@ -837,7 +838,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR01301") (unit 1)
         )
       )
     )
@@ -846,7 +847,7 @@
   (symbol (lib_id "grootvoet:MIC_ICS_40300") (at 43.18 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fab3457)
-    (property "Reference" "MK1" (at 53.34 114.3 0)
+    (property "Reference" "MK1301" (at 53.34 114.3 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MIC_ICS_40300" (at 60.96 129.54 0)
@@ -873,7 +874,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "MK1") (unit 1)
+          (reference "MK1301") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -887,7 +888,7 @@
   (symbol (lib_id "power:+1V8") (at 100.33 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabfc47)
-    (property "Reference" "#PWR0264" (at 100.33 29.21 0)
+    (property "Reference" "#PWR01334" (at 100.33 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 100.711 21.0058 0)
@@ -903,7 +904,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0264") (unit 1)
+          (reference "#PWR01334") (unit 1)
         )
       )
     )
@@ -912,7 +913,7 @@
   (symbol (lib_id "Device:C_Small") (at 81.28 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabfc4f)
-    (property "Reference" "CB26" (at 83.6168 31.8516 0)
+    (property "Reference" "CB1308" (at 83.6168 31.8516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 83.6168 34.163 0)
@@ -935,7 +936,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "CB26") (unit 1)
+          (reference "CB1308") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -952,7 +953,7 @@
   (symbol (lib_id "power:+1V8") (at 81.28 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabfc5b)
-    (property "Reference" "#PWR0262" (at 81.28 34.29 0)
+    (property "Reference" "#PWR01326" (at 81.28 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 81.661 26.0858 0)
@@ -968,7 +969,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0262") (unit 1)
+          (reference "#PWR01326") (unit 1)
         )
       )
     )
@@ -977,7 +978,7 @@
   (symbol (lib_id "grootvoet:MIC_ICS_40300") (at 100.33 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabfc62)
-    (property "Reference" "MK8" (at 110.49 26.67 0)
+    (property "Reference" "MK1308" (at 110.49 26.67 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MIC_ICS_40300" (at 118.11 41.91 0)
@@ -1004,7 +1005,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "MK8") (unit 1)
+          (reference "MK1308") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1018,7 +1019,7 @@
   (symbol (lib_id "power:+1V8") (at 99.06 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabfc6e)
-    (property "Reference" "#PWR0261" (at 99.06 58.42 0)
+    (property "Reference" "#PWR01332" (at 99.06 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 99.441 50.2158 0)
@@ -1034,7 +1035,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0261") (unit 1)
+          (reference "#PWR01332") (unit 1)
         )
       )
     )
@@ -1043,7 +1044,7 @@
   (symbol (lib_id "Device:C_Small") (at 80.01 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabfc76)
-    (property "Reference" "CB25" (at 82.3468 61.0616 0)
+    (property "Reference" "CB1307" (at 82.3468 61.0616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 82.3468 63.373 0)
@@ -1066,7 +1067,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "CB25") (unit 1)
+          (reference "CB1307") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1083,7 +1084,7 @@
   (symbol (lib_id "power:+1V8") (at 80.01 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabfc82)
-    (property "Reference" "#PWR0252" (at 80.01 63.5 0)
+    (property "Reference" "#PWR01325" (at 80.01 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 80.391 55.2958 0)
@@ -1099,7 +1100,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0252") (unit 1)
+          (reference "#PWR01325") (unit 1)
         )
       )
     )
@@ -1108,7 +1109,7 @@
   (symbol (lib_id "grootvoet:MIC_ICS_40300") (at 99.06 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabfc89)
-    (property "Reference" "MK7" (at 109.22 55.88 0)
+    (property "Reference" "MK1307" (at 109.22 55.88 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MIC_ICS_40300" (at 116.84 71.12 0)
@@ -1135,7 +1136,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "MK7") (unit 1)
+          (reference "MK1307") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1149,7 +1150,7 @@
   (symbol (lib_id "power:+1V8") (at 97.79 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabfc95)
-    (property "Reference" "#PWR0255" (at 97.79 87.63 0)
+    (property "Reference" "#PWR01330" (at 97.79 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 98.171 79.4258 0)
@@ -1165,7 +1166,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0255") (unit 1)
+          (reference "#PWR01330") (unit 1)
         )
       )
     )
@@ -1174,7 +1175,7 @@
   (symbol (lib_id "Device:C_Small") (at 78.74 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabfc9d)
-    (property "Reference" "CB24" (at 81.0768 90.2716 0)
+    (property "Reference" "CB1306" (at 81.0768 90.2716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 81.0768 92.583 0)
@@ -1197,7 +1198,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "CB24") (unit 1)
+          (reference "CB1306") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1214,7 +1215,7 @@
   (symbol (lib_id "power:+1V8") (at 78.74 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabfca9)
-    (property "Reference" "#PWR0235" (at 78.74 92.71 0)
+    (property "Reference" "#PWR01323" (at 78.74 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 79.121 84.5058 0)
@@ -1230,7 +1231,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0235") (unit 1)
+          (reference "#PWR01323") (unit 1)
         )
       )
     )
@@ -1239,7 +1240,7 @@
   (symbol (lib_id "grootvoet:MIC_ICS_40300") (at 97.79 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabfcb0)
-    (property "Reference" "MK6" (at 107.95 85.09 0)
+    (property "Reference" "MK1306" (at 107.95 85.09 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MIC_ICS_40300" (at 115.57 100.33 0)
@@ -1266,7 +1267,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "MK6") (unit 1)
+          (reference "MK1306") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1280,7 +1281,7 @@
   (symbol (lib_id "power:+1V8") (at 96.52 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabfcbc)
-    (property "Reference" "#PWR0239" (at 96.52 116.84 0)
+    (property "Reference" "#PWR01328" (at 96.52 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 96.901 108.6358 0)
@@ -1296,7 +1297,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0239") (unit 1)
+          (reference "#PWR01328") (unit 1)
         )
       )
     )
@@ -1305,7 +1306,7 @@
   (symbol (lib_id "Device:C_Small") (at 77.47 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabfcc4)
-    (property "Reference" "CB23" (at 79.8068 119.4816 0)
+    (property "Reference" "CB1305" (at 79.8068 119.4816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 79.8068 121.793 0)
@@ -1328,7 +1329,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "CB23") (unit 1)
+          (reference "CB1305") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1345,7 +1346,7 @@
   (symbol (lib_id "power:+1V8") (at 77.47 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabfcd0)
-    (property "Reference" "#PWR0232" (at 77.47 121.92 0)
+    (property "Reference" "#PWR01321" (at 77.47 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 77.851 113.7158 0)
@@ -1361,7 +1362,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0232") (unit 1)
+          (reference "#PWR01321") (unit 1)
         )
       )
     )
@@ -1370,7 +1371,7 @@
   (symbol (lib_id "grootvoet:MIC_ICS_40300") (at 96.52 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabfcd7)
-    (property "Reference" "MK5" (at 106.68 114.3 0)
+    (property "Reference" "MK1305" (at 106.68 114.3 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MIC_ICS_40300" (at 114.3 129.54 0)
@@ -1397,7 +1398,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "MK5") (unit 1)
+          (reference "MK1305") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1430,7 +1431,7 @@
           (reference "#PWR0215") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0240") (unit 1)
+          (reference "#PWR01318") (unit 1)
         )
       )
     )
@@ -1458,7 +1459,7 @@
           (reference "#PWR0215") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0241") (unit 1)
+          (reference "#PWR01333") (unit 1)
         )
       )
     )
@@ -1486,7 +1487,7 @@
           (reference "#PWR0215") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0251") (unit 1)
+          (reference "#PWR01316") (unit 1)
         )
       )
     )
@@ -1514,7 +1515,7 @@
           (reference "#PWR0215") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0260") (unit 1)
+          (reference "#PWR01322") (unit 1)
         )
       )
     )
@@ -1542,7 +1543,7 @@
           (reference "#PWR0215") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0238") (unit 1)
+          (reference "#PWR01335") (unit 1)
         )
       )
     )
@@ -1570,7 +1571,7 @@
           (reference "#PWR0215") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0254") (unit 1)
+          (reference "#PWR01302") (unit 1)
         )
       )
     )
@@ -1598,7 +1599,7 @@
           (reference "#PWR0215") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0249") (unit 1)
+          (reference "#PWR01324") (unit 1)
         )
       )
     )
@@ -1626,7 +1627,7 @@
           (reference "#PWR0215") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR01310") (unit 1)
         )
       )
     )
@@ -1654,7 +1655,7 @@
           (reference "#PWR0215") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0253") (unit 1)
+          (reference "#PWR01304") (unit 1)
         )
       )
     )
@@ -1682,7 +1683,7 @@
           (reference "#PWR0215") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0245") (unit 1)
+          (reference "#PWR01306") (unit 1)
         )
       )
     )
@@ -1710,7 +1711,7 @@
           (reference "#PWR0215") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0257") (unit 1)
+          (reference "#PWR01329") (unit 1)
         )
       )
     )
@@ -1738,7 +1739,7 @@
           (reference "#PWR0215") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0237") (unit 1)
+          (reference "#PWR01308") (unit 1)
         )
       )
     )
@@ -1766,7 +1767,7 @@
           (reference "#PWR0215") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0246") (unit 1)
+          (reference "#PWR01312") (unit 1)
         )
       )
     )
@@ -1794,7 +1795,7 @@
           (reference "#PWR0215") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0242") (unit 1)
+          (reference "#PWR01331") (unit 1)
         )
       )
     )
@@ -1822,7 +1823,7 @@
           (reference "#PWR0215") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0234") (unit 1)
+          (reference "#PWR01327") (unit 1)
         )
       )
     )
@@ -1850,7 +1851,7 @@
           (reference "#PWR0215") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0256") (unit 1)
+          (reference "#PWR01314") (unit 1)
         )
       )
     )
@@ -1878,7 +1879,7 @@
           (reference "#PWR0215") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
-          (reference "#PWR0233") (unit 1)
+          (reference "#PWR01320") (unit 1)
         )
       )
     )

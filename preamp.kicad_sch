@@ -517,7 +517,7 @@
   (symbol (lib_id "grootvoet:THS4551") (at 137.16 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9fd190)
-    (property "Reference" "U12" (at 148.59 103.505 0)
+    (property "Reference" "U1501" (at 148.59 103.505 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "THS4551" (at 148.59 106.045 0)
@@ -560,7 +560,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "U12") (unit 1)
+          (reference "U1501") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -577,7 +577,7 @@
   (symbol (lib_id "Device:C_Small") (at 163.83 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9fd19e)
-    (property "Reference" "CB27" (at 166.1668 96.6216 0)
+    (property "Reference" "CB1501" (at 166.1668 96.6216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 166.1668 98.933 0)
@@ -600,7 +600,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "CB27") (unit 1)
+          (reference "CB1501") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -617,7 +617,7 @@
   (symbol (lib_id "Device:R_Small") (at 99.06 80.01 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9fd1db)
-    (property "Reference" "R73" (at 99.06 75.0316 90)
+    (property "Reference" "R1501" (at 99.06 75.0316 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "270" (at 99.06 77.343 90)
@@ -640,7 +640,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R73") (unit 1)
+          (reference "R1501") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -657,7 +657,7 @@
   (symbol (lib_id "Device:R_Small") (at 113.03 80.01 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9fd1e1)
-    (property "Reference" "R75" (at 113.03 75.0316 90)
+    (property "Reference" "R1503" (at 113.03 75.0316 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330" (at 113.03 77.343 90)
@@ -680,7 +680,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R75") (unit 1)
+          (reference "R1503") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -697,7 +697,7 @@
   (symbol (lib_id "Device:R_Small") (at 149.86 69.85 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9fd1e7)
-    (property "Reference" "R77" (at 149.86 64.8716 90)
+    (property "Reference" "R1505" (at 149.86 64.8716 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k0" (at 149.86 67.183 90)
@@ -720,7 +720,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R77") (unit 1)
+          (reference "R1505") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -737,7 +737,7 @@
   (symbol (lib_id "Device:C_Small") (at 143.51 80.01 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9fd1f3)
-    (property "Reference" "C56" (at 143.51 74.1934 90)
+    (property "Reference" "C1503" (at 143.51 74.1934 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.7n" (at 143.51 76.5048 90)
@@ -760,7 +760,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "C56") (unit 1)
+          (reference "C1503") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -777,7 +777,7 @@
   (symbol (lib_id "Device:C_Small") (at 119.38 97.79 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 00000000-0000-0000-0000-00005f9fd1f9)
-    (property "Reference" "C55" (at 121.7168 96.6216 0)
+    (property "Reference" "C1502" (at 121.7168 96.6216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PH" (at 121.7168 98.933 0)
@@ -794,7 +794,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "C55") (unit 1)
+          (reference "C1502") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -811,7 +811,7 @@
   (symbol (lib_id "Device:C_Small") (at 105.41 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9fd1ff)
-    (property "Reference" "C54" (at 107.7468 96.6216 0)
+    (property "Reference" "C1501" (at 107.7468 96.6216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "18n" (at 107.7468 98.933 0)
@@ -834,7 +834,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "C54") (unit 1)
+          (reference "C1501") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -851,7 +851,7 @@
   (symbol (lib_id "Device:C_Small") (at 105.41 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9fd205)
-    (property "Reference" "220p1" (at 107.7468 68.6816 0)
+    (property "Reference" "220p1501" (at 107.7468 68.6816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220p" (at 107.7468 70.993 0)
@@ -874,7 +874,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "220p1") (unit 1)
+          (reference "220p1501") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -891,7 +891,7 @@
   (symbol (lib_id "Device:R_Small") (at 99.06 115.57 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9fd226)
-    (property "Reference" "R74" (at 99.06 120.5484 90)
+    (property "Reference" "R1502" (at 99.06 120.5484 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "270" (at 99.06 118.237 90)
@@ -914,7 +914,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R74") (unit 1)
+          (reference "R1502") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -931,7 +931,7 @@
   (symbol (lib_id "Device:R_Small") (at 113.03 115.57 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9fd22c)
-    (property "Reference" "R76" (at 113.03 120.5484 90)
+    (property "Reference" "R1504" (at 113.03 120.5484 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330" (at 113.03 118.237 90)
@@ -954,7 +954,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R76") (unit 1)
+          (reference "R1504") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -971,7 +971,7 @@
   (symbol (lib_id "Device:R_Small") (at 149.86 125.73 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9fd232)
-    (property "Reference" "R78" (at 149.86 130.7084 90)
+    (property "Reference" "R1506" (at 149.86 130.7084 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k0" (at 149.86 128.397 90)
@@ -994,7 +994,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R78") (unit 1)
+          (reference "R1506") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1011,7 +1011,7 @@
   (symbol (lib_id "Device:C_Small") (at 143.51 115.57 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9fd23e)
-    (property "Reference" "C57" (at 143.51 121.3866 90)
+    (property "Reference" "C1504" (at 143.51 121.3866 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.7n" (at 143.51 119.0752 90)
@@ -1034,7 +1034,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "C57") (unit 1)
+          (reference "C1504") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1051,7 +1051,7 @@
   (symbol (lib_id "Device:C_Small") (at 105.41 125.73 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9fd244)
-    (property "Reference" "220p2" (at 103.0732 124.5616 0)
+    (property "Reference" "220p1502" (at 103.0732 124.5616 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "220p" (at 103.0732 126.873 0)
@@ -1074,7 +1074,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "220p2") (unit 1)
+          (reference "220p1502") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1110,7 +1110,7 @@
           (reference "#PWR0226") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "#PWR0273") (unit 1)
+          (reference "#PWR01502") (unit 1)
         )
       )
     )
@@ -1138,7 +1138,7 @@
           (reference "#PWR0226") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "#PWR0226") (unit 1)
+          (reference "#PWR01509") (unit 1)
         )
       )
     )
@@ -1166,7 +1166,7 @@
           (reference "#PWR0226") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "#PWR0272") (unit 1)
+          (reference "#PWR01501") (unit 1)
         )
       )
     )
@@ -1194,7 +1194,7 @@
           (reference "#PWR0220") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "#PWR0269") (unit 1)
+          (reference "#PWR01505") (unit 1)
         )
       )
     )
@@ -1229,7 +1229,7 @@
           (reference "CB18") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "CB18") (unit 1)
+          (reference "CB1502") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1265,7 +1265,7 @@
           (reference "#PWR0226") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "#PWR0268") (unit 1)
+          (reference "#PWR01504") (unit 1)
         )
       )
     )
@@ -1274,7 +1274,7 @@
   (symbol (lib_id "Device:C_Small") (at 177.8 97.79 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63751fb1-ce8a-4814-a0ee-f21125e3c32a)
-    (property "Reference" "C50" (at 181.61 96.52 0)
+    (property "Reference" "C1505" (at 181.61 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1u" (at 181.61 98.425 0)
@@ -1297,7 +1297,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "C50") (unit 1)
+          (reference "C1505") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1343,7 +1343,7 @@
           (reference "R49") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R108") (unit 1)
+          (reference "R1507") (unit 1)
         )
       )
     )
@@ -1371,7 +1371,7 @@
           (reference "#PWR0220") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "#PWR0271") (unit 1)
+          (reference "#PWR01503") (unit 1)
         )
       )
     )
@@ -1399,7 +1399,7 @@
           (reference "#PWR0226") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "#PWR0274") (unit 1)
+          (reference "#PWR01506") (unit 1)
         )
       )
     )
@@ -1427,7 +1427,7 @@
           (reference "#PWR0220") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "#PWR0275") (unit 1)
+          (reference "#PWR01507") (unit 1)
         )
       )
     )
@@ -1455,7 +1455,7 @@
           (reference "#PWR0226") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "#PWR0270") (unit 1)
+          (reference "#PWR01508") (unit 1)
         )
       )
     )
@@ -1493,7 +1493,7 @@
           (reference "R49") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R109") (unit 1)
+          (reference "R1508") (unit 1)
         )
       )
     )

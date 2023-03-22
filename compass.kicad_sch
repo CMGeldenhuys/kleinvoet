@@ -268,6 +268,7 @@
     )
   )
 
+
   (junction (at 99.06 64.135) (diameter 0) (color 0 0 0 0)
     (uuid ce6a52ad-ce74-407e-ab1e-79e2acdc3bf5)
   )
@@ -396,7 +397,7 @@
   (symbol (lib_id "power:+3.3V") (at 99.06 62.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 085819b4-55a7-4972-926f-9e5eaaec82f5)
-    (property "Reference" "#PWR0194" (at 99.06 66.675 0)
+    (property "Reference" "#PWR01103" (at 99.06 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 99.06 59.69 0)
@@ -412,7 +413,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/3579cd31-f7d1-4b38-82cc-1314e00d3f8a"
-          (reference "#PWR0194") (unit 1)
+          (reference "#PWR01103") (unit 1)
         )
       )
     )
@@ -421,7 +422,7 @@
   (symbol (lib_id "power:GND") (at 145.415 84.455 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a0c78e7-71b7-465a-bd30-f4dbf6625ea1)
-    (property "Reference" "#PWR0199" (at 145.415 90.805 0)
+    (property "Reference" "#PWR01106" (at 145.415 90.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 145.415 89.281 0)
@@ -437,7 +438,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/3579cd31-f7d1-4b38-82cc-1314e00d3f8a"
-          (reference "#PWR0199") (unit 1)
+          (reference "#PWR01106") (unit 1)
         )
       )
     )
@@ -472,7 +473,7 @@
           (reference "CB1") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/3579cd31-f7d1-4b38-82cc-1314e00d3f8a"
-          (reference "CB10") (unit 1)
+          (reference "CB1101") (unit 1)
         )
       )
     )
@@ -481,7 +482,7 @@
   (symbol (lib_id "power:GND") (at 99.06 90.805 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 638ef732-3652-4813-8ab8-d14f82336b51)
-    (property "Reference" "#PWR0193" (at 99.06 97.155 0)
+    (property "Reference" "#PWR01104" (at 99.06 97.155 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.06 95.631 0)
@@ -497,7 +498,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/3579cd31-f7d1-4b38-82cc-1314e00d3f8a"
-          (reference "#PWR0193") (unit 1)
+          (reference "#PWR01104") (unit 1)
         )
       )
     )
@@ -532,7 +533,7 @@
           (reference "CB1") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/3579cd31-f7d1-4b38-82cc-1314e00d3f8a"
-          (reference "CB11") (unit 1)
+          (reference "CB1102") (unit 1)
         )
       )
     )
@@ -541,7 +542,7 @@
   (symbol (lib_id "power:+3.3V") (at 82.55 62.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7332e0c3-7f70-4e69-8450-0e12b3cac8fb)
-    (property "Reference" "#PWR0196" (at 82.55 66.675 0)
+    (property "Reference" "#PWR01101" (at 82.55 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 82.55 59.69 0)
@@ -557,7 +558,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/3579cd31-f7d1-4b38-82cc-1314e00d3f8a"
-          (reference "#PWR0196") (unit 1)
+          (reference "#PWR01101") (unit 1)
         )
       )
     )
@@ -566,7 +567,7 @@
   (symbol (lib_id "power:GND") (at 168.275 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8775f9d4-2998-4122-a83a-b3a7bc52d5a3)
-    (property "Reference" "#PWR0202" (at 168.275 91.44 0)
+    (property "Reference" "#PWR01110" (at 168.275 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.275 89.916 0)
@@ -582,7 +583,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/3579cd31-f7d1-4b38-82cc-1314e00d3f8a"
-          (reference "#PWR0202") (unit 1)
+          (reference "#PWR01110") (unit 1)
         )
       )
     )
@@ -591,7 +592,7 @@
   (symbol (lib_id "power:+3.3V") (at 156.845 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6e573d0-8a38-4297-a277-7d2594f77fc4)
-    (property "Reference" "#PWR0198" (at 156.845 73.66 0)
+    (property "Reference" "#PWR01107" (at 156.845 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 156.845 66.675 0)
@@ -607,7 +608,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/3579cd31-f7d1-4b38-82cc-1314e00d3f8a"
-          (reference "#PWR0198") (unit 1)
+          (reference "#PWR01107") (unit 1)
         )
       )
     )
@@ -616,7 +617,7 @@
   (symbol (lib_id "power:GND") (at 83.185 92.075 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc4579e8-b0ad-498e-bf31-47b6ba07ac81)
-    (property "Reference" "#PWR0195" (at 83.185 98.425 0)
+    (property "Reference" "#PWR01102" (at 83.185 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.185 96.901 0)
@@ -632,7 +633,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/3579cd31-f7d1-4b38-82cc-1314e00d3f8a"
-          (reference "#PWR0195") (unit 1)
+          (reference "#PWR01102") (unit 1)
         )
       )
     )
@@ -641,7 +642,7 @@
   (symbol (lib_id "grootvoet:LIS2MDL") (at 99.06 78.105 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid c7b47881-7f44-43d8-b86f-71d67e828331)
-    (property "Reference" "U6" (at 101.0159 90.551 0)
+    (property "Reference" "U1101" (at 101.0159 90.551 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LIS2MDL" (at 101.0159 93.091 0)
@@ -674,7 +675,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/3579cd31-f7d1-4b38-82cc-1314e00d3f8a"
-          (reference "U6") (unit 1)
+          (reference "U1101") (unit 1)
         )
       )
     )
@@ -683,7 +684,7 @@
   (symbol (lib_id "power:GND") (at 156.845 84.455 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4cc640f-d8a7-4fcb-a9e2-fe4079d65321)
-    (property "Reference" "#PWR0200" (at 156.845 90.805 0)
+    (property "Reference" "#PWR01108" (at 156.845 90.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 156.845 89.281 0)
@@ -699,7 +700,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/3579cd31-f7d1-4b38-82cc-1314e00d3f8a"
-          (reference "#PWR0200") (unit 1)
+          (reference "#PWR01108") (unit 1)
         )
       )
     )
@@ -734,7 +735,7 @@
           (reference "R1") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/3579cd31-f7d1-4b38-82cc-1314e00d3f8a"
-          (reference "R20") (unit 1)
+          (reference "R1101") (unit 1)
         )
       )
     )
@@ -743,7 +744,7 @@
   (symbol (lib_id "power:+3.3V") (at 145.415 70.485 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e639d25d-95c1-471e-9c95-13a9d7118e0a)
-    (property "Reference" "#PWR0197" (at 145.415 74.295 0)
+    (property "Reference" "#PWR01105" (at 145.415 74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 145.415 67.31 0)
@@ -759,7 +760,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/3579cd31-f7d1-4b38-82cc-1314e00d3f8a"
-          (reference "#PWR0197") (unit 1)
+          (reference "#PWR01105") (unit 1)
         )
       )
     )
@@ -797,7 +798,7 @@
           (reference "C2") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/3579cd31-f7d1-4b38-82cc-1314e00d3f8a"
-          (reference "C48") (unit 1)
+          (reference "C1102") (unit 1)
         )
       )
     )
@@ -806,7 +807,7 @@
   (symbol (lib_id "Device:C_Small") (at 83.185 85.09 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid f5eab2e5-c0b0-4598-819b-d5d14d97dda5)
-    (property "Reference" "C47" (at 80.01 84.4486 0)
+    (property "Reference" "C1101" (at 80.01 84.4486 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "220n" (at 80.01 86.9886 0)
@@ -823,7 +824,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/3579cd31-f7d1-4b38-82cc-1314e00d3f8a"
-          (reference "C47") (unit 1)
+          (reference "C1101") (unit 1)
         )
       )
     )
@@ -832,7 +833,7 @@
   (symbol (lib_id "power:+3.3V") (at 168.275 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd507d44-06e1-4f91-8cd4-96a486e254c2)
-    (property "Reference" "#PWR0201" (at 168.275 73.66 0)
+    (property "Reference" "#PWR01109" (at 168.275 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 168.275 66.675 0)
@@ -848,7 +849,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/3579cd31-f7d1-4b38-82cc-1314e00d3f8a"
-          (reference "#PWR0201") (unit 1)
+          (reference "#PWR01109") (unit 1)
         )
       )
     )

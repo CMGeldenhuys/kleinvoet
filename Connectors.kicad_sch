@@ -14,6 +14,266 @@
   )
 
   (lib_symbols
+    (symbol "+3V3_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3V3_1" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3V3_1_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3V3_1_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V3" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "+3V3_2" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3V3_2" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3V3_2_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3V3_2_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V3" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "+3V3_3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3V3_3" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3V3_3_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3V3_3_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V3" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "+3V3_4" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3V3_4" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3V3_4_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3V3_4_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V3" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "+3V3_5" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3V3_5" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3V3_5_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3V3_5_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V3" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector:Conn_ST_STDC14" (in_bom yes) (on_board yes)
       (property "Reference" "J1" (at -11.43 15.24 0)
         (effects (font (size 1.27 1.27)) (justify right))
@@ -590,6 +850,526 @@
         )
       )
     )
+    (symbol "Earth_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "Earth_1" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag ground gnd" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"Earth\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Earth_1_0_1"
+        (polyline
+          (pts
+            (xy -0.635 -1.905)
+            (xy 0.635 -1.905)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.127 -2.54)
+            (xy 0.127 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy 0 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy -1.27 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Earth_1_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "Earth" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Earth_2" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "Earth_2" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag ground gnd" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"Earth\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Earth_2_0_1"
+        (polyline
+          (pts
+            (xy -0.635 -1.905)
+            (xy 0.635 -1.905)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.127 -2.54)
+            (xy 0.127 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy 0 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy -1.27 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Earth_2_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "Earth" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "GND_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND_1" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_1_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "GND_10" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND_10" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_10_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_10_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "GND_2" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND_2" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_2_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_2_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "GND_3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND_3" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_3_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_3_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "GND_4" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND_4" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_4_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_4_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "GND_5" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND_5" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_5_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_5_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "GND_6" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND_6" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_6_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_6_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "GND_7" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND_7" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_7_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_7_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "GND_8" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND_8" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_8_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_8_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "GND_9" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND_9" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_9_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_9_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Mechanical:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "H" (at 0 6.35 0)
         (effects (font (size 1.27 1.27)))
@@ -895,6 +1675,58 @@
         (pin passive line (at -10.16 2.54 0) (length 2.54)
           (name "I/O1" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "VBUS_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "VBUS_1" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"VBUS\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "VBUS_1_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "VBUS_1_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "VBUS" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1474,6 +2306,7 @@
       )
     )
   )
+
 
   (junction (at 99.06 57.785) (diameter 0) (color 0 0 0 0)
     (uuid 08e78472-eb95-49d0-96e7-553e3ad1d119)
@@ -2120,7 +2953,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 26.67 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ee0c945)
-    (property "Reference" "J12" (at 28.702 61.1632 0)
+    (property "Reference" "J201" (at 28.702 61.1632 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "JST-PH" (at 28.702 63.4746 0)
@@ -2143,7 +2976,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "J12") (unit 1)
+          (reference "J201") (unit 1)
         )
       )
     )
@@ -2152,7 +2985,7 @@
   (symbol (lib_id "power:+BATT") (at 21.59 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ee0c94b)
-    (property "Reference" "#PWR0126" (at 21.59 59.69 0)
+    (property "Reference" "#PWR0203" (at 21.59 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 21.971 51.4858 0)
@@ -2168,7 +3001,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0126") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
       )
     )
@@ -2177,7 +3010,7 @@
   (symbol (lib_id "power:GND") (at 21.59 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ee0c951)
-    (property "Reference" "#PWR0127" (at 21.59 74.93 0)
+    (property "Reference" "#PWR0204" (at 21.59 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 21.717 72.9742 0)
@@ -2193,16 +3026,16 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0127") (unit 1)
+          (reference "#PWR0204") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 166.37 62.23 0) (unit 1)
+  (symbol (lib_name "GND_10") (lib_id "power:GND") (at 166.37 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef579e9)
-    (property "Reference" "#PWR0130" (at 166.37 68.58 0)
+    (property "Reference" "#PWR0219" (at 166.37 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 166.497 66.6242 0)
@@ -2218,7 +3051,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0130") (unit 1)
+          (reference "#PWR0219") (unit 1)
         )
       )
     )
@@ -2227,7 +3060,7 @@
   (symbol (lib_id "power:Earth") (at 158.75 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef579ef)
-    (property "Reference" "#PWR0129" (at 158.75 68.58 0)
+    (property "Reference" "#PWR0216" (at 158.75 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 158.75 66.04 0)
@@ -2243,7 +3076,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0129") (unit 1)
+          (reference "#PWR0216") (unit 1)
         )
       )
     )
@@ -2252,7 +3085,7 @@
   (symbol (lib_id "power:VBUS") (at 184.15 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef579f5)
-    (property "Reference" "#PWR0131" (at 184.15 27.94 0)
+    (property "Reference" "#PWR0220" (at 184.15 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 184.531 19.7358 0)
@@ -2268,7 +3101,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0131") (unit 1)
+          (reference "#PWR0220") (unit 1)
         )
       )
     )
@@ -2277,7 +3110,7 @@
   (symbol (lib_id "kleinvoet-rescue:USB_C_Receptacle_USB2.0-Connector") (at 166.37 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef57a02)
-    (property "Reference" "J13" (at 169.0878 17.3482 0)
+    (property "Reference" "J206" (at 169.0878 17.3482 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C_Receptacle_USB2.0" (at 165.1 19.05 0)
@@ -2315,7 +3148,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "J13") (unit 1)
+          (reference "J206") (unit 1)
         )
       )
     )
@@ -2324,7 +3157,7 @@
   (symbol (lib_id "Device:R_Small") (at 199.39 38.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef57a0a)
-    (property "Reference" "R90" (at 200.8886 36.9316 0)
+    (property "Reference" "R208" (at 200.8886 36.9316 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5.1k" (at 200.8886 39.243 0)
@@ -2347,7 +3180,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "R90") (unit 1)
+          (reference "R208") (unit 1)
         )
       )
     )
@@ -2356,7 +3189,7 @@
   (symbol (lib_id "Device:R_Small") (at 207.01 38.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef57a10)
-    (property "Reference" "R91" (at 208.5086 36.9316 0)
+    (property "Reference" "R209" (at 208.5086 36.9316 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5.1k" (at 208.5086 39.243 0)
@@ -2379,16 +3212,16 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "R91") (unit 1)
+          (reference "R209") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 203.2 44.45 0) (unit 1)
+  (symbol (lib_name "GND_9") (lib_id "power:GND") (at 203.2 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef57a1a)
-    (property "Reference" "#PWR0132" (at 203.2 50.8 0)
+    (property "Reference" "#PWR0223" (at 203.2 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.327 48.8442 0)
@@ -2404,16 +3237,16 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0132") (unit 1)
+          (reference "#PWR0223") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:Earth") (at 229.87 48.26 0) (unit 1)
+  (symbol (lib_name "Earth_2") (lib_id "power:Earth") (at 229.87 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef57a38)
-    (property "Reference" "#PWR0133" (at 229.87 54.61 0)
+    (property "Reference" "#PWR0226" (at 229.87 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 229.87 52.07 0)
@@ -2429,7 +3262,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0133") (unit 1)
+          (reference "#PWR0226") (unit 1)
         )
       )
     )
@@ -2438,7 +3271,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 229.87 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef57a44)
-    (property "Reference" "H3" (at 232.41 44.3738 0)
+    (property "Reference" "H202" (at 232.41 44.3738 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 232.41 45.5168 0)
@@ -2454,7 +3287,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "H3") (unit 1)
+          (reference "H202") (unit 1)
         )
       )
     )
@@ -2463,7 +3296,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 222.25 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef57a4a)
-    (property "Reference" "H2" (at 224.79 44.3738 0)
+    (property "Reference" "H201" (at 224.79 44.3738 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 224.79 45.5168 0)
@@ -2479,7 +3312,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "H2") (unit 1)
+          (reference "H201") (unit 1)
         )
       )
     )
@@ -2488,7 +3321,7 @@
   (symbol (lib_id "Connector:Micro_SD_Card_Det") (at 123.19 45.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef580bf)
-    (property "Reference" "J11" (at 121.92 24.3332 0)
+    (property "Reference" "J204" (at 121.92 24.3332 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Micro_SD_Card_Det" (at 121.92 26.6446 0)
@@ -2520,16 +3353,16 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "J11") (unit 1)
+          (reference "J204") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:Earth") (at 143.51 57.785 0) (unit 1)
+  (symbol (lib_name "Earth_1") (lib_id "power:Earth") (at 143.51 57.785 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef59730)
-    (property "Reference" "#PWR0128" (at 143.51 64.135 0)
+    (property "Reference" "#PWR0215" (at 143.51 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 143.51 61.595 0)
@@ -2545,7 +3378,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0128") (unit 1)
+          (reference "#PWR0215") (unit 1)
         )
       )
     )
@@ -2554,7 +3387,7 @@
   (symbol (lib_id "Device:R_Small") (at 88.9 29.845 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef7dc5f)
-    (property "Reference" "R89" (at 87.63 23.495 0)
+    (property "Reference" "R205" (at 87.63 23.495 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 87.63 24.765 0)
@@ -2577,7 +3410,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "R89") (unit 1)
+          (reference "R205") (unit 1)
         )
       )
     )
@@ -2586,7 +3419,7 @@
   (symbol (lib_id "Power_Protection:USBLC6-2SC6") (at 227.965 89.535 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef91333)
-    (property "Reference" "U10" (at 221.615 80.645 0)
+    (property "Reference" "U201" (at 221.615 80.645 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USBLC6-2SC6" (at 236.855 80.645 0)
@@ -2613,16 +3446,16 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "U10") (unit 1)
+          (reference "U201") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 227.965 99.695 0) (unit 1)
+  (symbol (lib_name "GND_8") (lib_id "power:GND") (at 227.965 99.695 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef9e21e)
-    (property "Reference" "#PWR0121" (at 227.965 106.045 0)
+    (property "Reference" "#PWR0225" (at 227.965 106.045 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 228.092 104.0892 0)
@@ -2638,16 +3471,16 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0121") (unit 1)
+          (reference "#PWR0225") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:VBUS") (at 227.965 79.375 0) (unit 1)
+  (symbol (lib_name "VBUS_1") (lib_id "power:VBUS") (at 227.965 79.375 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef9ee8c)
-    (property "Reference" "#PWR0120" (at 227.965 83.185 0)
+    (property "Reference" "#PWR0224" (at 227.965 83.185 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 228.346 74.9808 0)
@@ -2663,16 +3496,16 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR0224") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 99.06 60.325 0) (unit 1)
+  (symbol (lib_name "GND_7") (lib_id "power:GND") (at 99.06 60.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005efbcdad)
-    (property "Reference" "#PWR0123" (at 99.06 66.675 0)
+    (property "Reference" "#PWR0212" (at 99.06 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.187 64.7192 0)
@@ -2688,7 +3521,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0123") (unit 1)
+          (reference "#PWR0212") (unit 1)
         )
       )
     )
@@ -2697,7 +3530,7 @@
   (symbol (lib_id "power:VAA") (at 39.37 23.495 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09b07bee-59f9-455c-99ca-cffc0a909ae3)
-    (property "Reference" "#PWR069" (at 39.37 27.305 0)
+    (property "Reference" "#PWR0205" (at 39.37 27.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VAA" (at 39.37 19.685 0)
@@ -2713,7 +3546,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR0205") (unit 1)
         )
       )
     )
@@ -2722,7 +3555,7 @@
   (symbol (lib_id "Device:R_Small") (at 81.28 29.845 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09d880bb-f37b-4a5c-82bc-f6e949c01a0e)
-    (property "Reference" "R29" (at 80.01 23.495 0)
+    (property "Reference" "R203" (at 80.01 23.495 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 80.01 24.765 0)
@@ -2745,7 +3578,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "R29") (unit 1)
+          (reference "R203") (unit 1)
         )
       )
     )
@@ -2783,7 +3616,7 @@
           (reference "C2") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "C3") (unit 1)
+          (reference "C202") (unit 1)
         )
       )
     )
@@ -2792,7 +3625,7 @@
   (symbol (lib_id "power:+3V3") (at 19.05 23.495 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10e3ad7f-13a7-47cd-bc7f-4eaaa03405fb)
-    (property "Reference" "#PWR074" (at 19.05 27.305 0)
+    (property "Reference" "#PWR0201" (at 19.05 27.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 19.431 19.1008 0)
@@ -2808,7 +3641,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR0201") (unit 1)
         )
       )
     )
@@ -2817,7 +3650,7 @@
   (symbol (lib_id "power:VAA") (at 48.26 23.495 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 119b4552-fef7-46e4-aebe-9a6c2c2b43c5)
-    (property "Reference" "#PWR075" (at 48.26 27.305 0)
+    (property "Reference" "#PWR0209" (at 48.26 27.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VAA" (at 48.26 19.685 0)
@@ -2833,7 +3666,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR0209") (unit 1)
         )
       )
     )
@@ -2871,7 +3704,7 @@
           (reference "FB1") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "FB6") (unit 1)
+          (reference "FB201") (unit 1)
         )
       )
     )
@@ -2880,7 +3713,7 @@
   (symbol (lib_id "Device:R_Small") (at 77.47 29.845 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1cf50ad9-b8e9-4f2b-83cf-e600a897bdd0)
-    (property "Reference" "R31" (at 76.2 23.495 0)
+    (property "Reference" "R202" (at 76.2 23.495 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 76.2 24.765 0)
@@ -2903,16 +3736,16 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "R31") (unit 1)
+          (reference "R202") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 19.05 37.465 0) (unit 1)
+  (symbol (lib_name "GND_6") (lib_id "power:GND") (at 19.05 37.465 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 633e7465-ee37-41d3-8525-0782a01d5e0c)
-    (property "Reference" "#PWR03" (at 19.05 43.815 0)
+    (property "Reference" "#PWR0202" (at 19.05 43.815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 19.177 41.8592 0)
@@ -2928,13 +3761,13 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 164.465 99.06 270) (unit 1)
+  (symbol (lib_name "+3V3_5") (lib_id "power:+3V3") (at 164.465 99.06 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ace2134-df7c-4f5d-952d-cb6b9210c17d)
     (property "Reference" "#PWR0143" (at 160.655 99.06 0)
@@ -2959,7 +3792,7 @@
           (reference "#PWR0173") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0143") (unit 1)
+          (reference "#PWR0218") (unit 1)
         )
       )
     )
@@ -2968,7 +3801,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 90.17 96.52 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e164764-68c8-437b-b795-9f979f5f2cb2)
-    (property "Reference" "J14" (at 90.17 86.36 0)
+    (property "Reference" "J203" (at 90.17 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Serial Interface" (at 90.17 88.9 0)
@@ -2987,13 +3820,13 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "J14") (unit 1)
+          (reference "J203") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 164.465 96.52 90) (unit 1)
+  (symbol (lib_name "GND_5") (lib_id "power:GND") (at 164.465 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7239002e-7aa7-474f-968e-d0e2a11a7e45)
     (property "Reference" "#PWR0141" (at 170.815 96.52 0)
@@ -3018,7 +3851,7 @@
           (reference "#PWR0143") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0141") (unit 1)
+          (reference "#PWR0217") (unit 1)
         )
       )
     )
@@ -3056,7 +3889,7 @@
           (reference "R49") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "R79") (unit 1)
+          (reference "R207") (unit 1)
         )
       )
     )
@@ -3094,7 +3927,7 @@
           (reference "J8") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "J7") (unit 1)
+          (reference "J207") (unit 1)
         )
       )
     )
@@ -3141,7 +3974,7 @@
           (reference "J1") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "J8") (unit 1)
+          (reference "J202") (unit 1)
         )
       )
     )
@@ -3179,13 +4012,13 @@
           (reference "C4") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "C36") (unit 1)
+          (reference "C201") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 184.785 99.06 270) (unit 1)
+  (symbol (lib_name "+3V3_4") (lib_id "power:+3V3") (at 184.785 99.06 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 920d13ef-daac-411f-9c6c-69831cca68c7)
     (property "Reference" "#PWR0143" (at 180.975 99.06 0)
@@ -3210,16 +4043,16 @@
           (reference "#PWR0175") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0174") (unit 1)
+          (reference "#PWR0222") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 99.06 101.6 0) (unit 1)
+  (symbol (lib_name "GND_4") (lib_id "power:GND") (at 99.06 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 940f0105-2640-4481-a1d6-87cb71be5226)
-    (property "Reference" "#PWR0213" (at 99.06 107.95 0)
+    (property "Reference" "#PWR0214" (at 99.06 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.187 105.9942 0)
@@ -3235,16 +4068,16 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0213") (unit 1)
+          (reference "#PWR0214") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 39.37 37.465 0) (unit 1)
+  (symbol (lib_name "GND_3") (lib_id "power:GND") (at 39.37 37.465 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 99968fdb-5371-40bd-a71b-a096420cf73a)
-    (property "Reference" "#PWR07" (at 39.37 43.815 0)
+    (property "Reference" "#PWR0206" (at 39.37 43.815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.497 41.8592 0)
@@ -3260,7 +4093,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR0206") (unit 1)
         )
       )
     )
@@ -3298,13 +4131,13 @@
           (reference "J7") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "J5") (unit 1)
+          (reference "J205") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 184.785 96.52 90) (unit 1)
+  (symbol (lib_name "GND_2") (lib_id "power:GND") (at 184.785 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a93b2555-d966-4f69-abd9-b5032e976cdc)
     (property "Reference" "#PWR0141" (at 191.135 96.52 0)
@@ -3329,13 +4162,13 @@
           (reference "#PWR0174") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0173") (unit 1)
+          (reference "#PWR0221") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 43.815 85.725 0) (unit 1)
+  (symbol (lib_name "+3V3_3") (lib_id "power:+3V3") (at 43.815 85.725 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2a135b7-aae9-4a39-ad84-0f87a0ff5f0d)
     (property "Reference" "#PWR02" (at 43.815 89.535 0)
@@ -3357,7 +4190,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0203") (unit 1)
+          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -3392,16 +4225,16 @@
           (reference "R9") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "R34") (unit 1)
+          (reference "R206") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 92.71 24.765 0) (unit 1)
+  (symbol (lib_name "+3V3_2") (lib_id "power:+3V3") (at 92.71 24.765 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ca9bf201-79ac-4cf0-a0be-9b357c38e83e)
-    (property "Reference" "#PWR057" (at 92.71 28.575 0)
+    (property "Reference" "#PWR0210" (at 92.71 28.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 93.091 20.3708 0)
@@ -3417,7 +4250,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR0210") (unit 1)
         )
       )
     )
@@ -3426,7 +4259,7 @@
   (symbol (lib_id "power:VAA") (at 99.06 24.765 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb5439da-cfe3-4f54-a741-30ec8120ee80)
-    (property "Reference" "#PWR076" (at 99.06 28.575 0)
+    (property "Reference" "#PWR0211" (at 99.06 28.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VAA" (at 99.06 20.955 0)
@@ -3442,7 +4275,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR0211") (unit 1)
         )
       )
     )
@@ -3451,7 +4284,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 48.26 37.465 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7ff4376-c075-4746-84f1-63e9ad612f2d)
-    (property "Reference" "#FLG01" (at 48.26 39.37 0)
+    (property "Reference" "#FLG0201" (at 48.26 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 48.26 42.545 0)
@@ -3467,7 +4300,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG0201") (unit 1)
         )
       )
     )
@@ -3476,7 +4309,7 @@
   (symbol (lib_id "Device:R_Small") (at 85.09 29.845 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0435acf-fcce-4577-a90a-45b6e8596d33)
-    (property "Reference" "R32" (at 83.82 23.495 0)
+    (property "Reference" "R204" (at 83.82 23.495 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 83.82 24.765 0)
@@ -3499,7 +4332,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "R32") (unit 1)
+          (reference "R204") (unit 1)
         )
       )
     )
@@ -3508,7 +4341,7 @@
   (symbol (lib_id "Device:R_Small") (at 73.66 29.845 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7ed8288-02e0-4a10-be7e-134eec409acb)
-    (property "Reference" "R30" (at 72.39 23.495 0)
+    (property "Reference" "R201" (at 72.39 23.495 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 72.39 24.765 0)
@@ -3531,16 +4364,16 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "R30") (unit 1)
+          (reference "R201") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 99.06 88.265 0) (unit 1)
+  (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 99.06 88.265 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e99bc8f5-a9a3-4c5a-9480-89f126def900)
-    (property "Reference" "#PWR0212" (at 99.06 92.075 0)
+    (property "Reference" "#PWR0213" (at 99.06 92.075 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 99.441 83.8708 0)
@@ -3556,13 +4389,13 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0212") (unit 1)
+          (reference "#PWR0213") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 42.545 121.285 0) (unit 1)
+  (symbol (lib_name "GND_1") (lib_id "power:GND") (at 42.545 121.285 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee77efe0-45b5-46a7-ab24-d8e88453af4f)
     (property "Reference" "#PWR01" (at 42.545 127.635 0)
@@ -3584,7 +4417,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR0207") (unit 1)
         )
       )
     )

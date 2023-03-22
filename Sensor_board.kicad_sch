@@ -769,6 +769,7 @@
     )
   )
 
+
   (junction (at 81.28 132.08) (diameter 0) (color 0 0 0 0)
     (uuid 092a7b0d-b57e-4229-b153-11ca0aa5c6b7)
   )
@@ -1043,7 +1044,7 @@
   (symbol (lib_id "power:GND") (at 109.22 100.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f8dd1d1)
-    (property "Reference" "#PWR0101" (at 115.57 100.33 0)
+    (property "Reference" "#PWR01007" (at 115.57 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 112.4712 100.203 90)
@@ -1059,7 +1060,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR01007") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1073,7 +1074,7 @@
   (symbol (lib_id "grootvoet:TLV741PxxDBVx") (at 107.95 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f90b83c)
-    (property "Reference" "U1" (at 109.22 125.349 0)
+    (property "Reference" "U1001" (at 109.22 125.349 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLV741PxxDBVx" (at 109.22 127.6604 0)
@@ -1099,7 +1100,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "U1") (unit 1)
+          (reference "U1001") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1113,7 +1114,7 @@
   (symbol (lib_id "Device:LED_Small") (at 133.35 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f915892)
-    (property "Reference" "D1" (at 135.128 97.8916 90)
+    (property "Reference" "D1001" (at 135.128 97.8916 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RED" (at 135.128 100.203 90)
@@ -1136,7 +1137,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "D1") (unit 1)
+          (reference "D1001") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1150,7 +1151,7 @@
   (symbol (lib_id "Device:R_Small") (at 133.35 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f915c70)
-    (property "Reference" "R21" (at 134.8486 102.9716 0)
+    (property "Reference" "R1002" (at 134.8486 102.9716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k2" (at 134.8486 105.283 0)
@@ -1173,7 +1174,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "R21") (unit 1)
+          (reference "R1002") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1187,7 +1188,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x04_Odd_Even") (at 101.6 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9760c7)
-    (property "Reference" "J1" (at 102.87 111.76 0)
+    (property "Reference" "J1001" (at 102.87 111.76 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Mic_Conn" (at 102.87 109.22 0)
@@ -1216,7 +1217,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "J1") (unit 1)
+          (reference "J1001") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1230,7 +1231,7 @@
   (symbol (lib_id "Sensor_Board-rescue:Ferrite_Bead_Small-Device") (at 169.545 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9760ed)
-    (property "Reference" "FB1" (at 169.545 126.0602 90)
+    (property "Reference" "FB1001" (at 169.545 126.0602 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100 @ 100 MHz" (at 169.545 128.3716 90)
@@ -1253,7 +1254,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "FB1") (unit 1)
+          (reference "FB1001") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1267,7 +1268,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 131.445 169.545 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f976141)
-    (property "Reference" "#FLG0103" (at 131.445 171.45 0)
+    (property "Reference" "#FLG01002" (at 131.445 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 131.445 173.9392 0)
@@ -1283,7 +1284,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#FLG0103") (unit 1)
+          (reference "#FLG01002") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1297,7 +1298,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 182.88 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f976151)
-    (property "Reference" "TP1" (at 184.3532 130.2512 0)
+    (property "Reference" "TP1001" (at 184.3532 130.2512 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 184.3532 131.3942 0)
@@ -1319,7 +1320,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "TP1") (unit 1)
+          (reference "TP1001") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1333,7 +1334,7 @@
   (symbol (lib_id "Device:R_Small") (at 93.98 139.7 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f976175)
-    (property "Reference" "R1" (at 92.4814 140.8684 0)
+    (property "Reference" "R1001" (at 92.4814 140.8684 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 92.4814 138.557 0)
@@ -1356,7 +1357,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "R1") (unit 1)
+          (reference "R1001") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1370,7 +1371,7 @@
   (symbol (lib_id "Device:C_Small") (at 179.07 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f976222)
-    (property "Reference" "C2" (at 181.4068 135.9916 0)
+    (property "Reference" "C1005" (at 181.4068 135.9916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 181.4068 138.303 0)
@@ -1393,7 +1394,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "C2") (unit 1)
+          (reference "C1005") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1407,7 +1408,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 146.685 169.545 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9bfe28)
-    (property "Reference" "#FLG02" (at 146.685 171.45 0)
+    (property "Reference" "#FLG01003" (at 146.685 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 146.685 173.9392 0)
@@ -1423,7 +1424,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#FLG02") (unit 1)
+          (reference "#FLG01003") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1437,7 +1438,7 @@
   (symbol (lib_id "Device:C_Small") (at 125.73 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa1bf82)
-    (property "Reference" "C1" (at 128.0668 135.9916 0)
+    (property "Reference" "C1001" (at 128.0668 135.9916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 128.0668 138.303 0)
@@ -1460,7 +1461,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "C1") (unit 1)
+          (reference "C1001") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1474,7 +1475,7 @@
   (symbol (lib_id "power:GND") (at 107.95 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa1e710)
-    (property "Reference" "#PWR0229" (at 107.95 153.67 0)
+    (property "Reference" "#PWR01005" (at 107.95 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 108.077 151.7142 0)
@@ -1490,7 +1491,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0229") (unit 1)
+          (reference "#PWR01005") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1504,7 +1505,7 @@
   (symbol (lib_id "power:VCC") (at 96.52 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa24f87)
-    (property "Reference" "#PWR0227" (at 100.33 105.41 0)
+    (property "Reference" "#PWR01004" (at 100.33 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 93.2942 105.029 90)
@@ -1520,7 +1521,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0227") (unit 1)
+          (reference "#PWR01004") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1534,7 +1535,7 @@
   (symbol (lib_id "power:GND") (at 109.22 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa257dc)
-    (property "Reference" "#PWR0228" (at 115.57 102.87 0)
+    (property "Reference" "#PWR01008" (at 115.57 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 112.4712 102.743 90)
@@ -1550,7 +1551,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0228") (unit 1)
+          (reference "#PWR01008") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1564,7 +1565,7 @@
   (symbol (lib_id "Device:C_Small") (at 81.28 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa368e9)
-    (property "Reference" "CB17" (at 83.6168 135.9916 0)
+    (property "Reference" "CB1001" (at 83.6168 135.9916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 83.6168 138.303 0)
@@ -1587,7 +1588,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "CB17") (unit 1)
+          (reference "CB1001") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1604,7 +1605,7 @@
   (symbol (lib_id "power:+1V8") (at 125.73 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa3ac62)
-    (property "Reference" "#PWR0217" (at 125.73 134.62 0)
+    (property "Reference" "#PWR01011" (at 125.73 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 126.111 126.4158 0)
@@ -1620,7 +1621,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0217") (unit 1)
+          (reference "#PWR01011") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1634,7 +1635,7 @@
   (symbol (lib_id "power:GND") (at 109.22 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa4d3d6)
-    (property "Reference" "#PWR0102" (at 115.57 97.79 0)
+    (property "Reference" "#PWR01006" (at 115.57 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 112.4712 97.663 90)
@@ -1650,7 +1651,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR01006") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1664,7 +1665,7 @@
   (symbol (lib_id "power:GND") (at 109.22 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa4d762)
-    (property "Reference" "#PWR0103" (at 115.57 105.41 0)
+    (property "Reference" "#PWR01009" (at 115.57 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 112.4712 105.283 90)
@@ -1680,7 +1681,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR01009") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1694,7 +1695,7 @@
   (symbol (lib_id "power:+1V8") (at 182.245 67.31 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa58879)
-    (property "Reference" "#PWR018" (at 178.435 67.31 0)
+    (property "Reference" "#PWR01027" (at 178.435 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 185.4962 67.691 90)
@@ -1710,7 +1711,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR01027") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1724,7 +1725,7 @@
   (symbol (lib_id "Device:C_Small") (at 175.26 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa5b91e)
-    (property "Reference" "C3" (at 177.5968 71.2216 0)
+    (property "Reference" "C1004" (at 177.5968 71.2216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 177.5968 73.533 0)
@@ -1747,7 +1748,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "C3") (unit 1)
+          (reference "C1004") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1761,7 +1762,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 116.205 169.545 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa65149)
-    (property "Reference" "#FLG0102" (at 116.205 171.45 0)
+    (property "Reference" "#FLG01001" (at 116.205 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 116.205 173.9392 0)
@@ -1777,7 +1778,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#FLG0102") (unit 1)
+          (reference "#FLG01001") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1791,7 +1792,7 @@
   (symbol (lib_id "grootvoet:GND_SENSOR") (at 179.07 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 036e8131-8612-445e-b265-91b12c65a13e)
-    (property "Reference" "#PWR0266" (at 179.07 100.965 0)
+    (property "Reference" "#PWR01024" (at 179.07 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_SENSOR" (at 179.07 99.06 0)
@@ -1807,7 +1808,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0266") (unit 1)
+          (reference "#PWR01024") (unit 1)
         )
       )
     )
@@ -1816,7 +1817,7 @@
   (symbol (lib_id "grootvoet:GND_SENSOR") (at 154.94 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a13f0e3-05d5-4f17-b9fd-63dc6e6c6353)
-    (property "Reference" "#PWR0223" (at 154.94 149.86 0)
+    (property "Reference" "#PWR01020" (at 154.94 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_SENSOR" (at 154.94 147.955 0)
@@ -1832,7 +1833,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0223") (unit 1)
+          (reference "#PWR01020") (unit 1)
         )
       )
     )
@@ -1841,7 +1842,7 @@
   (symbol (lib_id "Device:C_Small") (at 135.255 71.755 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d7b3a2a-225e-456d-8c81-89d89f19ebe8)
-    (property "Reference" "C80" (at 137.5918 70.5866 0)
+    (property "Reference" "C1002" (at 137.5918 70.5866 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 137.5918 72.898 0)
@@ -1864,7 +1865,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "C80") (unit 1)
+          (reference "C1002") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -1878,7 +1879,7 @@
   (symbol (lib_id "grootvoet:+3.3V_SENSOR") (at 131.445 169.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14c663ee-a31f-4363-9687-1b693dafb0ba)
-    (property "Reference" "#PWR0220" (at 131.445 173.355 0)
+    (property "Reference" "#PWR01013" (at 131.445 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V_SENSOR" (at 131.445 165.735 0)
@@ -1894,7 +1895,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0220") (unit 1)
+          (reference "#PWR01013") (unit 1)
         )
       )
     )
@@ -1903,7 +1904,7 @@
   (symbol (lib_id "grootvoet:+3.3V_SENSOR") (at 81.28 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21d033d8-2c8c-43d0-b382-b951cf1b517f)
-    (property "Reference" "#PWR0219" (at 81.28 134.62 0)
+    (property "Reference" "#PWR01001" (at 81.28 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V_SENSOR" (at 81.28 127 0)
@@ -1919,7 +1920,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0219") (unit 1)
+          (reference "#PWR01001") (unit 1)
         )
       )
     )
@@ -1928,7 +1929,7 @@
   (symbol (lib_id "grootvoet:GND_SENSOR") (at 81.28 142.875 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f33b1a6-2ddb-4e05-8772-1788b8bd3ec1)
-    (property "Reference" "#PWR0225" (at 81.28 149.225 0)
+    (property "Reference" "#PWR01002" (at 81.28 149.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_SENSOR" (at 81.28 147.32 0)
@@ -1944,7 +1945,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0225") (unit 1)
+          (reference "#PWR01002") (unit 1)
         )
       )
     )
@@ -1953,7 +1954,7 @@
   (symbol (lib_id "grootvoet:VCC_SENSOR") (at 133.35 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32979ae7-bf8d-45f5-8fe5-16e9d802b910)
-    (property "Reference" "#PWR0216" (at 133.35 100.33 0)
+    (property "Reference" "#PWR01014" (at 133.35 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC_SENSOR" (at 133.35 92.71 0)
@@ -1969,7 +1970,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0216") (unit 1)
+          (reference "#PWR01014") (unit 1)
         )
       )
     )
@@ -1978,7 +1979,7 @@
   (symbol (lib_id "grootvoet:GND_SENSOR") (at 179.07 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35ea933a-270c-41f4-8704-b91ff697f701)
-    (property "Reference" "#PWR0224" (at 179.07 149.86 0)
+    (property "Reference" "#PWR01026" (at 179.07 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_SENSOR" (at 179.07 147.955 0)
@@ -1994,7 +1995,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0224") (unit 1)
+          (reference "#PWR01026") (unit 1)
         )
       )
     )
@@ -2003,7 +2004,7 @@
   (symbol (lib_id "grootvoet:GND_SENSOR") (at 125.73 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3698667c-8cfa-4114-bf4f-15225dca1aae)
-    (property "Reference" "#PWR0218" (at 125.73 148.59 0)
+    (property "Reference" "#PWR01012" (at 125.73 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_SENSOR" (at 125.73 146.685 0)
@@ -2019,7 +2020,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0218") (unit 1)
+          (reference "#PWR01012") (unit 1)
         )
       )
     )
@@ -2028,7 +2029,7 @@
   (symbol (lib_id "grootvoet:+3.3V_SENSOR") (at 179.07 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c6b55c2-db73-406b-92c8-41251556c35d)
-    (property "Reference" "#PWR01" (at 179.07 133.35 0)
+    (property "Reference" "#PWR01025" (at 179.07 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V_SENSOR" (at 179.07 125.73 0)
@@ -2044,7 +2045,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR01025") (unit 1)
         )
       )
     )
@@ -2053,7 +2054,7 @@
   (symbol (lib_id "grootvoet:GND_SENSOR") (at 133.35 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52406ada-b483-4a25-84aa-822b95568896)
-    (property "Reference" "#PWR0215" (at 133.35 113.03 0)
+    (property "Reference" "#PWR01015" (at 133.35 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_SENSOR" (at 133.35 111.125 0)
@@ -2069,7 +2070,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0215") (unit 1)
+          (reference "#PWR01015") (unit 1)
         )
       )
     )
@@ -2078,7 +2079,7 @@
   (symbol (lib_id "grootvoet:VCC_SENSOR") (at 154.94 130.175 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56128b43-2264-4d47-bb7b-e143b8d6531e)
-    (property "Reference" "#PWR0222" (at 154.94 133.985 0)
+    (property "Reference" "#PWR01019" (at 154.94 133.985 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC_SENSOR" (at 154.94 126.365 0)
@@ -2094,7 +2095,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0222") (unit 1)
+          (reference "#PWR01019") (unit 1)
         )
       )
     )
@@ -2103,7 +2104,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 160.02 169.545 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 58f8171a-9537-4fa8-b18e-c179553722c0)
-    (property "Reference" "#FLG04" (at 160.02 171.45 0)
+    (property "Reference" "#FLG01004" (at 160.02 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 160.02 173.9392 0)
@@ -2119,7 +2120,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#FLG04") (unit 1)
+          (reference "#FLG01004") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -2133,7 +2134,7 @@
   (symbol (lib_id "power:+1V8") (at 140.97 68.58 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6662aa65-628b-4940-91da-6969bc0b9642)
-    (property "Reference" "#PWR0277" (at 137.16 68.58 0)
+    (property "Reference" "#PWR01017" (at 137.16 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 144.2212 68.961 90)
@@ -2149,7 +2150,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0277") (unit 1)
+          (reference "#PWR01017") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -2163,7 +2164,7 @@
   (symbol (lib_id "grootvoet:GND_SENSOR") (at 135.255 74.295 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 727ad749-9c88-4c3b-989b-95f60c8dd866)
-    (property "Reference" "#PWR0276" (at 135.255 80.645 0)
+    (property "Reference" "#PWR01016" (at 135.255 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_SENSOR" (at 135.255 78.74 0)
@@ -2179,7 +2180,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0276") (unit 1)
+          (reference "#PWR01016") (unit 1)
         )
       )
     )
@@ -2188,7 +2189,7 @@
   (symbol (lib_id "grootvoet:GND_SENSOR") (at 175.26 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ba32f05-b375-41c1-8552-f7a282798ae3)
-    (property "Reference" "#PWR017" (at 175.26 81.28 0)
+    (property "Reference" "#PWR01023" (at 175.26 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_SENSOR" (at 175.26 79.375 0)
@@ -2204,7 +2205,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR01023") (unit 1)
         )
       )
     )
@@ -2232,7 +2233,7 @@
           (reference "H2") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "H4") (unit 1)
+          (reference "H1001") (unit 1)
         )
       )
     )
@@ -2241,7 +2242,7 @@
   (symbol (lib_id "power:+1V8") (at 160.02 169.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ada1ea81-7fe0-48c0-a6b6-ae9d3bff9d9a)
-    (property "Reference" "#PWR0230" (at 160.02 173.355 0)
+    (property "Reference" "#PWR01021" (at 160.02 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 160.401 165.1508 0)
@@ -2257,7 +2258,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0230") (unit 1)
+          (reference "#PWR01021") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -2290,7 +2291,7 @@
           (reference "H2") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "H5") (unit 1)
+          (reference "H1002") (unit 1)
         )
       )
     )
@@ -2299,7 +2300,7 @@
   (symbol (lib_id "grootvoet:VCC_SENSOR") (at 93.98 144.145 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea33fb3a-d390-4063-a0ea-e146a334427c)
-    (property "Reference" "#PWR0231" (at 93.98 140.335 0)
+    (property "Reference" "#PWR01003" (at 93.98 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC_SENSOR" (at 93.98 148.59 0)
@@ -2315,7 +2316,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0231") (unit 1)
+          (reference "#PWR01003") (unit 1)
         )
       )
     )
@@ -2324,7 +2325,7 @@
   (symbol (lib_id "grootvoet:GND_SENSOR") (at 166.37 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef8258a2-1969-4a65-bb89-3d01dc464e63)
-    (property "Reference" "#PWR0265" (at 166.37 100.965 0)
+    (property "Reference" "#PWR01022" (at 166.37 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_SENSOR" (at 166.37 99.06 0)
@@ -2340,7 +2341,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0265") (unit 1)
+          (reference "#PWR01022") (unit 1)
         )
       )
     )
@@ -2349,7 +2350,7 @@
   (symbol (lib_id "grootvoet:GND_SENSOR") (at 116.205 169.545 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2922389-db82-4ccc-b5f2-659999a82066)
-    (property "Reference" "#PWR0221" (at 116.205 163.195 0)
+    (property "Reference" "#PWR01010" (at 116.205 163.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_SENSOR" (at 116.205 165.735 0)
@@ -2365,7 +2366,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0221") (unit 1)
+          (reference "#PWR01010") (unit 1)
         )
       )
     )
@@ -2374,7 +2375,7 @@
   (symbol (lib_id "Device:C_Small") (at 154.94 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f40ae235-9594-450c-991d-fe8dd59acde8)
-    (property "Reference" "C51" (at 157.2768 136.6266 0)
+    (property "Reference" "C1003" (at 157.2768 136.6266 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 157.2768 138.938 0)
@@ -2397,7 +2398,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "C51") (unit 1)
+          (reference "C1003") (unit 1)
         )
       )
       (project "Sensor_Board"
@@ -2411,7 +2412,7 @@
   (symbol (lib_id "grootvoet:VCC_SENSOR") (at 146.685 169.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe4fd305-2784-4fcf-b6c9-5e2e677dcec9)
-    (property "Reference" "#PWR0214" (at 146.685 173.355 0)
+    (property "Reference" "#PWR01018" (at 146.685 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC_SENSOR" (at 146.685 165.735 0)
@@ -2427,7 +2428,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0214") (unit 1)
+          (reference "#PWR01018") (unit 1)
         )
       )
     )
