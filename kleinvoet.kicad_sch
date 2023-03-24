@@ -4149,13 +4149,13 @@
   (symbol (lib_id "Device:FerriteBead_Small") (at 64.77 43.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ef05c6d-48f2-451c-99fd-ced941a24fab)
-    (property "Reference" "FB101" (at 69.215 45.72 90)
+    (property "Reference" "FB102" (at 69.215 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 64.7319 40.005 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 64.77 44.958 90)
+    (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (at 64.77 44.958 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 64.77 43.18 0)
@@ -4166,7 +4166,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885"
-          (reference "FB101") (unit 1)
+          (reference "FB102") (unit 1)
         )
       )
     )
@@ -4238,7 +4238,7 @@
     (property "Value" "Boot_sel" (at 85.09 40.005 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 82.55 38.1 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" (at 82.55 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 82.55 38.1 0)
@@ -4283,13 +4283,13 @@
   (symbol (lib_id "Device:FerriteBead_Small") (at 64.77 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0fe56ec-81e4-47cd-825d-ec44964e6311)
-    (property "Reference" "FB103" (at 68.58 34.925 90)
+    (property "Reference" "FB101" (at 68.58 34.925 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 64.7319 34.925 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 64.77 39.878 90)
+    (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (at 64.77 39.878 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 64.77 38.1 0)
@@ -4300,7 +4300,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885"
-          (reference "FB103") (unit 1)
+          (reference "FB101") (unit 1)
         )
       )
     )

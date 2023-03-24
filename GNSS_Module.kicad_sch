@@ -1396,7 +1396,7 @@
   (symbol (lib_id "power:GND") (at 55.88 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ee05234)
-    (property "Reference" "#PWR0312" (at 55.88 125.73 0)
+    (property "Reference" "#PWR0313" (at 55.88 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 56.007 123.7742 0)
@@ -1412,7 +1412,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0312") (unit 1)
+          (reference "#PWR0313") (unit 1)
         )
       )
     )
@@ -1488,7 +1488,7 @@
   (symbol (lib_id "power:VDD") (at 78.74 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ee052a8)
-    (property "Reference" "#PWR0315" (at 78.74 26.67 0)
+    (property "Reference" "#PWR0316" (at 78.74 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 79.121 18.4658 0)
@@ -1504,7 +1504,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0315") (unit 1)
+          (reference "#PWR0316") (unit 1)
         )
       )
     )
@@ -1513,7 +1513,7 @@
   (symbol (lib_id "power:VDD") (at 58.42 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ee052b2)
-    (property "Reference" "#PWR0313" (at 58.42 97.79 0)
+    (property "Reference" "#PWR0314" (at 58.42 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 59.69 90.17 0)
@@ -1529,7 +1529,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0313") (unit 1)
+          (reference "#PWR0314") (unit 1)
         )
       )
     )
@@ -1837,7 +1837,7 @@
   (symbol (lib_id "power:+3V3") (at 125.73 39.37 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa9cfee)
-    (property "Reference" "#PWR0322" (at 121.92 39.37 0)
+    (property "Reference" "#PWR0323" (at 121.92 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 130.81 39.37 90)
@@ -1853,7 +1853,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0322") (unit 1)
+          (reference "#PWR0323") (unit 1)
         )
       )
     )
@@ -1862,7 +1862,7 @@
   (symbol (lib_id "power:GND") (at 125.73 26.67 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa9cffd)
-    (property "Reference" "#PWR0320" (at 132.08 26.67 0)
+    (property "Reference" "#PWR0321" (at 132.08 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.1242 26.543 90)
@@ -1878,7 +1878,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0320") (unit 1)
+          (reference "#PWR0321") (unit 1)
         )
       )
     )
@@ -1887,7 +1887,7 @@
   (symbol (lib_id "grootvoet:GND_GNSS") (at 127.635 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a831b6f-e3c9-47a2-a260-c20ec93f551e)
-    (property "Reference" "#PWR0323" (at 127.635 63.5 0)
+    (property "Reference" "#PWR0324" (at 127.635 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_GNSS" (at 127.635 62.23 0)
@@ -1903,7 +1903,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0323") (unit 1)
+          (reference "#PWR0324") (unit 1)
         )
       )
     )
@@ -1912,7 +1912,7 @@
   (symbol (lib_id "grootvoet:GND_GNSS") (at 74.295 71.755 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1cfc71ad-1425-47f9-a1ac-84354e044c5b)
-    (property "Reference" "#PWR0314" (at 74.295 78.105 0)
+    (property "Reference" "#PWR0315" (at 74.295 78.105 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_GNSS" (at 74.295 76.835 0)
@@ -1928,7 +1928,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0314") (unit 1)
+          (reference "#PWR0315") (unit 1)
         )
       )
     )
@@ -1962,7 +1962,7 @@
   (symbol (lib_id "power:GND") (at 125.73 21.59 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2118c019-7c6e-47a5-8247-037119f01caf)
-    (property "Reference" "#PWR0319" (at 132.08 21.59 0)
+    (property "Reference" "#PWR0320" (at 132.08 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.1242 21.463 90)
@@ -1978,7 +1978,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0319") (unit 1)
+          (reference "#PWR0320") (unit 1)
         )
       )
     )
@@ -1987,7 +1987,7 @@
   (symbol (lib_id "grootvoet:GND_GNSS") (at 183.515 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 238f970c-a833-42f9-ba84-fe991802b714)
-    (property "Reference" "#PWR0329" (at 183.515 43.18 0)
+    (property "Reference" "#PWR0330" (at 183.515 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_GNSS" (at 183.515 41.91 0)
@@ -2003,7 +2003,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0329") (unit 1)
+          (reference "#PWR0330") (unit 1)
         )
       )
     )
@@ -2038,7 +2038,7 @@
           (reference "FB904") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "FB304") (unit 1)
+          (reference "FB301") (unit 1)
         )
       )
     )
@@ -2047,7 +2047,7 @@
   (symbol (lib_id "grootvoet:+3.3V_GNSS") (at 55.88 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 331d5a39-01c6-48c0-919c-e3dacaf0c114)
-    (property "Reference" "#PWR0310" (at 55.88 26.67 0)
+    (property "Reference" "#PWR0311" (at 55.88 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V_GNSS" (at 55.88 19.05 0)
@@ -2063,7 +2063,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0310") (unit 1)
+          (reference "#PWR0311") (unit 1)
         )
       )
     )
@@ -2097,7 +2097,7 @@
   (symbol (lib_id "grootvoet:+3.3V_GNSS") (at 86.995 59.055 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c46d186-c621-4ff6-9432-9e676be7eb70)
-    (property "Reference" "#PWR0317" (at 86.995 62.865 0)
+    (property "Reference" "#PWR0318" (at 86.995 62.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V_GNSS" (at 86.995 55.245 0)
@@ -2113,7 +2113,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0317") (unit 1)
+          (reference "#PWR0318") (unit 1)
         )
       )
     )
@@ -2122,7 +2122,7 @@
   (symbol (lib_id "grootvoet:+3.3V_GNSS") (at 100.965 59.055 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4290fb8a-d138-48fa-a6a6-b8a0516bf78b)
-    (property "Reference" "#PWR0318" (at 100.965 62.865 0)
+    (property "Reference" "#PWR0319" (at 100.965 62.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V_GNSS" (at 100.965 55.245 0)
@@ -2138,7 +2138,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0318") (unit 1)
+          (reference "#PWR0319") (unit 1)
         )
       )
     )
@@ -2147,7 +2147,7 @@
   (symbol (lib_id "Device:FerriteBead_Small") (at 77.47 101.6 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 42d37654-4aee-4e0c-9bad-86b33dc1567b)
-    (property "Reference" "FB306" (at 72.39 100.33 90)
+    (property "Reference" "FB302" (at 72.39 100.33 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FerriteBead_Small" (at 77.5081 98.425 90)
@@ -2170,7 +2170,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "FB306") (unit 1)
+          (reference "FB302") (unit 1)
         )
       )
     )
@@ -2179,7 +2179,7 @@
   (symbol (lib_id "power:+3V3") (at 154.305 39.37 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4924de05-dafd-42f4-952f-cc3a1fee9a64)
-    (property "Reference" "#PWR0327" (at 150.495 39.37 0)
+    (property "Reference" "#PWR0328" (at 150.495 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 159.385 39.37 90)
@@ -2195,7 +2195,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0327") (unit 1)
+          (reference "#PWR0328") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885"
           (reference "#PWR0141") (unit 1)
@@ -2207,7 +2207,7 @@
   (symbol (lib_id "grootvoet:GND_GNSS") (at 36.83 66.675 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54c0ee3e-af7e-452a-aeec-519a96237e17)
-    (property "Reference" "#PWR0306" (at 36.83 73.025 0)
+    (property "Reference" "#PWR0307" (at 36.83 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_GNSS" (at 36.83 71.755 0)
@@ -2223,7 +2223,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0306") (unit 1)
+          (reference "#PWR0307") (unit 1)
         )
       )
     )
@@ -2397,7 +2397,7 @@
   (symbol (lib_id "grootvoet:GND_GNSS") (at 154.305 36.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b3370ed-6492-4a21-8006-e1fe6a5c5b39)
-    (property "Reference" "#PWR0326" (at 160.655 36.83 0)
+    (property "Reference" "#PWR0327" (at 160.655 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_GNSS" (at 156.845 36.83 90)
@@ -2413,7 +2413,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0326") (unit 1)
+          (reference "#PWR0327") (unit 1)
         )
       )
     )
@@ -2489,7 +2489,7 @@
   (symbol (lib_id "grootvoet:GND_GNSS") (at 154.305 21.59 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c74c01d-3afc-4e65-adfa-330df5596fb3)
-    (property "Reference" "#PWR0324" (at 160.655 21.59 0)
+    (property "Reference" "#PWR0325" (at 160.655 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_GNSS" (at 156.845 21.59 90)
@@ -2505,7 +2505,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0324") (unit 1)
+          (reference "#PWR0325") (unit 1)
         )
       )
     )
@@ -2514,7 +2514,7 @@
   (symbol (lib_id "grootvoet:+3.3V_GNSS") (at 54.61 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91fe69e8-b7f0-4d70-8442-4eebe0b60142)
-    (property "Reference" "#PWR0309" (at 54.61 95.25 0)
+    (property "Reference" "#PWR0310" (at 54.61 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V_GNSS" (at 54.61 87.63 0)
@@ -2530,7 +2530,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0309") (unit 1)
+          (reference "#PWR0310") (unit 1)
         )
       )
     )
@@ -2539,7 +2539,7 @@
   (symbol (lib_id "Device:FerriteBead_Small") (at 160.655 24.13 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 97295d84-c725-45d2-a6ae-b5135c2738cf)
-    (property "Reference" "FB307" (at 156.21 23.495 90)
+    (property "Reference" "FB305" (at 156.21 23.495 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FerriteBead_Small" (at 160.6931 20.955 90)
@@ -2562,7 +2562,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "FB307") (unit 1)
+          (reference "FB305") (unit 1)
         )
       )
     )
@@ -2603,7 +2603,7 @@
   (symbol (lib_id "power:GND") (at 125.73 36.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3b8ddd4-832f-4dd0-9fc4-7f607978d804)
-    (property "Reference" "#PWR0321" (at 132.08 36.83 0)
+    (property "Reference" "#PWR0322" (at 132.08 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.1242 36.703 90)
@@ -2619,7 +2619,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0321") (unit 1)
+          (reference "#PWR0322") (unit 1)
         )
       )
     )
@@ -2628,7 +2628,7 @@
   (symbol (lib_id "grootvoet:GND_GNSS") (at 154.305 26.67 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa5425a1-5be4-48b5-bd08-fe3f2af5586f)
-    (property "Reference" "#PWR0325" (at 160.655 26.67 0)
+    (property "Reference" "#PWR0326" (at 160.655 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_GNSS" (at 156.845 26.67 90)
@@ -2644,7 +2644,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0325") (unit 1)
+          (reference "#PWR0326") (unit 1)
         )
       )
     )
@@ -2653,7 +2653,7 @@
   (symbol (lib_id "Device:FerriteBead_Small") (at 78.105 104.14 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b071fe31-b505-4f0f-9c1f-e2e2aaa9ff51)
-    (property "Reference" "FB302" (at 73.025 102.87 90)
+    (property "Reference" "FB303" (at 73.025 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FerriteBead_Small" (at 78.1431 100.965 90)
@@ -2676,7 +2676,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "FB302") (unit 1)
+          (reference "FB303") (unit 1)
         )
       )
     )
@@ -2787,7 +2787,7 @@
   (symbol (lib_id "grootvoet:+3.3V_GNSS") (at 33.02 111.76 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba3824ca-33a9-47c5-bd6a-1271872432e9)
-    (property "Reference" "#PWR0305" (at 36.83 111.76 0)
+    (property "Reference" "#PWR0306" (at 36.83 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V_GNSS" (at 29.845 112.395 90)
@@ -2803,7 +2803,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0305") (unit 1)
+          (reference "#PWR0306") (unit 1)
         )
       )
     )
@@ -2812,7 +2812,7 @@
   (symbol (lib_id "grootvoet:GND_GNSS") (at 53.34 66.675 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bcb7ab66-e14d-4a47-8796-66cafbddd338)
-    (property "Reference" "#PWR0308" (at 53.34 73.025 0)
+    (property "Reference" "#PWR0309" (at 53.34 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_GNSS" (at 53.34 71.755 0)
@@ -2828,7 +2828,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0308") (unit 1)
+          (reference "#PWR0309") (unit 1)
         )
       )
     )
@@ -2837,7 +2837,7 @@
   (symbol (lib_id "Device:FerriteBead_Small") (at 132.08 24.13 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3fa5673-a48e-4851-82bb-b689e5fcc1c2)
-    (property "Reference" "FB303" (at 127.635 23.495 90)
+    (property "Reference" "FB304" (at 127.635 23.495 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FerriteBead_Small" (at 132.1181 20.955 90)
@@ -2860,7 +2860,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "FB303") (unit 1)
+          (reference "FB304") (unit 1)
         )
       )
     )
@@ -2922,7 +2922,7 @@
   (symbol (lib_id "grootvoet:GND_GNSS") (at 55.88 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df3d9b49-d86c-4c54-96a9-d83ab722cfdd)
-    (property "Reference" "#PWR0311" (at 55.88 44.45 0)
+    (property "Reference" "#PWR0312" (at 55.88 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_GNSS" (at 55.88 43.18 0)
@@ -2938,7 +2938,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0311") (unit 1)
+          (reference "#PWR0312") (unit 1)
         )
       )
     )
@@ -2982,7 +2982,7 @@
   (symbol (lib_id "RF_GPS:SAM-M8Q") (at 55.88 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5e3fda7-9e73-4751-9495-6e6e670e4a17)
-    (property "Reference" "U302" (at 57.8359 120.015 0)
+    (property "Reference" "U301" (at 57.8359 120.015 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SAM-M8Q" (at 57.8359 122.555 0)
@@ -3023,7 +3023,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "U302") (unit 1)
+          (reference "U301") (unit 1)
         )
       )
     )
@@ -3032,7 +3032,7 @@
   (symbol (lib_id "grootvoet:+3.3V_GNSS") (at 53.34 53.975 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef617c2c-a26f-4854-972e-2907097d5b29)
-    (property "Reference" "#PWR0307" (at 53.34 57.785 0)
+    (property "Reference" "#PWR0308" (at 53.34 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V_GNSS" (at 53.34 50.165 0)
@@ -3048,7 +3048,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0307") (unit 1)
+          (reference "#PWR0308") (unit 1)
         )
       )
     )
@@ -3057,7 +3057,7 @@
   (symbol (lib_id "grootvoet:GND_GNSS") (at 78.74 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2996c78-1136-4720-916f-6d01f46c4688)
-    (property "Reference" "#PWR0316" (at 78.74 44.45 0)
+    (property "Reference" "#PWR0317" (at 78.74 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND_GNSS" (at 78.74 43.18 0)
@@ -3073,7 +3073,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0316") (unit 1)
+          (reference "#PWR0317") (unit 1)
         )
       )
     )
@@ -3101,7 +3101,7 @@
           (reference "#PWR090") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0330") (unit 1)
+          (reference "#PWR0305") (unit 1)
         )
       )
     )
@@ -3110,7 +3110,7 @@
   (symbol (lib_id "grootvoet:+3.3V_GNSS") (at 183.515 31.75 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f74b79b9-6771-44c1-8bee-c6b6e865d84f)
-    (property "Reference" "#PWR0328" (at 179.705 31.75 0)
+    (property "Reference" "#PWR0329" (at 179.705 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V_GNSS" (at 186.055 31.75 90)
@@ -3126,7 +3126,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005edf3693"
-          (reference "#PWR0328") (unit 1)
+          (reference "#PWR0329") (unit 1)
         )
       )
     )

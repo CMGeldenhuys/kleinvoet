@@ -1557,7 +1557,7 @@
   (symbol (lib_id "power:GNDA") (at 29.21 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ee62b66)
-    (property "Reference" "#PWR0402" (at 29.21 52.07 0)
+    (property "Reference" "#PWR0406" (at 29.21 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 29.337 50.1142 0)
@@ -1573,7 +1573,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0402") (unit 1)
+          (reference "#PWR0406") (unit 1)
         )
       )
     )
@@ -1582,7 +1582,7 @@
   (symbol (lib_id "power:+3V3") (at 39.37 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ee62b8a)
-    (property "Reference" "#PWR0404" (at 39.37 34.29 0)
+    (property "Reference" "#PWR0408" (at 39.37 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 39.751 26.0858 0)
@@ -1598,7 +1598,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0404") (unit 1)
+          (reference "#PWR0408") (unit 1)
         )
       )
     )
@@ -1607,7 +1607,7 @@
   (symbol (lib_id "power:+3V3") (at 196.215 32.385 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005efce017)
-    (property "Reference" "#PWR0419" (at 196.215 36.195 0)
+    (property "Reference" "#PWR0423" (at 196.215 36.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 198.755 28.575 0)
@@ -1623,7 +1623,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0419") (unit 1)
+          (reference "#PWR0423") (unit 1)
         )
       )
     )
@@ -1664,7 +1664,7 @@
   (symbol (lib_id "power:+3V3") (at 224.79 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005efd7db7)
-    (property "Reference" "#PWR0422" (at 224.79 36.83 0)
+    (property "Reference" "#PWR0426" (at 224.79 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 227.33 29.21 0)
@@ -1680,7 +1680,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0422") (unit 1)
+          (reference "#PWR0426") (unit 1)
         )
       )
     )
@@ -1829,7 +1829,7 @@
   (symbol (lib_id "power:+3.3VADC") (at 168.275 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9c2af4)
-    (property "Reference" "#PWR0413" (at 172.085 77.47 0)
+    (property "Reference" "#PWR0417" (at 172.085 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VADC" (at 168.656 71.8058 0)
@@ -1845,7 +1845,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0413") (unit 1)
+          (reference "#PWR0417") (unit 1)
         )
       )
     )
@@ -1854,7 +1854,7 @@
   (symbol (lib_id "power:+3V3") (at 175.895 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9c8031)
-    (property "Reference" "#PWR0415" (at 175.895 80.01 0)
+    (property "Reference" "#PWR0419" (at 175.895 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 176.276 71.8058 0)
@@ -1870,7 +1870,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0415") (unit 1)
+          (reference "#PWR0419") (unit 1)
         )
       )
     )
@@ -1946,7 +1946,7 @@
   (symbol (lib_id "power:GNDA") (at 93.345 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9d2ad5)
-    (property "Reference" "#PWR0411" (at 93.345 50.8 0)
+    (property "Reference" "#PWR0415" (at 93.345 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 93.472 48.8442 0)
@@ -1962,7 +1962,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0411") (unit 1)
+          (reference "#PWR0415") (unit 1)
         )
       )
     )
@@ -1971,7 +1971,7 @@
   (symbol (lib_id "power:GNDA") (at 170.815 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9eb4dc)
-    (property "Reference" "#PWR0414" (at 170.815 147.32 0)
+    (property "Reference" "#PWR0418" (at 170.815 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 170.942 145.3642 0)
@@ -1987,7 +1987,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0414") (unit 1)
+          (reference "#PWR0418") (unit 1)
         )
       )
     )
@@ -1996,7 +1996,7 @@
   (symbol (lib_id "power:GND") (at 175.895 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f9f8feb)
-    (property "Reference" "#PWR0416" (at 175.895 147.32 0)
+    (property "Reference" "#PWR0420" (at 175.895 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 176.022 145.3642 0)
@@ -2012,7 +2012,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0416") (unit 1)
+          (reference "#PWR0420") (unit 1)
         )
       )
     )
@@ -2117,7 +2117,7 @@
   (symbol (lib_id "power:GNDA") (at 53.975 45.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa03e1c)
-    (property "Reference" "#PWR0408" (at 53.975 51.435 0)
+    (property "Reference" "#PWR0412" (at 53.975 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 54.102 49.4792 0)
@@ -2133,7 +2133,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0408") (unit 1)
+          (reference "#PWR0412") (unit 1)
         )
       )
     )
@@ -2142,7 +2142,7 @@
   (symbol (lib_id "power:GND") (at 72.39 46.355 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa085bd)
-    (property "Reference" "#PWR0410" (at 72.39 52.705 0)
+    (property "Reference" "#PWR0414" (at 72.39 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 72.517 50.7492 0)
@@ -2158,7 +2158,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0410") (unit 1)
+          (reference "#PWR0414") (unit 1)
         )
       )
     )
@@ -2167,7 +2167,7 @@
   (symbol (lib_id "power:+3.3VADC") (at 53.975 33.655 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa09c6e)
-    (property "Reference" "#PWR0407" (at 57.785 34.925 0)
+    (property "Reference" "#PWR0411" (at 57.785 34.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VADC" (at 54.356 29.2608 0)
@@ -2183,7 +2183,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0407") (unit 1)
+          (reference "#PWR0411") (unit 1)
         )
       )
     )
@@ -2192,7 +2192,7 @@
   (symbol (lib_id "power:+3V3") (at 72.39 33.655 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa0e151)
-    (property "Reference" "#PWR0409" (at 72.39 37.465 0)
+    (property "Reference" "#PWR0413" (at 72.39 37.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 72.771 29.2608 0)
@@ -2208,7 +2208,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0409") (unit 1)
+          (reference "#PWR0413") (unit 1)
         )
       )
     )
@@ -2354,7 +2354,7 @@
   (symbol (lib_id "power:GNDA") (at 115.57 43.815 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa12a7a)
-    (property "Reference" "#PWR0412" (at 115.57 50.165 0)
+    (property "Reference" "#PWR0416" (at 115.57 50.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 115.697 48.2092 0)
@@ -2370,7 +2370,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0412") (unit 1)
+          (reference "#PWR0416") (unit 1)
         )
       )
     )
@@ -2411,7 +2411,7 @@
   (symbol (lib_id "power:GND") (at 213.995 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa40d55)
-    (property "Reference" "#PWR0421" (at 213.995 144.78 0)
+    (property "Reference" "#PWR0425" (at 213.995 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 214.122 142.8242 0)
@@ -2427,7 +2427,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0421") (unit 1)
+          (reference "#PWR0425") (unit 1)
         )
       )
     )
@@ -2436,7 +2436,7 @@
   (symbol (lib_id "power:+3.3VADC") (at 29.21 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa5298d)
-    (property "Reference" "#PWR0403" (at 33.02 102.87 0)
+    (property "Reference" "#PWR0407" (at 33.02 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VADC" (at 29.591 97.2058 0)
@@ -2452,7 +2452,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0403") (unit 1)
+          (reference "#PWR0407") (unit 1)
         )
       )
     )
@@ -2461,7 +2461,7 @@
   (symbol (lib_id "power:+3.3VADC") (at 29.21 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa56b7a)
-    (property "Reference" "#PWR0401" (at 33.02 31.75 0)
+    (property "Reference" "#PWR0405" (at 33.02 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VADC" (at 29.591 26.0858 0)
@@ -2477,7 +2477,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0401") (unit 1)
+          (reference "#PWR0405") (unit 1)
         )
       )
     )
@@ -2585,7 +2585,7 @@
   (symbol (lib_id "power:+3V3") (at 249.555 130.81 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fa6625d)
-    (property "Reference" "#PWR0427" (at 245.745 130.81 0)
+    (property "Reference" "#PWR0431" (at 245.745 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 253.9492 131.191 0)
@@ -2601,7 +2601,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0427") (unit 1)
+          (reference "#PWR0431") (unit 1)
         )
       )
     )
@@ -2706,7 +2706,7 @@
   (symbol (lib_id "power:+3V3") (at 182.245 32.385 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fabc34d)
-    (property "Reference" "#PWR0418" (at 182.245 36.195 0)
+    (property "Reference" "#PWR0422" (at 182.245 36.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 184.785 28.575 0)
@@ -2722,7 +2722,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0418") (unit 1)
+          (reference "#PWR0422") (unit 1)
         )
       )
     )
@@ -2817,7 +2817,7 @@
   (symbol (lib_id "power:+3V3") (at 238.125 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fad6859)
-    (property "Reference" "#PWR0425" (at 238.125 105.41 0)
+    (property "Reference" "#PWR0429" (at 238.125 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 238.506 97.2058 0)
@@ -2833,7 +2833,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0425") (unit 1)
+          (reference "#PWR0429") (unit 1)
         )
       )
     )
@@ -2842,7 +2842,7 @@
   (symbol (lib_id "power:GND") (at 238.125 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005faedb6c)
-    (property "Reference" "#PWR0426" (at 238.125 123.19 0)
+    (property "Reference" "#PWR0430" (at 238.125 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 241.935 118.745 0)
@@ -2858,7 +2858,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0426") (unit 1)
+          (reference "#PWR0430") (unit 1)
         )
       )
     )
@@ -2963,7 +2963,7 @@
   (symbol (lib_id "power:GND") (at 41.91 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fc10755)
-    (property "Reference" "#PWR0406" (at 41.91 125.73 0)
+    (property "Reference" "#PWR0410" (at 41.91 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 42.037 123.7742 0)
@@ -2979,7 +2979,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0406") (unit 1)
+          (reference "#PWR0410") (unit 1)
         )
       )
     )
@@ -3163,7 +3163,7 @@
   (symbol (lib_id "power:+3V3") (at 225.425 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12926504-8715-4b3a-adc8-af22db118afd)
-    (property "Reference" "#PWR0424" (at 225.425 105.41 0)
+    (property "Reference" "#PWR0428" (at 225.425 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 225.806 97.2058 0)
@@ -3179,7 +3179,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0424") (unit 1)
+          (reference "#PWR0428") (unit 1)
         )
       )
     )
@@ -3226,7 +3226,7 @@
   (symbol (lib_id "power:GNDA") (at 22.225 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f64f3f1-ca05-4587-a740-b62f7ebe4009)
-    (property "Reference" "#PWR0423" (at 22.225 73.66 0)
+    (property "Reference" "#PWR0402" (at 22.225 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 22.352 71.7042 0)
@@ -3242,7 +3242,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0423") (unit 1)
+          (reference "#PWR0402") (unit 1)
         )
       )
     )
@@ -3251,7 +3251,7 @@
   (symbol (lib_id "power:GND") (at 224.79 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4dba6c2f-76d3-4bd7-b28e-fda0e8dbb93b)
-    (property "Reference" "#PWR0429" (at 224.79 52.07 0)
+    (property "Reference" "#PWR0427" (at 224.79 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 224.917 50.1142 0)
@@ -3267,7 +3267,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0429") (unit 1)
+          (reference "#PWR0427") (unit 1)
         )
       )
     )
@@ -3346,7 +3346,7 @@
   (symbol (lib_id "power:+3.3VADC") (at 22.225 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a14e42f5-d676-44a6-9014-ce798901e394)
-    (property "Reference" "#PWR0420" (at 26.035 66.04 0)
+    (property "Reference" "#PWR0401" (at 26.035 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VADC" (at 22.606 60.3758 0)
@@ -3362,7 +3362,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0420") (unit 1)
+          (reference "#PWR0401") (unit 1)
         )
       )
     )
@@ -3371,7 +3371,7 @@
   (symbol (lib_id "power:GND") (at 180.975 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7101d8b-c39d-4dfd-9cc6-dc76c33130c0)
-    (property "Reference" "#PWR0428" (at 180.975 147.32 0)
+    (property "Reference" "#PWR0421" (at 180.975 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 181.102 145.3642 0)
@@ -3387,7 +3387,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0428") (unit 1)
+          (reference "#PWR0421") (unit 1)
         )
       )
     )
@@ -3396,7 +3396,7 @@
   (symbol (lib_id "power:+3.3VADC") (at 22.225 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c84f0b2d-46b8-42d2-9cdc-7b418b624614)
-    (property "Reference" "#PWR0430" (at 26.035 82.55 0)
+    (property "Reference" "#PWR0403" (at 26.035 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VADC" (at 22.606 76.8858 0)
@@ -3412,7 +3412,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0430") (unit 1)
+          (reference "#PWR0403") (unit 1)
         )
       )
     )
@@ -3532,7 +3532,7 @@
   (symbol (lib_id "power:GND") (at 39.37 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3fa0082-8f71-4425-8151-f320fdea8697)
-    (property "Reference" "#PWR0405" (at 39.37 52.07 0)
+    (property "Reference" "#PWR0409" (at 39.37 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.497 50.1142 0)
@@ -3548,7 +3548,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0405") (unit 1)
+          (reference "#PWR0409") (unit 1)
         )
       )
     )
@@ -3557,7 +3557,7 @@
   (symbol (lib_id "power:GND") (at 196.215 47.625 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb90e70e-f7c7-4558-b900-7020af158bb0)
-    (property "Reference" "#PWR0417" (at 196.215 53.975 0)
+    (property "Reference" "#PWR0424" (at 196.215 53.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.342 52.0192 0)
@@ -3573,7 +3573,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0417") (unit 1)
+          (reference "#PWR0424") (unit 1)
         )
       )
     )
@@ -3620,7 +3620,7 @@
   (symbol (lib_id "power:GNDA") (at 22.225 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fff92e24-442b-4ae7-aa20-6334693cb595)
-    (property "Reference" "#PWR0431" (at 22.225 90.17 0)
+    (property "Reference" "#PWR0404" (at 22.225 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 22.352 88.2142 0)
@@ -3636,7 +3636,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0431") (unit 1)
+          (reference "#PWR0404") (unit 1)
         )
       )
     )

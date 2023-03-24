@@ -2540,7 +2540,7 @@
   (symbol (lib_id "power:GND") (at 227.965 99.695 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef9e21e)
-    (property "Reference" "#PWR0225" (at 227.965 106.045 0)
+    (property "Reference" "#PWR0230" (at 227.965 106.045 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 228.092 104.0892 0)
@@ -2556,7 +2556,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0225") (unit 1)
+          (reference "#PWR0230") (unit 1)
         )
       )
     )
@@ -2565,7 +2565,7 @@
   (symbol (lib_id "power:VBUS") (at 227.965 79.375 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef9ee8c)
-    (property "Reference" "#PWR0224" (at 227.965 83.185 0)
+    (property "Reference" "#PWR0229" (at 227.965 83.185 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 228.346 74.9808 0)
@@ -2581,7 +2581,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0224") (unit 1)
+          (reference "#PWR0229") (unit 1)
         )
       )
     )
@@ -2821,7 +2821,7 @@
           (reference "R901") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "R211") (unit 1)
+          (reference "R210") (unit 1)
         )
       )
     )
@@ -2830,7 +2830,7 @@
   (symbol (lib_id "power:GND") (at 243.205 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b4a31e2-7556-4e16-9c7b-3f08a7560684)
-    (property "Reference" "#PWR0226" (at 243.205 27.94 0)
+    (property "Reference" "#PWR0231" (at 243.205 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 243.332 25.9842 0)
@@ -2846,7 +2846,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0226") (unit 1)
+          (reference "#PWR0231") (unit 1)
         )
       )
     )
@@ -2855,7 +2855,7 @@
   (symbol (lib_id "power:GND") (at 219.075 52.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d0c6ba4-313a-479b-8bd5-f41747a1f99f)
-    (property "Reference" "#PWR0229" (at 219.075 45.72 0)
+    (property "Reference" "#PWR0226" (at 219.075 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 218.948 47.6758 0)
@@ -2871,7 +2871,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0229") (unit 1)
+          (reference "#PWR0226") (unit 1)
         )
       )
     )
@@ -2880,7 +2880,7 @@
   (symbol (lib_id "power:GND") (at 209.55 52.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3286f0cc-21f1-4730-8a3c-3cf9a28b56a8)
-    (property "Reference" "#PWR0228" (at 209.55 45.72 0)
+    (property "Reference" "#PWR0224" (at 209.55 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 209.423 47.6758 0)
@@ -2896,7 +2896,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0228") (unit 1)
+          (reference "#PWR0224") (unit 1)
         )
       )
     )
@@ -2943,7 +2943,7 @@
   (symbol (lib_id "Connector:Micro_SD_Card_Det2") (at 123.19 45.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e914828-6607-455d-a840-c2922d2c0359)
-    (property "Reference" "J208" (at 123.825 24.13 0)
+    (property "Reference" "J204" (at 123.825 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Micro_SD_Card_Det2" (at 123.825 26.67 0)
@@ -2975,7 +2975,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "J208") (unit 1)
+          (reference "J204") (unit 1)
         )
       )
     )
@@ -3269,6 +3269,41 @@
     )
   )
 
+  (symbol (lib_id "Device:FerriteBead_Small") (at 29.21 26.035 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7e3a7be0-bac9-43eb-8613-aa02fe148f68)
+    (property "Reference" "FB904" (at 29.21 23.495 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100@100MHz" (at 29.845 21.59 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 29.21 27.813 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 29.21 26.035 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "BLM18KG101TZ1D" (at 29.21 26.035 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr." "Murata" (at 29.21 26.035 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8dc6e14a-fbbf-4d61-aa7d-bd8fdc571742))
+    (pin "2" (uuid 7c3247aa-f782-4f3b-aada-5359ad3c0260))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005eede770"
+          (reference "FB904") (unit 1)
+        )
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
+          (reference "FB201") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C_Small") (at 19.05 31.115 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 91a1fd16-a072-4fc9-96bb-a44912f8ca91)
@@ -3458,7 +3493,7 @@
           (reference "R901") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "R210") (unit 1)
+          (reference "R211") (unit 1)
         )
       )
     )
@@ -3498,7 +3533,7 @@
   (symbol (lib_id "power:Earth") (at 221.615 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid abac5fea-0141-437d-8df0-582728c5de4a)
-    (property "Reference" "#PWR0231" (at 221.615 38.1 0)
+    (property "Reference" "#PWR0228" (at 221.615 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 221.615 35.56 0)
@@ -3514,7 +3549,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0231") (unit 1)
+          (reference "#PWR0228") (unit 1)
         )
       )
     )
@@ -3611,7 +3646,7 @@
   (symbol (lib_id "power:Earth") (at 209.55 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cae85862-c16d-4554-9572-685cc191799e)
-    (property "Reference" "#PWR0227" (at 209.55 68.58 0)
+    (property "Reference" "#PWR0225" (at 209.55 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 209.55 66.04 0)
@@ -3627,33 +3662,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0227") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:FerriteBead_Small") (at 29.21 26.035 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cb2cbaf4-a3b4-433d-ac60-89ffc6225267)
-    (property "Reference" "FB202" (at 29.1719 20.32 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "BLM18KG101TZ1D" (at 29.1719 22.86 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 29.21 27.813 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 29.21 26.035 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1df713a5-41c8-403f-889f-9d94a945cd83))
-    (pin "2" (uuid 301a2d37-e718-45cc-b0a7-67ea368fd1de))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "FB202") (unit 1)
+          (reference "#PWR0225") (unit 1)
         )
       )
     )
@@ -3712,7 +3721,7 @@
   (symbol (lib_id "power:Earth") (at 219.075 62.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd517725-1dcf-4f27-9aec-45bfc9b834c9)
-    (property "Reference" "#PWR0230" (at 219.075 69.215 0)
+    (property "Reference" "#PWR0227" (at 219.075 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 219.075 66.675 0)
@@ -3728,7 +3737,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ef53a66"
-          (reference "#PWR0230") (unit 1)
+          (reference "#PWR0227") (unit 1)
         )
       )
     )

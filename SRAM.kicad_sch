@@ -361,7 +361,7 @@
           (reference "R20") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/ec9450dd-98d1-46b3-b2f6-66ba91725bce"
-          (reference "R1202") (unit 1)
+          (reference "R1302") (unit 1)
         )
       )
     )
@@ -389,7 +389,7 @@
           (reference "#PWR0198") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/ec9450dd-98d1-46b3-b2f6-66ba91725bce"
-          (reference "#PWR01203") (unit 1)
+          (reference "#PWR01303") (unit 1)
         )
       )
     )
@@ -417,7 +417,7 @@
           (reference "#PWR0198") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/ec9450dd-98d1-46b3-b2f6-66ba91725bce"
-          (reference "#PWR01202") (unit 1)
+          (reference "#PWR01302") (unit 1)
         )
       )
     )
@@ -445,7 +445,7 @@
           (reference "#PWR0198") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/ec9450dd-98d1-46b3-b2f6-66ba91725bce"
-          (reference "#PWR01206") (unit 1)
+          (reference "#PWR01306") (unit 1)
         )
       )
     )
@@ -483,7 +483,7 @@
           (reference "R20") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/ec9450dd-98d1-46b3-b2f6-66ba91725bce"
-          (reference "R1203") (unit 1)
+          (reference "R1303") (unit 1)
         )
       )
     )
@@ -511,7 +511,7 @@
           (reference "#PWR0200") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/ec9450dd-98d1-46b3-b2f6-66ba91725bce"
-          (reference "#PWR01205") (unit 1)
+          (reference "#PWR01305") (unit 1)
         )
       )
     )
@@ -549,7 +549,7 @@
           (reference "CB11") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/ec9450dd-98d1-46b3-b2f6-66ba91725bce"
-          (reference "CB1201") (unit 1)
+          (reference "CB1301") (unit 1)
         )
       )
     )
@@ -577,7 +577,7 @@
           (reference "#PWR0198") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/ec9450dd-98d1-46b3-b2f6-66ba91725bce"
-          (reference "#PWR01201") (unit 1)
+          (reference "#PWR01301") (unit 1)
         )
       )
     )
@@ -586,7 +586,7 @@
   (symbol (lib_id "grootvoet:SRAM_23LC1024") (at 117.475 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98a23d1d-9f0c-48c6-9021-d11ac3f46ca0)
-    (property "Reference" "U1201" (at 119.4309 88.9 0)
+    (property "Reference" "U1301" (at 119.4309 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "23LC1024-I/SN" (at 119.4309 91.44 0)
@@ -609,7 +609,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/ec9450dd-98d1-46b3-b2f6-66ba91725bce"
-          (reference "U1201") (unit 1)
+          (reference "U1301") (unit 1)
         )
       )
     )
@@ -637,7 +637,7 @@
           (reference "#PWR0200") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/ec9450dd-98d1-46b3-b2f6-66ba91725bce"
-          (reference "#PWR01204") (unit 1)
+          (reference "#PWR01304") (unit 1)
         )
       )
     )
@@ -675,7 +675,7 @@
           (reference "R20") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/ec9450dd-98d1-46b3-b2f6-66ba91725bce"
-          (reference "R1201") (unit 1)
+          (reference "R1301") (unit 1)
         )
       )
     )
@@ -703,7 +703,7 @@
           (reference "#PWR0200") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/ec9450dd-98d1-46b3-b2f6-66ba91725bce"
-          (reference "#PWR01207") (unit 1)
+          (reference "#PWR01307") (unit 1)
         )
       )
     )

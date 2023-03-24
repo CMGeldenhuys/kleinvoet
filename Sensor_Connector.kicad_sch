@@ -492,7 +492,7 @@
           (reference "C602") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/7d55f5f7-ad99-481b-88b5-315ad3d2b07e"
-          (reference "C1104") (unit 1)
+          (reference "C1102") (unit 1)
         )
       )
     )
@@ -530,7 +530,7 @@
           (reference "C601") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/7d55f5f7-ad99-481b-88b5-315ad3d2b07e"
-          (reference "C1103") (unit 1)
+          (reference "C1101") (unit 1)
         )
       )
     )
@@ -539,7 +539,7 @@
   (symbol (lib_id "Device:FerriteBead_Small") (at 39.37 80.645 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5bf14e3c-23f8-4ea9-9940-02844c4915d3)
-    (property "Reference" "FB501" (at 39.3319 74.93 90)
+    (property "Reference" "FB502" (at 39.3319 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k@100MHz" (at 39.3319 77.47 90)
@@ -559,7 +559,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad/00000000-0000-0000-0000-00005ee62c2b"
-          (reference "FB501") (unit 1)
+          (reference "FB502") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad/f1c168a4-8e09-4be7-8226-fa7de49180b9"
           (reference "FB602") (unit 1)
@@ -574,7 +574,7 @@
   (symbol (lib_id "Device:FerriteBead_Small") (at 39.37 69.215 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3738ad1-adc6-4ca2-a141-3c99bfc0ed82)
-    (property "Reference" "FB503" (at 39.3319 63.5 90)
+    (property "Reference" "FB501" (at 39.3319 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k@100MHz" (at 39.3319 66.04 90)
@@ -594,7 +594,7 @@
     (instances
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad/00000000-0000-0000-0000-00005ee62c2b"
-          (reference "FB503") (unit 1)
+          (reference "FB501") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad/f1c168a4-8e09-4be7-8226-fa7de49180b9"
           (reference "FB601") (unit 1)
@@ -644,7 +644,7 @@
           (reference "R601") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/7d55f5f7-ad99-481b-88b5-315ad3d2b07e"
-          (reference "R1102") (unit 1)
+          (reference "R1101") (unit 1)
         )
       )
     )
