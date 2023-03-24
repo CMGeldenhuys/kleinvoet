@@ -197,7 +197,6 @@
   )
 
 
-
   (hierarchical_label "MK6" (shape input) (at 111.76 63.5 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0bca5861-6a51-4c2d-a465-20d90e6805ed)
@@ -1404,6 +1403,34 @@
       (project "Sensor_Board"
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005fa63e4d"
           (reference "MK5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "grootvoet:GND_SENSOR") (at 80.01 64.77 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 08256df8-6a98-4def-838e-888fb5220751)
+    (property "Reference" "#PWR0215" (at 80.01 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND_SENSOR" (at 80.01 69.215 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 80.01 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 80.01 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid edf85349-595e-4b59-ac87-9bd741772125))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
+          (reference "#PWR0215") (unit 1)
+        )
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005fa63e4d"
+          (reference "#PWR01421") (unit 1)
         )
       )
     )

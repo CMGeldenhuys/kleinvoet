@@ -222,7 +222,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "multiple_net_names|1143000|273050|a45ad036-f03c-42ff-b182-78cec1c5adfe|49d0118c-01b7-4998-b873-7c754ad231d9|||",
+      "multiple_net_names|1143000|273050|a916f9f6-27dd-4355-a3ed-99ac1acfa36a|49d0118c-01b7-4998-b873-7c754ad231d9|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -681,7 +684,7 @@
       "Sensor_Conn_1"
     ],
     [
-      "00000000-0000-0000-0000-00005eff6d57",
+      "f1c168a4-8e09-4be7-8226-fa7de49180b9",
       "Sensor_Conn_2"
     ],
     [
@@ -699,6 +702,10 @@
     [
       "b53619ea-788f-4bc9-9946-594014d7d22c",
       "Sensor_board"
+    ],
+    [
+      "7d55f5f7-ad99-481b-88b5-315ad3d2b07e",
+      "Sensor_Conn_3"
     ],
     [
       "3579cd31-f7d1-4b38-82cc-1314e00d3f8a",

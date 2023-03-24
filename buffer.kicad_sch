@@ -361,7 +361,6 @@
     )
   )
 
-
   (junction (at 84.455 33.02) (diameter 0) (color 0 0 0 0)
     (uuid 03ce55e3-8898-4643-8bfb-bd466126a54f)
   )
@@ -891,7 +890,7 @@
     (fill (type none))
     (uuid 9cfb596d-5c80-4ee4-9dbe-187f792247e2)
   )
-  (rectangle (start 59.055 68.58) (end 128.27 113.03)
+  (rectangle (start 59.69 68.58) (end 128.27 116.205)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid b38ac00c-abda-4d9f-af2a-632fc3f82ce8)
@@ -920,7 +919,7 @@
     (uuid 2bd15c79-78ab-4cc1-9957-bdc06fcf20f3)
   )
   (text_box "RC imperfect integrator. \nEnsure Freq(zero) * 10 > Freq(pole)"
-    (at 59.055 113.03 0) (size 69.215 7.62)
+    (at 59.055 116.205 0) (size 69.215 7.62)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))
@@ -2874,6 +2873,34 @@
         )
         (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9c4001"
           (reference "R2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "grootvoet:GND_SENSOR") (at 108.585 109.855 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid edbbb32d-0613-49d1-b6cd-56228db3af53)
+    (property "Reference" "#PWR0215" (at 108.585 116.205 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND_SENSOR" (at 113.03 114.3 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 108.585 109.855 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 108.585 109.855 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cab82448-683b-4a9d-a87a-4974a46a46f7))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
+          (reference "#PWR0215") (unit 1)
+        )
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9c4001"
+          (reference "#PWR01510") (unit 1)
         )
       )
     )
