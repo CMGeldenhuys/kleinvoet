@@ -1,15 +1,6 @@
 # TODO
 
-- [ ] Generate gerber and place on release Page
-- [ ] Link to gerber
-- [ ] Generate BOM (spreadsheet) link
-- [ ] Move iBOM to release page
-- [ ] Tag release
 - [ ] Add sample recordings
-- [ ] Compress doc imgs
-- [ ] Link to firmware repo
-- [ ] Generate PSD estimates without Band of interest and add title
-- [ ] Fix serial TTY location
 
 # Kleinvoet
 
@@ -23,10 +14,12 @@ an onboard GNSS module.
 
 The recorder is capable of 24-bit stereo recording at a variable sampling rate
 of 8kHz to 192kHz.  The recordings along with timestamp and operational log
-information is stored on a microSD.  The recordings are stored as a series of
-WAV files.
+information is stored on a microSD card.  The recordings are stored as a series of
+256MiB WAV files.
 
 ![Kleinvoet Field Test](docs/img/field-test.jpg)
+
+Firmware is available at [CMGeldenhuys/kleinvoet-firmware](https://github.com/CMGeldenhuys/kleinvoet-firmware).
 
 ## Example Recordings
 
@@ -36,21 +29,21 @@ WAV files.
 
 ## SD Card Recommendations
 
-In order to keep cost down Kleinvoet does not make use of external SRAM. As such
+In order to keep cost down, Kleinvoet does not make use of external SRAM. As such
 the I/O buffer is limited to the internal SRAM of the MCU. It is thus
-recommended to use a class-10 high quality microSD card. Before a long running
+recommended using a class-10 high quality microSD card. Before a long-running
 experiment it is also recommended to do a "low-level" format of the microSD
 card. This will improve the write performance which is required at higher
 sampling rates.
  
 ## Assembly
 
-In order to assemble a Kleinvoet node one will require the all the electronic
+To assemble a Kleinvoet node, one will require all the electronic
 components listed in the bill of materials (BOM), as well as have the necessary
 PCBs manufactured. The provided gerber files can be sent directly to most PCB
-fabrication houses. To assemble the boards one can use either hot-air or plate
+fabrication houses. To assemble the boards, one can use either hot-air or plate
 reflow soldering methods. The [interactive BOM](bom/ibom.html) might be useful
-when placing the components by hand.
+when placing the components manually.
 
 | PCB | Back | Front |
 | --- | --- | --- |
@@ -58,22 +51,22 @@ when placing the components by hand.
 |GNSS Board| ![](docs/img/gps-board-back.png) | ![](docs/img/gps-board-front.png) |
 |Microphone Board| ![](docs/img/microphone-board-back.png) | ![](docs/img/microphone-board-front.png) |
 
-Once all the components have been soldered to their respective boards the
-firmware can be flashed to the MCU using a [ST
+Once all the components have been soldered to their respective boards, the
+firmware can be flashed to the MCU using an [ST
 Link](https://www.st.com/en/development-tools/st-link-v2.html)
 debugger/programmer. However, not tested, any JTAG debugger/programmer should
-work. There is also other open source projects that uses another STM32 MCU as a
+work. There are also open-source projects that use another STM32 MCU as a
 debugger/programmer ([blackmagic
 probe](https://github.com/blackmagic-debug/blackmagic)).
 
 Once programmed, proceed by connecting the GNSS header (marked on the respective
 PCBs) of the main board to the GNSS daughter board. Note, this connector can be
-reversed and the user should double check that the **SYNC** pin (marked with an
+reversed and the user should double-check that the **SYNC** pin (marked with an
 triangle) on the main board is connected to the **SYNC** pin of the GNSS board.
 If your use case does not require timestamping, the GNSS board can be omitted.
 Next, connect the microphone boards to their respective channels, marked on the
-main board's PCB ac **CH1** and **CH2**. These connectors are keyed, and thus
-can only be connected one way.
+main board's PCB as **CH1** and **CH2**. These connectors are keyed, and thus
+It can only be connected one way.
 
 If the user chooses to omit the weatherproof housing, Kleinvoet can be held
 together with two rubber bands. The notches on the main and GNSS boards snap
@@ -81,16 +74,16 @@ together with the holes in the microphone boards to form a cube.
 
 <img src="docs/exploded_view.gif" height="600" align="right">
 
-In order to assemble the weatherproof housing start by placing the LiPo battery
+In order to assemble the weatherproof housing, start by placing the LiPo battery
 in the lid of the enclosure. Thread the battery lead through the hole of the
-main PCB adaptor plate. Next mount the plate to the lid, keeping the battery in
-place. One can then proceed to mounting the main PCB to the adaptor. Next mount
+main PCB adaptor plate. Next, mount the plate to the lid, keeping the battery in
+place. One can then proceed to mount the main PCB to the adaptor. Next mount
 the GNSS adaptor plate in the bottom of the Bocube housing, and mount the GNSS
 PCB to the adaptor. If using the windshielding, remove the backing paper and
 paste it firmly over the microphone inlets, (Note, the MEMS microphones used are
 bottom port microphone and thus the inlet port is on the bottom side of the PCB.
 The area to place the shielding foam is marked by a hashed circle) Install the
-microphone baord spacers, ensuring that the mounting holes align properly. The
+microphone board spacers, ensuring that the mounting holes align properly. The
 microphone board assembly can now be mounted to the inside of the Bocube
 housing. Next, connect the individual daughter boards (GNSS and microphone PCBs)
 to their respective connectors on the main board.
@@ -123,28 +116,28 @@ Each PCB contains a *RED* status LED, used to indicate that the board has power.
 On the main PCB there are two running status indication LEDs (*AMBER* and *BLUE*).
 
 When **running**, the *AMBER* LED will remain solid. Once a GNSS lock (both time
-and location) is obtained the *BLUE* LED will pulse briefly every 10 seconds
+and location) is obtained, the *BLUE* LED will pulse briefly every 10 seconds
 (default).
 
 If an unrecoverable error has occurred, the two status LEDs (*AMBER* and *BLUE*),
-will pulse is quick succession. In this case the watchdog timer will trigger and
+will pulse is quick succession. In this case, the watchdog timer will trigger and
 attempt to write the operational log and reset the device. During a catastrophic
 failure it might not be possible to write to the microSD card depending on the
 error that has occurred.
 
 | State | Blue LED | Amber LED |
 | --- | --- | --- |
-| Startup | Blink (1s) | Off |
+| Start-up | Blink (1s) | Off |
 | Recording | Solid | X |
 | GNSS Lock | X | Blink (10s) |
-| Catostrophic Error | Strobe | Strobe |
+| Catastrophic Error | Strobe | Strobe |
 
 In the table above, '*X*' denotes a "do not care" or irrelevant status. In other
-words it is not an indication of the current device state.
+words, it is not an indication of the current device state.
 
 ### File Layout
 
-After recording the following file structure will be present on the microSD card of the respective node.
+After recording, the following file structure will be present on the microSD card of the respective node.
 
 ```
 (root)
@@ -167,7 +160,7 @@ folder. Where the recorder increments `X` for every subsequent recording made on
 the device (e.g. `REC_1`, `REC_2` etc.). Inside each recording folder are the
 files associated with that recording. Due to the limitation of the FAT32
 filesystem each individual recording has to be split up across multiple WAVE
-files (e.g.`REC.WAV`, `REC.W01`, etc.). By default this is in 256MiB chunks, but
+files (e.g.`REC.WAV`, `REC.W01`, etc.). By default, this is in 256 MiB chunks, but
 is user configurable Contained in the header of each WAVE file is timestamping
 and location information required to synchronise the nodes during offline
 processing of the files. A granular log of the timestamping metadata is stored
@@ -187,16 +180,15 @@ the microSD.
 
 ## Power Spectral Density Estimates
 
-Provided below are a set of power spectral density estimates (PSD) created using
-Welch's method. The [Audio Technica AT8010](https://www.audio-technica.com/en-gb/at8010) was used as a reference microphone and
-tested in an acoustically dampened recording studio. These results provided an
-estimate of the recording devices frequency response and should not be used
+Provided below are a power spectral density estimates (PSD) generated using
+Welch's method. The [Sennheiser MKH 8020](https://sennheiser.com/mkh-8020) was used as a reference microphone and
+tested in an acoustically dampened recording studio. These results provide an
+estimate of the recording device's frequency response and should not be used
 as ground truth measurements where spectral magnitude accuracy is required.
-For those types of experiments we recommenced the use of calibrated reference
+For those types of experiments, we recommenced the use of calibrated reference
 sound amplitude measurement equipment.
 
-![Barebones Power Spectral Density Estimate](docs/img/bare-psd.svg)
-![Fully Assembled Power Spectral Density Estimate](docs/img/assembled-psd.svg)
+![Power Spectral Density Estimate](docs/img/tfest-roi.png)
 
 ## Troubleshooting
 
@@ -207,15 +199,15 @@ First ensure the following:
 
 Enable `LOG_DEST_TTY` in `config.h`. The operational log will be printed in
 real-time to the serial console available on the debug/programming port. When
-using an *ST Link* debugger this serial port can be opened using
+using an *ST Link* debugger, this serial port can be opened using
 [Putty](https://www.putty.org/) on Windows, or with the following command on
 Linux:
 ``` sh
-screen -b 115200 /dev/** 
+screen -b 115200 /dev/ttyACM0
 ```
 The serial port is configured to **115200** baud rate and the standard **8N1**
 configuration. Please see the [firmware guide](firmware/README.md) for more
-information on setting up the programming environment on a Linux based system.
+information on setting up the programming environment on a Linux-based system.
 
 ## Future Hardware Revisions
 
@@ -226,12 +218,12 @@ information on setting up the programming environment on a Linux based system.
 - [ ] Add BME280 Sensor (temperature, humidity, atmospheric pressure)
 - [ ] Battery charging status detection
 - [ ] Dedicated power switch
-- [ ] External RAM (larger buffer, allow use with low-end SD cards)
+- [ ] External RAM (larger buffer, allows use with low-end SD cards)
 - [ ] Allow non-LiPo batteries (eg. alkaline)
 
 ## Contributing
 
-We welcome contributions to the project. Unfortunately hardware can not be
+We welcome contributions to the project. Unfortunately, hardware cannot be
 provided to contributors. However, the [STM32
 Nucleo-F446RE](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) can be
 used as an firmware development alternative, and is readily available.
