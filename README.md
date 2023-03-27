@@ -16,6 +16,7 @@ information is stored on a microSD card.  The recordings are stored as a series 
 ![Kleinvoet Field Test](docs/img/field-test.jpg)
 
 Firmware is available at [CMGeldenhuys/kleinvoet-firmware](https://github.com/CMGeldenhuys/kleinvoet-firmware).
+All relevant productio files such as panelised gerbers, bill of materials and work orders can be found in the _"production"_ folder in the repo.
 
 ## Example Recordings
 
@@ -235,4 +236,7 @@ Engineering Department](https://www.ee.sun.ac.za/) at Stellenbosch University.
 ## License
 
 The Kleinvoet project is licensed under the CERN Open Hardware License version 2
-(strongly-reciprocal variant).
+(strongly-reciprocal variant). The license agreement and copyright only partain
+to the Kleinvoet recorder design. Third party CAD models and EDA footprints
+remain under the original license agreement and copyright of the respective
+intellectual property owners.
