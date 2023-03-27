@@ -1,7 +1,3 @@
-# TODO
-
-- [ ] Add sample recordings
-
 # Kleinvoet
 
 [![License: CERN-OHL-S](https://img.shields.io/badge/license-CERN--OHL--S-blue?style=flat-square)](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2)
@@ -23,9 +19,7 @@ Firmware is available at [CMGeldenhuys/kleinvoet-firmware](https://github.com/CM
 
 ## Example Recordings
 
-- [Nearfield recording in a busy lab]()
-- [5m away in studio enviroment]()
-- [Farfield recording in outdoors]()
+- [Artificial elephant call](docs/rec/elephant_call_1000hz_lpf_normalised.wav) (recorded 150m from source, 1000Hz low pass filtered and normalised)
 
 ## SD Card Recommendations
 
