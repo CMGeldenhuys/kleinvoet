@@ -403,7 +403,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 745a27e0-733b-4d2b-b0f0-d4c1457e893e)
   )
-  (hierarchical_label "3v3A" (shape input) (at 45.72 37.465 0) (fields_autoplaced)
+  (hierarchical_label "VCC" (shape input) (at 45.72 37.465 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 98c6e1b4-60ae-4eb2-a328-cfa300b2700c)
   )
