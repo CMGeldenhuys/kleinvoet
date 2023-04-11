@@ -1853,15 +1853,15 @@
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 6d7032ef-d71e-4a02-b17f-4e5ff7d4e309)
   )
-  (text_box "DESIGN CALCULATIONS\n------------\nDesign was done based on already available resistors (1k, 100k).\nTMR should be designed so that a battery can be completely charged up in the givien time.\n\nFAST CHARGE CURRENT (ISET):\nR_{ISET} = K_{ISET} / I_{CHG}\nK_{ISET} = 890 A Ohm # from datasheet\nI_{CHR} = 0.89 A\n\nINPUT CURRENT LIMIT (ILIM):\nR_{ILIM} = K_{ILIM} / I_{MAX}\nK_{ILIM} = 1550 A Ohm # from datasheet\nI_{MAX} = 1.18 A\n\nFAST-CHARGE SAFETY TIMER (TMR):\nR_{TMR} = t_{MAXCHG} / (10 x K_{TMR})\nK_{TMR} = 48 s/kOhm # from datasheet\nt_{MAXCHG} = 6.7 hr x 3600 s/hr\n\nCHARGE CURRENT TRANSLATION:\nV_{ISET} = I_{CHR} / 400 x R_{ISET}"
+  (text_box "DESIGN CALCULATIONS\n------------\nDesign was done based on already available resistors (1k, 100k).\nTMR should be designed so that a battery can be completely charged up in the givien time.\n\nFAST CHARGE CURRENT (ISET):\nR_{ISET} = K_{ISET} / I_{CHG}\nK_{ISET} = 890 A Ohm # from datasheet\nI_{CHR} = 0.89 A\n\nINPUT CURRENT LIMIT (ILIM):\nR_{ILIM} = K_{ILIM} / I_{MAX}\nK_{ILIM} = 1550 A Ohm # from datasheet\nI_{MAX} = 1.18 A\n\nFAST-CHARGE SAFETY TIMER (TMR):\nR_{TMR} = t_{MAXCHG} / (10 x K_{TMR})\nK_{TMR} = 48 s/kOhm # from datasheet\nt_{MAXCHG} = 6.7 hr x 3600 s/hr\n\nCHARGE CURRENT TRANSLATION:\nV_{ISET} = I_{CHR} / 200 x R_{ISET}"
     (at 14.605 100.33 0) (size 39.37 60.325)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 7f135a96-cd85-4cba-9e64-81794bfe224a)
   )
-  (text_box "POS 3 (4/8) : SYSOFF(0), DVCC_EN(1)\n			  PWR(1), LDO(1)\n			  SYSTEM ON\nPOS 2 (2/6) : SYSOFF(0), DVCC_EN(0)\n			  PWR(1), LDO(0)\n			  CHARGE ONLY\nPOS 1 (1/5) : SYSOFF(1), DVCC_EN(0)\n			  PWR(0), LDO(0)\n			  SYSTEM OFF"
-    (at 133.35 153.035 0) (size 39.37 19.685)
+  (text_box "POS 3 (4/8) : SYSOFF(0), DVCC_EN(1)\n			 PWR(1), LDO(1)\n			 >> SYSTEM ON\n\nPOS 2 (2/6) : SYSOFF(0), DVCC_EN(0)\n			 PWR(1), LDO(0)\n			 >> CHARGE ONLY\n\nPOS 1 (1/5) : SYSOFF(1), DVCC_EN(0)\n			 PWR(0), LDO(0)\n			 >> SYSTEM OFF"
+    (at 133.35 153.035 0) (size 41.91 28.575)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))
@@ -1882,7 +1882,7 @@
     (uuid 8ed9d27c-f522-440d-b082-03297c811e84)
   )
   (text_box "BATT+ lies outside the ADC range of the STM32 MCU (> 3.3V)"
-    (at 213.36 40.64 0) (size 31.115 8.255)
+    (at 213.36 40.64 0) (size 41.91 8.255)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))
@@ -1926,6 +1926,10 @@
   (text "LIPO Battery Monitor" (at 213.106 16.129 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 82fccb3c-2997-4e2a-9a43-010ba3e4736d)
+  )
+  (text "DEFAULT: Fast Charge\nEN1=1, EN2=0" (at 105.41 99.06 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid a78190ae-353b-4b73-8dd1-949ce96f0676)
   )
   (text "Analogue 3v3 Supply" (at 172.72 100.965 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
