@@ -17,7 +17,8 @@ information is stored on a microSD card.  The recordings are stored as a series 
 ![Kleinvoet Field Test](docs/img/field-test.jpg)
 
 Firmware is available at [CMGeldenhuys/kleinvoet-firmware](https://github.com/CMGeldenhuys/kleinvoet-firmware).
-All relevant productio files such as panelised gerbers, bill of materials and work orders can be found in the _"production"_ folder in the repo.
+All relevant production files such as panelised gerbers, bill of materials and work orders can be found in the `production` folder in the repo.
+Additionally, the PCB layout and schematics for the Kleinvoet recorders can be found in the `docs/pcb_single`, `docs/pcb_panel` and `docs/schematics` directories, respectively.
 
 ## Example Recordings
 
@@ -31,6 +32,7 @@ recommended using a class-10 high quality microSD card. Before a long-running
 experiment it is also recommended to do a "low-level" format of the microSD
 card. This will improve the write performance which is required at higher
 sampling rates.
+
  
 ## Assembly
 
