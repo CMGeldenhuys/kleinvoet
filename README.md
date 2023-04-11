@@ -2,6 +2,7 @@
 
 [![License: CERN-OHL-S](https://img.shields.io/badge/license-CERN--OHL--S-blue?style=flat-square)](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2)
 [![Made with: KiCad](https://img.shields.io/badge/made_with-KiCad-blue?style=flat-square)](https://www.kicad.org)
+[![DOI](https://zenodo.org/badge/269032866.svg)](https://zenodo.org/badge/latestdoi/269032866)
 
 *Kleinvoet* is a self-contained low-cost passive acoustic monitoring device.
 The recorder was initially designed for distributed infrasonic (8Hz)
