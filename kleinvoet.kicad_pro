@@ -129,7 +129,7 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.09999999999999999,
         "min_through_hole_diameter": 0.25,
-        "min_track_width": 0.35,
+        "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.09999999999999999,
         "min_via_diameter": 0.35,
         "solder_mask_to_copper_clearance": 0.0,
@@ -523,6 +523,10 @@
       {
         "netclass": "50 Ohm",
         "pattern": "/ADC_Interface/CLK*"
+      },
+      {
+        "netclass": "50 Ohm",
+        "pattern": "/OSC*"
       }
     ]
   },
