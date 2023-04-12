@@ -6,11 +6,13 @@
 
   (title_block
     (title "Kleinvoet")
-    (date "2020-06-11")
-    (rev "Rev. A")
-    (company "Department of Electronic Engineering - Stellenbosch University")
-    (comment 1 "Author: CM Geldenhuys <20198329@sun.ac.za>")
-    (comment 2 "Project: Kleinvoet")
+    (date "2023-04-12")
+    (rev "C")
+    (company "Department of Electrical and Electronic Engineering - Stellenbosch University")
+    (comment 1 "Digital Signal Processing Laboratory")
+    (comment 2 "Author: CM Geldenhuys <cmgeldenhuys@sun.ac.za>")
+    (comment 3 "Project: Kleinvoet")
+    (comment 4 "License: CERN-OHL-S-2.0")
   )
 
   (lib_symbols
