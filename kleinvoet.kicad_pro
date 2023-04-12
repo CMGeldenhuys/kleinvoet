@@ -662,5 +662,7 @@
       "Preamplifier"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "PROJECT_REV": "C"
+  }
 }

@@ -7,7 +7,7 @@
   (title_block
     (title "Kleinvoet")
     (date "2023-04-12")
-    (rev "C")
+    (rev "${PROJECT_REV}")
     (company "Department of Electrical and Electronic Engineering - Stellenbosch University")
     (comment 1 "Digital Signal Processing Laboratory")
     (comment 2 "Author: CM Geldenhuys <cmgeldenhuys@sun.ac.za>")
