@@ -425,6 +425,15 @@
     (uuid e2700e0d-a1f8-4fb7-9034-d0d502d0f8a8)
   )
 
+  (label "~{CS}" (at 86.36 75.565 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 62083b8d-5213-49a6-8f5e-0c3b41642854)
+  )
+  (label "CHARGE_PUMP" (at 83.185 80.645 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 6ce5f346-95c0-4abe-9447-bb5d3f7a7ab3)
+  )
+
   (hierarchical_label "MAG_INT" (shape input) (at 115.57 83.185 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 2a7d1902-080a-4ea9-abc9-3628ce74972c)
