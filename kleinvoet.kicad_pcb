@@ -96,6 +96,8 @@
     )
   )
 
+  (property "PROJECT_REV" "C")
+
   (net 0 "")
   (net 1 "Earth")
   (net 2 "+3V3")
@@ -56723,7 +56725,7 @@
   (gr_text "SD_CD" (at 114.25 87 90) (layer "F.SilkS") (tstamp ba1ab41c-bcc1-4114-96ed-6de21e86cec1)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "REV. B" (at 129 90.25) (layer "F.SilkS") (tstamp bc12d55d-3029-4430-9232-337b1a62028e)
+  (gr_text "REV. ${PROJECT_REV}" (at 129 90.25) (layer "F.SilkS") (tstamp bc12d55d-3029-4430-9232-337b1a62028e)
     (effects (font (size 1 1) (thickness 0.25)))
   )
   (gr_text "TX" (at 139.5 76.5) (layer "F.SilkS") (tstamp c7be7d36-044c-4624-98a0-a11901bbb38c)
@@ -56735,7 +56737,7 @@
   (gr_text "1" (at 148.25 33.75 90) (layer "F.SilkS") (tstamp e0fafb5a-7612-49f2-857e-07a48cf36c67)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "JLCJLCJLCJLC" (at 132.7 62.15) (layer "F.SilkS") (tstamp e3401cc1-8833-4b9f-9419-4adbb09db133)
+  (gr_text "JLCJLCJLCJLC" (at 130.2 58.25) (layer "F.SilkS") (tstamp e3401cc1-8833-4b9f-9419-4adbb09db133)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (gr_text "CH1" (at 101.75 33.75) (layer "F.SilkS") (tstamp e66cdece-4893-4be4-8985-52fc83792731)
