@@ -577,6 +577,13 @@
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 1a52ec94-2add-4605-9478-30d8e829bc1b)
   )
+  (text_box "Alternative part: OPA1632\nLower cost, designed for audio bandwidth, lower THD, lower bandwidth\nHowever, input stage is super-beta, in other words low noise but 2Vbe input voltage required. Input voltage swing is thus +-1V from rails."
+    (at 12.065 182.88 0) (size 54.61 15.24)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid fac1a4a8-50eb-4d27-8477-f91a2f1909fd)
+  )
 
   (text "ADC inrush comp." (at 176.53 81.28 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
