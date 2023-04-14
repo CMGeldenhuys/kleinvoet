@@ -4476,7 +4476,7 @@
     (property "Sheetfile" "ADC_Interface.kicad_sch" (at 31.75 66.6246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "SAI_SD2" output (at 57.15 60.96 0)
+    (pin "SAI_SD" output (at 57.15 60.96 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid d4db7f11-8cfe-40d2-b021-b36f05241701)
     )
