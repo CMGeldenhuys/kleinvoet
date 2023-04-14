@@ -539,7 +539,7 @@
       },
       {
         "netclass": "50 Ohm",
-        "pattern": "/ADC_Interface/CLK*"
+        "pattern": "/ADC_Interface/CLK_12.288"
       },
       {
         "netclass": "50 Ohm",
