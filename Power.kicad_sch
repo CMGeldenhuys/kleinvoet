@@ -4791,7 +4791,7 @@
     (property "Value" "BQ24075" (at 44.5009 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm" (at 50.165 93.345 0)
+    (property "Footprint" "grootvoet:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias" (at 50.165 93.345 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq24075.pdf" (at 50.165 74.295 0)
