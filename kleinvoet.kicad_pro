@@ -178,6 +178,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.3,
         0.5
       ],
       "via_dimensions": [
@@ -461,7 +462,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.44,
+        "clearance": 0.3,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
