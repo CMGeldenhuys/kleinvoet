@@ -3588,31 +3588,6 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 100.33 162.56 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5d6726f7-fdeb-48e4-88e5-00c593980f8c)
-    (property "Reference" "#PWR0938" (at 104.14 162.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 95.9358 162.179 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 100.33 162.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 100.33 162.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f49f46fc-5f5f-4188-817f-97b376d846cd))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005eede770"
-          (reference "#PWR0938") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_Small") (at 249.555 31.115 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f2a851b-8b8c-4dce-b181-5782970a121e)
@@ -4655,6 +4630,31 @@
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005eede770"
           (reference "C902") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+BATT") (at 100.33 162.56 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid cd05c3ce-347c-4e71-8696-0c20dcfc7816)
+    (property "Reference" "#PWR014" (at 104.14 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+BATT" (at 95.9358 162.179 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 100.33 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 100.33 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c04f324e-8a92-4928-9505-861dfe6851d5))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005eede770"
+          (reference "#PWR014") (unit 1)
         )
       )
     )
