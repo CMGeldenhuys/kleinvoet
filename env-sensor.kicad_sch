@@ -434,24 +434,12 @@
     (uuid edc082b1-4fc2-4199-8314-49d575d85140)
   )
 
-  (rectangle (start 96.52 65.405) (end 121.285 73.025)
-    (stroke (width 0) (type dash))
-    (fill (type none))
-    (uuid 1aab6954-684f-4c14-89b9-efc52f01b042)
-  )
-
   (text_box "I2C address bit 0\nGND: '0'; VDDIO: '1"
     (at 142.24 86.36 0) (size 20.955 5.715)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 3b9780c6-a4ba-426d-a9ff-3b49ca2d91c9)
-  )
-
-  (text "Disable components in PCB\nClose to MAG sens, both have pull up"
-    (at 115.57 63.5 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 09b68d16-35cd-4c1e-b8ec-5346b79c610b)
   )
 
   (label "I2C_ADDR" (at 102.87 83.185 0) (fields_autoplaced)
@@ -655,7 +643,7 @@
           (reference "R104") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/6761cd4a-72b1-4e84-88a1-1fb4245924b8"
-          (reference "#R1402") (unit 1)
+          (reference "R1402") (unit 1)
         )
       )
     )
@@ -1009,7 +997,7 @@
           (reference "R104") (unit 1)
         )
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/6761cd4a-72b1-4e84-88a1-1fb4245924b8"
-          (reference "#R1401") (unit 1)
+          (reference "R1401") (unit 1)
         )
       )
     )
