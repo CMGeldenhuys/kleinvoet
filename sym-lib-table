@@ -2,5 +2,4 @@
   (version 7)
   (lib (name "grootvoet")(type "KiCad")(uri "${KIPRJMOD}/libs/grootvoet.kicad_sym")(options "")(descr ""))
   (lib (name "kleinvoet-rescue")(type "Legacy")(uri "${KIPRJMOD}/kleinvoet-rescue.lib")(options "")(descr ""))
-  (lib (name "Sensor_Board-rescue")(type "KiCad")(uri "/home/devsploit/Documents/grootvoet/Hardware/Kleinvoet/Sensor_Board/Sensor_Board-rescue.kicad_sym")(options "")(descr ""))
 )
