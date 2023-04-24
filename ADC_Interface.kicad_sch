@@ -776,58 +776,6 @@
         )
       )
     )
-    (symbol "power:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VCC" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VCC_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "VCC_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
   )
 
   (junction (at 115.57 33.655) (diameter 0) (color 0 0 0 0)
@@ -2905,31 +2853,6 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 42.545 99.06 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 211cee11-0722-47dd-8333-d026f853ba5f)
-    (property "Reference" "#PWR0426" (at 42.545 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 42.545 95.25 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 42.545 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 42.545 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1baaeddd-d32f-4fee-82b2-9b06f75b1a8d))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
-          (reference "#PWR0426") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C_Small") (at 46.99 106.045 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2183f947-0029-407d-b289-296bc35485e1)
@@ -3164,6 +3087,34 @@
       (project "kleinvoet"
         (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
           (reference "#PWR0427") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "grootvoet:VCC_LOAD_SWITCH") (at 42.545 99.06 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5493b5df-eb46-4863-bc26-e93a83137cc6)
+    (property "Reference" "#PWR0952" (at 42.545 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC_LOAD_SWITCH" (at 43.18 95.25 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 42.545 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 42.545 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9c5f14a9-00e1-4e3f-8a42-ef2f060a5651))
+    (instances
+      (project "kleinvoet"
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005eede770"
+          (reference "#PWR0952") (unit 1)
+        )
+        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad"
+          (reference "#PWR0426") (unit 1)
         )
       )
     )
