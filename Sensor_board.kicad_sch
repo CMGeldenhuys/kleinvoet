@@ -1029,6 +1029,10 @@
     (uuid 90a6bc67-b35e-4e80-9dbf-b4e2d1a5f6ab)
   )
 
+  (label "SUM_OUT_P" (at 129.54 57.15 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4411fc37-b51d-4326-83bb-c7993a763fc7)
+  )
   (label "VCC_FILT" (at 95.25 93.345 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7ed92c6b-5282-47d2-a06f-231ab6a9f1e5)
@@ -1040,6 +1044,10 @@
   (label "VCC_FILT" (at 184.15 92.71 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d4bbbd89-a76a-4418-9222-9400d4135f11)
+  )
+  (label "SUM_OUT_N" (at 129.54 62.23 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e46fadd2-f1aa-4ee6-b410-54e881a542e3)
   )
 
   (symbol (lib_id "Device:LED_Small") (at 245.11 50.8 90) (unit 1)
