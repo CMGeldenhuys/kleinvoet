@@ -559,6 +559,10 @@
       {
         "netclass": "Default",
         "pattern": "V??"
+      },
+      {
+        "netclass": "Analogue",
+        "pattern": "/Sensor_board/Buffer/*"
       }
     ]
   },
