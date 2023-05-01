@@ -2042,7 +2042,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1a734ace-0cd0-489a-9380-915322ff12bd)
   )
-  (label "SDIO_CLK" (at 80.645 45.085 0) (fields_autoplaced)
+  (label "SDIO_CLK_TERM" (at 80.645 45.085 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2c6c33c2-93e4-428c-a506-709430faeb3c)
   )
