@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "7.0.2"
     },
-    "CreationDate": "2023-04-27T15:04:24+02:00"
+    "CreationDate": "2023-05-01T18:48:23+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -18,28 +18,28 @@
       "Y": 66.05
     },
     "LayerNumber": 4,
-    "BoardThickness": 1.676,
+    "BoardThickness": 1.634,
     "Finish": "ENIG",
     "ImpedanceControlled": true
   },
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.1,
-      "PadToTrack": 0.1,
-      "TrackToTrack": 0.2,
+      "PadToPad": 0.127,
+      "PadToTrack": 0.127,
+      "TrackToTrack": 0.127,
       "MinLineWidth": 0.15,
-      "TrackToRegion": 0.2,
-      "RegionToRegion": 0.2
+      "TrackToRegion": 0.127,
+      "RegionToRegion": 0.127
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.1,
-      "PadToTrack": 0.1,
-      "TrackToTrack": 0.2,
+      "PadToPad": 0.127,
+      "PadToTrack": 0.127,
+      "TrackToTrack": 0.127,
       "MinLineWidth": 0.25,
-      "TrackToRegion": 0.2,
-      "RegionToRegion": 0.2
+      "TrackToRegion": 0.127,
+      "RegionToRegion": 0.127
     }
   ],
   "FilesAttributes": [
@@ -133,6 +133,7 @@
     {
       "Type": "Legend",
       "Color": "White",
+      "Material": "Liquid Photo",
       "Name": "Top Silk Screen"
     },
     {
@@ -143,22 +144,34 @@
       "Type": "SolderMask",
       "Color": "Green",
       "Thickness": 0.025,
+      "Material": "Liquid Photo Mask",
+      "DielectricConstant": "4",
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.058,
+      "Thickness": 0.036,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
       "Color": "R109G116B75",
-      "Thickness": 0.18,
-      "Material": "FR4",
-      "DielectricConstant": "4.5",
+      "Thickness": 0.07,
+      "Material": "NY2150",
+      "DielectricConstant": "4.2",
       "LossTangent": "0.02",
-      "Name": "F.Cu/In1.Cu",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
+      "Name": "F.Cu/In1.Cu (1/2)",
+      "Notes": "Type: dielectric layer 1 - 1/2 (from F.Cu to In1.Cu)"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.186,
+      "Material": "NY2150",
+      "DielectricConstant": "4.2",
+      "LossTangent": "0.02",
+      "Name": "F.Cu/In1.Cu (2/2)",
+      "Notes": "Type: dielectric layer 1 - 2/2 (from F.Cu to In1.Cu)"
     },
     {
       "Type": "Copper",
@@ -168,9 +181,9 @@
     {
       "Type": "Dielectric",
       "Color": "R109G116B75",
-      "Thickness": 1.08,
-      "Material": "FR4",
-      "DielectricConstant": "4.5",
+      "Thickness": 0.93,
+      "Material": "NY2150",
+      "DielectricConstant": "4.2",
       "LossTangent": "0.02",
       "Name": "In1.Cu/In2.Cu",
       "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
@@ -183,22 +196,34 @@
     {
       "Type": "Dielectric",
       "Color": "R109G116B75",
-      "Thickness": 0.18,
-      "Material": "FR4",
-      "DielectricConstant": "4.5",
+      "Thickness": 0.186,
+      "Material": "NY2150",
+      "DielectricConstant": "4.2",
       "LossTangent": "0.02",
-      "Name": "In2.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
+      "Name": "In2.Cu/B.Cu (1/2)",
+      "Notes": "Type: dielectric layer 3 - 1/2 (from In2.Cu to B.Cu)"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.07,
+      "Material": "NY2150",
+      "DielectricConstant": "4.2",
+      "LossTangent": "0.02",
+      "Name": "In2.Cu/B.Cu (2/2)",
+      "Notes": "Type: dielectric layer 3 - 2/2 (from In2.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.058,
+      "Thickness": 0.036,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
       "Color": "Green",
       "Thickness": 0.025,
+      "Material": "Liquid Photo Mask",
+      "DielectricConstant": "4",
       "Name": "Bottom Solder Mask"
     },
     {
@@ -208,6 +233,7 @@
     {
       "Type": "Legend",
       "Color": "White",
+      "Material": "Liquid Photo",
       "Name": "Bottom Silk Screen"
     }
   ]
