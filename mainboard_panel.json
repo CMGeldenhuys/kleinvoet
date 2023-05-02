@@ -1,9 +1,11 @@
 {
     "layout": {
-        "hspace": "8mm",
-        "vspace": "6mm",
-        "rows": "2",
-        "cols": "2"
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "hbackbone": "4mm",
+        "vbackbone": "4mm",
+        "rows": "4",
+        "cols": "6"
     },
     "source": {
         "type": "annotation",
@@ -19,33 +21,39 @@
         "type": "mousebites"
     },
     "framing": {
-        "type": "tightframe"
+        "type": "frame",
+        "mintotalheight": "200mm",
+        "mintotalwidth": "400mm"
     },
     "tooling": {
         "type": "4hole",
-        "hoffset": "5mm",
-        "voffset": "5mm"
+        "hoffset": "10mm",
+        "voffset": "3mm"
     },
     "fiducials": {
         "type": "3fid",
         "hoffset": "3mm",
-        "voffset": "3mm"
+        "voffset": "3mm",
+        "coppersize": "5mm",
+        "paste": "True"
     },
     "text": {
         "type": "simple",
         "voffset": "3mm",
-        "text": "{boardTitle} - Rev. {boardRevision}"
+        "text": "{boardTitle} - Rev. {boardRevision} - Main board"
     },
     "text2": {
         "type": "simple",
         "voffset": "-3mm",
-        "text": "{boardCompany}",
+        "text": "{boardCompany}-{boardDate}",
         "anchor": "mb"
     },
-    "text3": {
-        "type": "simple",
-        "voffset": "6mm",
-        "text": "Main Board"
+    "copperfill": {
+        "type": "hatched",
+        "clearance": "2mm"
+    },
+    "page": {
+        "type": "A3"
     },
     "post": {
         "millradius": "1mm",
