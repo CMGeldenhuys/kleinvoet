@@ -1,0 +1,54 @@
+{
+    "layout": {
+        "hspace": "8mm",
+        "vspace": "6mm",
+        "rows": "2",
+        "cols": "2"
+    },
+    "source": {
+        "type": "annotation",
+        "tolerance": "15mm",
+        "ref": "B1"
+    },
+    "tabs": {
+        "type": "annotation",
+        "tabfootprints": "PCM_kikit:Tab",
+        "fillet": "0.25mm"
+    },
+    "cuts": {
+        "type": "mousebites"
+    },
+    "framing": {
+        "type": "tightframe"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "5mm",
+        "voffset": "5mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "3mm",
+        "voffset": "3mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "3mm",
+        "text": "{boardTitle} - Rev. {boardRevision}"
+    },
+    "text2": {
+        "type": "simple",
+        "voffset": "-3mm",
+        "text": "{boardCompany}",
+        "anchor": "mb"
+    },
+    "text3": {
+        "type": "simple",
+        "voffset": "6mm",
+        "text": "Main Board"
+    },
+    "post": {
+        "millradius": "1mm",
+        "dimensions": "True"
+    }
+}
