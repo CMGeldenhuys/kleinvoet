@@ -4,8 +4,8 @@
         "vspace": "2mm",
         "hbackbone": "4mm",
         "vbackbone": "4mm",
-        "rows": "4",
-        "cols": "6"
+        "rows": "2",
+        "cols": "4"
     },
     "source": {
         "type": "annotation",
@@ -21,9 +21,7 @@
         "type": "mousebites"
     },
     "framing": {
-        "type": "frame",
-        "mintotalheight": "200mm",
-        "mintotalwidth": "400mm"
+        "type": "frame"
     },
     "tooling": {
         "type": "4hole",
@@ -45,7 +43,7 @@
     "text2": {
         "type": "simple",
         "voffset": "-3mm",
-        "text": "{boardCompany}-{boardDate}",
+        "text": "{boardCompany} - {boardDate}",
         "anchor": "mb"
     },
     "copperfill": {
