@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.09999999999999999
+          "min_clearance": 1.0
         }
       },
       "diff_pair_dimensions": [
@@ -217,9 +217,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "power_pin_not_driven|1231900|1231900|669b1fea-623e-45be-9fac-e1067bbb63a7|00000000-0000-0000-0000-000000000000|||"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -468,7 +466,7 @@
         "name": "50 Ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.30631,
+        "track_width": 0.44,
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
@@ -476,16 +474,16 @@
       {
         "bus_width": 12,
         "clearance": 0.127,
-        "diff_pair_gap": 0.16485,
+        "diff_pair_gap": 0.12,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.309336,
+        "diff_pair_width": 0.23,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "90 Ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.309336,
+        "track_width": 0.23,
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
@@ -569,6 +567,10 @@
       {
         "netclass": "Analogue",
         "pattern": "/Sensor_board/Buffer/*"
+      },
+      {
+        "netclass": "50 Ohm",
+        "pattern": "/Connectors/SDIO_*"
       }
     ]
   },
