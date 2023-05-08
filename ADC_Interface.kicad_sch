@@ -1604,10 +1604,6 @@
     (uuid f413d088-6fb9-4a8a-88fd-666ff68b7fdf)
   )
 
-  (label "SA_MODE" (at 210.185 130.81 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 0457207c-6e28-406b-8cf2-bf1c1c5d0ccb)
-  )
   (label "ADC_2_P" (at 142.875 119.38 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 059f4155-bed3-4fb2-9baa-d569f31b7e5d)
@@ -1747,10 +1743,6 @@
   (label "CLK" (at 218.44 39.37 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27) italic) (justify left bottom))
     (uuid f8e9fc00-8f60-4688-b1c9-6de1e4c0c204)
-  )
-  (label "LRCLK" (at 210.185 88.9 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ff126e3d-34a9-4d51-8089-a73830cc37f9)
   )
 
   (hierarchical_label "SAI_BCLK" (shape bidirectional) (at 236.22 86.36 0) (fields_autoplaced)
