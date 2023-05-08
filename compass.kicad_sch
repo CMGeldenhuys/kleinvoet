@@ -998,6 +998,12 @@
     (property "Datasheet" "~" (at 83.185 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "GRT155R71A224KE01D" (at 83.185 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr." "Murata" (at 83.185 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6da3b19a-1e2f-4913-aa0d-d06c4aba643f))
     (pin "2" (uuid 01580f41-5c2d-442d-a653-d83d639338bf))
     (instances
