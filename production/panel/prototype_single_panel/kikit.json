@@ -1,7 +1,7 @@
 {
     "layout": {
         "hspace": "2mm",
-        "vspace": "2mm",
+        "vspace": "3mm",
         "hbackbone": "4mm",
         "vbackbone": "4mm",
         "rows": "3"
@@ -21,22 +21,19 @@
     },
     "framing": {
         "type": "frame",
+        "vspace": "3mm",
         "cuts": "v"
     },
     "text": {
         "type": "simple",
         "voffset": "3mm",
-        "text": "{boardTitle} - Rev. {boardRevision} - Main board"
+        "text": "KLEINVOET [REV. C] - "
     },
     "text2": {
         "type": "simple",
         "voffset": "-3mm",
         "text": "{boardCompany} - {boardDate}",
         "anchor": "mb"
-    },
-    "copperfill": {
-        "type": "hatched",
-        "clearance": "2mm"
     },
     "page": {
         "type": "A3"
