@@ -1772,7 +1772,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 139.7 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef7e92d)
     (property "Reference" "H304" (at 139.065 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1786,6 +1786,12 @@
     (property "Datasheet" "~" (at 139.7 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "" (at 139.7 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr." "" (at 139.7 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ae7948e4-531f-4e42-83fc-463ccd381928))
     (instances
       (project "kleinvoet"
@@ -1797,7 +1803,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 132.08 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef7e933)
     (property "Reference" "H303" (at 131.445 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1811,6 +1817,12 @@
     (property "Datasheet" "~" (at 132.08 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "" (at 132.08 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr." "" (at 132.08 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f0081f56-7be5-4740-b2fd-53865bffac97))
     (instances
       (project "kleinvoet"
@@ -1822,7 +1834,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 124.46 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef7e939)
     (property "Reference" "H302" (at 123.19 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1836,6 +1848,12 @@
     (property "Datasheet" "~" (at 124.46 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "" (at 124.46 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr." "" (at 124.46 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 4d2d31aa-b115-4204-91de-ccfb127e3165))
     (instances
       (project "kleinvoet"
@@ -1847,7 +1865,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 116.84 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ef7e93f)
     (property "Reference" "H301" (at 115.57 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1859,6 +1877,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 116.84 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 116.84 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr." "" (at 116.84 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0ee0f872-ffb0-4c4f-8b24-3fd73235e659))
@@ -2869,7 +2893,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 36.83 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 6de2a6fd-e562-4675-9109-281a749de77e)
     (property "Reference" "JP1" (at 36.83 114.935 0)
       (effects (font (size 1.27 1.27)))
@@ -3827,7 +3851,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 36.83 109.22 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid c85e7e4a-aa98-4d72-a435-7eb5813283ff)
     (property "Reference" "JP2" (at 36.83 107.315 0)
       (effects (font (size 1.27 1.27)))
