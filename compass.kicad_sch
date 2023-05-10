@@ -760,7 +760,7 @@
   )
 
   (symbol (lib_id "grootvoet:LIS2MDL") (at 99.06 78.105 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c7b47881-7f44-43d8-b86f-71d67e828331)
     (property "Reference" "U1201" (at 101.0159 90.551 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -984,7 +984,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 83.185 85.09 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid f5eab2e5-c0b0-4598-819b-d5d14d97dda5)
     (property "Reference" "C1201" (at 80.01 84.4486 0)
       (effects (font (size 1.27 1.27)) (justify right))

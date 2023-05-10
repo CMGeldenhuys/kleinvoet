@@ -2632,7 +2632,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 104.775 135.255 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 00000000-0000-0000-0000-00005fc5d094)
     (property "Reference" "TP406" (at 102.9462 130.302 90)
       (effects (font (size 1.27 1.27)))
@@ -2646,6 +2646,12 @@
     (property "Datasheet" "~" (at 104.775 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "" (at 104.775 135.255 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr." "" (at 104.775 135.255 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 08c0d1be-f0d6-46e1-b451-948bfe694757))
     (instances
       (project "kleinvoet"
@@ -2657,7 +2663,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 104.775 142.875 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 00000000-0000-0000-0000-00005fc659ac)
     (property "Reference" "TP407" (at 102.9462 137.922 90)
       (effects (font (size 1.27 1.27)))
@@ -2669,6 +2675,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 104.775 137.795 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 104.775 142.875 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr." "" (at 104.775 142.875 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 168e1f40-297c-40f5-a881-5aa62a142dd4))

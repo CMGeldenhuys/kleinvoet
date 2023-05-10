@@ -2417,6 +2417,13 @@
     (uuid 9634e8f0-3ab6-4b36-b2e1-cc46f6a3824d)
   )
 
+  (text_box "DO NOT POPULATE\n------------\nItems crossed out with a red 'X' are not to be populated. Some components are included as place holders, these are marked with the \"PH/DNP\" values."
+    (at 236.22 141.605 0) (size 40.005 15.24)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left top))
+    (uuid 33471464-0776-4571-8533-583c5c4696c4)
+  )
   (text_box "NOTE: USR_BTN controls BOOT0\n--------------------\nWhen user button is pressed during startup, it pulls BOOT0 high. This triggers the bootloader to go into DFU mode, allowing for the firmware to be updated over USB. Solder bridged JP1 can be broken to disable this functionalitiy."
     (at 219.075 14.224 0) (size 33.02 24.13)
     (stroke (width 0) (type default))
@@ -3904,7 +3911,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 179.705 117.475 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fb6b11e)
     (property "Reference" "R102" (at 181.2036 116.3066 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3936,7 +3943,7 @@
   )
 
   (symbol (lib_id "Device:LED_Small") (at 179.705 122.555 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fb6b127)
     (property "Reference" "D101" (at 181.483 121.3866 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3968,7 +3975,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 193.675 118.11 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fb6b130)
     (property "Reference" "R103" (at 195.1736 116.9416 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4000,7 +4007,7 @@
   )
 
   (symbol (lib_id "Device:LED_Small") (at 193.675 123.19 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005fb6b138)
     (property "Reference" "D102" (at 195.453 122.0216 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4628,7 +4635,7 @@
   )
 
   (symbol (lib_id "LED:SK6805") (at 205.74 150.495 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid b5a4d232-9174-419d-a203-f30f415437a5)
     (property "Reference" "D105" (at 215.9 147.3709 0)
       (effects (font (size 1.27 1.27)))

@@ -881,7 +881,7 @@
   )
 
   (symbol (lib_id "Sensor:BME280") (at 84.455 90.805 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db39a9ab-13d8-4f9f-af18-e46d885eb30b)
     (property "Reference" "U1401" (at 72.39 90.17 0)
       (effects (font (size 1.27 1.27)) (justify right))
