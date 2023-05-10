@@ -520,7 +520,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 95.25 29.21 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp yes) (fields_autoplaced)
     (uuid 0c35d2fe-3a8f-4159-9f43-963493b69722)
     (property "Reference" "J1104" (at 95.885 24.765 0)
       (effects (font (size 1.27 1.27)))
@@ -635,7 +635,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 95.25 23.495 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp yes) (fields_autoplaced)
     (uuid 7d4575c1-6046-443f-ae78-cb4bf9214fb2)
     (property "Reference" "J1103" (at 95.885 19.05 0)
       (effects (font (size 1.27 1.27)))
@@ -672,7 +672,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 95.25 34.925 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp yes) (fields_autoplaced)
     (uuid 84ef7ca2-cf58-478c-b671-01d25e1209e5)
     (property "Reference" "J1105" (at 95.885 30.48 0)
       (effects (font (size 1.27 1.27)))
@@ -747,7 +747,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 95.25 41.275 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp yes) (fields_autoplaced)
     (uuid a48a13aa-7947-4e0b-b38a-2d66dc8e4416)
     (property "Reference" "J1106" (at 95.885 36.83 0)
       (effects (font (size 1.27 1.27)))
@@ -828,7 +828,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 74.93 29.845 180) (unit 1)
-    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp yes) (fields_autoplaced)
     (uuid fde35d48-e1f2-4f5c-ba41-bd7c9417a5d8)
     (property "Reference" "J602" (at 74.93 19.05 0)
       (effects (font (size 1.27 1.27)))
