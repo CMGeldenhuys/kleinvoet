@@ -768,7 +768,7 @@
     (property "Value" "LIS3MDL" (at 101.0159 93.091 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_LGA:LGA-12_2x2mm_P0.5mm" (at 129.54 85.725 0)
+    (property "Footprint" "grootvoet:LIS3MDL_LGA-12_2x2mm_P0.5mm" (at 129.54 85.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/lis3mdl.pdf" (at 137.16 88.265 0)
