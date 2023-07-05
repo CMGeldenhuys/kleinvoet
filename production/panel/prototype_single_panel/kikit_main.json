@@ -1,0 +1,53 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "3mm",
+        "hbackbone": "3mm",
+        "vbackbone": "3mm",
+        "rows": "3",
+        "renamenet": "Board1_{n}-{orig}",
+        "baketext": "False"
+    },
+    "source": {
+        "type": "annotation",
+        "tolerance": "15mm",
+        "ref": "B1"
+    },
+    "tabs": {
+        "type": "annotation",
+        "tabfootprints": "PCM_kikit:Tab",
+        "fillet": "0.25mm"
+    },
+    "cuts": {
+        "type": "mousebites"
+    },
+    "framing": {
+        "type": "frame",
+        "vspace": "3mm",
+        "width": "10mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "10mm",
+        "voffset": "5mm",
+        "coppersize": "3mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "5mm",
+        "text": "KLEINVOET [REV. C] - "
+    },
+    "text2": {
+        "type": "simple",
+        "voffset": "-5mm",
+        "text": "{boardCompany} - {boardDate}",
+        "anchor": "mb"
+    },
+    "page": {
+        "type": "A3"
+    },
+    "post": {
+        "millradius": "1mm",
+        "dimensions": "True"
+    }
+}

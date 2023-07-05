@@ -2,9 +2,10 @@
     "layout": {
         "hspace": "2mm",
         "vspace": "3mm",
-        "hbackbone": "4mm",
-        "vbackbone": "4mm",
-        "rows": "3"
+        "hbackbone": "3mm",
+        "vbackbone": "3mm",
+        "rows": "3",
+        "baketext": "False"
     },
     "source": {
         "type": "annotation",
@@ -22,16 +23,22 @@
     "framing": {
         "type": "frame",
         "vspace": "3mm",
-        "cuts": "v"
+        "width": "10mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "10mm",
+        "voffset": "5mm",
+        "coppersize": "3mm"
     },
     "text": {
         "type": "simple",
-        "voffset": "3mm",
+        "voffset": "5mm",
         "text": "KLEINVOET [REV. C] - "
     },
     "text2": {
         "type": "simple",
-        "voffset": "-3mm",
+        "voffset": "-5mm",
         "text": "{boardCompany} - {boardDate}",
         "anchor": "mb"
     },
