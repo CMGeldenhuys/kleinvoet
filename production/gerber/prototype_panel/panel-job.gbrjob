@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.1-3b83917a11~172~ubuntu22.04.1"
+      "Version": "7.0.5-7.0.5~ubuntu22.04.1"
     },
-    "CreationDate": "2023-05-09T12:11:45+02:00"
+    "CreationDate": "2023-07-04T15:33:41+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,12 +14,13 @@
       "Revision": "C"
     },
     "Size": {
-      "X": 236.1,
-      "Y": 234.1
+      "X": 231.1,
+      "Y": 242.1
     },
     "LayerNumber": 4,
     "BoardThickness": 1.634,
-    "Finish": "ENIG"
+    "Finish": "ENIG",
+    "ImpedanceControlled": true
   },
   "DesignRules": [
     {
@@ -144,6 +145,7 @@
       "Color": "Green",
       "Thickness": 0.025,
       "Material": "Liquid Photo Mask",
+      "DielectricConstant": "4",
       "Name": "Top Solder Mask"
     },
     {
@@ -156,6 +158,8 @@
       "Color": "R109G116B75",
       "Thickness": 0.07,
       "Material": "PrePreg1080",
+      "DielectricConstant": "4.2",
+      "LossTangent": "0.02",
       "Name": "F.Cu/In1.Cu (1/2)",
       "Notes": "Type: dielectric layer 1 - 1/2 (from F.Cu to In1.Cu)"
     },
@@ -164,6 +168,8 @@
       "Color": "R109G116B75",
       "Thickness": 0.186,
       "Material": "PrePreg7628",
+      "DielectricConstant": "4.2",
+      "LossTangent": "0.02",
       "Name": "F.Cu/In1.Cu (2/2)",
       "Notes": "Type: dielectric layer 1 - 2/2 (from F.Cu to In1.Cu)"
     },
@@ -177,6 +183,8 @@
       "Color": "R109G116B75",
       "Thickness": 0.93,
       "Material": "NY2150",
+      "DielectricConstant": "4.2",
+      "LossTangent": "0.02",
       "Name": "In1.Cu/In2.Cu",
       "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
     },
@@ -190,6 +198,8 @@
       "Color": "R109G116B75",
       "Thickness": 0.186,
       "Material": "PrePreg7628",
+      "DielectricConstant": "4.2",
+      "LossTangent": "0.02",
       "Name": "In2.Cu/B.Cu (1/2)",
       "Notes": "Type: dielectric layer 3 - 1/2 (from In2.Cu to B.Cu)"
     },
@@ -198,6 +208,8 @@
       "Color": "R109G116B75",
       "Thickness": 0.07,
       "Material": "PrePreg1080",
+      "DielectricConstant": "4.2",
+      "LossTangent": "0.02",
       "Name": "In2.Cu/B.Cu (2/2)",
       "Notes": "Type: dielectric layer 3 - 2/2 (from In2.Cu to B.Cu)"
     },
@@ -211,6 +223,7 @@
       "Color": "Green",
       "Thickness": 0.025,
       "Material": "Liquid Photo Mask",
+      "DielectricConstant": "4",
       "Name": "Bottom Solder Mask"
     },
     {
