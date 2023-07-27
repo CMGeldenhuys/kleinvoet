@@ -674,7 +674,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "cad/kleinvoet.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
