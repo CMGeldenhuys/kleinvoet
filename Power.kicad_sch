@@ -1967,7 +1967,7 @@
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 7f135a96-cd85-4cba-9e64-81794bfe224a)
   )
-  (text_box "POS 3 (4/8) : SYSOFF(0), DVCC_EN(1)\n			 PWR(1), LDO(1)\n			 >> SYSTEM ON\n\nPOS 2 (2/6) : SYSOFF(0), DVCC_EN(0)\n			 PWR(1), LDO(0)\n			 >> CHARGE ONLY\n\nPOS 1 (1/5) : SYSOFF(1), DVCC_EN(0)\n			 PWR(0), LDO(0)\n			 >> SYSTEM OFF"
+  (text_box "POS 3 (4/8) : SYSOFF(0), DVCC_EN(1)\n			 PWR(1), LDO(1)\n			 >> SYSTEM ON\n\nPOS 2 (2/6) : SYSOFF(0), DVCC_EN(0)\n			 PWR(1), LDO(0)\n			 >> CHARGE ONLY\n\nPOS 1 (1/5) : SYSOFF(1), DVCC_EN(0)\n			 PWR(0), LDO(0)\n			 >> SYSTEM OFF\n				(BATT present)"
     (at 132.715 162.56 0) (size 41.91 31.75)
     (stroke (width 0) (type default))
     (fill (type none))
