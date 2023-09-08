@@ -2490,7 +2490,7 @@
     (uuid e2dca92f-ed78-4733-904b-535f5b6d94b3)
   )
   (text_box "Final panel has two sensor boards per main board"
-    (at 54.61 73.66 0) (size 17.78 11.43)
+    (at 41.91 73.66 0) (size 16.51 11.43)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))
@@ -5310,7 +5310,7 @@
     )
   )
 
-  (sheet (at 29.21 73.66) (size 25.4 11.43) (fields_autoplaced)
+  (sheet (at 29.21 73.66) (size 12.7 11.43) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid b53619ea-788f-4bc9-9946-594014d7d22c)
