@@ -2468,6 +2468,13 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left top))
     (uuid 33471464-0776-4571-8533-583c5c4696c4)
   )
+  (text_box "TODO:\n- Change LED pins to get access to timer"
+    (at -46.355 19.685 0) (size 42.545 106.045)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27) (color 120 0 12 1)) (justify left top))
+    (uuid 8ff884c3-8c69-4ea4-a24e-359119f8c9a8)
+  )
   (text_box "NOTE: USR_BTN controls BOOT0\n--------------------\nWhen user button is pressed during startup, it pulls BOOT0 high. This triggers the bootloader to go into DFU mode, allowing for the firmware to be updated over USB. Solder bridged JP1 can be broken to disable this functionalitiy."
     (at 219.075 14.224 0) (size 33.02 24.13)
     (stroke (width 0) (type default))
