@@ -5109,13 +5109,13 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 8899cbe1-684c-40bb-bb5c-5414377274b8)
     )
-    (pin "~{CHG}" output (at 54.61 64.77 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 20a6daf6-9192-4548-bd4f-9d962647c950)
-    )
     (pin "AVCC_EN" input (at 29.21 64.77 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid bcc7f475-f54d-4dc8-ae0a-352435ea49f7)
+    )
+    (pin "~{CHG_DET}" output (at 54.61 64.77 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 026d6e90-5664-4c82-8db0-0366e84b336e)
     )
     (instances
       (project "kleinvoet"
