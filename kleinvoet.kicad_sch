@@ -2455,7 +2455,7 @@
   )
 
   (text_box "Pressing and holding USR_BTN during start up will trigger DFU mode"
-    (at 20.32 172.72 0) (size 26.67 7.62)
+    (at 17.78 175.26 0) (size 53.34 6.35)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))
@@ -2475,8 +2475,8 @@
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid c4e2c573-209d-42bd-acc9-fad56168c2ec)
   )
-  (text_box "Boot Modes:\n------------\nBOOT0=0, BOOT1=X : Boot from user code\nBOOT0=1, BOOT1=1 : Boot from SRAM\nBOOT0=1, BOOT1=0 : Boot into DFU"
-    (at 20.32 180.34 0) (size 44.45 11.43)
+  (text_box "Boot Modes (AN2606):\n------------\nBOOT0=0, BOOT1=X : Boot from user code\nBOOT0=1, BOOT1=1 : Boot from SRAM\nBOOT0=1, BOOT1=0 : Boot into DFU"
+    (at 17.78 181.61 0) (size 53.34 11.43)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))
