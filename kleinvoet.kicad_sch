@@ -4070,17 +4070,18 @@
 		)
 		(uuid "33471464-0776-4571-8533-583c5c4696c4")
 	)
-	(text_box "TODO:\n- Change LED pins to get access to timer"
+	(text_box "TODO:\n- Change LED pins to get access to timer\n- GNSS LED text\n- Move to Rev D.\n- Make switch dep. on VUSB/BATT (use diode from VBATT)"
 		(exclude_from_sim no)
 		(at -46.355 19.685 0)
 		(size 42.545 106.045)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 5 5 5 0.18)
 		)
 		(effects
 			(font
