@@ -1,1689 +1,4203 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 4f87cbd4-5b7f-44bc-96a4-620e58e43ac3)
-
-  (paper "A4")
-
-  (title_block
-    (title "Kleinvoet")
-    (date "2023-04-12")
-    (rev "${PROJECT_REV}")
-    (company "Department of Electrical and Electronic Engineering - Stellenbosch University")
-    (comment 1 "Digital Signal Processing Laboratory")
-    (comment 2 "Author: CM Geldenhuys <cmgeldenhuys@sun.ac.za>")
-    (comment 3 "Project: Kleinvoet")
-    (comment 4 "License: CERN-OHL-S-2.0")
-  )
-
-  (lib_symbols
-    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.254 1.778 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C_Small" (at 0.254 -2.032 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "capacitor cap" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_Small_0_1"
-        (polyline
-          (pts
-            (xy -1.524 -0.508)
-            (xy 1.524 -0.508)
-          )
-          (stroke (width 0.3302) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.524 0.508)
-            (xy 1.524 0.508)
-          )
-          (stroke (width 0.3048) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_Small_1_1"
-        (pin passive line (at 0 2.54 270) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:R_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 0.762 0.508 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "R_Small" (at 0.762 -1.016 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_Small_0_1"
-        (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_Small_1_1"
-        (pin passive line (at 0 2.54 270) (length 0.762)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 0.762)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "grootvoet:+3.3V_SENSOR" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3.3V_SENSOR" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3.3V_SENSOR_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+3.3V_SENSOR_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3.3V_SENSOR" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "grootvoet:GND_SENSOR" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND_SENSOR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_SENSOR_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_SENSOR_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND_SENSOR" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "grootvoet:THS4551xRGT" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "THS4551xRGT" (at 10.16 -6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths4551.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "differential amplifier" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Low-Noise Precision Fully Differential Amplifier, VQFN-16" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "VQFN*1EP*3x3mm*P0.5mm*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "THS4551xRGT_1_1"
-        (polyline
-          (pts
-            (xy -7.62 7.62)
-            (xy -7.62 -7.62)
-            (xy 7.62 0)
-            (xy -7.62 7.62)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin output line (at -2.54 -7.62 90) (length 2.54)
-          (name "FB-" (effects (font (size 0.508 0.508))))
-          (number "1" (effects (font (size 0.762 0.762))))
-        )
-        (pin output line (at 7.62 2.54 180) (length 5.08)
-          (name "OUT+" (effects (font (size 0.508 0.508))))
-          (number "10" (effects (font (size 0.508 0.508))))
-        )
-        (pin output line (at 7.62 -2.54 180) (length 5.08)
-          (name "OUT-" (effects (font (size 0.508 0.508))))
-          (number "11" (effects (font (size 0.508 0.508))))
-        )
-        (pin input line (at -10.16 -5.08 0) (length 2.54)
-          (name "IN+" (effects (font (size 0.508 0.508))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -10.16 5.08 0) (length 2.54)
-          (name "IN-" (effects (font (size 0.508 0.508))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at -2.54 7.62 270) (length 2.54)
-          (name "FB+" (effects (font (size 0.508 0.508))))
-          (number "4" (effects (font (size 0.762 0.762))))
-        )
-        (pin input line (at -10.16 0 0) (length 2.54)
-          (name "VOCM" (effects (font (size 0.508 0.508))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "THS4551xRGT_2_1"
-        (rectangle (start -5.08 5.08) (end 5.08 -5.08)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin input line (at -7.62 0 0) (length 2.54)
-          (name "~{PD}" (effects (font (size 0.508 0.508))))
-          (number "12" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -2.54 -7.62 90) (length 2.54)
-          (name "VS-" (effects (font (size 0.508 0.508))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -2.54 -7.62 90) (length 2.54) hide
-          (name "VS-" (effects (font (size 0.508 0.508))))
-          (number "14" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -2.54 -7.62 90) (length 2.54) hide
-          (name "VS-" (effects (font (size 0.508 0.508))))
-          (number "15" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -2.54 -7.62 90) (length 2.54) hide
-          (name "VS-" (effects (font (size 0.508 0.508))))
-          (number "16" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 -7.62 90) (length 2.54)
-          (name "EP" (effects (font (size 0.508 0.508))))
-          (number "17" (effects (font (size 0.508 0.508))))
-        )
-        (pin power_in line (at 0 7.62 270) (length 2.54)
-          (name "VS+" (effects (font (size 0.508 0.508))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 7.62 270) (length 2.54) hide
-          (name "VS+" (effects (font (size 0.508 0.508))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 7.62 270) (length 2.54) hide
-          (name "VS+" (effects (font (size 0.508 0.508))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 7.62 270) (length 2.54) hide
-          (name "VS+" (effects (font (size 0.508 0.508))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 105.41 69.85) (diameter 0) (color 0 0 0 0)
-    (uuid 06a21a00-2726-4383-8a1c-fcef07fa4dba)
-  )
-  (junction (at 105.41 115.57) (diameter 0) (color 0 0 0 0)
-    (uuid 0bc490e8-45d5-40f5-9547-5770e953a9fe)
-  )
-  (junction (at 119.38 80.01) (diameter 0) (color 0 0 0 0)
-    (uuid 330b4f4f-3b6e-471f-ac94-b3b536fbd7e2)
-  )
-  (junction (at 119.38 115.57) (diameter 0) (color 0 0 0 0)
-    (uuid 448c32e0-56d0-48aa-a6a0-83426ff7c2ff)
-  )
-  (junction (at 105.41 125.73) (diameter 0) (color 0 0 0 0)
-    (uuid a2baad68-638d-4679-9e6b-0125404a44d0)
-  )
-  (junction (at 132.08 80.01) (diameter 0) (color 0 0 0 0)
-    (uuid afab6003-dc16-4501-9fec-0f6c71c12e1d)
-  )
-  (junction (at 105.41 80.01) (diameter 0) (color 0 0 0 0)
-    (uuid afd885ac-054c-4345-b4bb-60fcddb29d0f)
-  )
-  (junction (at 132.08 115.57) (diameter 0) (color 0 0 0 0)
-    (uuid b272dd8d-5d15-40d0-a72a-0c3410dcf3bd)
-  )
-  (junction (at 167.64 115.57) (diameter 0) (color 0 0 0 0)
-    (uuid e576332f-de43-47e4-93a5-641066304115)
-  )
-  (junction (at 167.64 80.01) (diameter 0) (color 0 0 0 0)
-    (uuid e834f40f-68cc-4946-9043-3d4c29c43309)
-  )
-
-  (wire (pts (xy 92.71 80.01) (xy 96.52 80.01))
-    (stroke (width 0) (type default))
-    (uuid 0245e0b0-ed6a-4b94-a456-5b94388c4460)
-  )
-  (wire (pts (xy 132.08 80.01) (xy 132.08 92.71))
-    (stroke (width 0) (type default))
-    (uuid 188e1b58-ec30-486a-ba37-fb3ad9ed72e4)
-  )
-  (wire (pts (xy 105.41 69.85) (xy 147.32 69.85))
-    (stroke (width 0) (type default))
-    (uuid 1f54230c-b671-42be-b380-d2b216ac6423)
-  )
-  (wire (pts (xy 105.41 135.255) (xy 105.41 132.715))
-    (stroke (width 0) (type default))
-    (uuid 32de9c13-8471-420a-88d6-2ff8a4c94420)
-  )
-  (wire (pts (xy 132.08 115.57) (xy 119.38 115.57))
-    (stroke (width 0) (type default))
-    (uuid 333542a0-96e9-4d08-852f-055f8cf26aef)
-  )
-  (wire (pts (xy 165.735 80.01) (xy 167.64 80.01))
-    (stroke (width 0) (type default))
-    (uuid 35dfc48b-eacb-48a6-93f4-b063ec76d35d)
-  )
-  (wire (pts (xy 167.64 69.85) (xy 152.4 69.85))
-    (stroke (width 0) (type default))
-    (uuid 363c9ec0-6843-4bbf-9503-cfbebb602236)
-  )
-  (wire (pts (xy 152.4 95.25) (xy 158.115 95.25))
-    (stroke (width 0) (type default))
-    (uuid 3b948c54-9aa6-488b-8aae-9e7c67cac4cc)
-  )
-  (wire (pts (xy 119.38 100.33) (xy 119.38 115.57))
-    (stroke (width 0) (type default))
-    (uuid 3f52058e-808a-4c8d-9beb-7658ad911de5)
-  )
-  (wire (pts (xy 105.41 125.73) (xy 105.41 115.57))
-    (stroke (width 0) (type default))
-    (uuid 3fd10998-55f9-49dd-b632-e95a3cd64df6)
-  )
-  (wire (pts (xy 132.08 92.71) (xy 134.62 92.71))
-    (stroke (width 0) (type default))
-    (uuid 439c9187-72c5-425c-91b9-b27727bf0917)
-  )
-  (wire (pts (xy 105.41 69.85) (xy 105.41 80.01))
-    (stroke (width 0) (type default))
-    (uuid 490b1eb7-aa7d-44e0-b706-0b343c8fac28)
-  )
-  (wire (pts (xy 119.38 95.25) (xy 119.38 80.01))
-    (stroke (width 0) (type default))
-    (uuid 4da0fb2b-f124-4d16-8ea3-d43285b33c5f)
-  )
-  (wire (pts (xy 105.41 95.25) (xy 105.41 80.01))
-    (stroke (width 0) (type default))
-    (uuid 57995496-237a-4432-852c-bf35bc1e1079)
-  )
-  (wire (pts (xy 119.38 80.01) (xy 115.57 80.01))
-    (stroke (width 0) (type default))
-    (uuid 6302d426-112a-4a6d-b10f-ce897de1c5d1)
-  )
-  (wire (pts (xy 158.115 95.25) (xy 158.115 80.01))
-    (stroke (width 0) (type default))
-    (uuid 63d38c00-5b18-47a8-916a-9830622692db)
-  )
-  (wire (pts (xy 105.41 125.73) (xy 147.32 125.73))
-    (stroke (width 0) (type default))
-    (uuid 6b8dc870-a9c2-4d01-8415-957d43ae2c7e)
-  )
-  (wire (pts (xy 222.25 93.345) (xy 222.25 90.805))
-    (stroke (width 0) (type default))
-    (uuid 717d8947-762e-48bc-81b9-9c76ed52af6a)
-  )
-  (wire (pts (xy 105.41 127.635) (xy 105.41 125.73))
-    (stroke (width 0) (type default))
-    (uuid 74db96db-979a-4eb9-95e0-3bc33737e039)
-  )
-  (wire (pts (xy 105.41 115.57) (xy 110.49 115.57))
-    (stroke (width 0) (type default))
-    (uuid 7940a9d8-2996-4154-b6bb-9f67fcf13fe8)
-  )
-  (wire (pts (xy 167.64 80.01) (xy 167.64 69.85))
-    (stroke (width 0) (type default))
-    (uuid 7b77abb8-afdc-4a2a-acf3-039302c1858d)
-  )
-  (wire (pts (xy 132.08 102.87) (xy 134.62 102.87))
-    (stroke (width 0) (type default))
-    (uuid 7e327871-7a07-4df1-9c52-5d24e3182bec)
-  )
-  (wire (pts (xy 101.6 80.01) (xy 105.41 80.01))
-    (stroke (width 0) (type default))
-    (uuid 86276d00-ab02-4962-91bf-d6a351e300ce)
-  )
-  (wire (pts (xy 152.4 100.33) (xy 158.115 100.33))
-    (stroke (width 0) (type default))
-    (uuid 87340b20-43a9-4390-9a15-98fd1be0afd7)
-  )
-  (wire (pts (xy 139.065 115.57) (xy 142.24 115.57))
-    (stroke (width 0) (type default))
-    (uuid 88f22443-4248-4ee6-a6b5-720813f3a784)
-  )
-  (wire (pts (xy 132.08 115.57) (xy 132.08 102.87))
-    (stroke (width 0) (type default))
-    (uuid 8b1acc00-12e3-45d3-9dca-7562b82a6efd)
-  )
-  (wire (pts (xy 167.64 125.73) (xy 152.4 125.73))
-    (stroke (width 0) (type default))
-    (uuid 92c5f377-3b67-4724-809a-1b07f2aa44a4)
-  )
-  (wire (pts (xy 171.45 115.57) (xy 167.64 115.57))
-    (stroke (width 0) (type default))
-    (uuid 938292fa-b637-4889-8421-6daa392070a8)
-  )
-  (wire (pts (xy 91.44 115.57) (xy 96.52 115.57))
-    (stroke (width 0) (type default))
-    (uuid a1d10661-9e6c-4d23-9e74-c0c35b490702)
-  )
-  (polyline (pts (xy 142.24 115.57) (xy 158.115 115.57))
-    (stroke (width 0) (type dash))
-    (uuid a2775976-4e37-4d83-bcd0-b084878f3178)
-  )
-
-  (wire (pts (xy 132.08 80.01) (xy 119.38 80.01))
-    (stroke (width 0) (type default))
-    (uuid a4f1dccc-4d79-4650-8496-987ebc5b5085)
-  )
-  (wire (pts (xy 133.985 115.57) (xy 132.08 115.57))
-    (stroke (width 0) (type default))
-    (uuid b86ef420-b7de-4016-b761-3e77bcd2406f)
-  )
-  (wire (pts (xy 139.065 80.01) (xy 142.24 80.01))
-    (stroke (width 0) (type default))
-    (uuid b990ad21-4c3b-4f72-b4ef-33681957437d)
-  )
-  (wire (pts (xy 158.115 100.33) (xy 158.115 115.57))
-    (stroke (width 0) (type default))
-    (uuid bea0ed86-486a-4a69-8a1d-78a4f8b44b70)
-  )
-  (wire (pts (xy 158.115 115.57) (xy 160.655 115.57))
-    (stroke (width 0) (type default))
-    (uuid c29dd321-d55d-4a4e-87dc-db800102f805)
-  )
-  (wire (pts (xy 142.24 80.01) (xy 142.24 90.17))
-    (stroke (width 0) (type default))
-    (uuid c97007a2-2245-4221-83c6-429b04c6a680)
-  )
-  (polyline (pts (xy 142.24 80.01) (xy 158.115 80.01))
-    (stroke (width 0) (type dash))
-    (uuid c9c3919b-35ba-4b24-8c6c-172c280b2548)
-  )
-
-  (wire (pts (xy 105.41 100.33) (xy 105.41 115.57))
-    (stroke (width 0) (type default))
-    (uuid c9f21e8f-acf7-4556-be83-7c6f6c4f30b0)
-  )
-  (wire (pts (xy 105.41 80.01) (xy 110.49 80.01))
-    (stroke (width 0) (type default))
-    (uuid cd0190e4-059e-4572-a9ff-80969c61a48c)
-  )
-  (wire (pts (xy 119.38 115.57) (xy 115.57 115.57))
-    (stroke (width 0) (type default))
-    (uuid cf8a525a-deb4-4735-8216-64d58d26517d)
-  )
-  (wire (pts (xy 167.64 115.57) (xy 167.64 125.73))
-    (stroke (width 0) (type default))
-    (uuid d378422a-9c49-4134-8a4c-3a2ec27f70d0)
-  )
-  (wire (pts (xy 158.115 80.01) (xy 160.655 80.01))
-    (stroke (width 0) (type default))
-    (uuid d6cdee65-2cf5-4bd4-aee9-276252002173)
-  )
-  (wire (pts (xy 105.41 64.77) (xy 105.41 69.85))
-    (stroke (width 0) (type default))
-    (uuid d864b648-bfad-4e69-b1b5-763b303ccf28)
-  )
-  (wire (pts (xy 142.24 105.41) (xy 142.24 115.57))
-    (stroke (width 0) (type default))
-    (uuid dc0aef0e-18e5-424d-9346-ec14c3852f76)
-  )
-  (wire (pts (xy 105.41 57.15) (xy 105.41 59.69))
-    (stroke (width 0) (type default))
-    (uuid de8ca36a-9dce-49ce-8e65-354e0eb00742)
-  )
-  (wire (pts (xy 101.6 115.57) (xy 105.41 115.57))
-    (stroke (width 0) (type default))
-    (uuid de94893a-41d8-4dca-9f24-97ffcdf321a9)
-  )
-  (wire (pts (xy 165.735 115.57) (xy 167.64 115.57))
-    (stroke (width 0) (type default))
-    (uuid e744d835-877b-4076-a665-643c52ecf020)
-  )
-  (wire (pts (xy 171.45 80.01) (xy 167.64 80.01))
-    (stroke (width 0) (type default))
-    (uuid f42671af-ce9e-4451-affd-b0aeb2c6339f)
-  )
-  (wire (pts (xy 133.985 80.01) (xy 132.08 80.01))
-    (stroke (width 0) (type default))
-    (uuid ffd7b485-794a-4ba2-a296-b6955dc5c74c)
-  )
-
-  (text "See sheet \"/ADC_Interface/ADC_AA_1\" for more information."
-    (at 94.234 144.526 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 22bae15d-8749-44d9-a6d2-3f2871bbdf55)
-  )
-  (text "CONNECTED\nINTERNALLY" (at 144.78 114.935 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 38b3013e-953e-4c20-b478-f34dd94d2553)
-  )
-  (text "CONNECTED\nINTERNALLY" (at 144.78 79.375 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d839930c-5dbf-4a25-8e94-e493b8e0fef8)
-  )
-
-  (label "OUT" (at 153.67 95.25 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 711ea310-e83d-405d-9215-71c2245588d2)
-  )
-  (label "FDA_IN" (at 130.81 115.57 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 820f313a-b8dc-4be1-825b-4848bb75af0a)
-  )
-  (label "FDA_~{IN}" (at 131.445 80.01 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid c9911dc0-ba8c-4eb5-930e-d3881b97f540)
-  )
-  (label "~{FB}" (at 142.24 115.57 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ce73f80c-b640-4b88-b036-f1642c825f22)
-  )
-  (label "~{OUT}" (at 154.305 100.33 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d6470130-ffad-4c52-ae13-21eb30a790f5)
-  )
-  (label "FB" (at 142.24 80.01 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid f0294f85-0660-49d4-95e9-76afebdf0a6c)
-  )
-
-  (hierarchical_label "SIG_P" (shape input) (at 171.45 80.01 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 150cdd91-8f68-4501-a938-b5d36f514daa)
-  )
-  (hierarchical_label "SIG_N" (shape input) (at 171.45 115.57 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 51922044-2ab1-4900-8135-fdfbccb01fc7)
-  )
-  (hierarchical_label "VOCM" (shape input) (at 222.25 90.805 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 5e7b8ffe-a97e-4cb1-a0bc-8fc5e86e4698)
-  )
-  (hierarchical_label "VOCM" (shape input) (at 134.62 97.79 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 956e084a-1962-43a9-8f2b-9abec4b11761)
-  )
-  (hierarchical_label "~{IN}" (shape input) (at 92.71 80.01 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid a263650c-ac84-4b2d-aaaa-a1a866b768a9)
-  )
-  (hierarchical_label "IN" (shape input) (at 91.44 115.57 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid cdba6680-15f2-4db8-ac22-bcd47f13c5dd)
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 194.31 95.885 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005f9fd19e)
-    (property "Reference" "CB1601" (at 196.6468 94.7166 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 196.6468 97.028 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 194.31 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 194.31 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "C0402C104K8PACTU" (at 194.31 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "KEMET" (at 194.31 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 21a55724-0130-426b-b5f0-a01750244eda))
-    (pin "2" (uuid ea71e628-5b9f-4d08-92be-f00b28f8e8f4))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "CB1601") (unit 1)
-        )
-      )
-      (project "Sensor_Board"
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
-          (reference "CB?") (unit 1)
-        )
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
-          (reference "CB5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 99.06 80.01 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005f9fd1db)
-    (property "Reference" "R1601" (at 99.06 75.0316 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "270" (at 99.06 77.343 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 99.06 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 99.06 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "Yageo" (at 99.06 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "RT0402FRE07270RL" (at 99.06 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fe924601-a58d-4ac1-8aa7-9e854aaf50a5))
-    (pin "2" (uuid 0b542ba8-da2f-4bfe-b0b7-6c7f9bb4fdd3))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R1601") (unit 1)
-        )
-      )
-      (project "Sensor_Board"
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
-          (reference "R?") (unit 1)
-        )
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 113.03 80.01 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005f9fd1e1)
-    (property "Reference" "R1603" (at 113.03 75.0316 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "330E" (at 113.03 77.343 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 113.03 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 113.03 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "Yageo" (at 113.03 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "RT0402FRE07330RL" (at 113.03 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cfa99369-1bb1-412a-a8a7-29637cea6ca3))
-    (pin "2" (uuid 7a396ca2-70ad-4ee0-b820-c15f5822cb57))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R1603") (unit 1)
-        )
-      )
-      (project "Sensor_Board"
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
-          (reference "R?") (unit 1)
-        )
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R15") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 149.86 69.85 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005f9fd1e7)
-    (property "Reference" "R1605" (at 149.86 64.8716 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1k" (at 149.86 67.183 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 149.86 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 149.86 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "RT0402FRE071KL" (at 149.86 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "Yageo" (at 149.86 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fe634cf5-1642-426b-b05f-4974a9e4bce9))
-    (pin "2" (uuid 0ef5ae51-38c1-49b9-9edd-45d376603651))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R1605") (unit 1)
-        )
-      )
-      (project "Sensor_Board"
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
-          (reference "R?") (unit 1)
-        )
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R17") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 136.525 80.01 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005f9fd1f3)
-    (property "Reference" "C1603" (at 136.525 74.1934 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "2.7n" (at 136.525 76.5048 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 136.525 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 136.525 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "GRM1555C1H272GE01D" (at 136.525 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "Murata" (at 136.525 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 596297a8-8eaa-4889-be1b-ba2d552a839f))
-    (pin "2" (uuid 89f8c1ac-b35a-4d88-8d30-a831fe60a632))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "C1603") (unit 1)
-        )
-      )
-      (project "Sensor_Board"
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
-          (reference "C?") (unit 1)
-        )
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
-          (reference "C8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 119.38 97.79 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
-    (uuid 00000000-0000-0000-0000-00005f9fd1f9)
-    (property "Reference" "C1602" (at 121.7168 96.6216 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "PH/DNP" (at 121.7168 98.933 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 119.38 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 119.38 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "" (at 119.38 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "" (at 119.38 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1dc0eaa8-789d-4bba-81d4-a1215f31e87f))
-    (pin "2" (uuid fe8f9e16-1a2e-448b-989a-902cdffe2754))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "C1602") (unit 1)
-        )
-      )
-      (project "Sensor_Board"
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
-          (reference "C?") (unit 1)
-        )
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
-          (reference "C7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 105.41 97.79 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005f9fd1ff)
-    (property "Reference" "C1601" (at 107.7468 96.6216 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "18n" (at 107.7468 98.933 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 105.41 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 105.41 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "GRM21B5C1H183JA01K" (at 105.41 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "Murata" (at 105.41 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c0780081-d82c-437b-8871-2cd9bb4d44d4))
-    (pin "2" (uuid 9fc2ed3e-048e-46bb-a7c7-14c54c3fbfd5))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "C1601") (unit 1)
-        )
-      )
-      (project "Sensor_Board"
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
-          (reference "C?") (unit 1)
-        )
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
-          (reference "C6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 105.41 62.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005f9fd205)
-    (property "Reference" "C1606" (at 107.7468 61.0616 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "220p" (at 107.7468 63.373 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 105.41 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 105.41 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "GRT1555C1H221FA02D" (at 105.41 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "Murata" (at 105.41 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 415bcb1c-ceb4-4429-aebb-499d4345025c))
-    (pin "2" (uuid e609e486-cb32-44ca-b89d-678e34763c0b))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "C1606") (unit 1)
-        )
-      )
-      (project "Sensor_Board"
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
-          (reference "220p?") (unit 1)
-        )
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
-          (reference "C12") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 99.06 115.57 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005f9fd226)
-    (property "Reference" "R1602" (at 99.06 120.5484 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "270" (at 99.06 118.237 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 99.06 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 99.06 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "Yageo" (at 99.06 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "RT0402FRE07270RL" (at 99.06 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 35ab63f0-cc23-4c50-928f-570911fe419e))
-    (pin "2" (uuid d405800d-f4c0-4493-b439-ad506141131b))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R1602") (unit 1)
-        )
-      )
-      (project "Sensor_Board"
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
-          (reference "R?") (unit 1)
-        )
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R14") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 113.03 115.57 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005f9fd22c)
-    (property "Reference" "R1604" (at 113.03 120.5484 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "330E" (at 113.03 118.237 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 113.03 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 113.03 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "Yageo" (at 113.03 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "RT0402FRE07330RL" (at 113.03 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5eda4333-18dc-4dc7-bffc-a96ae3ff022b))
-    (pin "2" (uuid ed0889c2-3b1f-44ea-884e-adacc210365f))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R1604") (unit 1)
-        )
-      )
-      (project "Sensor_Board"
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
-          (reference "R?") (unit 1)
-        )
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R16") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 149.86 125.73 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005f9fd232)
-    (property "Reference" "R1606" (at 149.86 130.7084 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1k" (at 149.86 128.397 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 149.86 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 149.86 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "RT0402FRE071KL" (at 149.86 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "Yageo" (at 149.86 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a02ac33b-88a9-4ac7-8b9b-b047d6fe100f))
-    (pin "2" (uuid 20611cea-9385-40dd-822c-ff5e3d1baa58))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R1606") (unit 1)
-        )
-      )
-      (project "Sensor_Board"
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
-          (reference "R?") (unit 1)
-        )
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R18") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 136.525 115.57 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005f9fd23e)
-    (property "Reference" "C1604" (at 136.525 121.3866 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "2.7n" (at 136.525 119.0752 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 136.525 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 136.525 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "GRM1555C1H272GE01D" (at 136.525 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "Murata" (at 136.525 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bc49de8f-7354-4349-9515-b122005bcdc2))
-    (pin "2" (uuid 6a7a8bb1-4d76-45b0-9da9-635fc9706b29))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "C1604") (unit 1)
-        )
-      )
-      (project "Sensor_Board"
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
-          (reference "C?") (unit 1)
-        )
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
-          (reference "C9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 105.41 130.175 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005f9fd244)
-    (property "Reference" "C1607" (at 103.0732 129.0066 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "220p" (at 103.0732 131.318 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 105.41 130.175 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 105.41 130.175 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "GRT1555C1H221FA02D" (at 105.41 130.175 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "Murata" (at 105.41 130.175 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3a046c0e-c581-4280-8f89-2fa12d84ffe0))
-    (pin "2" (uuid 1f8e974d-5f9a-4aae-8bbf-07e2e8b83670))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "C1607") (unit 1)
-        )
-      )
-      (project "Sensor_Board"
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
-          (reference "220p?") (unit 1)
-        )
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
-          (reference "C13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "grootvoet:GND_SENSOR") (at 105.41 135.255 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 12511b3b-e589-4a2e-8af8-caf7a68ad960)
-    (property "Reference" "#PWR0226" (at 105.41 141.605 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND_SENSOR" (at 105.41 139.7 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 105.41 135.255 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 105.41 135.255 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5c5b6e8c-7d19-4785-a3f9-7a312a35aa1a))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0226") (unit 1)
-        )
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "#PWR01602") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "grootvoet:GND_SENSOR") (at 222.25 98.425 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3ece324a-f517-4912-bf53-50d95a917ab5)
-    (property "Reference" "#PWR0226" (at 222.25 104.775 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND_SENSOR" (at 222.25 102.87 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 222.25 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 222.25 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cc8ee358-f419-46ef-86c8-5c2ecf2c314e))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0226") (unit 1)
-        )
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "#PWR01609") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "grootvoet:GND_SENSOR") (at 105.41 57.15 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 52309fab-0569-46a0-845b-d5efe720a5f4)
-    (property "Reference" "#PWR0226" (at 105.41 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND_SENSOR" (at 105.41 53.975 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 105.41 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 105.41 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0861dc8c-3c4e-4697-8961-31c20a76e2c5))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0226") (unit 1)
-        )
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "#PWR01601") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "grootvoet:+3.3V_SENSOR") (at 194.31 93.345 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 526bd800-4947-4a41-a425-d2ebfb2ee4b4)
-    (property "Reference" "#PWR0220" (at 194.31 97.155 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V_SENSOR" (at 194.31 89.535 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 194.31 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 194.31 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 84a3998f-2206-48b0-877a-4c3f2b01fa74))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0220") (unit 1)
-        )
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "#PWR01605") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 222.25 95.885 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 55b8f682-f9c1-48ad-b3f0-ea36e9940259)
-    (property "Reference" "CB18" (at 224.5868 94.7166 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 224.5868 97.028 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 222.25 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 222.25 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "C0402C104K8PACTU" (at 222.25 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "KEMET" (at 222.25 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a315b229-c54f-4a1d-9f1f-ce749c347b77))
-    (pin "2" (uuid bb4242d3-651b-4429-bf51-6ed2b4761fe4))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "CB18") (unit 1)
-        )
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "CB1602") (unit 1)
-        )
-      )
-      (project "Sensor_Board"
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9c4001"
-          (reference "CB?") (unit 1)
-        )
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
-          (reference "CB3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "grootvoet:GND_SENSOR") (at 212.09 132.08 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 55c55dc9-23c6-4454-ba9d-236d93ef6dc2)
-    (property "Reference" "#PWR0226" (at 212.09 138.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND_SENSOR" (at 219.71 134.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 212.09 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 212.09 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 135bbe12-2b6d-419f-a762-c0c18abe454f))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0226") (unit 1)
-        )
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "#PWR01703") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "grootvoet:THS4551xRGT") (at 209.55 124.46 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 58549e9a-c075-493a-a40f-ffa5168f4d59)
-    (property "Reference" "U1701" (at 215.9 123.825 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "THS4551xRGT" (at 215.9 126.365 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "grootvoet:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias" (at 209.55 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths4551.pdf" (at 209.55 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "THS4551IRGTR" (at 209.55 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "Texas Instruments" (at 209.55 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7b44fd50-2d47-4a50-b476-a58eba3b4452))
-    (pin "10" (uuid 2781d383-a547-419c-a937-06cf91206845))
-    (pin "11" (uuid 136c7364-a415-469b-b0de-49ee78fb4658))
-    (pin "2" (uuid 95e1d644-0c56-4ffa-a4b2-f485b5e1dae9))
-    (pin "3" (uuid dd929012-018c-4228-833c-ec2046f3bab3))
-    (pin "4" (uuid 0cdef8da-0107-47b1-8022-be7d4a3a0cbd))
-    (pin "9" (uuid 3222b952-c2e1-48cd-b900-5df4e4322b2c))
-    (pin "12" (uuid 6e00c1fe-c0b0-4736-b9c9-c1d7d128d878))
-    (pin "13" (uuid f65a1873-0d17-47cd-b716-0188d0593f27))
-    (pin "14" (uuid fa5b1335-2808-4532-b55f-92c64e8ef247))
-    (pin "15" (uuid 1751347b-d748-419f-b5b5-098825e76915))
-    (pin "16" (uuid 01017fe5-603a-4453-9391-8c6cc98dbd8e))
-    (pin "17" (uuid e4b009a4-c21b-4cdc-bd85-65c6d11bd821))
-    (pin "5" (uuid 36d262e6-30e6-4696-84a1-63cdf3e37fbc))
-    (pin "6" (uuid 61be39de-0c8d-4cc7-b1d9-bccd90798026))
-    (pin "7" (uuid 2edd5a4b-dfe7-43d0-9246-2d2881de825d))
-    (pin "8" (uuid fa189788-3db0-4db5-88c9-d345c225964e))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "U1701") (unit 2)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 208.28 95.885 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 63751fb1-ce8a-4814-a0ee-f21125e3c32a)
-    (property "Reference" "C1605" (at 212.09 94.615 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1u" (at 212.09 96.52 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 208.28 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 208.28 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "C0402C105K9PACTU" (at 208.28 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "KEMET" (at 208.28 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3fc359d9-9b92-4a80-9c0b-d2af35349c91))
-    (pin "2" (uuid 507e78bf-5b7a-437d-a23a-0478c1490ceb))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "C1605") (unit 1)
-        )
-      )
-      (project "Sensor_Board"
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
-          (reference "C?") (unit 1)
-        )
-        (path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
-          (reference "C8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "grootvoet:+3.3V_SENSOR") (at 209.55 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8a55fee2-d8a9-4f29-9474-29cec48f22d3)
-    (property "Reference" "#PWR0220" (at 209.55 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V_SENSOR" (at 209.55 113.03 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 209.55 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 209.55 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 451c75ea-1139-4296-af20-3fd163b858e1))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0220") (unit 1)
-        )
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "#PWR01701") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 163.195 80.01 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8fcebbbd-8981-4762-b1bf-6eb13c1a6565)
-    (property "Reference" "R25" (at 163.195 75.0316 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "15E" (at 163.195 77.343 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 163.195 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 163.195 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "RT0402FRE0715RL" (at 163.195 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "Yageo" (at 163.195 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5efbf532-147c-4c27-91f4-aa813ffd5d11))
-    (pin "2" (uuid 9db01306-2834-4e54-83e1-e52680452b08))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad/00000000-0000-0000-0000-00005ee62baf"
-          (reference "R25") (unit 1)
-        )
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad/00000000-0000-0000-0000-00005ee91c90"
-          (reference "R49") (unit 1)
-        )
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R1607") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "grootvoet:GND_SENSOR") (at 194.31 98.425 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b80a65e5-779e-417f-ba7b-3cee75c7a016)
-    (property "Reference" "#PWR0226" (at 194.31 104.775 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND_SENSOR" (at 194.31 102.87 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 194.31 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 194.31 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 177f6c8d-2305-4386-b6ca-bc3f5fe980f9))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0226") (unit 1)
-        )
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "#PWR01606") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "grootvoet:GND_SENSOR") (at 207.01 132.08 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid bc1c4820-c22a-4f75-9c00-17d1ba80e496)
-    (property "Reference" "#PWR0226" (at 207.01 138.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND_SENSOR" (at 200.152 134.874 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 207.01 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 207.01 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 57fe56f7-3dcd-4e2c-813c-f297b6b2f362))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0226") (unit 1)
-        )
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "#PWR01702") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "grootvoet:+3.3V_SENSOR") (at 208.28 93.345 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c3fbd2d5-0459-4438-af36-6a676626cad3)
-    (property "Reference" "#PWR0220" (at 208.28 97.155 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V_SENSOR" (at 208.28 89.535 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 208.28 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 208.28 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3a09a8b4-30a4-4503-9b4e-3824981b90cc))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0220") (unit 1)
-        )
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "#PWR01607") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "grootvoet:GND_SENSOR") (at 208.28 98.425 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c89366bf-145c-4160-b7de-3063866a4727)
-    (property "Reference" "#PWR0226" (at 208.28 104.775 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND_SENSOR" (at 208.28 102.87 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 208.28 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 208.28 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 37c73937-527b-45a6-b4a3-46b094e783d1))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0226") (unit 1)
-        )
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "#PWR01608") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "grootvoet:THS4551xRGT") (at 144.78 97.79 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d5e66af1-0130-442c-90c9-d0df93d3f4fe)
-    (property "Reference" "U1701" (at 143.8911 86.36 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "THS4551xRGT" (at 143.8911 88.9 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "grootvoet:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias" (at 144.78 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths4551.pdf" (at 144.78 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "THS4551IRGTR" (at 144.78 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "Texas Instruments" (at 144.78 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 73fa1e72-5f12-4cae-8eee-0aa8384b5295))
-    (pin "10" (uuid bef86967-e012-4e71-b58c-25a68883ddac))
-    (pin "11" (uuid c20d1f48-e2c5-4378-ad3c-fae7ced9c0b9))
-    (pin "2" (uuid 67073eb5-b07c-4a9b-9427-875f0405379f))
-    (pin "3" (uuid 0614a91e-98ab-4fbe-b920-a82ea97d74e2))
-    (pin "4" (uuid b0345407-b7a7-414a-ab94-09a5ee4a897e))
-    (pin "9" (uuid c49baa4a-2d2b-4a00-8f11-6c5c9452cb6d))
-    (pin "12" (uuid 65b7ee53-63e7-4c9f-9538-dc4676f6543a))
-    (pin "13" (uuid 9225fb24-e6ad-4964-a3af-fbebead79e65))
-    (pin "14" (uuid 29195dd1-08d2-4c08-a3f1-204eee77d667))
-    (pin "15" (uuid cf7c6b3c-d293-47b8-8775-5ef9458543f3))
-    (pin "16" (uuid 49fe2e0c-174b-4ee9-b697-64140dfe8e80))
-    (pin "17" (uuid 79ad4134-f7a6-4260-97d0-aa568088d687))
-    (pin "5" (uuid daea834c-f75a-4265-9dd1-3310bced2582))
-    (pin "6" (uuid 224c5327-5004-451a-8ea9-a10af57bdba6))
-    (pin "7" (uuid 265599f7-9db8-4d09-a164-90b532938a33))
-    (pin "8" (uuid ed327aa5-5ff5-4fa2-bae3-6b7331e33439))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "U1701") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 163.195 115.57 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fac244c7-15d9-48a1-904c-b05dcb08e84a)
-    (property "Reference" "R25" (at 163.195 110.5916 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "15E" (at 163.195 112.903 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 163.195 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 163.195 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "RT0402FRE0715RL" (at 163.195 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "Yageo" (at 163.195 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2264b8eb-0acc-487d-97b8-9da51f9daa46))
-    (pin "2" (uuid 1e30ff90-f5a6-4360-a690-5ae764ecf3a1))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad/00000000-0000-0000-0000-00005ee62baf"
-          (reference "R25") (unit 1)
-        )
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005ee5ecad/00000000-0000-0000-0000-00005ee91c90"
-          (reference "R49") (unit 1)
-        )
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "R1608") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "grootvoet:+3.3V_SENSOR") (at 201.93 124.46 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fcd119cc-9c53-4d28-b8db-6f633bd8313f)
-    (property "Reference" "#PWR0220" (at 205.74 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V_SENSOR" (at 200.914 123.19 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 201.93 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 201.93 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 831656c9-07e7-4f19-9acd-4716527f4305))
-    (instances
-      (project "kleinvoet"
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c"
-          (reference "#PWR0220") (unit 1)
-        )
-        (path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
-          (reference "#PWR01704") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4f87cbd4-5b7f-44bc-96a4-620e58e43ac3")
+	(paper "A4")
+	(title_block
+		(title "Kleinvoet")
+		(date "2023-04-12")
+		(rev "${PROJECT_REV}")
+		(company "Department of Electrical and Electronic Engineering - Stellenbosch University")
+		(comment 1 "Digital Signal Processing Laboratory")
+		(comment 2 "Author: CM Geldenhuys <cmgeldenhuys@sun.ac.za>")
+		(comment 3 "Project: Kleinvoet")
+		(comment 4 "License: CERN-OHL-S-2.0")
+	)
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "grootvoet:+3.3V_SENSOR"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V_SENSOR"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_SENSOR_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_SENSOR_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3.3V_SENSOR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "grootvoet:GND_SENSOR"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND_SENSOR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_SENSOR_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_SENSOR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND_SENSOR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "grootvoet:THS4551xRGT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "THS4551xRGT"
+				(at 10.16 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths4551.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low-Noise Precision Fully Differential Amplifier, VQFN-16"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "differential amplifier"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "VQFN*1EP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "THS4551xRGT_1_1"
+				(polyline
+					(pts
+						(xy -7.62 7.62) (xy -7.62 -7.62) (xy 7.62 0) (xy -7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "IN-"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "VOCM"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "IN+"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name "FB+"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "FB-"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "OUT+"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "OUT-"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+			)
+			(symbol "THS4551xRGT_2_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~{PD}"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "VS-"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "VS-"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "VS-"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "VS-"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VS+"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(hide yes)
+					(name "VS+"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(hide yes)
+					(name "VS+"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(hide yes)
+					(name "VS+"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "See sheet \"/ADC_Interface/ADC_AA_1\" for more information."
+		(exclude_from_sim no)
+		(at 94.234 144.526 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22bae15d-8749-44d9-a6d2-3f2871bbdf55")
+	)
+	(text "CONNECTED\nINTERNALLY"
+		(exclude_from_sim no)
+		(at 144.78 114.935 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38b3013e-953e-4c20-b478-f34dd94d2553")
+	)
+	(text "CONNECTED\nINTERNALLY"
+		(exclude_from_sim no)
+		(at 144.78 79.375 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d839930c-5dbf-4a25-8e94-e493b8e0fef8")
+	)
+	(junction
+		(at 105.41 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06a21a00-2726-4383-8a1c-fcef07fa4dba")
+	)
+	(junction
+		(at 105.41 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bc490e8-45d5-40f5-9547-5770e953a9fe")
+	)
+	(junction
+		(at 119.38 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "330b4f4f-3b6e-471f-ac94-b3b536fbd7e2")
+	)
+	(junction
+		(at 119.38 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "448c32e0-56d0-48aa-a6a0-83426ff7c2ff")
+	)
+	(junction
+		(at 105.41 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2baad68-638d-4679-9e6b-0125404a44d0")
+	)
+	(junction
+		(at 132.08 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afab6003-dc16-4501-9fec-0f6c71c12e1d")
+	)
+	(junction
+		(at 105.41 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afd885ac-054c-4345-b4bb-60fcddb29d0f")
+	)
+	(junction
+		(at 132.08 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b272dd8d-5d15-40d0-a72a-0c3410dcf3bd")
+	)
+	(junction
+		(at 167.64 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e576332f-de43-47e4-93a5-641066304115")
+	)
+	(junction
+		(at 167.64 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e834f40f-68cc-4946-9043-3d4c29c43309")
+	)
+	(wire
+		(pts
+			(xy 92.71 80.01) (xy 96.52 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0245e0b0-ed6a-4b94-a456-5b94388c4460")
+	)
+	(wire
+		(pts
+			(xy 132.08 80.01) (xy 132.08 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "188e1b58-ec30-486a-ba37-fb3ad9ed72e4")
+	)
+	(wire
+		(pts
+			(xy 105.41 69.85) (xy 147.32 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f54230c-b671-42be-b380-d2b216ac6423")
+	)
+	(wire
+		(pts
+			(xy 105.41 135.255) (xy 105.41 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32de9c13-8471-420a-88d6-2ff8a4c94420")
+	)
+	(wire
+		(pts
+			(xy 132.08 115.57) (xy 119.38 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "333542a0-96e9-4d08-852f-055f8cf26aef")
+	)
+	(wire
+		(pts
+			(xy 165.735 80.01) (xy 167.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35dfc48b-eacb-48a6-93f4-b063ec76d35d")
+	)
+	(wire
+		(pts
+			(xy 167.64 69.85) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "363c9ec0-6843-4bbf-9503-cfbebb602236")
+	)
+	(wire
+		(pts
+			(xy 152.4 95.25) (xy 158.115 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b948c54-9aa6-488b-8aae-9e7c67cac4cc")
+	)
+	(wire
+		(pts
+			(xy 119.38 100.33) (xy 119.38 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f52058e-808a-4c8d-9beb-7658ad911de5")
+	)
+	(wire
+		(pts
+			(xy 105.41 125.73) (xy 105.41 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fd10998-55f9-49dd-b632-e95a3cd64df6")
+	)
+	(wire
+		(pts
+			(xy 132.08 92.71) (xy 134.62 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439c9187-72c5-425c-91b9-b27727bf0917")
+	)
+	(wire
+		(pts
+			(xy 105.41 69.85) (xy 105.41 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490b1eb7-aa7d-44e0-b706-0b343c8fac28")
+	)
+	(wire
+		(pts
+			(xy 119.38 95.25) (xy 119.38 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da0fb2b-f124-4d16-8ea3-d43285b33c5f")
+	)
+	(wire
+		(pts
+			(xy 105.41 95.25) (xy 105.41 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57995496-237a-4432-852c-bf35bc1e1079")
+	)
+	(wire
+		(pts
+			(xy 119.38 80.01) (xy 115.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6302d426-112a-4a6d-b10f-ce897de1c5d1")
+	)
+	(wire
+		(pts
+			(xy 158.115 95.25) (xy 158.115 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d38c00-5b18-47a8-916a-9830622692db")
+	)
+	(wire
+		(pts
+			(xy 105.41 125.73) (xy 147.32 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8dc870-a9c2-4d01-8415-957d43ae2c7e")
+	)
+	(wire
+		(pts
+			(xy 222.25 93.345) (xy 222.25 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "717d8947-762e-48bc-81b9-9c76ed52af6a")
+	)
+	(wire
+		(pts
+			(xy 105.41 127.635) (xy 105.41 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74db96db-979a-4eb9-95e0-3bc33737e039")
+	)
+	(wire
+		(pts
+			(xy 105.41 115.57) (xy 110.49 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7940a9d8-2996-4154-b6bb-9f67fcf13fe8")
+	)
+	(wire
+		(pts
+			(xy 167.64 80.01) (xy 167.64 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b77abb8-afdc-4a2a-acf3-039302c1858d")
+	)
+	(wire
+		(pts
+			(xy 132.08 102.87) (xy 134.62 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e327871-7a07-4df1-9c52-5d24e3182bec")
+	)
+	(wire
+		(pts
+			(xy 101.6 80.01) (xy 105.41 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86276d00-ab02-4962-91bf-d6a351e300ce")
+	)
+	(wire
+		(pts
+			(xy 152.4 100.33) (xy 158.115 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87340b20-43a9-4390-9a15-98fd1be0afd7")
+	)
+	(wire
+		(pts
+			(xy 139.065 115.57) (xy 142.24 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88f22443-4248-4ee6-a6b5-720813f3a784")
+	)
+	(wire
+		(pts
+			(xy 132.08 115.57) (xy 132.08 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1acc00-12e3-45d3-9dca-7562b82a6efd")
+	)
+	(wire
+		(pts
+			(xy 167.64 125.73) (xy 152.4 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92c5f377-3b67-4724-809a-1b07f2aa44a4")
+	)
+	(wire
+		(pts
+			(xy 171.45 115.57) (xy 167.64 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "938292fa-b637-4889-8421-6daa392070a8")
+	)
+	(wire
+		(pts
+			(xy 91.44 115.57) (xy 96.52 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d10661-9e6c-4d23-9e74-c0c35b490702")
+	)
+	(polyline
+		(pts
+			(xy 142.24 115.57) (xy 158.115 115.57)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "a2775976-4e37-4d83-bcd0-b084878f3178")
+	)
+	(wire
+		(pts
+			(xy 132.08 80.01) (xy 119.38 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f1dccc-4d79-4650-8496-987ebc5b5085")
+	)
+	(wire
+		(pts
+			(xy 133.985 115.57) (xy 132.08 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b86ef420-b7de-4016-b761-3e77bcd2406f")
+	)
+	(wire
+		(pts
+			(xy 139.065 80.01) (xy 142.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b990ad21-4c3b-4f72-b4ef-33681957437d")
+	)
+	(wire
+		(pts
+			(xy 158.115 100.33) (xy 158.115 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea0ed86-486a-4a69-8a1d-78a4f8b44b70")
+	)
+	(wire
+		(pts
+			(xy 158.115 115.57) (xy 160.655 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c29dd321-d55d-4a4e-87dc-db800102f805")
+	)
+	(wire
+		(pts
+			(xy 142.24 80.01) (xy 142.24 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c97007a2-2245-4221-83c6-429b04c6a680")
+	)
+	(polyline
+		(pts
+			(xy 142.24 80.01) (xy 158.115 80.01)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c9c3919b-35ba-4b24-8c6c-172c280b2548")
+	)
+	(wire
+		(pts
+			(xy 105.41 100.33) (xy 105.41 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f21e8f-acf7-4556-be83-7c6f6c4f30b0")
+	)
+	(wire
+		(pts
+			(xy 105.41 80.01) (xy 110.49 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd0190e4-059e-4572-a9ff-80969c61a48c")
+	)
+	(wire
+		(pts
+			(xy 119.38 115.57) (xy 115.57 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8a525a-deb4-4735-8216-64d58d26517d")
+	)
+	(wire
+		(pts
+			(xy 167.64 115.57) (xy 167.64 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d378422a-9c49-4134-8a4c-3a2ec27f70d0")
+	)
+	(wire
+		(pts
+			(xy 158.115 80.01) (xy 160.655 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6cdee65-2cf5-4bd4-aee9-276252002173")
+	)
+	(wire
+		(pts
+			(xy 105.41 64.77) (xy 105.41 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d864b648-bfad-4e69-b1b5-763b303ccf28")
+	)
+	(wire
+		(pts
+			(xy 142.24 105.41) (xy 142.24 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0aef0e-18e5-424d-9346-ec14c3852f76")
+	)
+	(wire
+		(pts
+			(xy 105.41 57.15) (xy 105.41 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de8ca36a-9dce-49ce-8e65-354e0eb00742")
+	)
+	(wire
+		(pts
+			(xy 101.6 115.57) (xy 105.41 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de94893a-41d8-4dca-9f24-97ffcdf321a9")
+	)
+	(wire
+		(pts
+			(xy 165.735 115.57) (xy 167.64 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e744d835-877b-4076-a665-643c52ecf020")
+	)
+	(wire
+		(pts
+			(xy 171.45 80.01) (xy 167.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42671af-ce9e-4451-affd-b0aeb2c6339f")
+	)
+	(wire
+		(pts
+			(xy 133.985 80.01) (xy 132.08 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd7b485-794a-4ba2-a296-b6955dc5c74c")
+	)
+	(label "OUT"
+		(at 153.67 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "711ea310-e83d-405d-9215-71c2245588d2")
+	)
+	(label "FDA_IN"
+		(at 130.81 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "820f313a-b8dc-4be1-825b-4848bb75af0a")
+	)
+	(label "FDA_~{IN}"
+		(at 131.445 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9911dc0-ba8c-4eb5-930e-d3881b97f540")
+	)
+	(label "~{FB}"
+		(at 142.24 115.57 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce73f80c-b640-4b88-b036-f1642c825f22")
+	)
+	(label "~{OUT}"
+		(at 154.305 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6470130-ffad-4c52-ae13-21eb30a790f5")
+	)
+	(label "FB"
+		(at 142.24 80.01 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0294f85-0660-49d4-95e9-76afebdf0a6c")
+	)
+	(hierarchical_label "SIG_P"
+		(shape input)
+		(at 171.45 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "150cdd91-8f68-4501-a938-b5d36f514daa")
+	)
+	(hierarchical_label "SIG_N"
+		(shape input)
+		(at 171.45 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51922044-2ab1-4900-8135-fdfbccb01fc7")
+	)
+	(hierarchical_label "VOCM"
+		(shape input)
+		(at 222.25 90.805 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e7b8ffe-a97e-4cb1-a0bc-8fc5e86e4698")
+	)
+	(hierarchical_label "VOCM"
+		(shape input)
+		(at 134.62 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "956e084a-1962-43a9-8f2b-9abec4b11761")
+	)
+	(hierarchical_label "~{IN}"
+		(shape input)
+		(at 92.71 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a263650c-ac84-4b2d-aaaa-a1a866b768a9")
+	)
+	(hierarchical_label "IN"
+		(shape input)
+		(at 91.44 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cdba6680-15f2-4db8-ac22-bcd47f13c5dd")
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 194.31 95.885 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f9fd19e")
+		(property "Reference" "CB1601"
+			(at 196.6468 94.7166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 196.6468 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 194.31 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0402C104K8PACTU"
+			(at 194.31 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "KEMET"
+			(at 194.31 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21a55724-0130-426b-b5f0-a01750244eda")
+		)
+		(pin "2"
+			(uuid "ea71e628-5b9f-4d08-92be-f00b28f8e8f4")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "CB1601")
+					(unit 1)
+				)
+			)
+			(project "Sensor_Board"
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
+					(reference "CB?")
+					(unit 1)
+				)
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
+					(reference "CB5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 99.06 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f9fd1db")
+		(property "Reference" "R1601"
+			(at 99.06 75.0316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 99.06 77.343 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr." "Yageo"
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0402FRE07270RL"
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe924601-a58d-4ac1-8aa7-9e854aaf50a5")
+		)
+		(pin "2"
+			(uuid "0b542ba8-da2f-4bfe-b0b7-6c7f9bb4fdd3")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "R1601")
+					(unit 1)
+				)
+			)
+			(project "Sensor_Board"
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 113.03 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f9fd1e1")
+		(property "Reference" "R1603"
+			(at 113.03 75.0316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330E"
+			(at 113.03 77.343 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 113.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr." "Yageo"
+			(at 113.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0402FRE07330RL"
+			(at 113.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfa99369-1bb1-412a-a8a7-29637cea6ca3")
+		)
+		(pin "2"
+			(uuid "7a396ca2-70ad-4ee0-b820-c15f5822cb57")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "R1603")
+					(unit 1)
+				)
+			)
+			(project "Sensor_Board"
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 149.86 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f9fd1e7")
+		(property "Reference" "R1605"
+			(at 149.86 64.8716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 149.86 67.183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 149.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0402FRE071KL"
+			(at 149.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Yageo"
+			(at 149.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe634cf5-1642-426b-b05f-4974a9e4bce9")
+		)
+		(pin "2"
+			(uuid "0ef5ae51-38c1-49b9-9edd-45d376603651")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "R1605")
+					(unit 1)
+				)
+			)
+			(project "Sensor_Board"
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 136.525 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f9fd1f3")
+		(property "Reference" "C1603"
+			(at 136.525 74.1934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.7n"
+			(at 136.525 76.5048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 136.525 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 136.525 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.525 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM1555C1H272GE01D"
+			(at 136.525 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Murata"
+			(at 136.525 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "596297a8-8eaa-4889-be1b-ba2d552a839f")
+		)
+		(pin "2"
+			(uuid "89f8c1ac-b35a-4d88-8d30-a831fe60a632")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "C1603")
+					(unit 1)
+				)
+			)
+			(project "Sensor_Board"
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 119.38 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "00000000-0000-0000-0000-00005f9fd1f9")
+		(property "Reference" "C1602"
+			(at 121.7168 96.6216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PH/DNP"
+			(at 121.7168 98.933 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." ""
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dc0eaa8-789d-4bba-81d4-a1215f31e87f")
+		)
+		(pin "2"
+			(uuid "fe8f9e16-1a2e-448b-989a-902cdffe2754")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "C1602")
+					(unit 1)
+				)
+			)
+			(project "Sensor_Board"
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 105.41 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f9fd1ff")
+		(property "Reference" "C1601"
+			(at 107.7468 96.6216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18n"
+			(at 107.7468 98.933 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM21B5C1H183JA01K"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Murata"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0780081-d82c-437b-8871-2cd9bb4d44d4")
+		)
+		(pin "2"
+			(uuid "9fc2ed3e-048e-46bb-a7c7-14c54c3fbfd5")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "C1601")
+					(unit 1)
+				)
+			)
+			(project "Sensor_Board"
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 105.41 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f9fd205")
+		(property "Reference" "C1606"
+			(at 107.7468 61.0616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220p"
+			(at 107.7468 63.373 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 105.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRT1555C1H221FA02D"
+			(at 105.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Murata"
+			(at 105.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "415bcb1c-ceb4-4429-aebb-499d4345025c")
+		)
+		(pin "2"
+			(uuid "e609e486-cb32-44ca-b89d-678e34763c0b")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "C1606")
+					(unit 1)
+				)
+			)
+			(project "Sensor_Board"
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
+					(reference "220p?")
+					(unit 1)
+				)
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 99.06 115.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f9fd226")
+		(property "Reference" "R1602"
+			(at 99.06 120.5484 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 99.06 118.237 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr." "Yageo"
+			(at 99.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0402FRE07270RL"
+			(at 99.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35ab63f0-cc23-4c50-928f-570911fe419e")
+		)
+		(pin "2"
+			(uuid "d405800d-f4c0-4493-b439-ad506141131b")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "R1602")
+					(unit 1)
+				)
+			)
+			(project "Sensor_Board"
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 113.03 115.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f9fd22c")
+		(property "Reference" "R1604"
+			(at 113.03 120.5484 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330E"
+			(at 113.03 118.237 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr." "Yageo"
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0402FRE07330RL"
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5eda4333-18dc-4dc7-bffc-a96ae3ff022b")
+		)
+		(pin "2"
+			(uuid "ed0889c2-3b1f-44ea-884e-adacc210365f")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "R1604")
+					(unit 1)
+				)
+			)
+			(project "Sensor_Board"
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 149.86 125.73 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f9fd232")
+		(property "Reference" "R1606"
+			(at 149.86 130.7084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 149.86 128.397 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 149.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0402FRE071KL"
+			(at 149.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Yageo"
+			(at 149.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a02ac33b-88a9-4ac7-8b9b-b047d6fe100f")
+		)
+		(pin "2"
+			(uuid "20611cea-9385-40dd-822c-ff5e3d1baa58")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "R1606")
+					(unit 1)
+				)
+			)
+			(project "Sensor_Board"
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 136.525 115.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f9fd23e")
+		(property "Reference" "C1604"
+			(at 136.525 121.3866 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.7n"
+			(at 136.525 119.0752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 136.525 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 136.525 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.525 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM1555C1H272GE01D"
+			(at 136.525 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Murata"
+			(at 136.525 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc49de8f-7354-4349-9515-b122005bcdc2")
+		)
+		(pin "2"
+			(uuid "6a7a8bb1-4d76-45b0-9da9-635fc9706b29")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "C1604")
+					(unit 1)
+				)
+			)
+			(project "Sensor_Board"
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 105.41 130.175 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f9fd244")
+		(property "Reference" "C1607"
+			(at 103.0732 129.0066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220p"
+			(at 103.0732 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 105.41 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRT1555C1H221FA02D"
+			(at 105.41 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Murata"
+			(at 105.41 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a046c0e-c581-4280-8f89-2fa12d84ffe0")
+		)
+		(pin "2"
+			(uuid "1f8e974d-5f9a-4aae-8bbf-07e2e8b83670")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "C1607")
+					(unit 1)
+				)
+			)
+			(project "Sensor_Board"
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
+					(reference "220p?")
+					(unit 1)
+				)
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "grootvoet:GND_SENSOR")
+		(at 105.41 135.255 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12511b3b-e589-4a2e-8af8-caf7a68ad960")
+		(property "Reference" "#PWR01602"
+			(at 105.41 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_SENSOR"
+			(at 105.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c5b6e8c-7d19-4785-a3f9-7a312a35aa1a")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "#PWR01602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "grootvoet:GND_SENSOR")
+		(at 222.25 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ece324a-f517-4912-bf53-50d95a917ab5")
+		(property "Reference" "#PWR01609"
+			(at 222.25 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_SENSOR"
+			(at 222.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc8ee358-f419-46ef-86c8-5c2ecf2c314e")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "#PWR01609")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "grootvoet:GND_SENSOR")
+		(at 105.41 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52309fab-0569-46a0-845b-d5efe720a5f4")
+		(property "Reference" "#PWR01601"
+			(at 105.41 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_SENSOR"
+			(at 105.41 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0861dc8c-3c4e-4697-8961-31c20a76e2c5")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "#PWR01601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "grootvoet:+3.3V_SENSOR")
+		(at 194.31 93.345 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "526bd800-4947-4a41-a425-d2ebfb2ee4b4")
+		(property "Reference" "#PWR01605"
+			(at 194.31 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_SENSOR"
+			(at 194.31 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84a3998f-2206-48b0-877a-4c3f2b01fa74")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "#PWR01605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 222.25 95.885 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55b8f682-f9c1-48ad-b3f0-ea36e9940259")
+		(property "Reference" "CB1602"
+			(at 224.5868 94.7166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 224.5868 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 222.25 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0402C104K8PACTU"
+			(at 222.25 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "KEMET"
+			(at 222.25 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a315b229-c54f-4a1d-9f1f-ce749c347b77")
+		)
+		(pin "2"
+			(uuid "bb4242d3-651b-4429-bf51-6ed2b4761fe4")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "CB1602")
+					(unit 1)
+				)
+			)
+			(project "Sensor_Board"
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
+					(reference "CB3")
+					(unit 1)
+				)
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9c4001"
+					(reference "CB?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "grootvoet:GND_SENSOR")
+		(at 212.09 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55c55dc9-23c6-4454-ba9d-236d93ef6dc2")
+		(property "Reference" "#PWR01703"
+			(at 212.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_SENSOR"
+			(at 219.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "135bbe12-2b6d-419f-a762-c0c18abe454f")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "#PWR01703")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "grootvoet:THS4551xRGT")
+		(at 209.55 124.46 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58549e9a-c075-493a-a40f-ffa5168f4d59")
+		(property "Reference" "U1701"
+			(at 215.9 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THS4551xRGT"
+			(at 215.9 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "grootvoet:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias"
+			(at 209.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths4551.pdf"
+			(at 209.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "THS4551IRGTR"
+			(at 209.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Texas Instruments"
+			(at 209.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b44fd50-2d47-4a50-b476-a58eba3b4452")
+		)
+		(pin "10"
+			(uuid "2781d383-a547-419c-a937-06cf91206845")
+		)
+		(pin "11"
+			(uuid "136c7364-a415-469b-b0de-49ee78fb4658")
+		)
+		(pin "2"
+			(uuid "95e1d644-0c56-4ffa-a4b2-f485b5e1dae9")
+		)
+		(pin "3"
+			(uuid "dd929012-018c-4228-833c-ec2046f3bab3")
+		)
+		(pin "4"
+			(uuid "0cdef8da-0107-47b1-8022-be7d4a3a0cbd")
+		)
+		(pin "9"
+			(uuid "3222b952-c2e1-48cd-b900-5df4e4322b2c")
+		)
+		(pin "12"
+			(uuid "6e00c1fe-c0b0-4736-b9c9-c1d7d128d878")
+		)
+		(pin "13"
+			(uuid "f65a1873-0d17-47cd-b716-0188d0593f27")
+		)
+		(pin "14"
+			(uuid "fa5b1335-2808-4532-b55f-92c64e8ef247")
+		)
+		(pin "15"
+			(uuid "1751347b-d748-419f-b5b5-098825e76915")
+		)
+		(pin "16"
+			(uuid "01017fe5-603a-4453-9391-8c6cc98dbd8e")
+		)
+		(pin "17"
+			(uuid "e4b009a4-c21b-4cdc-bd85-65c6d11bd821")
+		)
+		(pin "5"
+			(uuid "36d262e6-30e6-4696-84a1-63cdf3e37fbc")
+		)
+		(pin "6"
+			(uuid "61be39de-0c8d-4cc7-b1d9-bccd90798026")
+		)
+		(pin "7"
+			(uuid "2edd5a4b-dfe7-43d0-9246-2d2881de825d")
+		)
+		(pin "8"
+			(uuid "fa189788-3db0-4db5-88c9-d345c225964e")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "U1701")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 208.28 95.885 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63751fb1-ce8a-4814-a0ee-f21125e3c32a")
+		(property "Reference" "C1605"
+			(at 212.09 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 212.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 208.28 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0402C105K9PACTU"
+			(at 208.28 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "KEMET"
+			(at 208.28 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fc359d9-9b92-4a80-9c0b-d2af35349c91")
+		)
+		(pin "2"
+			(uuid "507e78bf-5b7a-437d-a23a-0478c1490ceb")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "C1605")
+					(unit 1)
+				)
+			)
+			(project "Sensor_Board"
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/7578b70c-b222-4cd3-b4ed-e0af47d4ab95/00000000-0000-0000-0000-00005f9ed899"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "grootvoet:+3.3V_SENSOR")
+		(at 209.55 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a55fee2-d8a9-4f29-9474-29cec48f22d3")
+		(property "Reference" "#PWR01701"
+			(at 209.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_SENSOR"
+			(at 209.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "451c75ea-1139-4296-af20-3fd163b858e1")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "#PWR01701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 163.195 80.01 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fcebbbd-8981-4762-b1bf-6eb13c1a6565")
+		(property "Reference" "R1607"
+			(at 163.195 75.0316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15E"
+			(at 163.195 77.343 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 163.195 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.195 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.195 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0402FRE0715RL"
+			(at 163.195 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Yageo"
+			(at 163.195 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5efbf532-147c-4c27-91f4-aa813ffd5d11")
+		)
+		(pin "2"
+			(uuid "9db01306-2834-4e54-83e1-e52680452b08")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "R1607")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "grootvoet:GND_SENSOR")
+		(at 194.31 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b80a65e5-779e-417f-ba7b-3cee75c7a016")
+		(property "Reference" "#PWR01606"
+			(at 194.31 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_SENSOR"
+			(at 194.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "177f6c8d-2305-4386-b6ca-bc3f5fe980f9")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "#PWR01606")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "grootvoet:GND_SENSOR")
+		(at 207.01 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc1c4820-c22a-4f75-9c00-17d1ba80e496")
+		(property "Reference" "#PWR01702"
+			(at 207.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_SENSOR"
+			(at 200.152 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57fe56f7-3dcd-4e2c-813c-f297b6b2f362")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "#PWR01702")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "grootvoet:+3.3V_SENSOR")
+		(at 208.28 93.345 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3fbd2d5-0459-4438-af36-6a676626cad3")
+		(property "Reference" "#PWR01607"
+			(at 208.28 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_SENSOR"
+			(at 208.28 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a09a8b4-30a4-4503-9b4e-3824981b90cc")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "#PWR01607")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "grootvoet:GND_SENSOR")
+		(at 208.28 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c89366bf-145c-4160-b7de-3063866a4727")
+		(property "Reference" "#PWR01608"
+			(at 208.28 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_SENSOR"
+			(at 208.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37c73937-527b-45a6-b4a3-46b094e783d1")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "#PWR01608")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "grootvoet:THS4551xRGT")
+		(at 144.78 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5e66af1-0130-442c-90c9-d0df93d3f4fe")
+		(property "Reference" "U1701"
+			(at 143.8911 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THS4551xRGT"
+			(at 143.8911 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "grootvoet:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias"
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths4551.pdf"
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "THS4551IRGTR"
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Texas Instruments"
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73fa1e72-5f12-4cae-8eee-0aa8384b5295")
+		)
+		(pin "10"
+			(uuid "bef86967-e012-4e71-b58c-25a68883ddac")
+		)
+		(pin "11"
+			(uuid "c20d1f48-e2c5-4378-ad3c-fae7ced9c0b9")
+		)
+		(pin "2"
+			(uuid "67073eb5-b07c-4a9b-9427-875f0405379f")
+		)
+		(pin "3"
+			(uuid "0614a91e-98ab-4fbe-b920-a82ea97d74e2")
+		)
+		(pin "4"
+			(uuid "b0345407-b7a7-414a-ab94-09a5ee4a897e")
+		)
+		(pin "9"
+			(uuid "c49baa4a-2d2b-4a00-8f11-6c5c9452cb6d")
+		)
+		(pin "12"
+			(uuid "65b7ee53-63e7-4c9f-9538-dc4676f6543a")
+		)
+		(pin "13"
+			(uuid "9225fb24-e6ad-4964-a3af-fbebead79e65")
+		)
+		(pin "14"
+			(uuid "29195dd1-08d2-4c08-a3f1-204eee77d667")
+		)
+		(pin "15"
+			(uuid "cf7c6b3c-d293-47b8-8775-5ef9458543f3")
+		)
+		(pin "16"
+			(uuid "49fe2e0c-174b-4ee9-b697-64140dfe8e80")
+		)
+		(pin "17"
+			(uuid "79ad4134-f7a6-4260-97d0-aa568088d687")
+		)
+		(pin "5"
+			(uuid "daea834c-f75a-4265-9dd1-3310bced2582")
+		)
+		(pin "6"
+			(uuid "224c5327-5004-451a-8ea9-a10af57bdba6")
+		)
+		(pin "7"
+			(uuid "265599f7-9db8-4d09-a164-90b532938a33")
+		)
+		(pin "8"
+			(uuid "ed327aa5-5ff5-4fa2-bae3-6b7331e33439")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "U1701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 163.195 115.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fac244c7-15d9-48a1-904c-b05dcb08e84a")
+		(property "Reference" "R1608"
+			(at 163.195 110.5916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15E"
+			(at 163.195 112.903 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 163.195 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.195 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.195 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0402FRE0715RL"
+			(at 163.195 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Yageo"
+			(at 163.195 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2264b8eb-0acc-487d-97b8-9da51f9daa46")
+		)
+		(pin "2"
+			(uuid "1e30ff90-f5a6-4360-a690-5ae764ecf3a1")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "R1608")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "grootvoet:+3.3V_SENSOR")
+		(at 201.93 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcd119cc-9c53-4d28-b8db-6f633bd8313f")
+		(property "Reference" "#PWR01704"
+			(at 205.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_SENSOR"
+			(at 200.914 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "831656c9-07e7-4f19-9acd-4716527f4305")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/b53619ea-788f-4bc9-9946-594014d7d22c/00000000-0000-0000-0000-00005f9ed899"
+					(reference "#PWR01704")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
