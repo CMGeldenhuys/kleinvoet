@@ -3557,6 +3557,26 @@
 		)
 		(uuid "7f135a96-cd85-4cba-9e64-81794bfe224a")
 	)
+	(text_box "Note: See \"Sparkfun Battery Babysitter\" for some good implementation notes."
+		(exclude_from_sim no)
+		(at 128.27 151.765 0)
+		(size 33.02 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8224ca0c-c32f-482b-8e0e-69c934aca657")
+	)
 	(text_box "POS 3 (4/8) : SYSOFF(0), DVCC_EN(1)\n			 PWR(1), LDO(1)\n			 >> SYSTEM ON\n\nPOS 2 (2/6) : SYSOFF(0), DVCC_EN(0)\n			 PWR(1), LDO(0)\n			 >> CHARGE ONLY\n\nPOS 1 (1/5) : SYSOFF(1), DVCC_EN(0)\n			 PWR(0), LDO(0)\n			 >> SYSTEM OFF\n				(BATT present)"
 		(exclude_from_sim no)
 		(at 132.715 163.195 0)
