@@ -7212,7 +7212,7 @@
 		(uuid "04089356-f8da-46e7-ac27-46c17a7d2aca")
 	)
 	(label "~{CE}"
-		(at 29.21 113.03 180)
+		(at 29.21 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7252,7 +7252,7 @@
 		(uuid "1375947e-cba6-401e-958c-3568e596f3e5")
 	)
 	(label "DVCC_EN"
-		(at 29.21 118.11 180)
+		(at 29.21 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7392,7 +7392,7 @@
 		(uuid "b28f3b6d-c066-40fe-b4e9-8aaf5fbeac99")
 	)
 	(label "SW_SYS_ON"
-		(at 45.72 113.03 180)
+		(at 45.72 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7432,7 +7432,7 @@
 		(uuid "d8503298-c06b-441b-996b-21c277cd4820")
 	)
 	(label "SW_SYS_OFF"
-		(at 45.72 118.11 180)
+		(at 45.72 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9072,7 +9072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "026236b9-d32c-4bfd-91b7-f784e9c1e531")
-		(property "Reference" "R?"
+		(property "Reference" "R923"
 			(at 125.73 80.645 90)
 			(effects
 				(font
@@ -9141,7 +9141,7 @@
 		(instances
 			(project "kleinvoet"
 				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005eede770"
-					(reference "R?")
+					(reference "R923")
 					(unit 1)
 				)
 			)
@@ -13339,90 +13339,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 64.77 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "91199ddb-9774-4f8b-8beb-b6e485eec4ad")
-		(property "Reference" "R910"
-			(at 64.77 117.475 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 64.77 113.665 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 64.77 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RT0402FRE07100KL"
-			(at 64.77 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Yageo"
-			(at 64.77 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90a3b1b5-c235-4392-95d4-676fe88252a6")
-		)
-		(pin "2"
-			(uuid "ff8b37ab-9ccf-4926-9942-da30829aeb00")
-		)
-		(instances
-			(project "kleinvoet"
-				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005eede770"
-					(reference "R910")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 146.05 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15640,7 +15556,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "ecad7911-c64c-40d2-b400-01e5c2c84f87")
-		(property "Reference" "R?"
+		(property "Reference" "R925"
 			(at 150.495 69.85 90)
 			(effects
 				(font
@@ -15709,7 +15625,7 @@
 		(instances
 			(project "kleinvoet"
 				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005eede770"
-					(reference "R?")
+					(reference "R925")
 					(unit 1)
 				)
 			)
@@ -15844,6 +15760,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 64.77 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f25cb734-9d0a-4469-99c1-488134a56005")
+		(property "Reference" "R910"
+			(at 65.024 112.522 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 64.77 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 64.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0402FRE1310KL"
+			(at 64.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Yageo"
+			(at 64.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e67f7713-b586-48a3-8c99-82d41141ba01")
+		)
+		(pin "2"
+			(uuid "a57ccbbe-b3cb-4c30-b493-13ba55f14809")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005eede770"
+					(reference "R910")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 220.345 110.49 0)
 		(unit 1)
@@ -15949,7 +15949,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "f74f226b-1d7d-49bb-945f-afeb1a808e32")
-		(property "Reference" "R?"
+		(property "Reference" "R924"
 			(at 144.145 69.85 90)
 			(effects
 				(font
@@ -16018,7 +16018,7 @@
 		(instances
 			(project "kleinvoet"
 				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005eede770"
-					(reference "R?")
+					(reference "R924")
 					(unit 1)
 				)
 			)
