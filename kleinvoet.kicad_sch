@@ -4070,7 +4070,7 @@
 		)
 		(uuid "33471464-0776-4571-8533-583c5c4696c4")
 	)
-	(text_box "TODO:\n- Change LED pins to get access to timer\n- GNSS LED text\n- Move to Rev D.\n- Add LED text for switch\n- Move VCP text inline with LED\n- Add GNSS text"
+	(text_box "TODO:\n- Change LED pins to get access to timer"
 		(exclude_from_sim no)
 		(at -46.355 19.685 0)
 		(size 42.545 18.415)
@@ -10956,7 +10956,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c0fab66-e590-4fe7-8105-14db212afdd1")
-		(property "Reference" "R?"
+		(property "Reference" "R109"
 			(at 40.64 161.925 90)
 			(effects
 				(font
@@ -11025,7 +11025,7 @@
 		(instances
 			(project "kleinvoet"
 				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885"
-					(reference "R?")
+					(reference "R109")
 					(unit 1)
 				)
 			)
