@@ -128416,7 +128416,7 @@
 		)
 	)
 	(gr_text "REV. ${PROJECT_REV}"
-		(at 144 90.25 0)
+		(at 144 90.025 0)
 		(layer "F.SilkS")
 		(uuid "bc12d55d-3029-4430-9232-337b1a62028e")
 		(effects
