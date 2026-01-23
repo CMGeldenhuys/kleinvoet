@@ -3407,7 +3407,7 @@
 	)
 	(rectangle
 		(start 15.875 52.07)
-		(end 184.15 100.965)
+		(end 156.21 100.965)
 		(stroke
 			(width 0)
 			(type default)
@@ -3442,8 +3442,8 @@
 		(uuid c3027563-fcbe-411c-bad5-6d10253d8dd6)
 	)
 	(rectangle
-		(start 165.735 58.42)
-		(end 181.61 84.455)
+		(start 157.988 41.91)
+		(end 173.99 67.31)
 		(stroke
 			(width 0)
 			(type default)
@@ -3492,7 +3492,7 @@
 	)
 	(text "Charger Resivoir"
 		(exclude_from_sim no)
-		(at 165.735 58.42 0)
+		(at 158.115 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3620,9 +3620,9 @@
 		)
 		(uuid "c38f28b6-5bd4-4cf9-b273-1e7b230f6b42")
 	)
-	(text "BQ24075T Variant"
+	(text "BQ2407xT Variant"
 		(exclude_from_sim no)
-		(at 152.908 68.326 90)
+		(at 152.4 56.134 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3630,6 +3630,17 @@
 			(justify right bottom)
 		)
 		(uuid "ce5e8403-7040-497e-91e9-122db1e5d88a")
+	)
+	(text "(Internal PULL-UP to VBAT)"
+		(exclude_from_sim no)
+		(at 77.724 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7178042-88a2-42b7-a5fd-a07766fa5b4d")
 	)
 	(text "Used by ADC and amplifiers"
 		(exclude_from_sim no)
@@ -3749,7 +3760,7 @@
 		)
 		(uuid "35b40312-f2f4-466c-8d50-55c59a45d0b6")
 	)
-	(text_box "SW=ON:\nSelect V_{BAT} or V_{USB} (priority) for system VCC. Charging remains active, charging is controlled by MCU (default: USB100). DVCC_{EN}=Hi, activates main system. AVCC_{EN}=Hi (pull-up) when DVCC is active. AVCC can be disabled using load switch."
+	(text_box "SW=ON:\nSYSOFF=Low (SW2), System active. Select V_{BAT} or V_{USB} (priority) for system VCC. Charging remains active, charging is controlled by MCU (default: USB100). DVCC_{EN}=Hi, activates main system. AVCC_{EN}=Hi (pull-up) when DVCC is active. AVCC can be disabled using load switch."
 		(exclude_from_sim no)
 		(at 15.24 156.845 0)
 		(size 104.14 9.525)
@@ -3789,7 +3800,7 @@
 		)
 		(uuid "6d7032ef-d71e-4a02-b17f-4e5ff7d4e309")
 	)
-	(text_box "SW=CHARGE ONLY\nExpect both V_{USB} and V_{BAT} to be present. ~{CE}=0, charging is set active. EN2=Hi sets BQ to fast charge (see ILIM)."
+	(text_box "SW=CHARGE ONLY\nSYSOFF=Low (SW2), System active. Expect both V_{USB} and V_{BAT} to be present. ~{CE}=0, charging is set active. EN2=Hi sets BQ to fast charge (see ILIM)."
 		(exclude_from_sim no)
 		(at 15.24 149.225 0)
 		(size 104.14 7.62)
@@ -3949,7 +3960,7 @@
 		)
 		(uuid "9cbbc0b4-6476-466b-b9a0-289764f3306e")
 	)
-	(text_box "SW=OFF\nSYSOFF=Low (active), this connects V_{BAT} to the output. Charging is disabled (~{CE}=1, and Q1 off).\nEN1=EN2=Low (USB100), if USB is present V_{USB} is connected to output with a 100mA current limit.\nRegardless of source, rest of system remains powered down (DVCC_{EN}=Low)."
+	(text_box "SW=OFF\nSYSOFF=High (interal, disabled), disconnects V_{BAT} from the output. Charging is disabled (~{CE}=1, and Q1 off). EN1=EN2=Low (USB100), if USB is present V_{USB} is connected to output with a 100mA current \nlimit. Regardless of source, rest of system remains powered down (DVCC_{EN}=Low)."
 		(exclude_from_sim no)
 		(at 15.24 139.7 0)
 		(size 104.14 9.525)
@@ -4049,6 +4060,26 @@
 			(justify left top)
 		)
 		(uuid "e9c927c0-6364-4ba7-adc0-b0da803be701")
+	)
+	(text_box "Without charge resivoir system will not boot. Designed to have cap on VBATT."
+		(exclude_from_sim no)
+		(at 130.81 40.132 0)
+		(size 27.178 10.922)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ff95aa5e-da80-4134-8893-b40d550976ab")
 	)
 	(junction
 		(at 57.15 26.67)
@@ -4195,6 +4226,12 @@
 		(uuid "d5be7fca-8a98-4898-86c2-41ec42aafb5d")
 	)
 	(junction
+		(at 86.36 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8c2a03d-a1b6-47bf-a6eb-422034300bf7")
+	)
+	(junction
 		(at 20.32 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4231,20 +4268,8 @@
 		(uuid "fcf86115-33b8-404b-96b7-af628dccf0c8")
 	)
 	(no_connect
-		(at 91.44 114.3)
-		(uuid "175d107a-84c3-4d36-ad15-744d58ca38dd")
-	)
-	(no_connect
-		(at 101.6 114.3)
-		(uuid "551c318d-7a22-49da-ab64-09844402c9f7")
-	)
-	(no_connect
-		(at 91.44 116.84)
+		(at 86.36 116.84)
 		(uuid "dfeebf05-ea5c-482b-9cc9-d6e8d2dd2671")
-	)
-	(no_connect
-		(at 91.44 111.76)
-		(uuid "fa435ada-325e-4bc9-97b7-a928416c0cbb")
 	)
 	(polyline
 		(pts
@@ -4398,6 +4423,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 111.76) (xy 86.36 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16eb606f-717b-4bc9-856b-be991b15290c")
+	)
+	(wire
+		(pts
 			(xy 19.685 67.31) (xy 19.685 72.39)
 		)
 		(stroke
@@ -4548,7 +4583,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 77.47) (xy 168.91 73.66)
+			(xy 161.29 60.96) (xy 161.29 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4868,7 +4903,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 82.55) (xy 123.19 82.55)
+			(xy 114.3 82.55) (xy 125.73 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4925,6 +4960,16 @@
 			(type default)
 		)
 		(uuid "655b6dfe-207e-4dce-b78c-46f682755c40")
+	)
+	(wire
+		(pts
+			(xy 104.14 114.3) (xy 107.95 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664c1b1f-cc05-4acb-b3c4-7c30f93845bd")
 	)
 	(polyline
 		(pts
@@ -5118,7 +5163,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 82.55) (xy 128.27 82.55)
+			(xy 132.08 82.55) (xy 130.81 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5236,6 +5281,16 @@
 		)
 		(uuid "98b71a06-2295-4842-b19c-396fb6718b1c")
 	)
+	(wire
+		(pts
+			(xy 96.52 114.3) (xy 99.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf78677-463b-4d28-a149-3d1d230b3813")
+	)
 	(polyline
 		(pts
 			(xy 93.98 48.26) (xy 15.24 48.26)
@@ -5318,7 +5373,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 68.58) (xy 168.91 64.77)
+			(xy 161.29 52.07) (xy 161.29 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5345,6 +5400,16 @@
 			(type default)
 		)
 		(uuid "ae51a0a7-f11f-4eab-b11e-09882032ca5b")
+	)
+	(wire
+		(pts
+			(xy 82.55 111.76) (xy 86.36 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af68af2a-a569-48aa-b004-a6c250f99682")
 	)
 	(wire
 		(pts
@@ -6137,7 +6202,7 @@
 				)
 				(uuid "8c9ae8de-66fe-4cdd-b7a0-68e715eaa6e9")
 			)
-			(table_cell "0"
+			(table_cell "1"
 				(exclude_from_sim no)
 				(at 60.325 170.18 0)
 				(size 8.89 2.54)
@@ -6154,7 +6219,7 @@
 				)
 				(uuid "a272454d-d443-42eb-9b10-a80473cf73c9")
 			)
-			(table_cell "1"
+			(table_cell "1*"
 				(exclude_from_sim no)
 				(at 69.215 170.18 0)
 				(size 5.08 2.54)
@@ -6273,7 +6338,7 @@
 				)
 				(uuid "d8d855f6-765f-4615-921a-00915149ae1d")
 			)
-			(table_cell ""
+			(table_cell "rgb(138, 142, 152)"
 				(exclude_from_sim no)
 				(at 15.24 172.72 0)
 				(size 15.24 2.54)
@@ -6358,7 +6423,7 @@
 				)
 				(uuid "53891b35-3b21-4ae2-a07f-2155a951ebaa")
 			)
-			(table_cell "1"
+			(table_cell "1*"
 				(exclude_from_sim no)
 				(at 69.215 172.72 0)
 				(size 5.08 2.54)
@@ -6460,7 +6525,7 @@
 				)
 				(uuid "535f3d50-faf2-4651-b848-20d5ac5254fd")
 			)
-			(table_cell ""
+			(table_cell "rgb(138, 142, 152)"
 				(exclude_from_sim no)
 				(at 106.045 172.72 0)
 				(size 13.335 2.54)
@@ -6545,7 +6610,7 @@
 				)
 				(uuid "d5a5c7d8-a77e-4fbb-8212-861169960aaa")
 			)
-			(table_cell "0"
+			(table_cell "0*"
 				(exclude_from_sim no)
 				(at 60.325 175.26 0)
 				(size 8.89 2.54)
@@ -6630,7 +6695,7 @@
 				)
 				(uuid "8b074dc8-16da-4e00-bbc2-dbfc25ea0c50")
 			)
-			(table_cell "1"
+			(table_cell "1*"
 				(exclude_from_sim no)
 				(at 93.345 175.26 0)
 				(size 6.35 2.54)
@@ -6715,7 +6780,7 @@
 				)
 				(uuid "1809dcc8-d9f9-4b26-9de3-4120cdf2fef4")
 			)
-			(table_cell "1"
+			(table_cell "1*"
 				(exclude_from_sim no)
 				(at 35.56 177.8 0)
 				(size 12.7 3.048)
@@ -6749,7 +6814,7 @@
 				)
 				(uuid "ee494191-1bcd-4b71-aeae-dd9ab91e34ee")
 			)
-			(table_cell "0"
+			(table_cell "0*"
 				(exclude_from_sim no)
 				(at 60.325 177.8 0)
 				(size 8.89 3.048)
@@ -7107,6 +7172,16 @@
 		)
 		(uuid "d8503298-c06b-441b-996b-21c277cd4820")
 	)
+	(label "SYSOFF"
+		(at 82.55 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da35dbf5-6ce0-4d5b-8002-55148d2f4fa8")
+	)
 	(label "SW_SYS_OFF"
 		(at 45.72 113.03 180)
 		(effects
@@ -7162,7 +7237,7 @@
 	)
 	(hierarchical_label "~{CHG_DET}"
 		(shape output)
-		(at 129.54 82.55 0)
+		(at 132.08 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7621,7 +7696,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 77.47 0)
+		(at 161.29 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7629,7 +7704,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef0659b")
 		(property "Reference" "#PWR0908"
-			(at 168.91 83.82 0)
+			(at 161.29 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7638,7 +7713,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 169.037 81.8642 0)
+			(at 161.417 65.3542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7646,7 +7721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 77.47 0)
+			(at 161.29 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7655,7 +7730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 77.47 0)
+			(at 161.29 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7664,7 +7739,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 77.47 0)
+			(at 161.29 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7685,7 +7760,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 168.91 64.77 0)
+		(at 161.29 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7693,7 +7768,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef082dd")
 		(property "Reference" "#PWR0907"
-			(at 168.91 68.58 0)
+			(at 161.29 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7702,7 +7777,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 169.291 60.3758 0)
+			(at 161.671 43.8658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7710,7 +7785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 64.77 0)
+			(at 161.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7719,7 +7794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 64.77 0)
+			(at 161.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7728,7 +7803,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 64.77 0)
+			(at 161.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8091,7 +8166,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 168.91 71.12 0)
+		(at 161.29 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8099,7 +8174,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f129b56")
 		(property "Reference" "C903"
-			(at 171.2468 69.9516 0)
+			(at 163.6268 53.4416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8108,7 +8183,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 171.2468 72.263 0)
+			(at 163.6268 55.753 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8117,7 +8192,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 168.91 71.12 0)
+			(at 161.29 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8126,7 +8201,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 71.12 0)
+			(at 161.29 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8135,7 +8210,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 71.12 0)
+			(at 161.29 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,7 +8218,7 @@
 			)
 		)
 		(property "MPN" "GRM155R60J106ME05D"
-			(at 168.91 71.12 0)
+			(at 161.29 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8152,7 +8227,7 @@
 			)
 		)
 		(property "Mfr." "Murata"
-			(at 168.91 71.12 0)
+			(at 161.29 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8741,7 +8816,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 125.73 82.55 270)
+		(at 128.27 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8749,7 +8824,7 @@
 		(dnp no)
 		(uuid "026236b9-d32c-4bfd-91b7-f784e9c1e531")
 		(property "Reference" "R923"
-			(at 125.73 80.645 90)
+			(at 128.27 80.645 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8757,7 +8832,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 125.73 84.455 90)
+			(at 128.27 84.455 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8765,7 +8840,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 125.73 82.55 0)
+			(at 128.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8774,7 +8849,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 82.55 0)
+			(at 128.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8783,7 +8858,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 82.55 0)
+			(at 128.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8791,7 +8866,7 @@
 			)
 		)
 		(property "MPN" "RT0402FRE1310KL"
-			(at 125.73 82.55 0)
+			(at 128.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8800,7 +8875,7 @@
 			)
 		)
 		(property "Mfr." "Yageo"
-			(at 125.73 82.55 0)
+			(at 128.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8818,90 +8893,6 @@
 			(project "kleinvoet"
 				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005eede770"
 					(reference "R923")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 30.48 190.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0cfdbd36-294e-41d5-83b4-803dd8a7bfcc")
-		(property "Reference" "R905"
-			(at 30.48 188.595 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 30.48 192.405 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 30.48 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RT0402FRE1310KL"
-			(at 30.48 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Yageo"
-			(at 30.48 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce008251-541b-4782-bce0-a2afe178dd2b")
-		)
-		(pin "2"
-			(uuid "fbbe7cc9-8909-458b-9801-f4526e6ae3aa")
-		)
-		(instances
-			(project "kleinvoet"
-				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005eede770"
-					(reference "R905")
 					(unit 1)
 				)
 			)
@@ -10106,90 +10097,6 @@
 			(project "kleinvoet"
 				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005eede770"
 					(reference "R922")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 66.04 190.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "27c5d162-e109-4c58-93af-c58948c23ae9")
-		(property "Reference" "R908"
-			(at 66.294 187.452 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 66.04 192.405 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 66.04 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RT0402FRE1310KL"
-			(at 66.04 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." "Yageo"
-			(at 66.04 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57e11dfe-e390-43a9-b6b5-4d6e188721c6")
-		)
-		(pin "2"
-			(uuid "c3666b20-f1c0-45ea-914a-177e714811cc")
-		)
-		(instances
-			(project "kleinvoet"
-				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005eede770"
-					(reference "R908")
 					(unit 1)
 				)
 			)
@@ -11784,6 +11691,92 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 30.48 190.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f20e9a4-f527-4840-a5a8-82bf8c6ced39")
+		(property "Reference" "R905"
+			(at 27.94 192.532 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 28.702 188.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 30.48 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0402FRE072K2L"
+			(at 30.48 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Yageo"
+			(at 30.48 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6eef1fc-8f57-438f-bc2a-4bf3958dc16b")
+		)
+		(pin "2"
+			(uuid "2a4f08ad-1559-4188-a9f8-196659ceed1e")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005eede770"
+					(reference "R905")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 149.86 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12738,6 +12731,70 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 107.95 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8329b394-8bb5-4753-aa78-8f348844df02")
+		(property "Reference" "#PWR0932"
+			(at 114.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 112.3442 114.173 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fcbf2096-6141-41a0-9128-9fd629f0d475")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005eede770"
+					(reference "#PWR0932")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 71.12 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13542,7 +13599,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DP3T")
-		(at 96.52 114.3 180)
+		(at 91.44 114.3 180)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13551,7 +13608,7 @@
 		(fields_autoplaced yes)
 		(uuid "a073b75c-80dc-421f-9f05-fb4dc78d44fb")
 		(property "Reference" "SW901"
-			(at 96.52 107.95 0)
+			(at 91.44 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13559,7 +13616,7 @@
 			)
 		)
 		(property "Value" "DP3T"
-			(at 96.52 110.49 0)
+			(at 91.44 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13567,7 +13624,7 @@
 			)
 		)
 		(property "Footprint" "grootvoet:SW_DP3T_Nidec-Cobal_CL-SB-23A"
-			(at 112.395 118.745 0)
+			(at 107.315 118.745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13576,7 +13633,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cl-sb.pdf"
-			(at 112.395 118.745 0)
+			(at 107.315 118.745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13585,7 +13642,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 114.3 0)
+			(at 91.44 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13593,7 +13650,7 @@
 			)
 		)
 		(property "MPN" "CL-SB-23A-11T"
-			(at 96.52 114.3 0)
+			(at 91.44 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13602,7 +13659,7 @@
 			)
 		)
 		(property "Mfr." "Nidec Copal"
-			(at 96.52 114.3 0)
+			(at 91.44 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14984,6 +15041,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 66.04 190.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5cc9b09-99aa-42fa-80fe-3f4edb97ee9e")
+		(property "Reference" "R908"
+			(at 63.754 192.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 64.262 188.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 66.04 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0402FRE072K2L"
+			(at 66.04 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Yageo"
+			(at 66.04 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76c79df3-2818-4148-b4f3-ebd5240d92b5")
+		)
+		(pin "2"
+			(uuid "cd8b202f-6bde-4a59-be01-104869947c4c")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005eede770"
+					(reference "R908")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Battery_Management:BQ24075RGT")
 		(at 101.6 72.39 0)
 		(unit 1)
@@ -15528,7 +15671,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "50k"
 			(at 147.955 69.85 90)
 			(effects
 				(font
@@ -15562,7 +15705,7 @@
 				)
 			)
 		)
-		(property "MPN" "RT0402FRE07100KL"
+		(property "MPN" "RT0402FRE0750KL"
 			(at 146.05 69.85 0)
 			(effects
 				(font
@@ -15674,6 +15817,90 @@
 			(project "kleinvoet"
 				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005eede770"
 					(reference "TP903")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 101.6 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f98dd677-3ff5-4238-bc83-babfb20ecd27")
+		(property "Reference" "R925"
+			(at 101.854 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 101.6 116.205 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0402FRE1310KL"
+			(at 101.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr." "Yageo"
+			(at 101.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "650a718d-b643-4835-8a60-22a82784ad82")
+		)
+		(pin "2"
+			(uuid "8b67b289-06a8-46d2-8d31-4a4735811acd")
+		)
+		(instances
+			(project "kleinvoet"
+				(path "/4185c36c-c66e-4dbd-be5d-841e551f4885/00000000-0000-0000-0000-00005eede770"
+					(reference "R925")
 					(unit 1)
 				)
 			)
